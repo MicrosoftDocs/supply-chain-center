@@ -48,3 +48,11 @@ To add users to your Dataverse environment, follow these steps.
 4. Select the name of the user that you want to grant access to Supply Chain Center, and then select Manage roles.
 
 Assign the user to the System Administrator role, and then select Save.
+
+## Troubleshooting
+
+If you experience issues, please check the following: 
+
+1. Go to the [Azure portal](https://portal.azure.com/), and check that the user’s usage location is set to the United States.
+2. Go to the [Azure portal](https://portal.azure.com/), and check that the user has been assigned a Supply Chain Center license. 
+3. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and ensure the user has been added to the correct Dataverse environment and assigned the System Administrator role.
