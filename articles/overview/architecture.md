@@ -1,6 +1,6 @@
 ---
-title: Microsoft Supply Chain Center capabilities
-description: This article provides an overview of Microsoft Supply Chain Center's main features. 
+title: Microsoft Supply Chain Center architecture
+description: This article provides information about Microsoft Supply Chain Center's architectue. 
 author: 
 ms.author: 
 ms.reviewer: johnmichalak
