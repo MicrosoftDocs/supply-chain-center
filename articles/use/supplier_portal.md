@@ -20,25 +20,25 @@ The Supplier portal structures all supplier communication through a secure porta
 
 We’ve chosen to focus on the following scenarios because they are key concerns across the industry and have emerged top pain points for our customers:
 
-- Centralized forecasting
-- View supplier production schedules
-- View inventory shortages
+- Centralized forecasting
+- View supplier production schedules
+- View inventory shortages
 - View purchase order commits
 
 ## Prerequisites for Supplier portal collaboration
 
-1. Upload data. Ingest customer data from the data source into Microsoft Supply Chain Center.
-2. Add a supplier. Create or import a supplier
-3. Add a Contact.
-4. Create a user name and password, and manually send them to the supplier. Alternatively, create and send an invitation code manually or through email.
-5. Link the contact to the supplier in Supply Chain Center.
+1. Upload data. Ingest customer data from the data source into Microsoft Supply Chain Center.
+2. Add a supplier. Create or import a supplier
+3. Add a Contact.
+4. Create a user name and password, and manually send them to the supplier. Alternatively, create and send an invitation code manually or through email.
+5. Link the contact to the supplier in Supply Chain Center.
 
 ## Upload data: Data ingestion for supplier forecasts and purchase order commits
 
 Supply Chain Center lets you schedule the automated ingestion of data from a customer’s data source for these two scenarios:
 
-- **Supplier Forecast**: Supplier Forecast Upload Template.xlsx
-- **Purchase Order Commits**: Supplier PO Commit Template.xlsx
+- **Supplier Forecast**: Supplier Forecast Upload Template.xlsx
+- **Purchase Order Commits**: Supplier PO Commit Template.xlsx
 
 To receive a copy of the spreadsheet for each scenario, contact Support.
 
@@ -84,8 +84,8 @@ The user who wants to register in the portal application can copy the invitation
 
 The invitation email is sent **only** if both these conditions are met:
 
-1. An email address is associated with the contact record.
-2. Server-side synchronization is set up in the [Dataverse environment](https://learn.microsoft.com/en-us/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
+1. An email address is associated with the contact record.
+2. Server-side synchronization is set up in the [Dataverse environment](https://learn.microsoft.com/en-us/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
 After you set up the server-side synchronization in the Dataverse environment, you will see that emails are sent when you select **Flow > Send invitation**.
 
@@ -97,15 +97,15 @@ When both the preceding conditions are met and **Send invitation** is selected, 
 
 Here's how you can find the process.
 
-1. In the Portal Management app, select the **Settings** button (gear symbol), and then select **Advanced settings** on the menu.
+1. In the Portal Management app, select the **Settings** button (gear symbol), and then select **Advanced settings** on the menu.
 
 ![A screenshot with the Advances setting menu item selected.](//:0)
 
-2. Select the drop-down arrow beside the word “Settings” on the header, and then, under **Process Center**, select **Processes**.
+2. Select the drop-down arrow beside the word “Settings” on the header, and then, under **Process Center**, select **Processes**.
 
 ![A screenshot of Dynamics 365 Settings](//:0)
 
-3. In the list of processes, find **Send Invitation**.
+3. In the list of processes, find **Send Invitation**.
 
 ![A screenshot of Dynamics 365 settings and the My Processes page.
 ](//:0)
@@ -118,22 +118,22 @@ Here's how you can find the process.
 
 Follow these steps to customize the contents of the invitation email.
 
-1. Open the details page for the **Send Invitation** process by selecting the process name.
-2. Select **Deactivate**. Then in the confirmation message box, select **Deactivate**.
+1. Open the details page for the **Send Invitation** process by selecting the process name.
+2. Select **Deactivate**. Then in the confirmation message box, select **Deactivate**.
 
 ![A screenshot of the Process Deactivate Confirmation dialog box.](//:0)
 
-3. After the process is deactivated, under the **Create an email to act as an email template** step, select **Set properties**.
+3. After the process is deactivated, under the **Create an email to act as an email template** step, select **Set properties**.
 
 ![A screenshot of the General tab of the Process Send Invitation information page.](//:0)
 
-4. In the email editor that appears, you can directly add text to the email. You can also add dynamic values from the right pane.
+4. In the email editor that appears, you can directly add text to the email. You can also add dynamic values from the right pane.
 
 ![A screenshot of the Process Send Invitation Create Email page.](//:0)
 
-5. When you’ve finished editing the email select **Save and Close**. The email editor is closed, and you’re returned to the details page for the **Send Invitation** process.
+5. When you’ve finished editing the email select **Save and Close**. The email editor is closed, and you’re returned to the details page for the **Send Invitation** process.
 
-6. Select **Activate** so that emails can continue to be sent when **Send invitation** is selected in the Portal Management app.
+6. Select **Activate** so that emails can continue to be sent when **Send invitation** is selected in the Portal Management app.
 
 ![A screenshot of the Process Send Invitation Information page.](//:0)
 
@@ -149,7 +149,7 @@ In Supply Chain Center, you can search for and filter on previously uploaded ent
 
 You can filter on a selected number of attributes in an entity
 
-- **Supplier Forecast** attributes:
+- **Supplier Forecast** attributes:
   - Forecast Name
   - Plant Name
   - MRP Controller
@@ -165,9 +165,9 @@ Filtering for the preceding attributes uses an exact string match.
 
 ## View the status of collaboration requests
 
-You can view a list of requests that were sent to each supplier, sorted by last updated date (most recent first). 
+You can view a list of requests that were sent to each supplier, sorted by last updated date (most recent first). 
 
-You can view past requests but can’t change them. If changes are required, you can send another request.  
+You can view past requests but can’t change them. If changes are required, you can send another request.  
 
 ![A screenshot of the Supplier Portal with a list of past requests.](//:0)
 

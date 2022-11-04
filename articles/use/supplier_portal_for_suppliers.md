@@ -20,8 +20,8 @@ The Supplier portal is a self-service application that brings a holistic approac
 
 Self-service prospective supplier registration lets you register your interest in establishing a business relationship with a buying company. If the buying company wants to enter into a relationship with you, it will send you a request to register.
 
-- **Option 1**: Your customer may manually send you the username and password with the link to log in to the supplier portal.
-- **Option 2**: To register, use the link to the supplier registration page and the invitation code sent in the registration notification. This information is verified against existing records to ensure that duplicate registration information isn't recorded.
+- **Option 1**: Your customer may manually send you the username and password with the link to log in to the supplier portal.
+- **Option 2**: To register, use the link to the supplier registration page and the invitation code sent in the registration notification. This information is verified against existing records to ensure that duplicate registration information isn't recorded.
 
 ## Automated Email invitation received
 
@@ -55,7 +55,7 @@ To receive a copy of the spreadsheet mentioned above, contact Support.
 
 When a business partner shares purchase order information with you through the Supplier portal, download the csv file they sent to view the purchase order data and respond with the acknowledgment, commit date, and commit quantity for each purchase order line by uploading a completed csv file for the collaboration request. Data validation occurs during the upload. If there are any errors, you're notified and provided an opportunity to correct the errors and the file again. The collaboration request status is set to Complete after processing is successful. You can’t upload another file on the same collaboration request if an uploaded submitted successfully.
 
-Date template: Purchase Order Commitments: Supplier PO Commit Template.xlsx 
+Date template: Purchase Order Commitments: Supplier PO Commit Template.xlsx 
 
 To receive a copy of the spreadsheet mentioned above, contact Support.
 

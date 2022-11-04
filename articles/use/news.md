@@ -40,27 +40,27 @@ Each news article is assigned an impact score and a category by the same AI mode
 
 Each article will automatically be assigned one of the following three impact labels.
 
-- **Immediate impact**: Contains news that directly negatively impacts companies currently in your supply chain.
-- **Future impact**: Contains news that has the potential to negatively impact companies in your supply chain at some point in the future.
-- **Positive impact**: Contains news that is positive about companies in your supply chain and contain supply chain relevant content.
+- **Immediate impact**: Contains news that directly negatively impacts companies currently in your supply chain.
+- **Future impact**: Contains news that has the potential to negatively impact companies in your supply chain at some point in the future.
+- **Positive impact**: Contains news that is positive about companies in your supply chain and contain supply chain relevant content.
 
 ## Category definitions
 
 All news articles will be assigned one of the following categories:
 
-- **Bankruptcy, acquisition, and collaboration**: Contains information about mergers and acquisitions, bankruptcy, or new or reduced collaborations with other companies or suppliers.
-- **Company**: Contains information relevant to the company, such as changes in leadership or important personnel, new investment areas, or awards.
-- **Company financial**: Contains information about the growth and financial outlook of an individual company.
-- **Disruption and weather**: Contains information about events causing direct supply disruption, such as factory fires, explosions, leaks, Suez Canal blockage, or natural disasters such as forest fires or hurricanes.
-- **Health**: Contains information about human and animal epidemics and pandemics, such as COVID-19, Ebola, or H1N1.
-- **Industry financial**: Contains information that focuses on the growth or financial outlook of an entire industry.
-- **Industry supplier**: Contains information about other suppliers in the same industry, such as top supplier lists or general supplier risk articles.
-- **Infrastructure**: Contains information about general infrastructure improvements that could benefit a specific supplier.
-- **Politics and government**: Contains information such as government investigations, government collaborations, discounts/deals, lobbying, litigation, or regulations.
-- **Product**: Contains information about new or old products of the company, such as new technologies used in existing products or removal of product lines.
-- **Quality**: Contains information about supplier quality or quality control issues.
-- **Sustainability**: Contains information such as new or existing sustainability efforts or environmental impacts.
-- **Workforce**: Contains information affecting employees, such as strikes or workplace conditions.
+- **Bankruptcy, acquisition, and collaboration**: Contains information about mergers and acquisitions, bankruptcy, or new or reduced collaborations with other companies or suppliers.
+- **Company**: Contains information relevant to the company, such as changes in leadership or important personnel, new investment areas, or awards.
+- **Company financial**: Contains information about the growth and financial outlook of an individual company.
+- **Disruption and weather**: Contains information about events causing direct supply disruption, such as factory fires, explosions, leaks, Suez Canal blockage, or natural disasters such as forest fires or hurricanes.
+- **Health**: Contains information about human and animal epidemics and pandemics, such as COVID-19, Ebola, or H1N1.
+- **Industry financial**: Contains information that focuses on the growth or financial outlook of an entire industry.
+- **Industry supplier**: Contains information about other suppliers in the same industry, such as top supplier lists or general supplier risk articles.
+- **Infrastructure**: Contains information about general infrastructure improvements that could benefit a specific supplier.
+- **Politics and government**: Contains information such as government investigations, government collaborations, discounts/deals, lobbying, litigation, or regulations.
+- **Product**: Contains information about new or old products of the company, such as new technologies used in existing products or removal of product lines.
+- **Quality**: Contains information about supplier quality or quality control issues.
+- **Sustainability**: Contains information such as new or existing sustainability efforts or environmental impacts.
+- **Workforce**: Contains information affecting employees, such as strikes or workplace conditions.
 
 ### Learn More
 
