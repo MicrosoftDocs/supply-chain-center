@@ -5,8 +5,8 @@ author:
 ms.author: 
 ms.reviewer: johnmichalak
 ms.service: 
-ms.topic: 
-ms.date: 11/3/2023
+ms.topic: faq
+ms.date: 11/3/2022
 ms.custom:
 ---
 
@@ -24,7 +24,7 @@ Supply Chain Center is a cloud-based service that doesn't require any special so
 
 If your company has an existing relationship with Microsoft, and you're allowed to do self-service trials, use your company email address that is associated with your organization. We'll establish your trial on your company's account.
 
-If your company doesn't have an existing relationship with Microsoft, see the [How do I sign up for the trial without an Azure AD tenant](#_How_do_I) section.
+If your company doesn't have an existing relationship with Microsoft, see **How do I sign up for the trial without an Azure AD tenant?**
 
 ### How do I sign up for the trial without an Azure AD tenant?
 
@@ -32,7 +32,7 @@ An Azure AD tenant is required to sign up for a Supply Chain Center trial, and i
 
 ### Can I sign up for multiple app trials, such as Dynamics 365 Sales, Marketing, and Customer Service?
 
-Yes, you can. To view all available trials, see [Get started with a Dynamics 365 free trial](https://dynamics.microsoft.com/en-us/dynamics-365-free-trial/). You can use the same email account to sign up for different trials. However, you can't have multiple apps on the same trial site. Each trial will be on a different organization and URL. The trial data won't be shared across apps.
+Yes, you can. To view all available trials, see [Get started with a Dynamics 365 free trial](https://dynamics.microsoft.com/dynamics-365-free-trial/). You can use the same email account to sign up for different trials. However, you can't have multiple apps on the same trial site. Each trial will be on a different organization and URL. The trial data won't be shared across apps.
 
 ## Trial app
 
@@ -49,7 +49,7 @@ When a Supply Chain Center trial is started, a new Dataverse account will be cre
 
 ### How do I add more users to the trial environment?
 
-For detailed instructions, see the [Add users](#_Add_users) section.
+For detailed instructions, see the [Add users](/administer/add_users.md) section.
 
 ### How many users can I add to my trial environment?
 
@@ -61,7 +61,7 @@ You can't reset the trial environment. However, you can wait for the trial perio
 
 ### How do I extend the trial?
 
-You can extend the trial for another trial period in the Power Platform admin center. For instructions, see [Extend your trial](https://learn.microsoft.com/en-us/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial one time.
+You can extend the trial for another trial period in the Power Platform admin center. For instructions, see [Extend your trial](https://learn.microsoft.com/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial one time.
 
 ### Can I convert the trial to a paid license?
 
@@ -75,7 +75,7 @@ Supply Chain Center's trial lasts 180 days. After that, you can sign up for a ne
 
 ### How do I start using the trial?
 
-After you sign up for trial, you're redirected to the Supply Chain Center home page. The home page includes links to user guides and tutorials to help you get started. For additional information, see the [Support](#_Support) section.
+After you sign up for trial, you're redirected to the Supply Chain Center home page. The home page includes links to user guides and tutorials to help you get started. For additional information, see the [Support](/get_started/preview_support.md) section.
 
 ### Which features are available in the trial?
 
