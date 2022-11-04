@@ -24,11 +24,11 @@ The **Last Staged** and **Last Processed** statuses show the data state for each
 
 To review the last time that an entity was ingested and staged, or to triage any errors in the ingestion process, follow these steps.
 
-1.      On the **Data Management** page, select the **Last Staged** status.
+1.      On the **Data Management** page, select the **Last Staged** status.
 
-2.      In the **Progress Details** pane, view the status of your ingested data for a given entity, past data synchronizations, and any error statuses.
+2.      In the **Progress Details** pane, view the status of your ingested data for a given entity, past data synchronizations, and any error statuses.
 
-3.      To view the data processing status, on the **Data Management** page, select the **Last Processed** status for the entity.
+3.      To view the data processing status, on the **Data Management** page, select the **Last Processed** status for the entity.
 
   
 
@@ -38,17 +38,17 @@ To ensure that your data is available for the different Supply Chain Center modu
 
 If you must make configuration changes to the ingestion process of an entity, follow these steps.
 
-1.      On the **Data Management** page, select the menu button (three vertical dots) next to the entity name.
+1.      On the **Data Management** page, select the menu button (three vertical dots) next to the entity name.
 
-2.      Select one of these options on the menu:
+2.      Select one of these options on the menu:
 
-·      Select **Edit connection** to update the connection configuration for your data source.
+·      Select **Edit connection** to update the connection configuration for your data source.
 
-·      Select **Refresh now** to trigger immediate data ingestion and staging.
+·      Select **Refresh now** to trigger immediate data ingestion and staging.
 
-·      Select **Refresh settings** to update the refresh frequency settings for the entity.
+·      Select **Refresh settings** to update the refresh frequency settings for the entity.
 
-·      Select **Disconnect** to remove the existing data source connection for the entity. Any data that was staged will continue to be processed for analytical purposes and for use in different modules.
+·      Select **Disconnect** to remove the existing data source connection for the entity. Any data that was staged will continue to be processed for analytical purposes and for use in different modules.
 
 To completely remove an entity, see the [Delete data](https://microsoft-my.sharepoint.com/personal/johnmichalak_microsoft_com/Documents/Documents/Windblade%20Conversion/ReviewUpdateDeleteData.docx#_Delete_data) section.
 
@@ -56,11 +56,11 @@ To completely remove an entity, see the [Delete data](https://microsoft-my.share
 
 You might want to delete your data for different reasons:
 
-·      You ingested the wrong data.
+·      You ingested the wrong data.
 
-·      You noticed an error for the ingested data, such as an incorrect mapping of attributes or duplicate values.
+·      You noticed an error for the ingested data, such as an incorrect mapping of attributes or duplicate values.
 
-·      The data is no longer relevant and is skewing reports.
+·      The data is no longer relevant and is skewing reports.
 
 Data deletion lets you delete all entries of an entity that has been ingested into Supply Chain Center. After an entity is deleted, you can ingest the data again into the same destination entity.
 

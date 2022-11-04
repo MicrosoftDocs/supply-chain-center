@@ -36,7 +36,7 @@ OTIF = (_All order lines delivered in full and on time in a month_ ÷ _All order
 
 To determine whether an order is fulfilled in full, the system compares the purchase order quantity against the line item (Purchase Order Line table) with the quantity of all shipments that are in transit and the quantity that has been received against that line item of the Purchase Order.
 
-Determination of on time is calculated by looking at Date Required attribute of a Purchase Order Line entity or table, and then comparing it with the EstimatedDeliveryTimestamp attribute in a shipment that is in transit shipments or comparing it with the ShipmentDeliveryTimestamp attribute for shipments that have been delivered. If either of those dates are beyond the Date Required attribute, then the order was not delivered on time.
+Determination of on time is calculated by looking at Date Required attribute of a Purchase Order Line entity or table, and then comparing it with the EstimatedDeliveryTimestamp attribute in a shipment that is in transit shipments or comparing it with the ShipmentDeliveryTimestamp attribute for shipments that have been delivered. If either of those dates are beyond the Date Required attribute, then the order was not delivered on time.
 
 Higher OTIF indicates better performance. Target levels above 90% are considered preferred in the current competitive market demands
 
@@ -45,16 +45,16 @@ OTIF has filters for the visualizations on the page. Filters are Goods receipt d
 ![A screenshot of the available filters.](//:0)
 
 To enable OTIF, the following entities or tables are required:
-- Item
-- Vendors
-- Warehouse
-- Purchase Order
+- Item
+- Vendors
+- Warehouse
+- Purchase Order
 - Purchase Order Line
-- Shipment
-- Shipment Item
-- Inventory Transaction
+- Shipment
+- Shipment Item
+- Inventory Transaction
 - Inventory Transaction Shipment
-- Inventory Transaction Unserialized Item
+- Inventory Transaction Unserialized Item
 
 To return to the Supply & demand home page, select **Supply & demand mismatch** at the top of the page, as shown in the following illustration.
 
@@ -66,7 +66,7 @@ In-transit shipments are shipments that have been shipped by a supplier and are 
 
 ![A screenshot of the shipments in transit report.](//:0)
 
-You can download the report as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of the report and then selecting **Export data** on the menu. The menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
+You can download the report as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of the report and then selecting **Export data** on the menu. The menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
 
 ![A screenshot with Export data and Sort by highlighted.](//:0)
 
@@ -90,17 +90,17 @@ A higher **ITR** value indicates better inventory management. In general, an **I
 
 To enable **ITR**, the following entities or tables are required:
 
-- Item
-- Vendors
-- Warehouse
-- Purchase Order
-- Purchase Order Line
-- Shipment
-- Shipment Item
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Inventory Transaction Unserialized Item
-- Warehouse Item Available Stock
+- Item
+- Vendors
+- Warehouse
+- Purchase Order
+- Purchase Order Line
+- Shipment
+- Shipment Item
+- Inventory Transaction
+- Inventory Transaction Shipment
+- Inventory Transaction Unserialized Item
+- Warehouse Item Available Stock
 
 To return to the Supply & demand home page, select **Supply & demand mismatch** at the top of the page, as shown in the following illustration.
 
@@ -132,27 +132,27 @@ The filters on the page let you slice and dice the **Supply coverage** metric in
 
 To enable **Supply coverage**, the following entities or tables are required:
 
-- Build Plan
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Inventory Transaction Unserialized Item
-- Item
-- Item Unit Of Measure Conversion
-- Location
-- Purchase Order
-- Purchase Order Line
-- Shipment
-- Shipment Item
-- Shipment Location
-- Shipment Route Leg
+- Build Plan
+- Inventory Transaction
+- Inventory Transaction Shipment
+- Inventory Transaction Unserialized Item
+- Item
+- Item Unit Of Measure Conversion
+- Location
+- Purchase Order
+- Purchase Order Line
+- Shipment
+- Shipment Item
+- Shipment Location
+- Shipment Route Leg
 - Shipment Route Leg Equipment
-- Shipment Route Leg Equipment Shipment Item
-- Shipment Route Leg IOT
+- Shipment Route Leg Equipment Shipment Item
+- Shipment Route Leg IOT
 - Vendor
-- Vendor Item Leadtime
-- Vendor Item Status
-- Vendor Location
-- Warehouse Item Available Stock
+- Vendor Item Leadtime
+- Vendor Item Status
+- Vendor Location
+- Warehouse Item Available Stock
 
 ## Open orders
 
@@ -182,19 +182,19 @@ A low percentage indicates reliable performance (better commitment by the suppli
 
 To enable **Commitment shortage**, the following entities or tables are required:
 
-- Item
-- Vendors
-- Warehouse
-- Purchase Order
-- Purchase Order Line
-- Shipment
-- Shipment Item
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Item Customer Supply Plan
-- Vendor Location
-- Location
-- Inventory Transaction Unserialized Item
+- Item
+- Vendors
+- Warehouse
+- Purchase Order
+- Purchase Order Line
+- Shipment
+- Shipment Item
+- Inventory Transaction
+- Inventory Transaction Shipment
+- Item Customer Supply Plan
+- Vendor Location
+- Location
+- Inventory Transaction Unserialized Item
 
 ## Projected inventory
 
@@ -207,14 +207,14 @@ Projected Inventory](//:0)
 
 To enable **Projected inventory**, the following entities or tables are required:
 
-- Item
-- Vendors
-- Warehouse
-- Purchase Order
-- Purchase Order Line
-- Shipment
-- Shipment Item
-- Build Plan
+- Item
+- Vendors
+- Warehouse
+- Purchase Order
+- Purchase Order Line
+- Shipment
+- Shipment Item
+- Build Plan
 
 To return to the Supply & demand home page, select **Supply & demand mismatch** at the top of the page, as shown in the following illustration.
 

@@ -15,8 +15,8 @@ ms.custom:
 The **Personal settings** feature lets you save your preferences for the following options:
 
 - Language preference
-- Startup checklist
-- Module library installation checklist
+- Startup checklist
+- Module library installation checklist
 
 ![A screenshot of the General tab on the Personal settings page.](//:0)
 
@@ -24,12 +24,12 @@ The **Personal settings** feature lets you save your preferences for the followi
 
 Microsoft Supply Chain Center currently supports the following languages:
 
-- English (United States)
-- German (Germany)
-- Chinese (Simplified)
-- Spanish (Spain)
-- Japanese (Japan)
-- Dutch (Netherlands)
+- English (United States)
+- German (Germany)
+- Chinese (Simplified)
+- Spanish (Spain)
+- Japanese (Japan)
+- Dutch (Netherlands)
 
 ## Startup checklist & Module library installation steps
 
@@ -39,8 +39,8 @@ You can toggle on/off the display of onboarding videos on the home page. Within 
 
 To change your personal settings, follow these steps.
 
-1. From any page in Supply Chain Center, select **Settings** (the gear symbol), and then select **Personal settings**.
-1. Make your selections on the **General** tab, and then select **Save**. Users can change their language preferences, decide whether they want the startup checklist to appear on the home page, and decide if they want the ISV module installation steps to show on the module library page.
+1. From any page in Supply Chain Center, select **Settings** (the gear symbol), and then select **Personal settings**.
+1. Make your selections on the **General** tab, and then select **Save**. Users can change their language preferences, decide whether they want the startup checklist to appear on the home page, and decide if they want the ISV module installation steps to show on the module library page.
 
 > [!Note]
 > Your changes take effect immediately when you select **Save**. The updated settings will be saved for future sign-ins.
