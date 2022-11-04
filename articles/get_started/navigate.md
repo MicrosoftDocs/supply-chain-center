@@ -1,12 +1,12 @@
 ---
 title: Navigate Supply Chain Center
 description: This article provides some tips and tricks that can help you navigate Supply Chain Center and all its features.
-author: 
-ms.author: 
+author: carylhenry
+ms.author: carylhenry
 ms.reviewer: johnmichalak
 ms.service: 
-ms.topic: 
-ms.date: 11/3/2023
+ms.topic: conceptual
+ms.date: 11/3/2022
 ms.custom:
 ---
 
@@ -37,7 +37,7 @@ The content of the navigation pane changes if you are in the admin center or not
 
 ![](RackMultipart20221103-1-w0qbrb_html_6890331a1be8a7d2.png)
 
-The Admin Center contains Supply Chain Center settings and data management, so the navigation pane updates to reflect these capabilities shown in the image below. For more information, see [Admin Settings](#_Admin_settings).
+The Admin Center contains Supply Chain Center settings and data management, so the navigation pane updates to reflect these capabilities shown in the image below. For more information, see [Admin Settings](/administer/admin_settings.md).
 
 ![](RackMultipart20221103-1-w0qbrb_html_66ef265b4367b488.png)
 
