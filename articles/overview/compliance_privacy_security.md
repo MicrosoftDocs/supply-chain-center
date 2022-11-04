@@ -5,11 +5,10 @@ author:
 ms.author: 
 ms.reviewer: johnmichalak
 ms.service: 
-ms.topic: 
-ms.date: 11/3/2023
+ms.topic: overview
+ms.date: 11/3/2022
 ms.custom:
 ---
-
 
 # Compliance, Privacy, and Security
 
@@ -22,9 +21,10 @@ You have the following responsibilities:
 
 ## Data subject access requests
 
-Data subject deletion requests can be completed by deleting the relevant entities within Supply Chain Center. When you respond to a deletion request, you should update the ingestion source for the entities to ensure that the data that is involved in the deletion request isn't uploaded into the application again. For more information about how to delete data, see the [Review, update, and delete your data](#_Review,_update,_and) section.
+Data subject deletion requests can be completed by deleting the relevant entities within Supply Chain Center. When you respond to a deletion request, you should update the ingestion source for the entities to ensure that the data that is involved in the deletion request isn't uploaded into the application again. For more information about how to delete data, see the [Review, update, and delete your data](/administer/review_update_delete_data.md) section.
 
-**Note**. If the deleted data was originally shared with a supplier through collaboration in the Supplier portal, and the supplier exported the data, the supplier might still have the data.
+>[!Note]
+> If the deleted data was originally shared with a supplier through collaboration in the Supplier portal, and the supplier exported the data, the supplier might still have the data.
 
 ## Security
 
