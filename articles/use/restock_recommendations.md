@@ -1,21 +1,19 @@
 ---
 title: Configure and review restock recommendations
 description: This article provides information about how to Configure and review restock recommendations using Microsoft Supply Chain Center.
-author: 
-ms.author: 
+author: algiddin
+ms.author: algiddin
 ms.reviewer: johnmichalak
 ms.service: 
-ms.topic: 
+ms.topic: how-to
 ms.date: 11/3/2023
 ms.custom:
 ---
 
 # Configure and review restock recommendations
-
 This article explains how to configure and review stock replenishment recommendations by using the **Restock recommendations** model. These recommendations help you meet target service levels by recommending when and how much stock you should reorder for a given item and warehouse location. You should always review the final Restock recommendations before making replenishment decisions so you can include factors that may be outside of the Restock recommendations model. 
 
 ## Prerequisites
-
 Before you can use **Restock recommendations**, data for the following entities must be ingested into Microsoft Supply Chain Center:
 
 - Build Plan
@@ -26,13 +24,11 @@ Before you can use **Restock recommendations**, data for the following entities 
 - Warehouse Item Available Stock
 
 ## Configure Restock recommendations
-
 Restock recommendations includes default settings for stock replenishment. However, you can optionally adjust the policy type and the configuration settings for that policy type.
 
 ![A screenshot of the Setup Restock recommendations options](//:0)
 
 ## Policy type
-
 Restock recommendations provides the following policy types:
 
 - Baseline – This policy type requires that you select a time period for reordering, the day when stock is reordered, and the target service level (as a percentage). Use this policy type if you don't have cost information, and your organization typically orders inventory on a regular cadence.
@@ -80,22 +76,14 @@ The Restock recommendations results per item grid on the Restock recommendations
 
 - **ItemSku** – The name of the product or item.
 - **WarehouseId/WarehouseName** – The warehouse location of the product.
-
-·      **PolicyType** – Designates the re-order policy type, can be either:
-
-o  **RS** – A baseline or optimal periodic policy type where inventory is reordered on a time basis.
-
-o  **sQ** – An optimal continuous policy type where inventory is replenished when falling below a threshold level.
-
-·      **Reorder Point Quantity \[Optimal continuous policy only\]** – In a continuous policy, inventory should be reordered whenever inventory levels fall below the reorder point quantity.
-
-·      **Reorder Quantity \[Optimal continuous policy only\]** – In a continuous policy, a reorder should be for the exact reorder quantity.
-
-·      **Review Period \[Optimal periodic/baseline policy only\]** – For periodic policies the review period sets how often inventory should be reordered, in weeks.
-
-·      **Order Up-To Level \[Optimal periodic/baseline policy only\]** – For periodic policies, an order should be placed to replenish total inventory (on-hand and in-transit) up to the order up-to level.
-
-·      **Safety Stock** – For contextual purposes, safety stock indicates how much of the inventory kept on-hand with the recommended policy is for the purposes of absorbing demand variability.
+- **PolicyType** – Designates the re-order policy type, can be either:
+  - **RS** – A baseline or optimal periodic policy type where inventory is reordered on a time basis.
+  - **sQ** – An optimal continuous policy type where inventory is replenished when falling below a threshold level.
+- **Reorder Point Quantity \[Optimal continuous policy only\]** – In a continuous policy, inventory should be reordered whenever inventory levels fall below the reorder point quantity.
+- **Reorder Quantity \[Optimal continuous policy only\]** – In a continuous policy, a reorder should be for the exact reorder quantity.
+- **Review Period \[Optimal periodic/baseline policy only\]** – For periodic policies the review period sets how often inventory should be reordered, in weeks.
+- **Order Up-To Level \[Optimal periodic/baseline policy only\]** – For periodic policies, an order should be placed to replenish total inventory (on-hand and in-transit) up to the order up-to level.
+- **Safety Stock** – For contextual purposes, safety stock indicates how much of the inventory kept on-hand with the recommended policy is for the purposes of absorbing demand variability.
 
 In some cases, the Order Up-To Level or Reorder Quantity recommendations will be 0. This occurs when **Restock recommendations** cannot make a reliable recommendation for reasons including sparse and/or unpredictable demand, incomplete demand data for the evaluation period, long item lead times, and items for which expected holding costs exceed backorder costs and a “Make To Order” inventory strategy may be a better option.
 
@@ -105,11 +93,7 @@ The **Inventory turnover rate** page contains a "learn more" link. Select this l
 
 To review recommendation status and results, complete the following procedure:
 
-1.      In the navigation pane, select **Supply & demand**.
-
-2.      Select **Supply & demand mismatch**.
-
-3.      Select **Inventory turnover rate** or **Supply Coverage**.
-
-4.      Select the **Restock recommendations** tab.
-
+1. In the navigation pane, select **Supply & demand**.
+1.      Select **Supply & demand mismatch**.
+1.      Select **Inventory turnover rate** or **Supply Coverage**.
+1.      Select the **Restock recommendations** tab.
