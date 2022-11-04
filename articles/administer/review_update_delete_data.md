@@ -6,7 +6,7 @@ ms.author:
 ms.reviewer: johnmichalak
 ms.service: 
 ms.topic: 
-ms.date: 11/3/2023
+ms.date: 11/3/2022
 ms.custom:
 ---
 
@@ -24,11 +24,9 @@ The **Last Staged** and **Last Processed** statuses show the data state for each
 
 To review the last time that an entity was ingested and staged, or to triage any errors in the ingestion process, follow these steps.
 
-1.      On the **Data Management** page, select the **Last Staged** status.
-
-2.      In the **Progress Details** pane, view the status of your ingested data for a given entity, past data synchronizations, and any error statuses.
-
-3.      To view the data processing status, on the **Data Management** page, select the **Last Processed** status for the entity.
+1. On the **Data Management** page, select the **Last Staged** status.
+1. In the **Progress Details** pane, view the status of your ingested data for a given entity, past data synchronizations, and any error statuses.
+1. To view the data processing status, on the **Data Management** page, select the **Last Processed** status for the entity.
 
   
 
@@ -38,17 +36,12 @@ To ensure that your data is available for the different Supply Chain Center modu
 
 If you must make configuration changes to the ingestion process of an entity, follow these steps.
 
-1.      On the **Data Management** page, select the menu button (three vertical dots) next to the entity name.
-
-2.      Select one of these options on the menu:
-
-·      Select **Edit connection** to update the connection configuration for your data source.
-
-·      Select **Refresh now** to trigger immediate data ingestion and staging.
-
-·      Select **Refresh settings** to update the refresh frequency settings for the entity.
-
-·      Select **Disconnect** to remove the existing data source connection for the entity. Any data that was staged will continue to be processed for analytical purposes and for use in different modules.
+1. On the **Data Management** page, select the menu button (three vertical dots) next to the entity name.
+1. Select one of these options on the menu:
+   - Select **Edit connection** to update the connection configuration for your data source.
+   - Select **Refresh now** to trigger immediate data ingestion and staging.
+   - Select **Refresh settings** to update the refresh frequency settings for the entity.
+   - Select **Disconnect** to remove the existing data source connection for the entity. Any data that was staged will continue to be processed for analytical purposes and for use in different modules.
 
 To completely remove an entity, see the [Delete data](https://microsoft-my.sharepoint.com/personal/johnmichalak_microsoft_com/Documents/Documents/Windblade%20Conversion/ReviewUpdateDeleteData.docx#_Delete_data) section.
 
@@ -56,11 +49,9 @@ To completely remove an entity, see the [Delete data](https://microsoft-my.share
 
 You might want to delete your data for different reasons:
 
-·      You ingested the wrong data.
-
-·      You noticed an error for the ingested data, such as an incorrect mapping of attributes or duplicate values.
-
-·      The data is no longer relevant and is skewing reports.
+- You ingested the wrong data.
+- You noticed an error for the ingested data, such as an incorrect mapping of attributes or duplicate values.
+- The data is no longer relevant and is skewing reports.
 
 Data deletion lets you delete all entries of an entity that has been ingested into Supply Chain Center. After an entity is deleted, you can ingest the data again into the same destination entity.
 
@@ -70,7 +61,8 @@ To delete the data of a single entity, on the **Data Management** page, select t
 
 To delete the data of all entities in Supply Chain Center, follow steps in the [Admin settings](https://microsoft-my.sharepoint.com/personal/johnmichalak_microsoft_com/Documents/Documents/Windblade%20Conversion/ReviewUpdateDeleteData.docx#_Admin_settings) section.
 
-**Note**. Even after you delete data, it will continue to be refreshed for the deleted entity if your connection to the data source is still active. The data will be deleted, and its refresh will stop, only after you disconnect an entity. To make sure that no data is refreshed, disconnect the deleted entity’s data connection.
+>[!Note]
+> Even after you delete data, it will continue to be refreshed for the deleted entity if your connection to the data source is still active. The data will be deleted, and its refresh will stop, only after you disconnect an entity. To make sure that no data is refreshed, disconnect the deleted entity’s data connection.
 
 ### Disconnect from cloud storage providers
 
@@ -80,7 +72,8 @@ To disconnect and delete the data of a single entity, on the **Data Management**
 
 ![A screenshot displaying the context menu with disconnect selected.](//:0)
 
-**Note**. You must be the data connection owner of an entity in order to disconnect it. The data connection owner of an entity is the user who sets up the data connection and the ingestion configuration. For an entity where you are the data connection owner, **You** will be shown as the owner in the **Owner** column. If you aren’t the data connection owner of an entity, you will see the owner’s user name in the **Owner** column.
+>[!Note]
+> You must be the data connection owner of an entity in order to disconnect it. The data connection owner of an entity is the user who sets up the data connection and the ingestion configuration. For an entity where you are the data connection owner, **You** will be shown as the owner in the **Owner** column. If you aren’t the data connection owner of an entity, you will see the owner’s user name in the **Owner** column.
 
 ![A screenshot of a list of entities and their owner's name.](//:0)
 
