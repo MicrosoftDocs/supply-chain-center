@@ -99,4 +99,4 @@ To finalize the ingestion setup, the last step is to select the refresh schedule
 - To finish the setup and initiate the ingestion process, select **Finish setup**. If you selected **Refresh Automatically**, ingestion will begin according to the selected refresh schedule.
 
 
-After you've finished the ingestion setup, you can review the status of your ingested entities and apply any updates that are required. For more information, see the [Review, update, and delete your data](review_updat_delete_data.md) section.
+After you've finished the ingestion setup, you can review the status of your ingested entities and apply any updates that are required. For more information, see the [Review, update, and delete your data](review_update_delete_data.md) section.
