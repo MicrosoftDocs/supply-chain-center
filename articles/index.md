@@ -2,7 +2,7 @@
 title: Welcome to digital-supply-chain!
 description: Welcome to digital-supply-chain!
 author: johnmichalak
-ms.date: 7/11/2022
+ms.date: 11/07/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: johnmichalak
@@ -14,11 +14,11 @@ Microsoft Supply Chain Center is a secure, enterprise-grade solution that unlock
 
 ## Supply and demand insights
 
-The demand and mismatch module provides end to end visibility of the supply chain health and potential disruptions. Through rich analytics and AI generated insights, you quickly identify and respond to changes affecting their supply chain to get recommendations on stock replenishment recommendations. For more information, see [Supply and demand analytics](#_Supply_&_Demand).
+The demand and mismatch module provides end to end visibility of the supply chain health and potential disruptions. Through rich analytics and AI generated insights, you quickly identify and respond to changes affecting their supply chain to get recommendations on stock replenishment recommendations. For more information, see [Supply and demand analytics](/use/supply_and_demand.md).
 
 ## News
 
-The News module proactively notifies you about current events that may affect your suppliers, and that may directly or indirectly impact your supply chain. For more information, see [News](#_News).
+The News module proactively notifies you about current events that may affect your suppliers, and that may directly or indirectly impact your supply chain. For more information, see [News](/articles/use/news.md).
 
 ## ISV modules
 
