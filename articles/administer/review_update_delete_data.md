@@ -5,7 +5,7 @@ author:
 ms.author: 
 ms.reviewer: johnmichalak
 ms.service: 
-ms.topic: 
+ms.topic: how-to
 ms.date: 11/3/2022
 ms.custom:
 ---
