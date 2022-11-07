@@ -5,8 +5,8 @@ author:
 ms.author: 
 ms.reviewer: johnmichalak
 ms.service: 
-ms.topic: 
-ms.date: 11/3/2023
+ms.topic: conceptual
+ms.date: 11/3/2022
 ms.custom:
 ---
 
@@ -32,7 +32,8 @@ If you select **Learn impacts** on a tile, a page that is specific to the news a
 
 ![A screenshot of a sample news article with the Learn impacts link highlighted.](//:0)
 
-**Note**. Larger companies are more likely to be prominent in the news than smaller companies. As a result, certain sources of risks from smaller partner companies may not be highlighted if they are not in the news.
+>[!Note]
+>Larger companies are more likely to be prominent in the news than smaller companies. As a result, certain sources of risks from smaller partner companies may not be highlighted if they are not in the news.
 
 Each news article is assigned an impact score and a category by the same AI model that sorts the news articles by relevance. The impact score and category definitions are learned from past news articles that were labeled with the correct impact and category. The AI model learns patterns from the sentiment and content of these labeled articles to make predictions for new articles. You can filter on these two characteristics on the **News** page. The news articles can be filtered by category by selecting an individual category on the left navigation. Additionally, multiple categories can be toggled off or on within the settings found on the **News** page.
 
@@ -66,7 +67,7 @@ All news articles will be assigned one of the following categories:
 
 To learn more about how the model works, please see our two blog posts:
 
-[Supply Chain News for your Digital Twin - Microsoft Research](https://www.microsoft.com/en-us/research/group/dynamics-insights-apps-artificial-intelligence-machine-learning/articles/supply-chain-news-for-your-digital-twin/)
+[Supply Chain News for your Digital Twin - Microsoft Research](https://www.microsoft.com/research/group/dynamics-insights-apps-artificial-intelligence-machine-learning/articles/supply-chain-news-for-your-digital-twin/)
 
-[Supply Chain News: Impact and Categories - Microsoft Research](https://www.microsoft.com/en-us/research/group/dynamics-insights-apps-artificial-intelligence-machine-learning/articles/supply-chain-news-impact-and-categories/)
+[Supply Chain News: Impact and Categories - Microsoft Research](https://www.microsoft.com/research/group/dynamics-insights-apps-artificial-intelligence-machine-learning/articles/supply-chain-news-impact-and-categories/)
 
