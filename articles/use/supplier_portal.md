@@ -1,20 +1,16 @@
 ---
-title: Supplier portal
+title: Supplier portal Overview
 description: This article provides information about Microsoft Supply Chain Center's Supplier portal features.
 author: 
 ms.author: 
 ms.reviewer: johnmichalak
 ms.service: 
-ms.topic: 
-ms.date: 11/3/2023
+ms.topic: how-to
+ms.date: 11/3/2022
 ms.custom:
 ---
 
-# Supplier portal
-
-**Note**. This section is still in development for the preview. However, we have included as much information as possible to give you an idea of how it might work. The content and features that are described here will likely change.
-
-## Supplier portal overview
+# Supplier portal overview
 
 The Supplier portal structures all supplier communication through a secure portal. Phone calls, faxes, and emails between you and your suppliers waste time, introduce errors, and create latency in the supply chain. By providing a powerful platform for online collaboration, the Supplier portal helps you and your suppliers to become more efficient. Suppliers access the latest information, including forecasts and purchase orders. The rich two-way collaboration lets suppliers submit change requests, ship notices, payments, and profile data. The Supplier portal helps reduce processing costs, provides relief from costly supplier inquiries, and enables a unified collaborative platform for self-service business transactions between you and your suppliers.
 
@@ -110,9 +106,8 @@ Here's how you can find the process.
 ![A screenshot of Dynamics 365 settings and the My Processes page.
 ](//:0)
 
-**Important**: The default application URL that is used in the content of the email (localhost:7500) is incorrect. Therefore, you **must** follow the steps in this section to replace the application URL in the email content before you send any invitations.
-
-  
+>[!Important]
+> The default application URL that is used in the content of the email (localhost:7500) is incorrect. Therefore, you **must** follow the steps in this section to replace the application URL in the email content before you send any invitations.
 
 ## Customize the invitation email
 
