@@ -79,4 +79,4 @@ To disconnect and delete the data of a single entity, on the **Data Management**
 
 ### Viewing your data
 
-Supply Chain Center is powered by Microsoft Power Platform and Dataverse. Your data is stored in a Dataverse environment. You can access your Dataverse storage by using any data explorer, such as Azure Storage Explorer. Generation of an SAS token is required to view your data. For more information, see [Access your storage with an SAS token](https://learn.microsoft.com/en-us/power-platform/admin/storage-sas-token).
+Supply Chain Center is powered by Microsoft Power Platform and Dataverse. Your data is stored in a Dataverse environment. You can access your Dataverse storage by using any data explorer, such as Azure Storage Explorer. Generation of an SAS token is required to view your data. For more information, see [Access your storage with an SAS token](/power-platform/admin/storage-sas-token).
