@@ -6,59 +6,57 @@
     items:
     - name: Capabilities
       href: /overview/capabilities.md
-  - name: Get started
+- name: Get started
+  items:
+  - name: Try for free
     items:
-    - name: Try for free
-      items:
-      - name: Sign up for a free trial of Supply Chain Center’s public preview
-        href: /get-started/free-trial.md
-      - name: Free trial support
-        href: /get-started/preview-support.md
-      - name: Free trial FAQ
-        href: /troubleshoot-faqs/trial-faqs.md
-    - name: Understand the UI (learn the basics)
-      href: /get-started/navigate.md
-  - name: Troubleshooting and FAQs
-    href: /troubleshoot-faqs/product-faqs.md
-  - name: Deploy
+    - name: Sign up for a free trial of Supply Chain Center’s public preview
+      href: /get-started/free-trial.md
+    - name: Free trial support
+      href: /get-started/preview-support.md
+    - name: Free trial FAQ
+      href: /troubleshoot-faqs/trial-faqs.md
+  - name: Understand the UI (learn the basics)
+    href: /get-started/navigate.md
+- name: Troubleshooting and FAQs
+  href: /troubleshoot-faqs/product-faqs.md
+- name: Deploy
+  items:
+  - name: Plan
     items:
-    - name: Plan
-      items:
-      - name: Architecture
-        href: /overview/architecture.md
-      - name: Data schema
-        items: 
-        - name: Overview
-          href: /administer/data-schema.md
-      - name: Ingest data
-        href: /administer/ingest-data.md
-      - name: Review, update, and delete your data
-        href: /administer/review-update-delete-data.md
-    - name: Security, compliance, and privacy
-      href: /overview/compliance-privacy-security.md
-  - name: Use
-    items: 
-    - name: Module library
-      href: /use/module-library.md
-    - name: ISV modules
-      href: /use/isv-modules.md
-    - name: Supply and demand analytics
-      href: /use/supply-and-demand.md
-    - name: Configure and review restock recommendataions
-      href: /use/restock-recommendations.md
-    - name: News
-      href: /use/news.md
-    - name: Supplier portal
-      href: /use/supplier-portal.md
-    - name: Supplier portal for suppliers
-      href: /use/supplier-portal-for-suppliers.md
-  - name: Manage 
-    items:
-    - name: Add users
-      href: /administer/add-users.md
-    - name: Admin settings
-      href: /administer/admin-settings.md
-    - name: Personal settings
-      href: /administer/personal-settings.md
-      
-      
+    - name: Architecture
+      href: /overview/architecture.md
+    - name: Data schema
+      items: 
+      - name: Overview
+        href: /administer/data-schema.md
+    - name: Ingest data
+      href: /administer/ingest-data.md
+    - name: Review, update, and delete your data
+      href: /administer/review-update-delete-data.md
+  - name: Security, compliance, and privacy
+    href: /overview/compliance-privacy-security.md
+- name: Use
+  items: 
+  - name: Module library
+    href: /use/module-library.md
+  - name: ISV modules
+    href: /use/isv-modules.md
+  - name: Supply and demand analytics
+    href: /use/supply-and-demand.md
+  - name: Configure and review restock recommendataions
+    href: /use/restock-recommendations.md
+  - name: News
+    href: /use/news.md
+  - name: Supplier portal
+    href: /use/supplier-portal.md
+  - name: Supplier portal for suppliers
+    href: /use/supplier-portal-for-suppliers.md
+- name: Manage 
+  items:
+  - name: Add users
+    href: /administer/add-users.md
+  - name: Admin settings
+    href: /administer/admin-settings.md
+  - name: Personal settings
+    href: /administer/personal-settings.md
