@@ -4,7 +4,7 @@ description: This article provides information about Microsoft Supply Chain Cent
 author: 
 ms.author: 
 ms.reviewer: johnmichalak
-ms.service: 
+ms.service: supply-chain-center
 ms.topic: faq
 ms.date: 11/3/2022
 ms.custom:
@@ -49,7 +49,7 @@ When a Supply Chain Center trial is started, a new Dataverse account will be cre
 
 ### How do I add more users to the trial environment?
 
-For detailed instructions, see the [Add users](/administer/add_users.md) section.
+For detailed instructions, see the [Add users](/administer/add-users.md) section.
 
 ### How many users can I add to my trial environment?
 
@@ -75,7 +75,7 @@ Supply Chain Center's trial lasts 180 days. After that, you can sign up for a ne
 
 ### How do I start using the trial?
 
-After you sign up for trial, you're redirected to the Supply Chain Center home page. The home page includes links to user guides and tutorials to help you get started. For additional information, see the [Support](/get_started/preview_support.md) section.
+After you sign up for trial, you're redirected to the Supply Chain Center home page. The home page includes links to user guides and tutorials to help you get started. For additional information, see the [Support](/get-started/preview-support.md) section.
 
 ### Which features are available in the trial?
 
