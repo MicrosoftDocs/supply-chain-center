@@ -4,7 +4,7 @@ description: This article provides answers to Microsoft Supply Chain Center's fr
 author: 
 ms.author: 
 ms.reviewer: johnmichalak
-ms.service: 
+ms.service: supply-chain-center
 ms.topic: faq
 ms.date: 11/3/2022
 ms.custom:
@@ -52,15 +52,15 @@ If something isn't working as expected, you have a suggestion, or you have a que
 
 ### How can I sign up for my company?
 
-You can sign up for a free trial. For more information, see [Sign up for a free trial of Supply Chain Center's public preview](/get_started/free_trial.md).
+You can sign up for a free trial. For more information, see [Sign up for a free trial of Supply Chain Center's public preview](/get-started/free-trial.md).
 
 ### How does Supply Chain Center get set up?
 
-For more information, see [Sign up for a free trial of Supply Chain Center's public preview](/get_started/free_trial.md).
+For more information, see [Sign up for a free trial of Supply Chain Center's public preview](/get-started/free-trial.md).
 
 ### How do I add or remove users?
 
-The Supply Chain Center portal provides tools for user management, and enables the addition, deletion, and modification of access to users. The assigned Supply Chain Center user role and access levels will determine the service elements that are available for the user. For more information about user management, see [Adding users](/administer/add_users.md).
+The Supply Chain Center portal provides tools for user management, and enables the addition, deletion, and modification of access to users. The assigned Supply Chain Center user role and access levels will determine the service elements that are available for the user. For more information about user management, see [Adding users](/administer/add-users.md).
 
 ### What are the "entities" that Supply Chain Center uses?
 
@@ -68,11 +68,11 @@ Entities are basically data tables. They are collections of attributes that are 
 
 ### Which analytics does Supply Chain Center natively support?
 
-For more information, see [Supply & Demand analytics overview](/use/supply_and_demand.md).
+For more information, see [Supply & Demand analytics overview](/use/supply-and-demand.md).
 
 ### How are the analytics calculated?
 
-For more information, see [Supply & Demand analytics overview](/use/supply_and_demand.md).
+For more information, see [Supply & Demand analytics overview](/use/supply-and-demand.md).
 
 ### Can I personalize my analytics dashboards according to the ingested data?
 
@@ -84,7 +84,7 @@ Custom analytics aren't currently available.
 
 ### How do I upload data into Supply Chain Center?
 
-For more information, see [Ingest data](/administer/ingest_data.md).
+For more information, see [Ingest data](/administer/ingest-data.md).
 
 ### Do I need my supplier's data to use Supply Chain Center?
 
@@ -92,7 +92,7 @@ Some of the analytics of the Supply and Demand insights module rely on the avail
 
 ### I currently receive data files from my suppliers. Can I use that data in Supply Chain Center?
 
-Yes, you can ingest that data on behalf of your suppliers. You will have to provide credentials and access details for the source where your supplier data is stored. For more information, see [Ingest data](/administer/ingest_data.md).
+Yes, you can ingest that data on behalf of your suppliers. You will have to provide credentials and access details for the source where your supplier data is stored. For more information, see [Ingest data](/administer/ingest-data.md).
 
 ### How similar or different are the data models of Supply Chain Center and Dataverse?
 
