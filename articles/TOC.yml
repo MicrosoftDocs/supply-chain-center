@@ -1,6 +1,6 @@
 - name: Welcom to Supply Chain Center
   href: index.md
-- Supply Chain Center documentation
+- name: Supply Chain Center documentation
   items:
   - name: Overview
     items:
