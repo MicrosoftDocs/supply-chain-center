@@ -4,7 +4,7 @@ description: This article provides information about how to Configure and review
 author: algiddin
 ms.author: algiddin
 ms.reviewer: johnmichalak
-ms.service: 
+ms.service: supply-chain-center
 ms.topic: how-to
 ms.date: 11/3/2023
 ms.custom:
