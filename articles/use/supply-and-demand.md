@@ -4,7 +4,7 @@ description: This article provides information about Microsoft Supply Chain Cent
 author: 
 ms.author: 
 ms.reviewer: johnmichalak
-ms.service: 
+ms.service: supply-chain-center
 ms.topic: overview
 ms.date: 11/3/2022
 ms.custom:
@@ -226,7 +226,7 @@ Supply Chain Center has AI-driven optimal inventory. You can access it by select
 
 ![A screenshot of the breadcrumbs Supply & demand insights > projected inventory. Restock recommendation is highlighted.](//:0)
 
-**Restock recommendations** shows the reorder quantity by facility and item. It also shows the recommended safety stock for the combination of a facility and an item. You can download this recommendation as an Excel file. For more information, see the [Configure and review restock recommendations](https://microsoft-my.sharepoint.com/personal/johnmichalak_microsoft_com/Documents/Documents/Windblade%20Conversion/Supply%20and%20demand.docx#_Configure_and_review) section.
+**Restock recommendations** shows the reorder quantity by facility and item. It also shows the recommended safety stock for the combination of a facility and an item. You can download this recommendation as an Excel file. For more information, see the [Configure and review restock recommendations](supply-and-demand.md#Configure-and-review) section.
 
 You can download the report as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of the report and then selecting **Export data** on the menu. Then menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
 
