@@ -4,7 +4,7 @@ description: This article provides an overview of Microsoft Supply Chain Center'
 author: 
 ms.author: 
 ms.reviewer: johnmichalak
-ms.service: 
+ms.service: supply-chain-center
 ms.topic: overview
 ms.date: 11/3/2022
 ms.custom:
@@ -12,7 +12,7 @@ ms.custom:
 
 # Microsoft Supply Chain Center capabilities
 
-This article provides an overview of Microsoft Supply Chain Center's main features. The set-up feature lets you get Microsoft Supply Chain Center ready without needing a lengthy implementation phase. Other features can be selected from the title pane and navigation pane. For more information, and some tips and tricks that can help you navigate Microsoft Supply Chain Center and all its features, see [Navigate Supply Chain Center](/get_started/navigate.md).
+This article provides an overview of Microsoft Supply Chain Center's main features. The set-up feature lets you get Microsoft Supply Chain Center ready without needing a lengthy implementation phase. Other features can be selected from the title pane and navigation pane. For more information, and some tips and tricks that can help you navigate Microsoft Supply Chain Center and all its features, see [Navigate Supply Chain Center](/get-started/navigate.md).
 
 ## Navigation pane
 
@@ -49,7 +49,7 @@ The following modules are currently available:
 
 ## Supply and demand insights
 
-The Supply and demand insights module is enabled by default. The module shows the health of the supply chain through an analytics dashboard that is generated from internal and external data that has been ingested to Microsoft Supply Chain Center. For more information on how to start, see [Supply and demand analytics](/use/supply_and_demand.md).
+The Supply and demand insights module is enabled by default. The module shows the health of the supply chain through an analytics dashboard that is generated from internal and external data that has been ingested to Microsoft Supply Chain Center. For more information on how to start, see [Supply and demand analytics](/use/supply-and-demand.md).
 
 ![](RackMultipart20221103-1-b412kx_html_28a4e93dc92a8ead.png)
 
@@ -79,12 +79,12 @@ This section allows you to import the list of partners or create the partners th
 
 ### Supplier portal
 
-Using the **Supplier portal** capabilities, you can request data from your supply chain partners to gain end to end visibility of the health of your supply chain. For more information, see [Supplier portal](/use/supplier_portal.md).
+Using the **Supplier portal** capabilities, you can request data from your supply chain partners to gain end to end visibility of the health of your supply chain. For more information, see [Supplier portal](/use/supplier-portal.md).
 
 ![](RackMultipart20221103-1-b412kx_html_c1076f1a6339132d.png)
 
 ### Module library
 
-Using the **Module Library** , you can explore and activate the modules that are available in the Microsoft Supply Chain Center. Modules focus on specific areas in the supply chain lifecycle. You have the flexibility to choose as many modules as you require to meet your business needs. Modules are provided by Microsoft and other third parties and will grow in number over time. For more information, see [Module library](/use/module_library.md).
+Using the **Module Library** , you can explore and activate the modules that are available in the Microsoft Supply Chain Center. Modules focus on specific areas in the supply chain lifecycle. You have the flexibility to choose as many modules as you require to meet your business needs. Modules are provided by Microsoft and other third parties and will grow in number over time. For more information, see [Module library](/use/module-library.md).
 
 ![](RackMultipart20221103-1-b412kx_html_a8b180d1909d08d0.png)
