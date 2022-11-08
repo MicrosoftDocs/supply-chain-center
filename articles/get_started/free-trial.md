@@ -5,7 +5,7 @@ author: carylhenry
 ms.author: carylhenry
 ms.reviewer: johnmichalak
 ms.service: conceptual
-ms.topic: 
+ms.topic: supply-chain-center
 ms.date: 11/3/2022
 ms.custom:
 ---
@@ -25,13 +25,13 @@ The trial takes a few minutes to load, then you can start using the app. See "Ad
 
 Your trial environment includes all of Supply Chain Center's features. The links below guide you through some of the key features.
 
-- [Import your data](/administer/ingest_data.md)
-- [Understand your supply & demand](/use/supply_and_demand.md)
+- [Import your data](/administer/ingest-data.md)
+- [Understand your supply & demand](/use/supply-and-demand.md)
 - [Stay on top of relevant supply chain news](/articles/use/news.md)
-- [Request data from partners with the supplier portal](/use/supplier_portal.md)
+- [Request data from partners with the supplier portal](/use/supplier-portal.md)
 
 ### Additional resources
 
-- [Learn more about the trial](/troubleshoot_faqs/trial_faqs.md)
-- [See FAQs for the product](/troubleshoot_faqs/product_faqs.md)
-- [Find more assistance](/get_started/preview_support.md)
+- [Learn more about the trial](/troubleshoot-faqs/trial-faqs.md)
+- [See FAQs for the product](/troubleshoot-faqs/product-faqs.md)
+- [Find more assistance](/get-started/preview-support.md)
