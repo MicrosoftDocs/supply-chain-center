@@ -4,7 +4,7 @@ description: This article provides information about how to review, update, and 
 author: 
 ms.author: 
 ms.reviewer: johnmichalak
-ms.service: 
+ms.service: supply-chain-center
 ms.topic: how-to
 ms.date: 11/3/2022
 ms.custom:
@@ -18,7 +18,7 @@ After your data is ingested into Microsoft Supply Chain Center, you can review i
 
 ## Review the ingested data
 
-During the ingestion process, an entity is first staged, and then periodically processed for analytical purposes and for use in different modules. To learn more about how to set the processing refresh rate to get relevant insights and analytics, see the [Admin settings](https://microsoft-my.sharepoint.com/personal/johnmichalak_microsoft_com/Documents/Documents/Windblade%20Conversion/ReviewUpdateDeleteData.docx#_Admin_settings) section.
+During the ingestion process, an entity is first staged, and then periodically processed for analytical purposes and for use in different modules. To learn more about how to set the processing refresh rate to get relevant insights and analytics, see the [Admin settings](admin-settings.md) section.
 
 The **Last Staged** and **Last Processed** statuses show the data state for each entity in **My data** or **Partner data**. If the **Last Staged** status is **Success**, the entity was successfully staged. Data is processed for analytics according to the refresh rate that is configured.
 
@@ -43,7 +43,7 @@ If you must make configuration changes to the ingestion process of an entity, fo
    - Select **Refresh settings** to update the refresh frequency settings for the entity.
    - Select **Disconnect** to remove the existing data source connection for the entity. Any data that was staged will continue to be processed for analytical purposes and for use in different modules.
 
-To completely remove an entity, see the [Delete data](https://microsoft-my.sharepoint.com/personal/johnmichalak_microsoft_com/Documents/Documents/Windblade%20Conversion/ReviewUpdateDeleteData.docx#_Delete_data) section.
+To completely remove an entity, see the [Delete data](review-update-delete-data.md#_Delete_data) section.
 
 ### Delete data
 
@@ -59,7 +59,7 @@ To delete the data of a single entity, on the **Data Management** page, select t
 
 ![A screenshot displaying the context menu with delete selected.](//:0)
 
-To delete the data of all entities in Supply Chain Center, follow steps in the [Admin settings](https://microsoft-my.sharepoint.com/personal/johnmichalak_microsoft_com/Documents/Documents/Windblade%20Conversion/ReviewUpdateDeleteData.docx#_Admin_settings) section.
+To delete the data of all entities in Supply Chain Center, follow steps in the [Admin settings](admin-settings.md) section.
 
 >[!Note]
 > Even after you delete data, it will continue to be refreshed for the deleted entity if your connection to the data source is still active. The data will be deleted, and its refresh will stop, only after you disconnect an entity. To make sure that no data is refreshed, disconnect the deleted entity’s data connection.
