@@ -4,8 +4,8 @@ description: This article provides information about Microsoft Supply Chain Cent
 author: 
 ms.author: 
 ms.reviewer: johnmichalak
-ms.service: 
-ms.topic: 
+ms.service: supply-chain-center
+ms.topic: overview
 ms.date: 11/3/2022
 ms.custom:
 ---
