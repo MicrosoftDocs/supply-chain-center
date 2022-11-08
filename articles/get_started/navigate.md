@@ -4,7 +4,7 @@ description: This article provides some tips and tricks that can help you naviga
 author: carylhenry
 ms.author: carylhenry
 ms.reviewer: johnmichalak
-ms.service: 
+ms.service: supply-chain-center
 ms.topic: conceptual
 ms.date: 11/3/2022
 ms.custom:
@@ -37,7 +37,7 @@ The content of the navigation pane changes if you are in the admin center or not
 
 ![A screenshot of the Supply Chain Center Navigation pane with the Home page selected. Other options are News, Supply & demand insights, ISV Modules, Partners, Supplier portal, and Module library.](//:0)
 
-The Admin Center contains Supply Chain Center settings and data management, so the navigation pane updates to reflect these capabilities shown in the image below. For more information, see [Admin Settings](/administer/admin_settings.md).
+The Admin Center contains Supply Chain Center settings and data management, so the navigation pane updates to reflect these capabilities shown in the image below. For more information, see [Admin Settings](/administer/admin-settings.md).
 
 ![A screenshot of the General section in the Navigation pane. Options include Data management, My data, Partner data, Supply & demand insights, Setup, and Intelligent inventory.](//:0)
 
