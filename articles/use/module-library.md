@@ -4,7 +4,7 @@ description: This article provides information about Microsoft Supply Chain Cent
 author: 
 ms.author: 
 ms.reviewer: johnmichalak
-ms.service: 
+ms.service: supply-chain-center
 ms.topic: overview
 ms.date: 11/3/2022
 ms.custom:
@@ -14,7 +14,7 @@ ms.custom:
 
 Microsoft Supply Chain Center groups similar functionality into modules that are focused on specific areas in a supply chain lifecycle. You have the flexibility to choose as many modules as you require to meet your business needs.
 
-Modules are provided by Microsoft and independent software vendors (ISVs). All modules that are provided by Microsoft are enabled by default. However, a license is required to enable ISV modules. To learn more about how to enable ISV modules, see [ISV modules](https://microsoft-my.sharepoint.com/personal/johnmichalak_microsoft_com/Documents/Documents/Windblade%20Conversion/Module%20Library.docx#_ISV_Modules).
+Modules are provided by Microsoft and independent software vendors (ISVs). All modules that are provided by Microsoft are enabled by default. However, a license is required to enable ISV modules. To learn more about how to enable ISV modules, see [ISV modules](isv-modules.md).
 
 On the **Module library** page, you can view a list of all available modules, learn more about each module, and enable/disable selected modules.
 
