@@ -10,7 +10,7 @@ ms.date: 11/3/2022
 ms.custom: bap-template
 ---
 
-**Carrier**
+# Carrier
 
 A company or corporation engaged in transporting passengers or goods (mail, freight or cargo). Any entity who, in a contract of carriage, undertakes to perform or to procure the performance of carriage by rail, road, sea, air, inland waterway or by a combination of such modes.
 
