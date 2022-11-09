@@ -26,12 +26,6 @@ landingContent:
             url: welcome.md
           - text: Capabilities
             url: /overview/capabilities.md
-      - linkListType: linkListType
-        links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
 
   # Card 
   - title: Try for free
