@@ -25,7 +25,7 @@ landingContent:
           - text: Welcome
             url: welcome.md
           - text: Capabilities
-            url: /overview/capabilities.md
+            url: ./overview/capabilities.md
 
   # Card 
   - title: Try for free
@@ -33,11 +33,11 @@ landingContent:
       - linkListType: quickstart
         links:
           - text: Sign up for a free trial of Supply Chain Center's public preview
-            url: /get-started/free-trial.md
+            url: ./get-started/free-trial.md
           - text: Free trial support
-            url: /get-started/preview-support.md
+            url: ./get-started/preview-support.md
           - text: Free trial FAQ
-            url: /troubleshoot-faqs/trial-faqs.md
+            url: ./troubleshoot-faqs/trial-faqs.md
 
   # Card
   - title: Get Started
@@ -45,7 +45,7 @@ landingContent:
       - linkListType: get-started
         links:
           - text: Understand the UI (learn the basics)
-            url: /get-started/navigate.md
+            url: ./get-started/navigate.md
           - text: linktext2
             url: file2.md
  
