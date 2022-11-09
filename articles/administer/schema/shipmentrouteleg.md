@@ -1,3 +1,15 @@
+---
+title: ShipmentRouteLeg
+description: This article provides information about the ShipmentRouteLeg entity.
+author: mkannapiran
+ms.author: kamanick
+ms.reviewer: johnmichalak
+ms.service: supply-chain-center
+ms.topic: conceptual
+ms.date: 11/3/2022
+ms.custom: bap-template
+---
+
 # ShipmentRouteLeg
 
 The route leg that a shipment transits (already has transited) or is planned to transit. Note that a shipment route can be changed or modified and then the leg may have a status of:
