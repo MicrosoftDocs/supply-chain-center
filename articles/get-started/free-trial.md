@@ -4,8 +4,8 @@ description: This article provides information about how to sign up for Microsof
 author: carylhenry
 ms.author: carylhenry
 ms.reviewer: johnmichalak
-ms.service: conceptual
-ms.topic: supply-chain-center
+ms.service: supply-chain-center
+ms.topic: conceptual
 ms.date: 11/3/2022
 ms.custom: bap-template
 ---
