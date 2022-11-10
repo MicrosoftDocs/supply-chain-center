@@ -1,13 +1,13 @@
 ---
 title: Microsoft Supply Chain Center capabilities
 description: This article provides information about Microsoft Supply Chain Center's compliance, privacy and security features.
-author: 
-ms.author: 
+author: carylhenry
+ms.author: carylhenry
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: faq
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Supply Chain Center trial FAQ
