@@ -1,13 +1,13 @@
 ---
 title: Admin settings
 description: This article provides information about the admin settings that are used to contorm Microsoft Supply Chain Center's features.
-author: 
-ms.author: 
+author: jcartwright90
+ms.author: jcartwright
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
-ms.topic: 
+ms.topic: conceptual
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Admin settings
@@ -39,7 +39,7 @@ The **Supply & demand insights** section contains a **Setup** page and an **Rest
 
 ### Setup
 
-On the **Setup** page, you can set the time interval to specify how frequently you want the analytics for the Supply & demand insightsmodule to be updated based on the data you imported. The analytics can be updated every 3, 6, 12, or 24 hours depending on which option is selected in the dropdown. A status below the dropdown will show when the data was last refreshed and when it will be refreshed next.
+On the **Setup** page, you can set the time interval to specify how frequently you want the analytics for the Supply & demand insights module to be updated based on the data you imported. The analytics can be updated every 3, 6, 12, or 24 hours depending on which option is selected in the dropdown. A status below the dropdown will show when the data was last refreshed and when it will be refreshed next.
 
 ![A screenshot of the setup settings for the Supply & demand insights module.](media/admin-center-supply-and-demand-settings.png)
 
