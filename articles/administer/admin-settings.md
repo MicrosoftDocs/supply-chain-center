@@ -12,7 +12,7 @@ ms.custom:
 
 # Admin settings
 
-Admin settings are used to control important features, such as user management, data management, and enabled modules. To access the admin settings, select the gear symbol in the upper-right corner, and then select **Admin settings**. In **Admin Settings**, there are three categories of settings: **General**, **Data management**, and **Supply & demand**.
+Admin settings are used to control important features, such as user management, data management, and enabled modules. To access the admin settings, select the gear symbol in the upper-right corner, and then select **Admin settings**. In **Admin Settings**, there are three categories of settings: **General**, **Data management**, and **Supply & demand insights**.
 
 ## General
 
@@ -33,13 +33,13 @@ Removal of your data can take a few moments. Until it's completed, some modules 
 
 To manage your company’s data or data that you want to ingest on behalf of a partner organization (supplier or customer), see the [data upload documentation](ingest-data.md). To request data from your supplier via the Supplier Portal feature, see the [Supplier Portal documentation.](/use/supplier-portal.md)
 
-## Supply & demand
+## Supply & demand insights
 
-The **Supply & demand** section contains a **Setup** page and an **Restock recommendations** page that you can use to customize settings for the supply & demand module.
+The **Supply & demand insights** section contains a **Setup** page and an **Restock recommendations** page that you can use to customize settings for the Supply & demand insights module.
 
 ### Setup
 
-On the **Setup** page, you can set the time interval to specify how frequently you want the analytics for the supply & demand module to be updated based on the data you imported. The analytics can be updated every 3, 6, 12, or 24 hours depending on which option is selected in the dropdown. A status below the dropdown will show when the data was last refreshed and when it will be refreshed next.
+On the **Setup** page, you can set the time interval to specify how frequently you want the analytics for the Supply & demand insightsmodule to be updated based on the data you imported. The analytics can be updated every 3, 6, 12, or 24 hours depending on which option is selected in the dropdown. A status below the dropdown will show when the data was last refreshed and when it will be refreshed next.
 
 ![A screenshot of the setup settings for the Supply & demand insights module.](media/admin-center-supply-and-demand-settings.png)
 
@@ -50,7 +50,7 @@ The page also contains a status indicator that tells you when the analytics were
 - **On Time in Full**: On Time in Full (OTIF) is the measure of a supplier’s ability to fulfill an order in full and deliver it on time per the originally requested delivery date. OTIF is a key supply chain metric to measure a supplier’s performance. It's sometimes referred to as Perfect Order.
 - **Commitment Shortage**: Commitment Shortage is the measure of a supplier’s forecast commitments and its ability to meet those commitments. In other words, it's the measure of the original promise versus the actual delivery. This measure is indicative of a supplier’s ability to fulfill its commitment and is an important measure for evaluating a supplier’s reliability. A low number indicates good performance, and a high number indicates an unreliable supplier.
 
-To learn more about the supply & demand analytics KPIs, see the [supply & demand analytics overview documentation](/use/supply-and-demand.md).
+To learn more about the supply chain KPIs, see the [Supply & demand insights module overview documentation](/use/supply-and-demand.md).
 
 ### Restock recommendations
 
