@@ -30,6 +30,124 @@
       items: 
       - name: Overview
         href: /administer/data-schema.md
+      - name: BuildPlan
+        href: /administer/schema/buildplan.md
+      - name: Carrier
+        href: /administer/schema/carrier.md
+      - name: CarrierLocation
+        href: /administer/schema/carrierlocation.md
+      - name: CarrierLocationCutoffTime
+        href: /administer/schema/carrierlocationcutofftime.md 
+      - name: CarrierRoute
+        href: /administer/schema/carrierroute.md 
+      - name: CarrierRouteLeg
+        href: /administer/schema/carrierrouteleg.md 
+      - name: Customer
+        href: /administer/schema/customer.md 
+      - name: CustomerLocation
+        href: /administer/schema/customerlocation.md 
+      - name: CustomerRelatedParty
+        href: /administer/schema/customerrelatedparty.md 
+      - name: CustomerShipmentMethod
+        href: /administer/schema/customershipmentmethod.md 
+      - name: InventoryTransaction
+        href: /administer/schema/inventorytransaction.md 
+      - name: InventoryTransactionShipment
+        href: /administer/schema/inventorytransactionShipment.md 
+      - name: InventoryTransactionUnserializedItem
+        href: /administer/schema/inventorytransactionunserializeditem.md 
+      - name: Item
+        href: /administer/schema/item.md 
+      - name: ItemCustomerDemandForecast
+        href: /administer/schema/itemcustomerdemandforecast.md 
+      - name: ItemCustomerSupplyAllocation
+        href: /administer/schema/itemcustomersupplyallocation.md 
+      - name: ItemCustomerSupplyPlan
+        href: /administer/schema/itemcustomersupplyplan.md 
+      - name: ItemUnitOfMeasureConversion
+        href: /administer/schema/itemunitofmeasureconversion.md 
+      - name: ItemVendorSupplyPlan
+        href: /administer/schema/itemvendorsupplyplan.md 
+      - name: LegalEntityCustomer
+        href: /administer/schema/legalentitycustomer.md 
+      - name: Location
+        href: /administer/schema/location.md 
+      - name: MaterialResourcePlanningSchedule
+        href: /administer/schema/materialresourceplanningschedule.md 
+      - name: Order
+        href: /administer/schema/order.md 
+      - name: OrderLine
+        href: /administer/schema/orderline.md
+      - name: Party
+        href: /administer/schema/party.md 
+      - name: Product
+        href: /administer/schema/product.md Product
+      - name: ProductGroup
+        href: /administer/schema/productgroup.md 
+      - name: ProductGroupProduct
+        href: /administer/schema/productgroupproduct.md 
+      - name: PurchaseOrder
+        href: /administer/schema/purchaseorder.md 
+      - name: PurchaseOrderLine
+        href: /administer/schema/purchaseorderline.md 
+      - name: PurchaseOrderRelatedParty
+        href: /administer/schema/purchaseorderrelatedparty.md 
+      - name: PurchasingPartyRelationshipType
+        href: /administer/schema/purchasingpartyrelationshiptype.md 
+      - name: RelatedCustomer
+        href: /administer/schema/relatedcustomer.md 
+      - name: RelatedProductGroup
+        href: /administer/schema/relatedproductgroup.md 
+      - name: Requisition
+        href: /administer/schema/requisition.md 
+      - name: Shipment
+        href: /administer/schema/shipment.md 
+      - name: ShipmentCharge
+        href: /administer/schema/shipmentcharge.md 
+      - name: ShipmentDocument
+        href: /administer/schema/shipmentdocument.md 
+      - name: ShipmentEvent
+        href: /administer/schema/shipmentevent.md 
+      - name: ShipmentEventStatus
+        href: /administer/schema/shipmenteventstatus.md 
+      - name: ShipmentEventType
+        href: /administer/schema/shipmenteventtype.md 
+      - name: ShipmentItem
+        href: /administer/schema/shipmentitem.md 
+      - name: ShipmentItemConsolidation
+        href: /administer/schema/shipmentitemconsolidation.md 
+      - name: ShipmentLocation
+        href: /administer/schema/shipmentlocation.md 
+      - name: ShipmentRouteLeg
+        hred: /administer/schema/shipmentrouteleg.md 
+      - name: ShipmentRouteLegEquipment
+        href: /administer/schema/shipmentroutelegequipment.md 
+      - name: ShipmentRouteLegEquipmentShipmentItem
+        href: /administer/schema/shipmentroutelegequipmentshipmentitem.md 
+      - name: ShipmentRouteLegIOT
+        href: /administer/schema/shipmentroutelegiot.md 
+      - name: UnitOfMeasure
+        href: /administer/schema/unitofmeasure.md 
+      - name: Vendor
+        href: /administer/schema/vendor.md 
+      - name: VendorItemLeadtime
+        href: /administer/schema/vendoritemleadtime.md 
+      - name: VendorItemPrice
+        href: /administer/schema/vendoritemprice.md 
+      - name: VendorItemStatus
+        href: /administer/schema/vendoritemstatus.md
+      - name: VendorLocation
+        href: /administer/schema/vendorlocation.md 
+      - name: VendorSupplyCommitment
+        href: /administer/schema/vendorsupplycommitment.md 
+      - name: Warehouse
+        href: /administer/schema/warehouse.md 
+      - name: WarehouseItemAvailableStock
+        href: /administer/schema/warehouseitemavailablestock.md
+      - name: WarehouseItemBalance
+        href: /administer/schema/warehouseitembalance.md 
+      - name: WarehouseItemSafetyStock
+        href: /administer/schema/warehouseitemwafetystock.md 
     - name: Ingest data
       href: /administer/ingest-data.md
     - name: Review, update, and delete your data
