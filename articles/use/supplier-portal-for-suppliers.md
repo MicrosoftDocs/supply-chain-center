@@ -1,13 +1,13 @@
 ---
 title: Supplier portal (for suppliers)
 description: This article provides information about Microsoft Supply Chain Center's Supplier portal that is used by Suppliers.
-author: 
-ms.author: 
+author: rahulmital
+ms.author: rahulmital
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: overview
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Supplier portal (for suppliers)

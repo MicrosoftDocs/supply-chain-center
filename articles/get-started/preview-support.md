@@ -1,13 +1,13 @@
 ---
 title: Preview support
 description: This article provides information about how to get support during Microsoft Supply Chain Center's preview.
-author: 
-ms.author: 
+author: johnmichalak
+ms.author: johnmichalak
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: overview
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Preview support
