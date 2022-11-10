@@ -48,7 +48,7 @@ Supply Chain Center is deployed as a solution in your Power Platform environment
 
 If something isn't working as expected, you have a suggestion, or you have a question, select the **Feedback** button (the happy face symbol) in the title bar, and then select **Provide Feedback**.
 
-![](RackMultipart20221103-1-jl8kb3_html_b30545b1469a4dac.png)
+![A screenshot of the Supply Chain Center Title pane.](RackMultipart20221103-1-jl8kb3_html_b30545b1469a4dac.png)
 
 ### How can I sign up for my company?
 
@@ -96,11 +96,11 @@ Yes, you can ingest that data on behalf of your suppliers. You will have to prov
 
 ### How similar or different are the data models of Supply Chain Center and Dataverse?
 
-The out-of-box data schema of Dataverse is Common Data Model. This schema is frequently referred to as the Dataverse data model. Supply Chain Center is built by using [Microsoft Azure Synapse database templates](https://learn.microsoft.com/azure/synapse-analytics/database-designer/overview-database-templates), and that schema is used to store the data. Even though Supply Chain Center doesn't rely on Common Data Model, its modules interoperate with data in the Common Data Model schema.
+The out-of-box data schema of Dataverse is Common Data Model. This schema is frequently referred to as the Dataverse data model. Supply Chain Center is built by using [Microsoft Azure Synapse database templates](/azure/synapse-analytics/database-designer/overview-database-templates), and that schema is used to store the data. Even though Supply Chain Center doesn't rely on Common Data Model, its modules interoperate with data in the Common Data Model schema.
 
 ### Which data connectors are available to ingest data into Supply Chain Center?
 
-There are multiple connectors for ingesting your data into Supply Chain Center via Power Query. For a complete list, see [Connectors in Power Query](https://learn.microsoft.com/power-query/connectors/).
+There are multiple connectors for ingesting your data into Supply Chain Center via Power Query. For a complete list, see [Connectors in Power Query](/power-query/connectors/).
 
 ### Can I access the data in Supply Chain Center to create Power Apps apps or Power BI reports on top of it?
 
