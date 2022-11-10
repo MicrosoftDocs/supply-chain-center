@@ -1,7 +1,7 @@
 - name: Microsoft Supply Chain Center
   items:
     - name: Supply Chain Center
-      href: index.md
+      href: index.yml
     - name: Welcome
       href: welcome.md
     - name: Supply Chain Center documentation
