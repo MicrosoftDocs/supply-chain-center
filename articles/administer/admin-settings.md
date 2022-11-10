@@ -27,6 +27,8 @@ Your environment includes preloaded sample data so that you can experience Micro
 
 Removal of your data can take a few moments. Until it's completed, some modules might not be accurate. You will be notified, via an in-app notification, when your data has been removed.
 
+![A screenshot of the general settings within the Admin center.](media/admin-center-general-settings.png)
+
 ## Data management
 
 To manage your company’s data or data that you want to ingest on behalf of a partner organization (supplier or customer), see the [data upload documentation](ingest-data.md). To request data from your supplier via the Supplier Portal feature, see the [Supplier Portal documentation.](/use/supplier-portal.md)
@@ -39,7 +41,7 @@ The **Supply & demand** section contains a **Setup** page and an **Restock recom
 
 On the **Setup** page, you can set the time interval to specify how frequently you want the analytics for the supply & demand module to be updated based on the data you imported. The analytics can be updated every 3, 6, 12, or 24 hours depending on which option is selected in the dropdown. A status below the dropdown will show when the data was last refreshed and when it will be refreshed next.
 
-![A screenshot of the Setup Supply & demand insights page.](//:0)
+![A screenshot of the setup settings for the Supply & demand insights module.](media/admin-center-supply-and-demand-settings.png)
 
 The page also contains a status indicator that tells you when the analytics were last updated. On the **Setup** page, you can also set target values from 0 through100 percent to measure performance against for the following supply chain key performance indicators (KPIs):
 
@@ -53,3 +55,6 @@ To learn more about the supply & demand analytics KPIs, see the [supply & demand
 ### Restock recommendations
 
 The **Restock recommendations** page lets users configure settings that affect the recommendations about when and how much inventory to order for a specific product at a specific location. You should configure the settings if you have a target service level that you want to meet, or if you have cost information that will be used to recommend the optimal target service level. To learn more about these settings, see [Configure and review restock recommendations](/use/restock-recommendations.md).
+
+![A screenshot of the restock recommendation settings for the Supply & demand insights module.](media/admin-center-supply-and-demand-restock-recommendation-settings.png)
+
