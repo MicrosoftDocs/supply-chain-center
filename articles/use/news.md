@@ -1,13 +1,13 @@
 ---
 title: News
 description: This article provides information about Microsoft Supply Chain Center's news features.
-author: 
-ms.author: 
+author: mkannapiran
+ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # News
@@ -22,20 +22,22 @@ News is presented using vendor names that have been ingested to Supply Chain Cen
 
 Supply Chain Center curates recent relevant news articles by using a trained AI model that identifies news that could affect a supply chain. The news articles are then presented as tiles on the **Home** and **News** pages of the application.
 
-![A screenshot of the navigation pane with the Home page and News page highlighted and the available news categories shown. ](//:0)
+![A screenshot of the navigation pane with the Home page and News page highlighted and the available news categories shown. ](media/homepage-news.png)
 
 If you select **Read article** on a tile, the news story is opened on a new tab.
 
-![A screenshot of a sample news article with the Read article link highlighted.](//:0)
+![A screenshot of a sample news article with the Read article link highlighted.](media/news-list-read-article.png)
 
 If you select **Learn impacts** on a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
 
-![A screenshot of a sample news article with the Learn impacts link highlighted.](//:0)
+![A screenshot of a sample news article with the Learn impacts link highlighted.](media/news-impact.png)
 
 >[!Note]
 >Larger companies are more likely to be prominent in the news than smaller companies. As a result, certain sources of risks from smaller partner companies may not be highlighted if they are not in the news.
 
 Each news article is assigned an impact score and a category by the same AI model that sorts the news articles by relevance. The impact score and category definitions are learned from past news articles that were labeled with the correct impact and category. The AI model learns patterns from the sentiment and content of these labeled articles to make predictions for new articles. You can filter on these two characteristics on the **News** page. The news articles can be filtered by category by selecting an individual category on the left navigation. Additionally, multiple categories can be toggled off or on within the settings found on the **News** page.
+
+![A screenshot of the news settings](media/news-settings.png)
 
 ## Impact score definitions
 

@@ -1,13 +1,13 @@
 ---
 title: Supplier portal Overview
 description: This article provides information about Microsoft Supply Chain Center's Supplier portal features.
-author: 
-ms.author: 
+author: rahulmital
+ms.author: rahulmital
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Supplier portal overview
@@ -62,10 +62,10 @@ When you select **Create Contact**, you’re redirected to Power Pages so that y
 
 After a contact record is created, there are a few ways to enable the contact to register and/or sign in to the portal application. When you create a contact, an invitation link that is sent to the contact includes a link to the Supplier portal and an invitation code that can be used to register.
 
-- **Option 1**: [Set up a user name and password](https://learn.microsoft.com/en-us/power-apps/maker/portals/configure/configure-contacts).</br> 
+- **Option 1**: [Set up a user name and password](/power-apps/maker/portals/configure/configure-contacts).</br> 
 Users who have access to the Portal Management app can configure a contact with a default user name and password. No registration step is required for this option.</br>
 **Important**: The user name and password (credentials) must be manually sent to the supplier can through a manual communication channel outside Power Pages and the Portal Management app.
-- **Option 2**: [Generate an invitation code](https://learn.microsoft.com/en-us/power-apps/maker/portals/configure/invite-contacts#create-invitations-from-portal-management-app).</br>
+- **Option 2**: [Generate an invitation code](/power-apps/maker/portals/configure/invite-contacts#create-invitations-from-portal-management-app).</br>
 **Important**: Invitation code can be sent manually or by configuring the email server.
 
 Users who have access to the Portal Management app can generate invitation codes that can be used to register a user in the portal application. In the invitation, you can include a copy of the credentials and send them (and the URL of the portal application) to someone who is accessing the portal application for the first time. The invitation code must be sent through a communication channel outside Power Pages and the Portal Management app.
@@ -81,7 +81,7 @@ The user who wants to register in the portal application can copy the invitation
 The invitation email is sent **only** if both these conditions are met:
 
 1. An email address is associated with the contact record.
-2. Server-side synchronization is set up in the [Dataverse environment](https://learn.microsoft.com/en-us/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
+2. Server-side synchronization is set up in the [Dataverse environment](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
 After you set up the server-side synchronization in the Dataverse environment, you will see that emails are sent when you select **Flow > Send invitation**.
 

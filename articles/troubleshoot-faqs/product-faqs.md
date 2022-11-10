@@ -1,20 +1,20 @@
 ---
 title: Frequently asked questions
 description: This article provides answers to Microsoft Supply Chain Center's frequently asked questions.
-author: 
-ms.author: 
+author: johnmichalak
+ms.author: johnmichalak
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: faq
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Frequently asked questions
 
 ### What is Microsoft Supply Chain Center?
 
-Microsoft Supply Chain Center is part of Microsoft's supply chain platform solution and is currently in public preview. Supply Chain Center is composed of Microsoft-built modules and independent software vendor (ISV)–built modules that address different needs from customers, depending on the supply chain challenges that they are seeking to solve. Because Supply Chain Center is built on [Microsoft Dataverse](https://learn.microsoft.com/power-apps/maker/data-platform/data-platform-intro), it facilitates the integration of data that comes from different sources. That data is then used by Supply Chain Center's modules to provide better visibility into the health of the customer's supply chain. Learn more about the [architecture](/overview/architecture.md).
+Microsoft Supply Chain Center is part of Microsoft's supply chain platform solution and is currently in public preview. Supply Chain Center is composed of Microsoft-built modules and independent software vendor (ISV)–built modules that address different needs from customers, depending on the supply chain challenges that they are seeking to solve. Because Supply Chain Center is built on [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro), it facilitates the integration of data that comes from different sources. That data is then used by Supply Chain Center's modules to provide better visibility into the health of the customer's supply chain. Learn more about the [architecture](/overview/architecture.md).
 
 ### Where is my data stored?
 
@@ -48,7 +48,7 @@ Supply Chain Center is deployed as a solution in your Power Platform environment
 
 If something isn't working as expected, you have a suggestion, or you have a question, select the **Feedback** button (the happy face symbol) in the title bar, and then select **Provide Feedback**.
 
-![](RackMultipart20221103-1-jl8kb3_html_b30545b1469a4dac.png)
+![A screenshot of the Supply Chain Center Title pane.](media/title-pane.png)
 
 ### How can I sign up for my company?
 
@@ -96,11 +96,11 @@ Yes, you can ingest that data on behalf of your suppliers. You will have to prov
 
 ### How similar or different are the data models of Supply Chain Center and Dataverse?
 
-The out-of-box data schema of Dataverse is Common Data Model. This schema is frequently referred to as the Dataverse data model. Supply Chain Center is built by using [Microsoft Azure Synapse database templates](https://learn.microsoft.com/azure/synapse-analytics/database-designer/overview-database-templates), and that schema is used to store the data. Even though Supply Chain Center doesn't rely on Common Data Model, its modules interoperate with data in the Common Data Model schema.
+The out-of-box data schema of Dataverse is Common Data Model. This schema is frequently referred to as the Dataverse data model. Supply Chain Center is built by using [Microsoft Azure Synapse database templates](/azure/synapse-analytics/database-designer/overview-database-templates), and that schema is used to store the data. Even though Supply Chain Center doesn't rely on Common Data Model, its modules interoperate with data in the Common Data Model schema.
 
 ### Which data connectors are available to ingest data into Supply Chain Center?
 
-There are multiple connectors for ingesting your data into Supply Chain Center via Power Query. For a complete list, see [Connectors in Power Query](https://learn.microsoft.com/power-query/connectors/).
+There are multiple connectors for ingesting your data into Supply Chain Center via Power Query. For a complete list, see [Connectors in Power Query](/power-query/connectors/).
 
 ### Can I access the data in Supply Chain Center to create Power Apps apps or Power BI reports on top of it?
 

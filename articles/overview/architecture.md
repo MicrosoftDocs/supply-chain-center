@@ -1,13 +1,13 @@
 ---
 title: Microsoft Supply Chain Center architecture
 description: This article provides information about Microsoft Supply Chain Center's architectue. 
-author: 
-ms.author: 
+author: johnmichalak
+ms.author: johnmichalak 
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Architecture
@@ -16,7 +16,7 @@ Microsoft Supply Chain Center is built on top of Microsoft Power Platform. It co
 
 The following diagram provides a high-level overview of Supply Chain Center's architecture, described in more detail below.
 
-![](RackMultipart20221103-1-wyjfdl_html_b580d1739a6ece80.png)
+![A workflow graphic that displays the Supply Chain Center Architecture.](media/SupplyChainCenterArchitecture.png)
 
 ## Supply Chain Center Deployment
 
@@ -34,7 +34,7 @@ Supply Chain Center ingests, stores and manages all supply chain data for its mo
 
 #### Data Schema
 
-Supply Chain Center expects all its data to conform to a common schema for its various modules to interoperate with each other. Supply Chain Center's schema is based on [Microsoft Azure Synapse Database Templates](https://learn.microsoft.com/azure/synapse-analytics/database-designer/overview-database-templates) schema, which is a large set of schemas that span multiple industry verticals, including supply chain and logistics.
+Supply Chain Center expects all its data to conform to a common schema for its various modules to interoperate with each other. Supply Chain Center's schema is based on [Microsoft Azure Synapse Database Templates](/azure/synapse-analytics/database-designer/overview-database-templates) schema, which is a large set of schemas that span multiple industry verticals, including supply chain and logistics.
 
 #### Ingestion
 
@@ -50,7 +50,7 @@ Data for batch analytical scenarios is ingested through Power Query dataflows an
 
 #### Modules
 
-Modules are self-contained pieces of functionality that you can install for your specific supply-chain needs. Modules are discoverable using the module library, and are packaged and deployed as Power Platform solutions that adhere to the [Azure Synapse Database Templates](https://learn.microsoft.com/azure/synapse-analytics/database-designer/overview-database-templates) schema. This allows different modules, both published by Microsoft as well as by an ISV, to interoperate with each other.
+Modules are self-contained pieces of functionality that you can install for your specific supply-chain needs. Modules are discoverable using the module library, and are packaged and deployed as Power Platform solutions that adhere to the [Azure Synapse Database Templates](/azure/synapse-analytics/database-designer/overview-database-templates) schema. This allows different modules, both published by Microsoft as well as by an ISV, to interoperate with each other.
 
 Some modules have their UX deeply integrated into the Supply Chain Center web portal while others may have additional UX components outside of the web portal; however, all modules interoperate with each other as they operate on data that conforms to a common schema in Dataverse.
 

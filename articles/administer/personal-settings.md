@@ -1,13 +1,13 @@
 ---
 title: Personal settings
 description: This article provides information about Microsoft Supply Chain Center's changing your preferences.
-author: 
-ms.author: 
+author: jcartwright90
+ms.author: jcartwright
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: overview
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Personal settings
@@ -18,7 +18,7 @@ The **Personal settings** feature lets you save your preferences for the followi
 - Startup checklist
 - Module library installation checklist
 
-![A screenshot of the General tab on the Personal settings page.](//:0)
+![A screenshot of the General tab on the Personal settings page.](media/personal-settings-general.png)
 
 ## Supported languages
 

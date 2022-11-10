@@ -1,13 +1,13 @@
 ---
-title: Microsoft Supply Chain Center capabilities
-description: This article provides information about Microsoft Supply Chain Center's compliance, privacy and security features.
-author: 
-ms.author: 
+title: Supply Chain Center trial FAQ
+description: This article provides answers to frequently asked questions about Microsoft Supply Chain Center's trial.
+author: carylhenry
+ms.author: carylhenry
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: faq
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Supply Chain Center trial FAQ
@@ -61,7 +61,7 @@ You can't reset the trial environment. However, you can wait for the trial perio
 
 ### How do I extend the trial?
 
-You can extend the trial for another trial period in the Power Platform admin center. For instructions, see [Extend your trial](https://learn.microsoft.com/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial one time.
+You can extend the trial for another trial period in the Power Platform admin center. For instructions, see [Extend your trial](/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial one time.
 
 ### Can I convert the trial to a paid license?
 

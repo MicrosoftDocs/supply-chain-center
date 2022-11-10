@@ -6,8 +6,8 @@ ms.author: algiddin
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
-ms.date: 11/3/2023
-ms.custom:
+ms.date: 11/3/2022
+ms.custom: bap-template
 ---
 
 # Configure and review restock recommendations
@@ -26,7 +26,7 @@ Before you can use **Restock recommendations**, data for the following entities 
 ## Configure Restock recommendations
 Restock recommendations includes default settings for stock replenishment. However, you can optionally adjust the policy type and the configuration settings for that policy type.
 
-![A screenshot of the Setup Restock recommendations options](//:0)
+![A screenshot of the Setup Restock recommendations options](media/restock-recommendation-settings.png)
 
 ## Policy type
 Restock recommendations provides the following policy types:
@@ -87,13 +87,13 @@ The Restock recommendations results per item grid on the Restock recommendations
 
 In some cases, the Order Up-To Level or Reorder Quantity recommendations will be 0. This occurs when **Restock recommendations** cannot make a reliable recommendation for reasons including sparse and/or unpredictable demand, incomplete demand data for the evaluation period, long item lead times, and items for which expected holding costs exceed backorder costs and a “Make To Order” inventory strategy may be a better option.
 
-![A screenshot of the Supply & demand insights Supply coverage page.](//:0)
+![A screenshot of the Supply & demand insights Supply coverage page.](media/restock-recommendation-supply-coverage.png)
 
 The **Inventory turnover rate** page contains a "learn more" link. Select this link to open a side pane that contains answers to some common questions about how the stock replenishment recommendations work.
 
 To review recommendation status and results, complete the following procedure:
 
 1. In the navigation pane, select **Supply & demand**.
-1.      Select **Supply & demand mismatch**.
-1.      Select **Inventory turnover rate** or **Supply Coverage**.
-1.      Select the **Restock recommendations** tab.
+1. Select **Supply & demand mismatch**.
+1. Select **Inventory turnover rate** or **Supply Coverage**.
+1. Select the **Restock recommendations** tab.
