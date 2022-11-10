@@ -1,13 +1,13 @@
 ---
 title: Add users
 description: This article provides information about how to add users to Microsoft Supply Chain Center.
-author: 
-ms.author: 
+author: jcartwright90
+ms.author: jcartwright
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Add users
