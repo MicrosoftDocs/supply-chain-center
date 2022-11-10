@@ -58,10 +58,6 @@ To enable OTIF, the following entities or tables are required:
 - Inventory Transaction Shipment
 - Inventory Transaction Unserialized Item
 
-To return to the Supply & demand home page, select **Supply & demand mismatch** at the top of the page, as shown in the following illustration.
-
-![A screenshot of the breadcrumbs Supply & demand insights > Ontime in full.](//:0)
-
 ## In-transit shipments
 
 In-transit shipments are shipments that have been shipped by a supplier and are on their way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
@@ -104,10 +100,6 @@ To enable **ITR**, the following entities or tables are required:
 - Inventory Transaction Unserialized Item
 - Warehouse Item Available Stock
 
-To return to the Supply & demand home page, select **Supply & demand mismatch** at the top of the page, as shown in the following illustration.
-
-![A screenshot of the breadcrumbs Supply & demand insights > inventory turnover rate.](//:0)
-
 ## Supply coverage
 
 **Supply coverage** is a measure of supply that meets demand. It’s expressed as a percentage. **Supply coverage** helps you determine whether the on-hand inventory and the expected supply that is in transit for a period will meet the demand for that period. A higher percentage indicates better supply coverage. A lower percentage indicates supply shortfalls and potential risks to meeting demand.
@@ -129,8 +121,6 @@ Options at the top of the supplier coverage visualization let you apply the foll
 ![A screenshot of the available filters.](//:0)
 
 The filters on the page let you slice and dice the **Supply coverage** metric in different ways. The changes affect the supply coverage visualization, and also the inventory projection and the **Open orders** report at the bottom of the page.
-
-  
 
 To enable **Supply coverage**, the following entities or tables are required:
 
@@ -165,10 +155,6 @@ The **Open orders** report shows all purchase order lines that no shipment has y
 You can download the report as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of the report and then selecting **Export data** on the menu. The menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
 
 ![A screenshot with Export data and Sort by highlighted.](//:0)
-
-To return to the Supply & demand home page, select **Supply & demand mismatch** at the top of the page, as shown in the following illustration. To return to the Supply & demand home page, select **Supply & demand mismatch** at the top of the page, as shown in the following illustration.
-
-![A screenshot of the breadcrumbs Supply & demand insights > supply coverage.](//:0)
 
 ## Commitment shortage
 
@@ -217,10 +203,6 @@ To enable **Projected inventory**, the following entities or tables are required
 - Shipment
 - Shipment Item
 - Build Plan
-
-To return to the Supply & demand home page, select **Supply & demand mismatch** at the top of the page, as shown in the following illustration.
-
-![A screenshot of the breadcrumbs Supply & demand insights > projected inventory.](media/supply-and-demand-projected-inventory-overview.png)
 
 ## Restock quantity (Restock recommendations)
 
