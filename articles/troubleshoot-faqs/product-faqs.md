@@ -1,13 +1,13 @@
 ---
 title: Frequently asked questions
 description: This article provides answers to Microsoft Supply Chain Center's frequently asked questions.
-author: 
-ms.author: 
+author: johnmichalak
+ms.author: johnmichalak
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: faq
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Frequently asked questions
