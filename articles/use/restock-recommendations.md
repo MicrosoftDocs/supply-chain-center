@@ -6,8 +6,8 @@ ms.author: algiddin
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
-ms.date: 11/3/2023
-ms.custom:
+ms.date: 11/3/2022
+ms.custom: bap-template
 ---
 
 # Configure and review restock recommendations
