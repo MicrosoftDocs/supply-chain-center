@@ -148,7 +148,9 @@ To enable **Supply coverage**, the following entities or tables are required:
 
 The **Open orders** report shows all purchase order lines that no shipment has yet been planned for. It includes partially fulfilled orders, backordered orders, and future orders that don’t yet have planned shipments.
 
-![A screenshot of the open orders report](//:0)
+### Shipments in transit
+
+In-transit shipments are shipments that have been shipped by a supplier and are on their way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
 
 ## Commitment shortage
 
