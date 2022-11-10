@@ -1,13 +1,13 @@
 ---
 title: Ingest data
 description: This article provides information about ingesting data into Microsoft Supply Chain Center
-author: 
-ms.author: 
+author: johnmichalak
+ms.author: johnmichalak
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Ingest data
@@ -27,9 +27,9 @@ When you signed up for Supply Chain Center, some sample data was provided to hel
 To remove preloaded sample data, follow these steps.
 
 1. Select **Setting** (gear icon) in the upper-right corner to access the Admin Center.
-2. In the Admin Center, select **General** in the left navigation.
-3. Select **Remove data**
-4. Select **Remove all data**
+1. In the Admin Center, select **General** in the left navigation.
+1. Select **Remove data**
+1. Select **Remove all data**
 
 
 To learn more about data deletion, see [Admin settings](/administer/admin-settings.md).
@@ -41,10 +41,10 @@ To learn more about data deletion, see [Admin settings](/administer/admin-settin
 To start the ingestion process, follow these steps.
 
 1. Select **Setting** (gear icon) in the upper-right corner to access the Admin Center.
-2. In the Admin center, open **Data management**
-3. Select **My data** to ingest data that represents your company, or select **Partner data** to ingest data that represents your business partners, such as suppliers or customers.
-4. Select the module and function that you want to ingest data for to view all required entities for your the selected module and function.
-5. Select the arrow button next to the entity that you want to upload to set up data ingestion.
+1. In the Admin center, open **Data management**
+1. Select **My data** to ingest data that represents your company, or select **Partner data** to ingest data that represents your business partners, such as suppliers or customers.
+1. Select the module and function that you want to ingest data for to view all required entities for your the selected module and function.
+1. Select the arrow button next to the entity that you want to upload to set up data ingestion.
 
 ![A screenshot of a list of entities and their data ingestion status.](media/ingested-data.png)
 
@@ -55,7 +55,6 @@ To connect your data sources to Supply Chain Center, follow these steps.
 1. Select the source where your data is stored, such as Azure SQL Database or Azure Data Lake Storage. If the data for a single entity is stored in two separate data sources, select one source to begin with. You can then add the second source later in the ingestion process.
 
 ![A screenshot of a list of data sources that are compatible with Supply Chain Center.](media/ingest-data-connectors.png)
-
 
 2. Select **Next**.
 3. Enter additional details, such as the source URL, credentials, and other parameters.
@@ -85,9 +84,9 @@ To map your table columns to the Supply Chain Center entity attributes, follow t
 
 
 1. Select **Map to entity** in the upper right.
-2. In the **Map to CDM entity** dialog box, select the entity in the left column, and then select **Auto map**. Supply Chain Center will use the column headers of the query table to determine which column represents which attribute.
-3. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name.
-4. When you've finished, select **Done**.
+1. In the **Map to CDM entity** dialog box, select the entity in the left column, and then select **Auto map**. Supply Chain Center will use the column headers of the query table to determine which column represents which attribute.
+1. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name.
+1. When you've finished, select **Done**.
 
 ![A screenshot of Power Query's auto map feature.](media/ingest-data-auto-map.png)
 
