@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 ### What is Microsoft Supply Chain Center?
 
-Microsoft Supply Chain Center is part of Microsoft's supply chain platform solution and is currently in public preview. Supply Chain Center is composed of Microsoft-built modules and independent software vendor (ISV)–built modules that address different needs from customers, depending on the supply chain challenges that they are seeking to solve. Because Supply Chain Center is built on [Microsoft Dataverse](https://learn.microsoft.com/power-apps/maker/data-platform/data-platform-intro), it facilitates the integration of data that comes from different sources. That data is then used by Supply Chain Center's modules to provide better visibility into the health of the customer's supply chain. Learn more about the [architecture](/overview/architecture.md).
+Microsoft Supply Chain Center is part of Microsoft's supply chain platform solution and is currently in public preview. Supply Chain Center is composed of Microsoft-built modules and independent software vendor (ISV)–built modules that address different needs from customers, depending on the supply chain challenges that they are seeking to solve. Because Supply Chain Center is built on [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro), it facilitates the integration of data that comes from different sources. That data is then used by Supply Chain Center's modules to provide better visibility into the health of the customer's supply chain. Learn more about the [architecture](/overview/architecture.md).
 
 ### Where is my data stored?
 
@@ -48,7 +48,7 @@ Supply Chain Center is deployed as a solution in your Power Platform environment
 
 If something isn't working as expected, you have a suggestion, or you have a question, select the **Feedback** button (the happy face symbol) in the title bar, and then select **Provide Feedback**.
 
-![A screenshot of the Supply Chain Center Title pane.](RackMultipart20221103-1-jl8kb3_html_b30545b1469a4dac.png)
+![A screenshot of the Supply Chain Center Title pane.](media/title-pane.png)
 
 ### How can I sign up for my company?
 
