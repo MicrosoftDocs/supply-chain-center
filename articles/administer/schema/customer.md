@@ -14,23 +14,23 @@ ms.custom: bap-template
 
 A customer is an individual or legal entity that has or has purchased a product or service.
 
-A potential customer is an individual or legal entity that has the desire to acquire a product or service, the financial ability to pay for that product or service and is located in a location in which the product or service can be delivered to them.
+A potential customer is an individual or legal entity that desires to acquire a product or service, the financial ability to pay for that product or service, and is located in a location in which the product or service can be delivered to them.
 
-The definition of 'customer' is of critical importance for every organization.
+The definition of a customer is of critical importance for every organization.
 
-It is the customer that is the focus of product planning, marketing, sales, service, reporting and analytics. Without 'customer' there would be no need for the organization to exist since its purpose is to serve the customer and profit from that interaction.
+It's the customer that is the focus of product planning, marketing, sales, service, reporting and analytics. Without a customer there would be no need for the organization to exist since its purpose is to serve the customer and profit from that interaction.
 
-The definition of 'customer' must be consistent with how customers exist and interact with the organization in the real world. An artificial or conceptual definition of 'customer' that is not consistent with these two objectives is doomed to fail because the data will not be consistent with the definition and employees will not accept concepts or terms that are not consistent with what they see, know and how they interact with customers on a working basis.
+The definition of a customer must be consistent with how customers exist and interact with the organization in the real world. An artificial or conceptual definition of customer that is not consistent with these two objectives will to fail because the data won't be consistent with the definition and employees won't accept concepts or terms that aren't consistent with what they see, know and how they interact with customers on a working basis.
 
-Microsoft defines 'customer' to meet these objectives. When we look out into the real world we see two dominant types of customers: human beings and legal entities.
+Microsoft defines a customer to meet these objectives. When we look out into the real world, we see two dominant types of customers: human beings and legal entities.
 
-Human beings are obviously male and female individuals of various ages, sex, demographics and a variety of similar dimensions that describe and define them who purchase products, good and services.
+Human beings are individuals of various ages, gender, demographics and a variety of similar dimensions that describe and define them who purchase products, good and services.
 
-Legal entities are those legally-defined entities such as corporations, partnerships, non-profit organizations, government organizations etc. that purchase products, goods and services.
+Legal entities are those legally defined entities such as corporations, partnerships, non-profit organizations, government organizations etc. that purchase products, goods and services.
 
-This view of 'customer' is consistent with the real world and consistent with how employees view and interact with customers.
+This view of a customer is consistent with the real world and consistent with how employees view and interact with customers.
 
-Of course, that is just the start of identifying, defining and understanding each type of customer. There is a great deal of detail, complexity and related data that can be used to define each type of customer to various levels of detail and different dimensions of information.
+That is just the start of identifying, defining and understanding each type of customer. There's a great deal of detail, complexity and related data that can be used to define each type of customer to various levels of detail and different dimensions of information.
 
 Microsoft implements these detailed concepts and related data via two distinct business area models that expand the coverage and complexity of each type of customer:
 
