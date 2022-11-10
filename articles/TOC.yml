@@ -85,7 +85,7 @@
           - name: Party
             href: administer/schema/party.md 
           - name: Product
-            href: administer/schema/product.md Product
+            href: administer/schema/product.md
           - name: ProductGroup
             href: administer/schema/productgroup.md 
           - name: ProductGroupProduct
