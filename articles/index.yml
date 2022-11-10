@@ -1,0 +1,51 @@
+### YamlMime:Landing
+
+title: Microsoft Supply Chain Center documentation
+summary: Microsoft Supply Chain Center information will go here. This is a summary of the service
+
+metadata:
+  title: Microsoft Supply Chain Center documentation
+  description: Microsoft Supply Chain Center description of the page will go here.
+  ms.service: dynamics-365-supply-chain-insights
+  ms.topic: landing-page
+  author: johnmichalak
+  ms.author: johnmichalak
+  ms.date: 10/27/2022 
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | tutorial | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card 
+  - title: About Supply Chain Center
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Welcome
+            url: welcome.md
+          - text: Capabilities
+            url: ./overview/capabilities.md
+
+  # Card 
+  - title: Try for free
+    linkLists:
+      - linkListType: quickstart
+        links:
+          - text: Sign up for a free trial of Supply Chain Center's public preview
+            url: ./get-started/free-trial.md
+          - text: Free trial support
+            url: ./get-started/preview-support.md
+          - text: Free trial FAQ
+            url: ./troubleshoot-faqs/trial-faqs.md
+
+  # Card
+  - title: Get Started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Understand the UI (learn the basics)
+            url: ./get-started/navigate.md
+          - text: linktext2
+            url: file2.md
+ 
