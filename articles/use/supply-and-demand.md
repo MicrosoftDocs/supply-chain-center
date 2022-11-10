@@ -24,6 +24,8 @@ The visualizations on the landing page are aggregations of data across multiple 
 
 Users can set target rates or goals for **OTIF**, **Commitment shortage**, **Supply coverage**, and **ITR**. The target settings let users benchmark or measure performance against set goals. For more details about how to set target values for these metrics, see the supply and demand settings in the Admin Center.
 
+![A screenshot of Setup settings for the Supply and demand insights module within the Admin center.](media/admin-center-supply-and-demand-setup.png)
+
 ## On time in full
 
 **OTIF** is a measure of a supplier’s ability to fulfill an order in full and deliver it on time, based on the original requested delivery date. **OTIF** is a key supply chain metric that is used to measure a supplier’s performance. It’s sometimes referred to as **Perfect Order**.
@@ -32,7 +34,7 @@ Users can set target rates or goals for **OTIF**, **Commitment shortage**, **Sup
 
 OTIF = (_All order lines delivered in full and on time in a month_ ÷ _All order lines for that month_) × 100
 
-![A screenshot of the On time in full report chart.](//:0)
+![A screenshot of the On time in full report chart.](media/supply-and-demand-OTIF-overview.png)
 
 To determine whether an order is fulfilled in full, the system compares the purchase order quantity against the line item (Purchase Order Line table) with the quantity of all shipments that are in transit and the quantity that has been received against that line item of the Purchase Order.
 
@@ -82,7 +84,7 @@ Consumption of an item during each month is determined from Inventory Transactio
 
 A higher **ITR** value indicates better inventory management. In general, an **ITR** value above 2 is recommended.
 
-![A screenshot of the Inventory turnover rate chart.](//:0)
+![A screenshot of the Inventory turnover rate chart.](media/supply-and-demand-inventory-turnover-overview.png)
 
 **ITR** has the following filters for the visualizations on the page: **Goods receipt date**, **Time grain**, **Facility**, and **Item**. The filters enable search and multi-selection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
 
@@ -120,7 +122,7 @@ Demand is available through the Build Plan entity, which holds the materials req
 
 In the upper-right corner of the **Supply coverage** page is the supply coverage slider. You can use percent to slider to filter the visualization, the inventory projection, and the **Open orders** report on the page. By defaulpercent tohe slider is set to 0-percent supply coverage. You can adjust both ends of the slider to view data that falls within the specified range, as shown in the following illustration.
 
-![A screenshot of the supply coverage data ranges.](//:0)
+![A screenshot of the supply coverage data ranges.](media/supply-and-demand-supply-coverage-overview.png)
 
 Options at the top of the supplier coverage visualization let you apply the following additional filters: **Goods receipt date**, **Time grain**, **Facility**, and **Item**. The filters enable search and multiselection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
 
@@ -218,7 +220,7 @@ To enable **Projected inventory**, the following entities or tables are required
 
 To return to the Supply & demand home page, select **Supply & demand mismatch** at the top of the page, as shown in the following illustration.
 
-![A screenshot of the breadcrumbs Supply & demand insights > projected inventory.](//:0)
+![A screenshot of the breadcrumbs Supply & demand insights > projected inventory.](media/supply-and-demand-projected-inventory-overview.png)
 
 ## Restock quantity (Restock recommendations)
 
