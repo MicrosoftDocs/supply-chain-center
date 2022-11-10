@@ -46,8 +46,6 @@ Higher OTIF indicates better performance. Target levels above 90% are considered
 
 OTIF has filters for the visualizations on the page. Filters are Goods receipt date, Time grain, Vendor & Facility, and Item. The filters enable search and multiselection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
 
-![A screenshot of the available filters.](//:0)
-
 To enable OTIF, the following entities or tables are required:
 - Item
 - Vendors
@@ -59,12 +57,6 @@ To enable OTIF, the following entities or tables are required:
 - Inventory Transaction
 - Inventory Transaction Shipment
 - Inventory Transaction Unserialized Item
-
-### In-transit shipments
-
-In-transit shipments are shipments that have been shipped by a supplier and are on their way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
-
-![A screenshot of the shipments in transit report.](//:0)
 
 ### Inventory turnover rate
 
@@ -81,8 +73,6 @@ A higher **ITR** value indicates better inventory management. In general, an **I
 ![A screenshot of the Inventory turnover rate chart.](media/supply-and-demand-inventory-turnover-overview.png)
 
 **ITR** has the following filters for the visualizations on the page: **Goods receipt date**, **Time grain**, **Facility**, and **Item**. The filters enable search and multi-selection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
-
-![A screenshot of the available filters.](//:0)
 
 To enable **ITR**, the following entities or tables are required:
 
@@ -116,8 +106,6 @@ In the upper-right corner of the **Supply coverage** page is the supply coverage
 
 Options at the top of the supplier coverage visualization let you apply the following additional filters: **Goods receipt date**, **Time grain**, **Facility**, and **Item**. The filters enable search and multiselection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
 
-![A screenshot of the available filters.](//:0)
-
 The filters on the page let you slice and dice the **Supply coverage** metric in different ways. The changes affect the supply coverage visualization, and also the inventory projection and the **Open orders** report at the bottom of the page.
 
 To enable **Supply coverage**, the following entities or tables are required:
@@ -148,11 +136,11 @@ To enable **Supply coverage**, the following entities or tables are required:
 
 The **Open orders** report shows all purchase order lines that no shipment has yet been planned for. It includes partially fulfilled orders, backordered orders, and future orders that don’t yet have planned shipments.
 
-### Shipments in transit
+#### Shipments in transit
 
 In-transit shipments are shipments that have been shipped by a supplier and are on their way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
 
-## Commitment shortage
+### Commitment shortage
 
 **Commitment shortage** is a measure of a supplier’s forecasted commitments and its ability to meet those commitments. It’s expressed as a percentage. This metric is an important KPI that is used to evaluate a supplier’s commitments.
 
@@ -185,9 +173,6 @@ To enable **Commitment shortage**, the following entities or tables are required
 **Projected inventory** is the quantity of an item that is a shortfall or surplus for the on-hand demand. It’s calculated as the difference between supply and firm demand. Supply consists of both what is available on hand and what is expected to be received (in-transit shipments). The following formula is used:
 
 Projected inventory = _On-hand inventory_ + _In-transit shipments_ – _Firm demand_
-
-![Chart, bar chart
-Projected Inventory](//:0)
 
 To enable **Projected inventory**, the following entities or tables are required:
 
