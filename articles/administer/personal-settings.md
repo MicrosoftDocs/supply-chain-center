@@ -18,7 +18,7 @@ The **Personal settings** feature lets you save your preferences for the followi
 - Startup checklist
 - Module library installation checklist
 
-![A screenshot of the General tab on the Personal settings page.](//:0)
+![A screenshot of the General tab on the Personal settings page.](media/personal-settings-general.png)
 
 ## Supported languages
 
