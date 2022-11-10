@@ -1,20 +1,20 @@
 ---
 title: Review, update, and delete your data
 description: This article provides information about how to review, update, and delete your data in Microsoft Supply Chain Center.
-author: 
-ms.author: 
+author: johnmichalak
+ms.author: johnmichalak
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Review, update, and delete your data
 
 After your data is ingested into Microsoft Supply Chain Center, you can review its status, update any connection and configuration, or delete the data. You can determine that an entity has been ingested or is in the process of ingestion if its **Last Staged** or **Last Processed** status is something other than **Not imported** or **Not started**, as shown in the following illustration.
 
-![A screenshot of the My data screen with entities that were not imported highlighted.](//:0)
+![A screenshot of the My data screen with entities that were not imported highlighted.](media/ingested-data-status.png)
 
 ## Review the ingested data
 
@@ -28,9 +28,11 @@ To review the last time that an entity was ingested and staged, or to triage any
 1. In the **Progress Details** pane, view the status of your ingested data for a given entity, past data synchronizations, and any error statuses.
 1. To view the data processing status, on the **Data Management** page, select the **Last Processed** status for the entity.
 
-  
+### Viewing your data
 
-### Update the entity ingestion configuration
+Supply Chain Center is powered by Microsoft Power Platform and Dataverse. Your data is stored in a Dataverse environment. You can access your Dataverse storage by using any data explorer, such as Azure Storage Explorer. Generation of an SAS token is required to view your data. For more information, see [Access your storage with an SAS token](/power-platform/admin/storage-sas-token).  
+
+## Update the entity ingestion configuration
 
 To ensure that your data is available for the different Supply Chain Center modules, insights, and analytical capabilities, you should make sure that your data connectors are intact, the data is transformed and mapped according to the Supply Chain Center schema, and the data is ingested at the desired refresh rate.
 
@@ -43,10 +45,9 @@ If you must make configuration changes to the ingestion process of an entity, fo
    - Select **Refresh settings** to update the refresh frequency settings for the entity.
    - Select **Disconnect** to remove the existing data source connection for the entity. Any data that was staged will continue to be processed for analytical purposes and for use in different modules.
 
-To completely remove an entity, see the [Delete data](review-update-delete-data.md#_Delete_data) section.
+To completely remove an entity, see the Delete data section below.
 
-### Delete data
-
+## Delete data
 You might want to delete your data for different reasons:
 
 - You ingested the wrong data.
@@ -57,26 +58,22 @@ Data deletion lets you delete all entries of an entity that has been ingested in
 
 To delete the data of a single entity, on the **Data Management** page, select the menu button for the entity that you want to delete, and then select **Delete** on the menu.
 
-![A screenshot displaying the context menu with delete selected.](//:0)
+![A screenshot displaying the context menu with delete selected.](media/ingested-data-dropdown-delete.png)
 
 To delete the data of all entities in Supply Chain Center, follow steps in the [Admin settings](admin-settings.md) section.
 
 >[!Note]
 > Even after you delete data, it will continue to be refreshed for the deleted entity if your connection to the data source is still active. The data will be deleted, and its refresh will stop, only after you disconnect an entity. To make sure that no data is refreshed, disconnect the deleted entity’s data connection.
 
-### Disconnect from cloud storage providers
+## Disconnect from cloud storage providers
 
 You might want to stop the refresh of data for a selected entity if the data source is no longer relevant or its data is incorrect. _Disconnection will stop the data refresh of an entity and delete all entries of the disconnected entity._
 
 To disconnect and delete the data of a single entity, on the **Data Management** page, select the menu button for the entity that you want to delete, and then select **Disconnect** on the menu.
 
-![A screenshot displaying the context menu with disconnect selected.](//:0)
+![A screenshot displaying the context menu with disconnect selected.](media/ingested-data-dropdown-disconnect-and-delete.png)
 
 >[!Note]
 > You must be the data connection owner of an entity in order to disconnect it. The data connection owner of an entity is the user who sets up the data connection and the ingestion configuration. For an entity where you are the data connection owner, **You** will be shown as the owner in the **Owner** column. If you aren’t the data connection owner of an entity, you will see the owner’s user name in the **Owner** column.
 
-![A screenshot of a list of entities and their owner's name.](//:0)
-
-### Viewing your data
-
-Supply Chain Center is powered by Microsoft Power Platform and Dataverse. Your data is stored in a Dataverse environment. You can access your Dataverse storage by using any data explorer, such as Azure Storage Explorer. Generation of an SAS token is required to view your data. For more information, see [Access your storage with an SAS token](/power-platform/admin/storage-sas-token).
+![A screenshot of a list of entities and their owner's name.](media/ingested-data-owners.png)

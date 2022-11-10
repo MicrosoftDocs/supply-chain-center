@@ -1,13 +1,13 @@
 ---
 title: Add users
 description: This article provides information about how to add users to Microsoft Supply Chain Center.
-author: 
-ms.author: 
+author: jcartwright90
+ms.author: jcartwright
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Add users
@@ -28,6 +28,9 @@ To add users to your Azure AD tenant, follow these steps. This step _can be skip
 1. To add a user to the Azure AD tenant, on the **Overview** page, select **Add**, and then **select User on the drop-down menu. Please note that the user’s Usage Location must be set to the United States**.
 1. Enter the new user's information, and then select **Create**.
 
+![A screenshot of a list of tenant users within the Azure Portal.](media/azure-portal-users-list.png)
+
+
 ## Assign a Supply Chain Center license to the user
 
 To Assign a Supply Chain Center license to the user, follow these steps.
@@ -38,16 +41,23 @@ To Assign a Supply Chain Center license to the user, follow these steps.
 1. After you are on the correct tenant overview page, select **Licenses** from the left navigation, and then select **All Products**. 
 1. Select the **Dynamics 365 Supply Chain Insights Preview** product and assign it to the user you would like to add to Supply Chain Center. 
 
+![A screenshot of a list of licenses for a tenant within the Azure Portal.](media/azure-portal-usage-licenses-list.png)
+
 ## Add users to your Dataverse environment
 
 To add users to your Dataverse environment, follow these steps.
 
 1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), and sign in.
 1. Open the Environments page and select the environment that you want to add users to.
-1. In the Access section, under Users, select See all. You should see a list of all users that have been added to your environment.
-1. Select the name of the user that you want to grant access to Supply Chain Center, and then select Manage roles.
+1. In the **Access** section, under **Users**, select **See all**. You should see a list of all users that have been added to your environment.
 
-Assign the user to the System Administrator role, and then select Save.
+![A screenshot of an environment overview within the Power Platform admin center.](media/power-platform-environment.png)
+
+4. Select the name of the user that you want to grant access to Supply Chain Center, and then select **Manage roles**.
+
+![A screenshot of a list of environment users within the Power Platform admin center.](media/power-platform-environment-add-user.png)
+
+5. Assign the user to the **System Administrator** role, and then select **Save**.
 
 ## Troubleshooting
 
