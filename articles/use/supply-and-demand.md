@@ -46,6 +46,7 @@ Higher OTIF indicates better performance. Target levels above 90% are considered
 
 OTIF has filters for the visualizations on the page. Filters are Goods receipt date, Time grain, Vendor & Facility, and Item. The filters enable search and multiselection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
 
+#### Required entities
 To enable OTIF, the following entities or tables are required:
 - Item
 - Vendors
@@ -74,7 +75,9 @@ A higher **ITR** value indicates better inventory management. In general, an **I
 
 **ITR** has the following filters for the visualizations on the page: **Goods receipt date**, **Time grain**, **Facility**, and **Item**. The filters enable search and multi-selection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
 
-To enable **ITR**, the following entities or tables are required:
+#### Required entities
+
+To enable **ITR**, the following entities are required:
 
 - Item
 - Vendors
@@ -108,7 +111,17 @@ Options at the top of the supplier coverage visualization let you apply the foll
 
 The filters on the page let you slice and dice the **Supply coverage** metric in different ways. The changes affect the supply coverage visualization, and also the inventory projection and the **Open orders** report at the bottom of the page.
 
-To enable **Supply coverage**, the following entities or tables are required:
+#### Open orders
+
+The **Open orders** report shows all purchase order lines that no shipment has yet been planned for. It includes partially fulfilled orders, backordered orders, and future orders that don’t yet have planned shipments.
+
+#### Shipments in transit
+
+In-transit shipments are shipments that have been shipped by a supplier and are on their way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
+
+#### Required entities
+
+To enable **Supply coverage**, the following entities are required:
 
 - Build Plan
 - Inventory Transaction
@@ -132,14 +145,6 @@ To enable **Supply coverage**, the following entities or tables are required:
 - Vendor Location
 - Warehouse Item Available Stock
 
-#### Open orders
-
-The **Open orders** report shows all purchase order lines that no shipment has yet been planned for. It includes partially fulfilled orders, backordered orders, and future orders that don’t yet have planned shipments.
-
-#### Shipments in transit
-
-In-transit shipments are shipments that have been shipped by a supplier and are on their way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
-
 ### Commitment shortage
 
 **Commitment shortage** is a measure of a supplier’s forecasted commitments and its ability to meet those commitments. It’s expressed as a percentage. This metric is an important KPI that is used to evaluate a supplier’s commitments.
@@ -152,7 +157,10 @@ The supplier’s commitment quantity for the period is derived from the ItemCust
 
 A low percentage indicates reliable performance (better commitment by the supplier), and a high percentage indicates a potentially unreliable supplier.
 
-To enable **Commitment shortage**, the following entities or tables are required:
+
+#### Required entities
+
+To enable **Commitment shortage**, the following entities are required:
 
 - Item
 - Vendors
@@ -173,6 +181,8 @@ To enable **Commitment shortage**, the following entities or tables are required
 **Projected inventory** is the quantity of an item that is a shortfall or surplus for the on-hand demand. It’s calculated as the difference between supply and firm demand. Supply consists of both what is available on hand and what is expected to be received (in-transit shipments). The following formula is used:
 
 Projected inventory = _On-hand inventory_ + _In-transit shipments_ – _Firm demand_
+
+#### Required entities
 
 To enable **Projected inventory**, the following entities or tables are required:
 
@@ -197,4 +207,4 @@ Supply Chain Center has AI-driven optimal inventory. You can access it by select
 
 You can download the individual reports as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of a given report and then selecting **Export data** on the menu. Then menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
 
-![A screenshot of the dropdown to export the open orders report of the supply coverage KPI.](media/supply-and-demand-supply-coverage-open-orders-export.png))
+![A screenshot of the dropdown to export the open orders report of the supply coverage KPI.](media/supply-and-demand-supply-coverage-open-orders-export.png)
