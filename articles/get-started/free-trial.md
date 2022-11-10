@@ -7,7 +7,7 @@ ms.reviewer: johnmichalak
 ms.service: conceptual
 ms.topic: supply-chain-center
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Sign up for a free trial of Supply Chain Center's public preview
