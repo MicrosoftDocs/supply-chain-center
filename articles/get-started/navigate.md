@@ -18,7 +18,7 @@ This article provides some tips and tricks that can help you navigate Supply Cha
 
 The title pane is located at the gray bar at very top of the page. It's always accessible to Supply Chain Center users, regardless of where they are in the application.
 
-![A screenshot of the Supply Chain Center Title pane and the icons for the all launcher, feedback, notifications, settings, help, and profile picture.](//:0)
+![A screenshot of the Supply Chain Center Title pane and the icons for the all launcher, feedback, notifications, settings, help, and profile picture.](media/title-pane.png)
 
 The icons in the title pane give you access to various features. From left to right, the following are the accessible features:
 
@@ -35,11 +35,11 @@ The navigation pane is always located on the left side of the page and provides 
 
 The content of the navigation pane changes if you are in the admin center or not. When outside of the admin center, the navigation panel gives end users quick access to commonly used features such as the enabled modules.
 
-![A screenshot of the Supply Chain Center Navigation pane with the Home page selected. Other options are News, Supply & demand insights, ISV Modules, Partners, Supplier portal, and Module library.](//:0)
+![A screenshot of the Supply Chain Center Navigation pane with the Home page selected. Other options are News, Supply & demand insights, ISV Modules, Partners, Supplier portal, and Module library.](media/navigation-homepage.png)
 
 The Admin Center contains Supply Chain Center settings and data management, so the navigation pane updates to reflect these capabilities shown in the image below. For more information, see [Admin Settings](/administer/admin-settings.md).
 
-![A screenshot of the General section in the Navigation pane. Options include Data management, My data, Partner data, Supply & demand insights, Setup, and Intelligent inventory.](//:0)
+![A screenshot of the General section in the Navigation pane. Options include Data management, My data, Partner data, Supply & demand insights, Setup, and Intelligent inventory.](media/admin-center-navigation-pane.png)
 
 ## Main pages
 
@@ -53,12 +53,12 @@ Breadcrumbs help you understand where you are in the application. Each breadcrum
 
 In the following illustration, the **Supply coverage** page contains more detailed information about the supply coverage key performance indicator (KPI) that is found on the **Supply & demand insights** page. When you've finished reviewing the Supply coverage page, you can select the Supply & demand mismatch breadcrumb to return to that page.
 
-![A screenshot of the Supply & demand insights page with the breadcrumbs highlighted. ](//:0)
+![A screenshot of the Supply & demand insights page with the breadcrumbs highlighted. ](media/breadcrumbs-supply-coverage.png)
 
 ### Pivots
 
 Pivots are used to navigate between two or more areas of related content. In the following illustration, the **Supply coverage** page has two pivots: **Overview and Restock recommendations**. **Overview** is the pivot that is currently being shown, as the underline and bold text indicate. Select Restock recommendations to switch to that pivot.
 
-![A screenshot of the Supply & demand insights page with the overview and AI recommendations tabs highlighted. ](//:0)
+![A screenshot of the Supply & demand insights page with the overview and AI recommendations tabs highlighted. ](media/pivots-supply-coverage.png)
 
 Because many pivots are on the same page, they are based on the same level of the information hierarchy and usually provide a similar amount of detail. In this way, pivots differ from breadcrumbs, where pages increase in their specificity.
