@@ -12,7 +12,9 @@ ms.custom:
 
 # Supply & demand insights overview
 
-Microsoft Supply Chain Center’s Supply & demand home page presents five key supply chain performance metrics for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance.
+Microsoft Supply Chain Center’s Supply & demand insights home page presents five key performance indicators (KPIs) for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance.
+
+![A screenshot of the homepage for the Supply & demand insights module.](media/supply-and-demand-overview.png)
 
 ## Available KPIs
 
@@ -200,7 +202,7 @@ To enable **Projected inventory**, the following entities or tables are required
 
 Supply Chain Center has AI-driven optimal inventory. You can access it by selecting **Restock recommendations** at the top of the page,as shown in the following illustration.
 
-![A screenshot of the breadcrumbs Supply & demand insights > projected inventory. Restock recommendation is highlighted.](//:0)
+![A screenshot of the breadcrumbs Supply & demand insights > projected inventory. Restock recommendation is highlighted.](media/supply-and-demand-supply-coverage-restock-recommendations.png)
 
 **Restock recommendations** shows the reorder quantity by facility and item. It also shows the recommended safety stock for the combination of a facility and an item. You can download this recommendation as an Excel file. For more information, see the [Configure and review restock recommendations](supply-and-demand.md#Configure-and-review) section.
 
