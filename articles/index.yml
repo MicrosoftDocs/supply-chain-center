@@ -25,7 +25,9 @@ landingContent:
           - text: Welcome
             url: welcome.md
           - text: Capabilities
-            url: ./overview/capabilities.md
+            url: overview/capabilities.md
+          - text: Architecture
+            url: overview/architecture.md
 
   # Card 
   - title: Try for free
@@ -33,19 +35,43 @@ landingContent:
       - linkListType: quickstart
         links:
           - text: Sign up for a free trial of Supply Chain Center's public preview
-            url: ./get-started/free-trial.md
+            url: get-started/free-trial.md
           - text: Free trial support
-            url: ./get-started/preview-support.md
+            url: get-started/preview-support.md
           - text: Free trial FAQ
-            url: ./troubleshoot-faqs/trial-faqs.md
+            url: troubleshoot-faqs/trial-faqs.md
 
   # Card
-  - title: Get Started
+  - title: Get started
     linkLists:
       - linkListType: get-started
         links:
           - text: Understand the UI (learn the basics)
-            url: ./get-started/navigate.md
-          - text: linktext2
-            url: file2.md
+            url: get-started/navigate.md
+          - text: Product FAQ
+            url: troubleshoot-faqs/product-faqs.md
  
+   # Card
+  - title: Use
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Supply and demand insights
+            url: use/supply-and-demand.md
+          - text: Configure and review restock recommendation
+            url: use/restock-recommendations.md
+          - text: News
+            url: use/news.md
+
+  # Card
+  - title: Manage the system
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Data schema
+            url: administer/data-schema.md
+          - text: Ingest data
+            url: administer/ingest-data.md
+          - text: Review, update, and delete your data
+            url: administer/review-update-delete-data.md
+
