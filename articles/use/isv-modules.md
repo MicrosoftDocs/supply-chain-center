@@ -1,13 +1,13 @@
 ---
 title: ISV Modules
 description: This article provides information about Microsoft Supply Chain Center's ISV modules.
-author: 
-ms.author: 
+author: bradsesnon
+ms.author: bradsesnon
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # ISV Modules
