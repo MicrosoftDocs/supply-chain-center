@@ -54,7 +54,7 @@ landingContent:
    # Card
   - title: Use
     linkLists:
-      - linkListType: get-started
+      - linkListType: how-to-guide
         links:
           - text: Supply and demand insights
             url: use/supply-and-demand.md
