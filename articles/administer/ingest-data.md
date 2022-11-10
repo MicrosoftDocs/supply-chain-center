@@ -18,7 +18,7 @@ Before you can start to use the Microsoft Supply Chain Center modules, Supply Ch
 
 Data is ingested into Supply Chain Center in the form of tables, according to the Supply Chain Center data schema of entities and attributes. Although it's useful if your data tables are prepared according to the required entities and attributes, you can transform your data later in the ingestion process.
 
-Before you ingest your data, review the information in ￼to ensure that Supply Chain Center meets your company's expectations.
+Before you ingest your data, review the information in [Compliance, privacy, and security](/overview/compliance-privacy-security.md) to ensure that Supply Chain Center meets your company's expectations.
 
 ## Ingesting data for the first time
 
@@ -26,10 +26,11 @@ When you signed up for Supply Chain Center, some sample data was provided to hel
 
 To remove preloaded sample data, follow these steps.
 
-1. Select **Setting** (gear icon) in the upper-right corner to access the Admin Center.
-1. In the Admin Center, select **General** in the left navigation.
-1. Select **Remove Data**.
-1. Select **Remove all data**.
+1. Select **Setting** (gear icon) in the upper-right corner to access the Admin Center.
+2. In the Admin Center, select **General** in the left navigation.
+3. Select **Remove data**
+4. Select **Remove all data**
+
 
 To learn more about data deletion, see [Admin settings](/administer/admin-settings.md).
 
@@ -39,11 +40,11 @@ To learn more about data deletion, see [Admin settings](/administer/admin-settin
 
 To start the ingestion process, follow these steps.
 
-1. Select **Setting** (gear icon) in the upper-right corner to access the Admin Center.
-1. In the Admin Center, open **Data Management**.
-1. Select **My data** to ingest data that represents your company, or select **Partner data** to ingest data that represents your business partners, such as suppliers or customers.
-1. Select the module and function that you want to ingest data for. You can view all entities that are required for the selected module and function.
-1. Select the arrow button next to the entity that you want to upload to set up data ingestion.
+1. Select **Setting** (gear icon) in the upper-right corner to access the Admin Center.
+2. In the Admin center, open **Data management**
+3. Select **My data** to ingest data that represents your company, or select **Partner data** to ingest data that represents your business partners, such as suppliers or customers.
+4. Select the module and function that you want to ingest data for to view all required entities for your the selected module and function.
+5. Select the arrow button next to the entity that you want to upload to set up data ingestion.
 
 ![A screenshot of a list of entities and their data ingestion status.](media/ingested-data.png)
 
@@ -82,10 +83,11 @@ After you've created a single query that has the table that contains the data th
 
 To map your table columns to the Supply Chain Center entity attributes, follow these steps.
 
-1. Select **Map to entity** in the upper right.
-1. In the **Map to CDM entity** dialog box, select the entity in the left column, and then select **Auto map**. Supply Chain Center will use the column headers of the query table to determine which column represents which attribute.
-1. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name.
-1. When you've finished, select **Done**.
+
+1. Select **Map to entity** in the upper right.
+2. In the **Map to CDM entity** dialog box, select the entity in the left column, and then select **Auto map**. Supply Chain Center will use the column headers of the query table to determine which column represents which attribute.
+3. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name.
+4. When you've finished, select **Done**.
 
 ![A screenshot of Power Query's auto map feature.](media/ingest-data-auto-map.png)
 
@@ -99,9 +101,9 @@ We recommend that you delete all queries except the one where you will perform t
 
 To finalize the ingestion setup, the last step is to select the refresh schedule. A refresh schedule automatically updates the ingested data for a given entity, based on any changes that were made to that data in your cloud storage solution. Up-to-date data is critical for deriving recent and relevant insights.
 
-- To perform a one-time data ingestion, select **Refresh Manually**. The data connection won't be refreshed again until you choose to do so.
-- For continuous data refresh, select **Refresh Automatically**, and enter the desired schedule.
-- To finish the setup and initiate the ingestion process, select **Finish setup**. If you selected **Refresh Automatically**, ingestion will begin according to the selected refresh schedule.
+- To perform a one-time data ingestion, select **Refresh Manually**. The data connection won't be refreshed again until you choose to do so.
+- For continuous data refresh, select **Refresh Automatically**, and enter the desired schedule.
+- To finish the setup and initiate the ingestion process, select **Finish setup**. If you selected **Refresh Automatically**, ingestion will begin according to the selected refresh schedule.
 
 ![A screenshot of the data refresh settings.](media/ingest-data-refresh-schedule.png)
 
