@@ -30,6 +30,10 @@ Users can set target rates or goals for **OTIF**, **Commitment shortage**, **Sup
 
 ![A screenshot of Setup settings for the Supply and demand insights module within the Admin center.](media/admin-center-supply-and-demand-setup.png)
 
+Every KPI has their own, visualized report with filters. The filters can be found towards the top of the page and let you better understand your KPI since the report updates accordingly.
+
+![A screenshot of the filters for the OTIF report.](media/supply-and-demand-OTIF-filters.png)
+
 ### On time in full
 
 **OTIF** is a measure of a supplier’s ability to fulfill an order in full and deliver it on time, based on the original requested delivery date. **OTIF** is a key supply chain metric that is used to measure a supplier’s performance. It’s sometimes referred to as **Perfect Order**.
@@ -45,8 +49,6 @@ To determine whether an order is fulfilled in full, the system compares the purc
 Determination of on time is calculated by looking at Date Required attribute of a Purchase Order Line entity or table, and then comparing it with the EstimatedDeliveryTimestamp attribute in a shipment that is in transit shipments or comparing it with the ShipmentDeliveryTimestamp attribute for shipments that have been delivered. If either of those dates are beyond the Date Required attribute, then the order was not delivered on time.
 
 Higher OTIF indicates better performance. Target levels above 90% are considered preferred in the current competitive market demands
-
-OTIF has filters for the visualizations on the page. Filters are Goods receipt date, Time grain, Vendor & Facility, and Item. The filters enable search and multiselection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
 
 #### Required entities
 To enable OTIF, the following entities or tables are required:
@@ -74,8 +76,6 @@ Consumption of an item during each month is determined from Inventory Transactio
 A higher **ITR** value indicates better inventory management. In general, an **ITR** value above 2 is recommended.
 
 ![A screenshot of the Inventory turnover rate KPI report.](media/supply-and-demand-inventory-turnover-overview.png)
-
-**ITR** has the following filters for the visualizations on the page: **Goods receipt date**, **Time grain**, **Facility**, and **Item**. The filters enable search and multi-selection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
 
 #### Required entities
 
@@ -106,10 +106,6 @@ Supply consists of both on-hand inventory and inventory for shipments that are i
 Demand is available through the Build Plan entity, which holds the materials requirement planning for the item during the period.
 
 ![A screenshot of the supply coverage KPI report.](media/supply-and-demand-supply-coverage-overview.png)
-
-Options at the top of the supplier coverage visualization let you apply the following additional filters: **Goods receipt date**, **Time grain**, **Facility**, and **Item**. The filters enable search and multiselection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
-
-The filters on the page let you slice and dice the **Supply coverage** metric in different ways. The changes affect the supply coverage visualization, and also the inventory projection and the **Open orders** report at the bottom of the page.
 
 #### Open orders
 
