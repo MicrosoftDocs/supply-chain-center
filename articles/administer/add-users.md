@@ -51,11 +51,11 @@ To add users to your Dataverse environment, follow these steps.
 1. Open the Environments page and select the environment that you want to add users to.
 1. In the **Access** section, under **Users**, select **See all**. You should see a list of all users that have been added to your environment.
 
-![A screenshot of a list of licenses for a tenant within the Azure Portal.](media/power-platform-environment.png)
+![A screenshot of an environment overview within the Power Platform admin center.](media/power-platform-environment.png)
 
 4. Select the name of the user that you want to grant access to Supply Chain Center, and then select **Manage roles**.
 
-![A screenshot of a list of licenses for a tenant within the Azure Portal.](media/power-platform-environment-add-user.png)
+![A screenshot of a list of environment users within the Power Platform admin center.](media/power-platform-environment-add-user.png)
 
 5. Assign the user to the **System Administrator** role, and then select **Save**.
 
