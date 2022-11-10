@@ -16,7 +16,7 @@ Microsoft Supply Chain Center is built on top of Microsoft Power Platform. It co
 
 The following diagram provides a high-level overview of Supply Chain Center's architecture, described in more detail below.
 
-![A workflow graphic that displays the Supply Chain Center Architecture.](SupplyChainCenterArchitecture.png)
+![A workflow graphic that displays the Supply Chain Center Architecture.](medua/SupplyChainCenterArchitecture.png)
 
 ## Supply Chain Center Deployment
 
