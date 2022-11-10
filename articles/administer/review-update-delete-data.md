@@ -45,7 +45,7 @@ If you must make configuration changes to the ingestion process of an entity, fo
    - Select **Refresh settings** to update the refresh frequency settings for the entity.
    - Select **Disconnect** to remove the existing data source connection for the entity. Any data that was staged will continue to be processed for analytical purposes and for use in different modules.
 
-To completely remove an entity, see the [Delete data](#_Delete_data) section.
+To completely remove an entity, see the Delete data section below.
 
 ## Delete data
 You might want to delete your data for different reasons:
