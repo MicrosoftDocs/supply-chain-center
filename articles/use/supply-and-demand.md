@@ -36,7 +36,7 @@ Users can set target rates or goals for **OTIF**, **Commitment shortage**, **Sup
 
 OTIF = (_All order lines delivered in full and on time in a month_ ÷ _All order lines for that month_) × 100
 
-![A screenshot of the On time in full report chart.](media/supply-and-demand-OTIF-overview.png)
+![A screenshot of the On time in full KPI report.](media/supply-and-demand-OTIF-overview.png)
 
 To determine whether an order is fulfilled in full, the system compares the purchase order quantity against the line item (Purchase Order Line table) with the quantity of all shipments that are in transit and the quantity that has been received against that line item of the Purchase Order.
 
@@ -71,7 +71,7 @@ Consumption of an item during each month is determined from Inventory Transactio
 
 A higher **ITR** value indicates better inventory management. In general, an **ITR** value above 2 is recommended.
 
-![A screenshot of the Inventory turnover rate chart.](media/supply-and-demand-inventory-turnover-overview.png)
+![A screenshot of the Inventory turnover rate KPI report.](media/supply-and-demand-inventory-turnover-overview.png)
 
 **ITR** has the following filters for the visualizations on the page: **Goods receipt date**, **Time grain**, **Facility**, and **Item**. The filters enable search and multi-selection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
 
@@ -103,9 +103,7 @@ Supply consists of both on-hand inventory and inventory for shipments that are i
 
 Demand is available through the Build Plan entity, which holds the materials requirement planning for the item during the period.
 
-In the upper-right corner of the **Supply coverage** page is the supply coverage slider. You can use percent to slider to filter the visualization, the inventory projection, and the **Open orders** report on the page. By defaulpercent tohe slider is set to 0-percent supply coverage. You can adjust both ends of the slider to view data that falls within the specified range, as shown in the following illustration.
-
-![A screenshot of the supply coverage data ranges.](media/supply-and-demand-supply-coverage-overview.png)
+![A screenshot of the supply coverage KPI report.](media/supply-and-demand-supply-coverage-overview.png)
 
 Options at the top of the supplier coverage visualization let you apply the following additional filters: **Goods receipt date**, **Time grain**, **Facility**, and **Item**. The filters enable search and multiselection capabilities. For example, by selecting the **Item** filter and using the search field on the drop-down menu, you can search the items. You can then use the checkboxes to select multiple items in the search results, as shown in the following illustration.
 
@@ -157,6 +155,7 @@ The supplier’s commitment quantity for the period is derived from the ItemCust
 
 A low percentage indicates reliable performance (better commitment by the supplier), and a high percentage indicates a potentially unreliable supplier.
 
+![A screenshot of the commitment shortage KPI report.](media/supply-and-demand-commitment-shortage-overview.png)
 
 #### Required entities
 
@@ -181,6 +180,8 @@ To enable **Commitment shortage**, the following entities are required:
 **Projected inventory** is the quantity of an item that is a shortfall or surplus for the on-hand demand. It’s calculated as the difference between supply and firm demand. Supply consists of both what is available on hand and what is expected to be received (in-transit shipments). The following formula is used:
 
 Projected inventory = _On-hand inventory_ + _In-transit shipments_ – _Firm demand_
+
+![A screenshot of the projected inventory KPI report.](media/supply-and-demand-projected-inventory-overview.png)
 
 #### Required entities
 
