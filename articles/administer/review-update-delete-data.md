@@ -1,13 +1,13 @@
 ---
 title: Review, update, and delete your data
 description: This article provides information about how to review, update, and delete your data in Microsoft Supply Chain Center.
-author: 
-ms.author: 
+author: johnmichalak
+ms.author: johnmichalak
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Review, update, and delete your data
