@@ -18,7 +18,7 @@ Item customer supply allocation made based on Item Customer Supply Plan and Item
 | --- | --- | --- | --- | --- | --- |
 | ItemCustomerSupplyAllocation | ItemSku | yes | string | 20 | Unique Id of the item. |
 | ItemCustomerSupplyAllocation | UnitOfMeasureId | no | string | 36 | Unit of measure of the allocation quantity. |
-| ItemCustomerSupplyAllocation | ItemCustomerSupplyAllocationNote | no | string | 1024 | Additional notes or descriptions for the customer allocation. |
+| ItemCustomerSupplyAllocation | ItemCustomerSupplyAllocationNote | no | string | 1024 | Notes or descriptions for the customer allocation. |
 | ItemCustomerSupplyAllocation | ItemSupplyAllocationQuantity | no | decimal | 9 | Item supply allocation quantity from supplier. |
 | ItemCustomerSupplyAllocation | ItemCustomerSupplyPlanId | no | string | 36 | Unique Id of Item customer supply plan. |
 | ItemCustomerSupplyAllocation | ItemCustomerDemandForecastId | no | string | 36 | Unique Id of customer demand forecast. |
