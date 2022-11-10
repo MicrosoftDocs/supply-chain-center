@@ -200,7 +200,7 @@ Supply Chain Center has AI-driven optimal inventory. You can access it by select
 
 ![A screenshot of the breadcrumbs Supply & demand insights > projected inventory. Restock recommendation is highlighted.](media/supply-and-demand-supply-coverage-restock-recommendations.png)
 
-**Restock recommendations** shows the reorder quantity by facility and item. It also shows the recommended safety stock for the combination of a facility and an item. You can download this recommendation as an Excel file. For more information, see the [Configure and review restock recommendations](supply-and-demand.md#Configure-and-review) section.
+**Restock recommendations** shows the reorder quantity by facility and item. It also shows the recommended safety stock for the combination of a facility and an item. You can download this recommendation as an Excel file. For more information, see the Configure and review restock recommendations section.
 
 ## Downloading reports
 
