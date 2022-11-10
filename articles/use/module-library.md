@@ -16,6 +16,11 @@ Microsoft Supply Chain Center groups similar functionality into modules that are
 
 Modules are provided by Microsoft and independent software vendors (ISVs). All modules that are provided by Microsoft are enabled by default. However, a license is required to enable ISV modules. To learn more about how to enable ISV modules, see [ISV modules](isv-modules.md).
 
+![Screenshot of the module library](media/module-library-modules-list.png)
+
+
 On the **Module library** page, you can view a list of all available modules, learn more about each module, and enable/disable selected modules.
 
 To learn more about a specific module, select **View details**. The **Overview** tab shows more information about the value that the module provides, sample screenshots, or videos about the module. You can use the Details tab to learn about the data that is required to power the module, view documentation, provide feedback, and view available release notes.
+
+![Screenshot of the details for the Supply and demand insights module/](media/module-library-supply-and-demand-details.png)
