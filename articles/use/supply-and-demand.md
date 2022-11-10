@@ -10,9 +10,11 @@ ms.date: 11/3/2022
 ms.custom:
 ---
 
-# Supply & demand analytics overview
+# Supply & demand insights overview
 
 Microsoft Supply Chain Center’s Supply & demand home page presents five key supply chain performance metrics for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance.
+
+## Available KPIs
 
 The **On time in full** (**OTIF**) and **Commitment shortage** metrics measure the performance of vendors (suppliers), and the general trend of their performance is visualized in the line chart. **OTIF** shows how often the suppliers are delivering the purchase orders in full and on time as requested.
 
@@ -26,7 +28,7 @@ Users can set target rates or goals for **OTIF**, **Commitment shortage**, **Sup
 
 ![A screenshot of Setup settings for the Supply and demand insights module within the Admin center.](media/admin-center-supply-and-demand-setup.png)
 
-## On time in full
+### On time in full
 
 **OTIF** is a measure of a supplier’s ability to fulfill an order in full and deliver it on time, based on the original requested delivery date. **OTIF** is a key supply chain metric that is used to measure a supplier’s performance. It’s sometimes referred to as **Perfect Order**.
 
@@ -58,7 +60,7 @@ To enable OTIF, the following entities or tables are required:
 - Inventory Transaction Shipment
 - Inventory Transaction Unserialized Item
 
-## In-transit shipments
+### In-transit shipments
 
 In-transit shipments are shipments that have been shipped by a supplier and are on their way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
 
@@ -68,7 +70,7 @@ You can download the report as an Excel file by selecting the **More options** b
 
 ![A screenshot with Export data and Sort by highlighted.](//:0)
 
-## Inventory turnover rate
+### Inventory turnover rate
 
 **ITR** is a measure of the number of times that goods have turned over relative to their consumption. In other words, it’s a measure, by the company, of the number of days that are required to consume an item that was procured. **ITR** is indicative of the financial investment health of a company.
 
@@ -100,7 +102,7 @@ To enable **ITR**, the following entities or tables are required:
 - Inventory Transaction Unserialized Item
 - Warehouse Item Available Stock
 
-## Supply coverage
+### Supply coverage
 
 **Supply coverage** is a measure of supply that meets demand. It’s expressed as a percentage. **Supply coverage** helps you determine whether the on-hand inventory and the expected supply that is in transit for a period will meet the demand for that period. A higher percentage indicates better supply coverage. A lower percentage indicates supply shortfalls and potential risks to meeting demand.
 
@@ -146,7 +148,7 @@ To enable **Supply coverage**, the following entities or tables are required:
 - Vendor Location
 - Warehouse Item Available Stock
 
-## Open orders
+### Open orders
 
 The **Open orders** report shows all purchase order lines that no shipment has yet been planned for. It includes partially fulfilled orders, backordered orders, and future orders that don’t yet have planned shipments.
 
@@ -184,7 +186,7 @@ To enable **Commitment shortage**, the following entities or tables are required
 - Location
 - Inventory Transaction Unserialized Item
 
-## Projected inventory
+### Projected inventory
 
 **Projected inventory** is the quantity of an item that is a shortfall or surplus for the on-hand demand. It’s calculated as the difference between supply and firm demand. Supply consists of both what is available on hand and what is expected to be received (in-transit shipments). The following formula is used:
 
@@ -204,7 +206,7 @@ To enable **Projected inventory**, the following entities or tables are required
 - Shipment Item
 - Build Plan
 
-## Restock quantity (Restock recommendations)
+## Restock recommendations
 
 Supply Chain Center has AI-driven optimal inventory. You can access it by selecting **Restock recommendations** at the top of the page,as shown in the following illustration.
 
