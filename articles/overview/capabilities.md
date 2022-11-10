@@ -1,13 +1,13 @@
 ---
 title: Microsoft Supply Chain Center capabilities
 description: This article provides an overview of Microsoft Supply Chain Center's main features. 
-author: 
-ms.author: 
+author: johnmichalak
+ms.author: johnmichalak
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: overview
 ms.date: 11/3/2022
-ms.custom:
+ms.custom: bap-template
 ---
 
 # Microsoft Supply Chain Center capabilities
