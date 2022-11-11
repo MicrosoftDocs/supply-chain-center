@@ -2,7 +2,7 @@
   items:
     - name: Supply Chain Center
       href: index.yml
-    - name: Welcome
+    - name: Welcome to Supply Chain Center
       href: welcome.md
     - name: Overview
       items:
@@ -21,7 +21,9 @@
       - name: Understand the UI (learn the basics)
         href: get-started/navigate.md
     - name: Troubleshooting and FAQs
-      href: troubleshoot-faqs/product-faqs.md
+      items:
+      - name: Frequently asked questions
+        href: troubleshoot-faqs/product-faqs.md
     - name: Deploy
       items:
       - name: Plan
