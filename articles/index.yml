@@ -66,7 +66,7 @@ landingContent:
   # Card
   - title: Manage the system
     linkLists:
-      - linkListType: how-to-guide
+      - linkListType: reference
         links:
           - text: Data schema
             url: administer/data-schema.md
@@ -74,4 +74,16 @@ landingContent:
             url: administer/ingest-data.md
           - text: Review, update, and delete your data
             url: administer/review-update-delete-data.md
+
+  # Card
+  - title: Watch videos
+    linkLists:
+      - linkListType: video
+        links:
+          - text: Supply Chain Center overview
+            url: https://www.microsoft.com/en-us/videoplayer/embed/RE5ak34
+          - text: Supply and demand insights module overview
+            url: https://www.microsoft.com/en-us/videoplayer/embed/RE5azzg
+          - text: News module overview
+            url: https://www.microsoft.com/en-us/videoplayer/embed/RE5aCe6
 
