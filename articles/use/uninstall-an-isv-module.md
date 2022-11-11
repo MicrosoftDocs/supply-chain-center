@@ -19,7 +19,7 @@ This article describes how to uninstall an ISV module from your Microsoft Supply
 
 To uninstall an ISV module, complete the following procedure.
 
-1. From the **Module library** , locate the ISV module you want to uninstall.
+1. In the **Module library** , locate the ISV module you want to uninstall.
 2. Select the downward arrow next to the **Open** button, and then select **Uninstall**.
 
 ![A screenshot of the Module library with the Open button dropdown expanded.](media/uninstall-isv-module.png)
