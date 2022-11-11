@@ -65,8 +65,6 @@ To enable OTIF, the following entities or tables are required:
 - Inventory Transaction Shipment
 - Inventory Transaction Unserialized Item
 
-[!Video PLACEHOLDER TEXT FOR OTIF VIDEO]
-
 ### Inventory turnover rate
 
 **ITR** is a measure of the number of times that goods have turned over relative to their consumption. In other words, it’s a measure, by the company, of the number of days that are required to consume an item that was procured. **ITR** is indicative of the financial investment health of a company.
