@@ -28,9 +28,9 @@ The visualizations on the landing page are aggregations of data across multiple 
 
 ![A screenshot of the homepage for the Supply & demand insights module.](media/supply-and-demand-overview.png)
 
-Users can set target rates or goals for **OTIF**, **Commitment shortage**, **Supply coverage**, and **ITR**. The target settings let users benchmark or measure performance against set goals. For more details about how to set target values for these metrics, see the supply and demand settings in the Admin Center.
+You can set target rates or goals for **OTIF**, **Commitment shortage**, **Supply coverage**, and **ITR**. The target settings let users benchmark or measure performance against set goals. How often the analytics for this module refresh is another setting which makes sure you are accurately measuring your performance. Both of these settings can be found in the Admin center and more information can be found in the video below.
 
-![A screenshot of Setup settings for the Supply and demand insights module within the Admin center.](media/admin-center-supply-and-demand-setup.png)
+[!Video PLACEHOLDER TEXT FOR SETUP SETTINGS VIDEO]
 
 Every KPI has their own, visualized report with filters. The filters can be found towards the top of the page and let you better understand your KPI since the report updates accordingly.
 
@@ -65,6 +65,8 @@ To enable OTIF, the following entities or tables are required:
 - Inventory Transaction Shipment
 - Inventory Transaction Unserialized Item
 
+[!Video PLACEHOLDER TEXT FOR OTIF VIDEO]
+
 ### Inventory turnover rate
 
 **ITR** is a measure of the number of times that goods have turned over relative to their consumption. In other words, it’s a measure, by the company, of the number of days that are required to consume an item that was procured. **ITR** is indicative of the financial investment health of a company.
@@ -94,6 +96,8 @@ To enable **ITR**, the following entities are required:
 - Inventory Transaction Shipment
 - Inventory Transaction Unserialized Item
 - Warehouse Item Available Stock
+
+[!Video PLACEHOLDER TEXT FOR ITR VIDEO]
 
 ### Supply coverage
 
@@ -142,6 +146,8 @@ To enable **Supply coverage**, the following entities are required:
 - Vendor Item Status
 - Vendor Location
 - Warehouse Item Available Stock
+
+[!Video PLACEHOLDER TEXT FOR SUPPLY COVERAGE VIDEO]
 
 ### Commitment shortage
 
@@ -196,6 +202,8 @@ To enable **Projected inventory**, the following entities or tables are required
 - Shipment Item
 - Build Plan
 
+[!Video PLACEHOLDER TEXT FOR PROJECTED INVENTORY VIDEO]
+
 ## Restock recommendations
 
 Supply Chain Center has AI-driven optimal inventory. You can access it by selecting **Restock recommendations** at the top of the page,as shown in the following illustration.
@@ -203,6 +211,8 @@ Supply Chain Center has AI-driven optimal inventory. You can access it by select
 ![A screenshot of the breadcrumbs Supply & demand insights > projected inventory. Restock recommendation is highlighted.](media/supply-and-demand-supply-coverage-restock-recommendations.png)
 
 **Restock recommendations** shows the reorder quantity by facility and item. It also shows the recommended safety stock for the combination of a facility and an item. You can download this recommendation as an Excel file. For more information, see the Configure and review restock recommendations section.
+
+[!Video PLACEHOLDER TEXT FOR RESTOCK RECOMMENDATION VIDEO]
 
 ## Downloading reports
 
