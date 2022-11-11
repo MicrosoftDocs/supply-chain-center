@@ -44,9 +44,7 @@ When you select either **Supplier Portal - Forecast** or **Purchase Order Commit
 
 ## Add a supplier
 
-The next step is to add a supplier in Supply Chain Center.
-
-![A screenshot of the Add supplier dialog box.](//:0)
+The next step is to add a supplier in Supply Chain Center. Go to the **Partners** section and then click **Create new partner** in the top left. This will cause a sidebar to appear where you can enter information to create a new supplier.
 
 ![A screenshot of the Partners page with the new partner sidebar open.](media/supplier-portal-new-partner.png)
 
