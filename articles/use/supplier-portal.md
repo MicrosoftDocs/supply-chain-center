@@ -50,10 +50,13 @@ The next step is to add a supplier in Supply Chain Center. Go to the **Partners*
 
 ## Create contacts for suppliers
 
-When you select **Create Contact**, you’re redirected to Power Pages so that you can create contact profiles and link them to the appropriate supplier. In this way, the supplier won’t have to have an Azure AD account to sign up for the Supplier portal and can sign in to a customer’s Power Pages instance by using the invitation link.
+Every supplier needs at least one contact. Go to **Supplier portal** and then slect **Manage contacts** at the top of the page. At the top of the **Manage contacts** sidebar which appears, click on **New contact**. 
+
+![A screenshot of the manage contacts sidebar with the manage contacts and new contact buttons highlighted.](//:0)
+
+This will redirect you to Portal Management where you can create contact profiles before rutning to Supply Chain Center to link the contact with the appropriate supplier. In this way, the supplier won’t have to have an Azure AD account to sign up for the Supplier portal and can sign in to a customer’s Power Pages instance by using the invitation link.
 
 ![A screenshot of the create contact page within Portal Management.](media/supplier-portal-create-contact.png)
-
 
 ## Supplier invitation
 
@@ -69,11 +72,11 @@ Users who have access to the Portal Management app can generate invitation codes
 
 ![A screen shot of invitations in Portal Management.](media/supplier-portal-create-invitation.png)
 
-The user who wants to register in the portal application can copy the invitation code and paste it into the **Invitation code** field on the `**Redeem invitation**` tab in the portal application.
+Recipients of the invitation can copy the invitation code to your supplier portal application and paste it into the **Invitation code** field on the `**Redeem invitation**` tab in the portal application.
 
 ![A screenshot of the Supplier Portal where a supplier can enter their invitation code.](//:0)
 
-## Send an invitation code
+## Send an invitation code via email
 
 The invitation email is sent **only** if both these conditions are met:
 
@@ -86,7 +89,7 @@ After you set up the server-side synchronization in the Dataverse environment, y
 
 When both the preceding conditions are met and **Send invitation** is selected, a Dynamics 365 process is triggered. This process requires a one-time setup by an IT administrator.
 
-## One-time email setup by an IT administrator
+### One-time email setup by an IT administrator
 
 Here's how you can find the process.
 
@@ -105,7 +108,7 @@ Here's how you can find the process.
 >[!Important]
 > The default application URL that is used in the content of the email (localhost:7500) is incorrect. Therefore, you **must** follow the steps in this section to replace the application URL in the email content before you send any invitations.
 
-## Customize the invitation email
+### Customize the invitation email
 
 Follow these steps to customize the contents of the invitation email.
 
@@ -129,6 +132,8 @@ Follow these steps to customize the contents of the invitation email.
 ![A screenshot of the Process Send Invitation Information page.](//:0)
 
 ## Link contacts to suppliers in Supply Chain Center
+
+Once a contact has been created and your suppliers have received invitations to sign up to your portal, return to Supply Chain Insight's Supplier portal section and click **Manage contacts** again before selecting the new contact and clicking **Update supplier**. A modal will appear where you can link the contact with their corresponding supplier.
 
 ![A screenshot of the Supplier portal Link contact to a supplier page.](media/supplier-portal-link-contact.png)
 
@@ -156,12 +161,6 @@ Filtering for the preceding attributes uses an exact string match.
 
 ## View the status of collaboration requests
 
-You can view a list of requests that were sent to each supplier, sorted by last updated date (most recent first). 
-
-You can view past requests but can’t change them. If changes are required, you can send another request.  
+You can view a list of collaboration requests that were sent to each supplier and download responses to those requests, but you can't change them. If changes are required, you can send another collaboration request.  
 
 ![A screenshot of the Supplier Portal with a list of past requests.](media/supplier-portal-collaborations-list.png)
-
-## View the supplier responses
-
-You can download the supplier responses that correspond to a collaboration request.
