@@ -74,7 +74,7 @@ Users who have access to the Portal Management app can generate invitation codes
 
 Recipients of the invitation can copy the invitation code to your supplier portal application and paste it into the **Invitation code** field on the `**Redeem invitation**` tab in the portal application.
 
-![A screenshot of the Supplier Portal where a supplier can enter their invitation code.](//:0)
+![A screenshot of the Supplier Portal where a supplier can enter their invitation code.](media/supplier-portal-redeem-invitation.png)
 
 ## Send an invitation code via email
 
@@ -95,7 +95,7 @@ Here's how you can find the process.
 
 1. In the Portal Management app, select the **Settings** button (gear symbol), and then select **Advanced settings** on the menu.
 
-![A screenshot with the Advances setting menu item selected.](media/supplier-portal-management-advanced-settings.png)
+![A screenshot with the Advances setting menu item selected.](media/supplier-portal-portal-management-advanced-settings.png)
 
 2. Select the drop-down arrow beside the word “Settings” on the header, and then, under **Process Center**, select **Processes**.
 
