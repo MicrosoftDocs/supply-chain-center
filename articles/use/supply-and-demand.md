@@ -30,7 +30,7 @@ The visualizations on the landing page are aggregations of data across multiple 
 
 You can set target rates or goals for **OTIF**, **Commitment shortage**, **Supply coverage**, and **ITR**. The target settings let users benchmark or measure performance against set goals. How often the analytics for this module refresh is another setting which makes sure you are accurately measuring your performance. Both of these settings can be found in the Admin center and more information can be found in the video below.
 
-[!Video PLACEHOLDER TEXT FOR SETUP SETTINGS VIDEO]
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cauF]
 
 Every KPI has their own, visualized report with filters. The filters can be found towards the top of the page and let you better understand your KPI since the report updates accordingly.
 
@@ -97,7 +97,7 @@ To enable **ITR**, the following entities are required:
 - Inventory Transaction Unserialized Item
 - Warehouse Item Available Stock
 
-[!Video PLACEHOLDER TEXT FOR ITR VIDEO]
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cisx]
 
 ### Supply coverage
 
@@ -147,7 +147,7 @@ To enable **Supply coverage**, the following entities are required:
 - Vendor Location
 - Warehouse Item Available Stock
 
-[!Video PLACEHOLDER TEXT FOR SUPPLY COVERAGE VIDEO]
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cnB0]
 
 ### Commitment shortage
 
@@ -202,7 +202,7 @@ To enable **Projected inventory**, the following entities or tables are required
 - Shipment Item
 - Build Plan
 
-[!Video PLACEHOLDER TEXT FOR PROJECTED INVENTORY VIDEO]
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cisz]
 
 ## Restock recommendations
 
@@ -211,8 +211,6 @@ Supply Chain Center has AI-driven optimal inventory. You can access it by select
 ![A screenshot of the breadcrumbs Supply & demand insights > projected inventory. Restock recommendation is highlighted.](media/supply-and-demand-supply-coverage-restock-recommendations.png)
 
 **Restock recommendations** shows the reorder quantity by facility and item. It also shows the recommended safety stock for the combination of a facility and an item. You can download this recommendation as an Excel file. For more information, see the Configure and review restock recommendations section.
-
-[!Video PLACEHOLDER TEXT FOR RESTOCK RECOMMENDATION VIDEO]
 
 ## Downloading reports
 
