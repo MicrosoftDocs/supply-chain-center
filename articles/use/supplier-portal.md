@@ -84,7 +84,7 @@ The invitation email is sent **only** if both these conditions are met:
 
 After you set up the server-side synchronization in the Dataverse environment, you will see that emails are sent when you select **Flow > Send invitation**.
 
-![A screenshot of the dropdown flow options to send an invitation in Portal Management.](//:0)
+![A screenshot of the dropdown flow options to send an invitation in Portal Management.](media/supplier-portal-send-invitation.png)
 
 When both the preceding conditions are met and **Send invitation** is selected, a Dynamics 365 process is triggered. This process requires a one-time setup by an IT administrator.
 
