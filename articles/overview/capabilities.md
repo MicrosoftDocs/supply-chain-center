@@ -27,7 +27,7 @@ The home page has two main sections:
 
 This section contains short videos on how to get started using Microsoft Supply Chain Center. After you are familiar with Microsoft Supply Chain Center, you can dismiss this section so that it is no longer visible on the home page. Visibility of the Get started section can be changed from Settings by toggling Show onboarding tasks on the home page.
 
-![A screenshot of the Supply Chain Center Home page and the Get started section.](//:0)
+![A screenshot of the Supply Chain Center Home page and the Get started section.](media/homescreen-get-started.png)
 
 ### Overview
 
@@ -35,7 +35,7 @@ This section highlights some of the insights coming from the **Supply and demand
 
 At the bottom of the page, you will find more resources to help you get the most out of Microsoft Supply Chain Center.
 
-![A screenshot of the Supply Chain Center Overview, Additional features and More resources sections.](//:0)
+![A screenshot of the Supply Chain Center Overview, Additional features and More resources sections.](media/homescreen-overview.png)
 
 ## Microsoft Supply Chain Center modules
 
@@ -51,13 +51,13 @@ The following modules are currently available:
 
 The Supply and demand insights module is enabled by default. The module shows the health of the supply chain through an analytics dashboard that is generated from internal and external data that has been ingested to Microsoft Supply Chain Center. For more information on how to start, see [Supply and demand analytics](/use/supply-and-demand.md).
 
-![A screenshot of the Supply & demand insights screen that contains various charts and graphs.](//:0)
+![A screenshot of the Supply & demand insights screen that contains various charts and graphs.](media/supply-and-demand-overview.png)
 
 ## News
 
 The **News** module provides news that may have an impact on your supply chain. The news articles can be filtered according to different categories and will show you the potential impact they may have in your supply chain. You will need to first upload your supplier's information to be able to see the news articles. For more information on setting this up, see [News](/articles/use/news.md).
 
-![A screenshot of the News module that displays a news article that was found to be relevant to the user by the AI.](//:0)
+![A screenshot of the News module that displays a news article that was found to be relevant to the user by the AI.](media/news-list.png)
 
 ## Microsoft Supply Chain Center horizontal capabilities
 
@@ -75,16 +75,16 @@ This section allows you to import the list of partners or create the partners th
 - Classify the data you ingest on behalf of those partners to enable the capabilities of other modules.
 - Create data requests through the Supplier portal capability. More on this below.
 
-![A screenshot of the Supply Chain Center Partners page showing a list of partner names, types, and IDs.](//:0)
+![A screenshot of the Supply Chain Center Partners page showing a list of partner names and sidebar to create a new partner.](media/supplier-portal-new-partner-no-red.png)
 
 ### Supplier portal
 
 Using the **Supplier portal** capabilities, you can request data from your supply chain partners to gain end to end visibility of the health of your supply chain. For more information, see [Supplier portal](/use/supplier-portal.md).
 
-![A screenshot of the Supplier portal that lists supplier requests](//:0)
+![A screenshot of the creation screen for a new collaboration request.](media/supplier-portal-new-collaboration.png)
 
 ### Module library
 
 Using the **Module Library** , you can explore and activate the modules that are available in the Microsoft Supply Chain Center. Modules focus on specific areas in the supply chain lifecycle. You have the flexibility to choose as many modules as you require to meet your business needs. Modules are provided by Microsoft and other third parties and will grow in number over time. For more information, see [Module library](/use/module-library.md).
 
-![A screenshot of the Module library that shows the available modules.](//:0)
+![A screenshot of the Module library that shows the available modules.](media/module-library-modules-list.png)
