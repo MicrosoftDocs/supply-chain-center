@@ -22,12 +22,12 @@ To uninstall an ISV module, complete the following procedure.
 1. From the **Module library** , locate the ISV module you want to uninstall.
 2. Select the downward arrow next to the **Open** button, and then select **Uninstall**.
 
-![](//:0)
+![A screenshot of the Module library with the Open button dropdown expanded.](media/uninstall-an-isv-module.png)
 
 3. Select **Uninstall** to confirm removal. You are redirected to the **Marker portal**.
 4. Select the solution that is tied to the module you'd like to uninstall, and then select **Delete**.
 
-![](//:0)
+![A screenshot of the Solutions section in Maker portal.](media/maker-portal.png)
 
 5. After the delete process is complete, your module will be removed and reset within the Module Library.
 
