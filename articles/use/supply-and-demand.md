@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 Microsoft Supply Chain Center’s Supply & demand insights home page presents five key performance indicators (KPIs) for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance.
 
-![A screenshot of the homepage for the Supply & demand insights module.](media/supply-and-demand-overview.png)
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5azzg]
 
 ## Available KPIs
 
@@ -25,6 +25,8 @@ The **Supply coverage** and **Inventory turnover rate** (**ITR**) metrics focus 
 **Projected inventory** on the landing page is the aggregated view of supply and demand across all facilities and items, and the general trend that is projected for on-hand stock over demand.
 
 The visualizations on the landing page are aggregations of data across multiple facilities and items by all suppliers.
+
+![A screenshot of the homepage for the Supply & demand insights module.](media/supply-and-demand-overview.png)
 
 Users can set target rates or goals for **OTIF**, **Commitment shortage**, **Supply coverage**, and **ITR**. The target settings let users benchmark or measure performance against set goals. For more details about how to set target values for these metrics, see the supply and demand settings in the Admin Center.
 
