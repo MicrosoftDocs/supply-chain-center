@@ -52,7 +52,7 @@ The next step is to add a supplier in Supply Chain Center. Go to the **Partners*
 
 Every supplier needs at least one contact. Go to **Supplier portal** and then slect **Manage contacts** at the top of the page. At the top of the **Manage contacts** sidebar which appears, click on **New contact**. 
 
-![A screenshot of the manage contacts sidebar with the manage contacts and new contact buttons highlighted.](//:0)
+![A screenshot of the manage contacts sidebar with the manage contacts and new contact buttons highlighted.](media/supplier-portal-mange-contacts.png)
 
 This will redirect you to Portal Management where you can create contact profiles before rutning to Supply Chain Center to link the contact with the appropriate supplier. In this way, the supplier won’t have to have an Azure AD account to sign up for the Supplier portal and can sign in to a customer’s Power Pages instance by using the invitation link.
 
@@ -95,7 +95,7 @@ Here's how you can find the process.
 
 1. In the Portal Management app, select the **Settings** button (gear symbol), and then select **Advanced settings** on the menu.
 
-![A screenshot with the Advances setting menu item selected.](media/supplier-portal-portal-management-advanced-settings.png)
+![A screenshot with the Advances setting menu item selected.](media/supplier-portal-management-advanced-settings.png)
 
 2. Select the drop-down arrow beside the word “Settings” on the header, and then, under **Process Center**, select **Processes**.
 
@@ -129,8 +129,6 @@ Follow these steps to customize the contents of the invitation email.
 
 6. Where the **Deactivate** button once was, now select **Activate** so that emails can continue to be sent when **Send invitation** is selected in the Portal Management app.
 
-![A screenshot of the Process Send Invitation Information page.](//:0)
-
 ## Link contacts to suppliers in Supply Chain Center
 
 Once a contact has been created and your suppliers have received invitations to sign up to your portal, return to Supply Chain Insight's Supplier portal section and click **Manage contacts** again before selecting the new contact and clicking **Update supplier**. A modal will appear where you can link the contact with their corresponding supplier.
@@ -157,7 +155,7 @@ Filtering for the preceding attributes uses an exact string match.
 
 ![A screenshot of the Supplier portal new collaboration page.](media/supplier-portal-new-collaboration.png)
 
-![A screenshot of the supplier portal.](//:0)
+Once you complete the collaboration request, your supplier will see it once they log into your supplier portal.
 
 ## View the status of collaboration requests
 
