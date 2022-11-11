@@ -40,7 +40,7 @@ To receive a copy of the spreadsheet for each scenario, contact Support.
 
 When you select either **Supplier Portal - Forecast** or **Purchase Order Commits**, you can view the entities that are required to ingest data from the data source into Supply Chain Center.
 
-![A screenshot of the My data admin pane.](//:0)
+![A screenshot of the My data admin pane with a supplier portal forecast filter.](media/supplier-portal-data-management.png)
 
 ## Add a supplier
 
@@ -48,15 +48,14 @@ The next step is to add a supplier in Supply Chain Center.
 
 ![A screenshot of the Add supplier dialog box.](//:0)
 
-![A screenshot of the Partners page with Create new partner highlighted.](//:0)
+![A screenshot of the Partners page with the new partner sidebar open.](media/supplier-portal-new-partner.png)
 
 ## Create contacts for suppliers
 
 When you select **Create Contact**, you’re redirected to Power Pages so that you can create contact profiles and link them to the appropriate supplier. In this way, the supplier won’t have to have an Azure AD account to sign up for the Supplier portal and can sign in to a customer’s Power Pages instance by using the invitation link.
 
-![A screenshot of Manage contacts and a list of contacts shown.](//:0)
+![A screenshot of the create contact page within Portal Management.](media/supplier-portal-create-contact.png)
 
-![A screenshot of the New Contact page in Power Apps.](//:0)
 
 ## Supplier invitation
 
@@ -70,7 +69,7 @@ Users who have access to the Portal Management app can configure a contact with 
 
 Users who have access to the Portal Management app can generate invitation codes that can be used to register a user in the portal application. In the invitation, you can include a copy of the credentials and send them (and the URL of the portal application) to someone who is accessing the portal application for the first time. The invitation code must be sent through a communication channel outside Power Pages and the Portal Management app.
 
-![A screen shot of invitations in Power Apps.](//:0)
+![A screen shot of invitations in Portal Management.](media/supplier-portal-create-invitation.png)
 
 The user who wants to register in the portal application can copy the invitation code and paste it into the **Invitation code** field on the `**Redeem invitation**` tab in the portal application.
 
@@ -85,7 +84,7 @@ The invitation email is sent **only** if both these conditions are met:
 
 After you set up the server-side synchronization in the Dataverse environment, you will see that emails are sent when you select **Flow > Send invitation**.
 
-![A screenshot of a supplier in Power Apps with Send Invitation selected on the menu.](//:0)
+![A screenshot of the dropdown flow options to send an invitation in Portal Management.](//:0)
 
 When both the preceding conditions are met and **Send invitation** is selected, a Dynamics 365 process is triggered. This process requires a one-time setup by an IT administrator.
 
@@ -95,16 +94,15 @@ Here's how you can find the process.
 
 1. In the Portal Management app, select the **Settings** button (gear symbol), and then select **Advanced settings** on the menu.
 
-![A screenshot with the Advances setting menu item selected.](//:0)
+![A screenshot with the Advances setting menu item selected.](media/supplier-portal-portal-management-advanced-settings.png)
 
 2. Select the drop-down arrow beside the word “Settings” on the header, and then, under **Process Center**, select **Processes**.
 
-![A screenshot of Dynamics 365 Settings](//:0)
+![A screenshot of Dynamics 365 Settings](media/supplier-portal-portal-management-advanced-settings-processes.png)
 
 3. In the list of processes, find **Send Invitation**.
 
-![A screenshot of Dynamics 365 settings and the My Processes page.
-](//:0)
+![A screenshot of Dynamics 365 settings and the My Processes page.](media/supplier-portal-portal-management-advanced-settings-processes-list.png)
 
 >[!Important]
 > The default application URL that is used in the content of the email (localhost:7500) is incorrect. Therefore, you **must** follow the steps in this section to replace the application URL in the email content before you send any invitations.
@@ -116,15 +114,15 @@ Follow these steps to customize the contents of the invitation email.
 1. Open the details page for the **Send Invitation** process by selecting the process name.
 2. Select **Deactivate**. Then in the confirmation message box, select **Deactivate**.
 
-![A screenshot of the Process Deactivate Confirmation dialog box.](//:0)
+![A screenshot of the Process Deactivate Confirmation dialog box.](media/supplier-portal-portal-management-advanced-settings-send-invitation-process.png)
 
 3. After the process is deactivated, under the **Create an email to act as an email template** step, select **Set properties**.
 
-![A screenshot of the General tab of the Process Send Invitation information page.](//:0)
+![A screenshot of the General tab of the Process Send Invitation information page.](media/supplier-portal-portal-management-advanced-settings-send-invitation-process-set-properties.png)
 
 4. In the email editor that appears, you can directly add text to the email. You can also add dynamic values from the right pane.
 
-![A screenshot of the Process Send Invitation Create Email page.](//:0)
+![A screenshot of the Process Send Invitation Create Email page.](media/supplier-portal-portal-management-advanced-settings-send-invitation-process-editor.png)
 
 5. When you’ve finished editing the email select **Save and Close**. The email editor is closed, and you’re returned to the details page for the **Send Invitation** process.
 
@@ -134,7 +132,7 @@ Follow these steps to customize the contents of the invitation email.
 
 ## Link contacts to suppliers in Supply Chain Center
 
-![A screenshot of the Supplier portal Link contact to a supplier page.](//:0)
+![A screenshot of the Supplier portal Link contact to a supplier page.](media/supplier-portal-link-contact.png)
 
 ## Send and manage collaboration requests
 
@@ -154,7 +152,7 @@ You can filter on a selected number of attributes in an entity
 
 Filtering for the preceding attributes uses an exact string match.
 
-![A screenshot of the Supplier portal new collaboration page.](//:0)
+![A screenshot of the Supplier portal new collaboration page.](media/supplier-portal-new-collaboration.png)
 
 ![A screenshot of the supplier portal.](//:0)
 
@@ -164,7 +162,7 @@ You can view a list of requests that were sent to each supplier, sorted by last 
 
 You can view past requests but can’t change them. If changes are required, you can send another request.  
 
-![A screenshot of the Supplier Portal with a list of past requests.](//:0)
+![A screenshot of the Supplier Portal with a list of past requests.](media/supplier-portal-collaborations-list.png)
 
 ## View the supplier responses
 
