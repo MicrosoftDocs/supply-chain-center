@@ -127,7 +127,7 @@ Follow these steps to customize the contents of the invitation email.
 
 5. When you’ve finished editing the email select **Save and Close**. The email editor is closed, and you’re returned to the details page for the **Send Invitation** process.
 
-6. Select **Activate** so that emails can continue to be sent when **Send invitation** is selected in the Portal Management app.
+6. Where the **Deactivate** button once was, now select **Activate** so that emails can continue to be sent when **Send invitation** is selected in the Portal Management app.
 
 ![A screenshot of the Process Send Invitation Information page.](//:0)
 
