@@ -95,7 +95,7 @@ To map your table columns to the Supply Chain Center entity attributes, follow t
 1. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name.
 1. When you've finished, select **Done**.
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5aCe4]
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cnCu]
 
 ### Ingest data into one entity from multiple data sources
 
