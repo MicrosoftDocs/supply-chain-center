@@ -4,17 +4,15 @@
       href: index.yml
     - name: Welcome
       href: welcome.md
-    - name: Supply Chain Center documentation
+    - name: Overview
       items:
-      - name: Overview
-        items:
-        - name: Capabilities
-          href: overview/capabilities.md
+      - name: Capabilities
+        href: overview/capabilities.md
     - name: Get started
       items:
       - name: Try for free
         items:
-        - name: Sign up for a free trial of Supply Chain Center's public preview
+        - name: Sign up for a free trial
           href: get-started/free-trial.md
         - name: Free trial support
           href: get-started/preview-support.md
