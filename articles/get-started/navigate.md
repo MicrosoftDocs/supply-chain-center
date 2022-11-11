@@ -1,5 +1,5 @@
 ---
-title: Navigate Supply Chain Center
+title: Understand the UI (learn the basics)
 description: This article provides some tips and tricks that can help you navigate Supply Chain Center and all its features.
 author: carylhenry
 ms.author: carylhenry
@@ -10,7 +10,7 @@ ms.date: 11/3/2022
 ms.custom: bap-template
 ---
 
-# Navigate Supply Chain Center
+# Understand the UI (learn the basics)
 
 This article provides some tips and tricks that can help you navigate Supply Chain Center and all its features.
 
