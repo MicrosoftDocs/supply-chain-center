@@ -50,7 +50,7 @@ To start the ingestion process, follow these steps.
 
 The following video covers navigating to the Admin center and choosing an entity to ingest data for:
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5azzf]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5azzf]
 
 ### Connect your data to Supply Chain Center
 
@@ -67,7 +67,7 @@ To connect your data sources to Supply Chain Center, follow these steps.
 
 We recommend that your data contain all the required attributes of a given entity or have attributes that map to them, so that you can get the most value out of Supply Chain Center. However, if your data doesn't contain all the required attributes, you won't be prevented from ingesting it. After you set up the ingestion process, you can edit the configuration and perform additional transformations on your data.
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5aCe5]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5aCe5]
 
 ### Import a local file
 
@@ -95,7 +95,7 @@ To map your table columns to the Supply Chain Center entity attributes, follow t
 1. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name.
 1. When you've finished, select **Done**.
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cnCu]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cnCu]
 
 ### Ingest data into one entity from multiple data sources
 
@@ -115,4 +115,4 @@ To finalize the ingestion setup, the last step is to select the refresh schedule
 
 After you've finished the ingestion setup, you can review the status of your ingested entities and apply any updates that are required. For more information, see the [Review, update, and delete your data](review-update-delete-data.md) section.
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5amRA]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5amRA]
