@@ -162,8 +162,11 @@
       items: 
       - name: Module library
         href: use/module-library.md
-      - name: ISV modules
-        href: use/isv-modules.md
+        items: ISV modules
+        - name: ISV modules
+          href: use/isv-modules.md
+        - name: Uninstall and ISV module
+          href: use/uninstall-an-isv-module.md
       - name: Supply and demand analytics
         href: use/supply-and-demand.md
       - name: Configure and review restock recommendataions
