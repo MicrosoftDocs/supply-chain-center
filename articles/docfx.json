@@ -45,7 +45,7 @@
     },
     "fileMetadata": {
           "ms.service": {
-            "**.*": "dynamics-365"
+            "**.*": "supply-chain-center"
           }
     },
     "template": [],

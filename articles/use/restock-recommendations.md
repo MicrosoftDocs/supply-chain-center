@@ -11,7 +11,9 @@ ms.custom: bap-template
 ---
 
 # Configure and review restock recommendations
-This article explains how to configure and review stock replenishment recommendations by using the **Restock recommendations** model. These recommendations help you meet target service levels by recommending when and how much stock you should reorder for a given item and warehouse location. You should always review the final Restock recommendations before making replenishment decisions so you can include factors that may be outside of the Restock recommendations model. 
+This article explains how to configure and review stock replenishment recommendations by using the **Restock recommendations** model. These recommendations help you meet target service levels by recommending when and how much stock you should reorder for a given item and warehouse location. You should always review the final Restock recommendations before making replenishment decisions so you can include factors that may be outside of the Restock recommendations model.
+
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cisA]
 
 ## Prerequisites
 Before you can use **Restock recommendations**, data for the following entities must be ingested into Microsoft Supply Chain Center:

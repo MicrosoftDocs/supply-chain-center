@@ -48,6 +48,10 @@ To start the ingestion process, follow these steps.
 
 ![A screenshot of a list of entities and their data ingestion status.](media/ingested-data.png)
 
+The following video covers navigating to the Admin center and choosing an entity to ingest data for:
+
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5azzf]
+
 ### Connect your data to Supply Chain Center
 
 To connect your data sources to Supply Chain Center, follow these steps.
@@ -62,6 +66,8 @@ To connect your data sources to Supply Chain Center, follow these steps.
 ![A screenshot showing what credentials are required for an Azure SQL database.](media/ingest-data-credentials.png)
 
 We recommend that your data contain all the required attributes of a given entity or have attributes that map to them, so that you can get the most value out of Supply Chain Center. However, if your data doesn't contain all the required attributes, you won't be prevented from ingesting it. After you set up the ingestion process, you can edit the configuration and perform additional transformations on your data.
+
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5aCe5]
 
 ### Import a local file
 
@@ -80,15 +86,16 @@ You can use the Power Query editor to transform your data into a single query th
 
 After you've created a single query that has the table that contains the data that you want to import, map your table columns into the Supply Chain Center entities attributes, so that your data can be analyzed and made available for the different Supply Chain Center modules. You can view the required and optional attributes for the entity on the right side of the page.
 
-To map your table columns to the Supply Chain Center entity attributes, follow these steps.
+![A screenshot of Power Query's auto map feature.](media/ingest-data-auto-map.png)
 
+To map your table columns to the Supply Chain Center entity attributes, follow these steps.
 
 1. Select **Map to entity** in the upper right.
 1. In the **Map to CDM entity** dialog box, select the entity in the left column, and then select **Auto map**. Supply Chain Center will use the column headers of the query table to determine which column represents which attribute.
 1. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name.
 1. When you've finished, select **Done**.
 
-![A screenshot of Power Query's auto map feature.](media/ingest-data-auto-map.png)
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cnCu]
 
 ### Ingest data into one entity from multiple data sources
 
@@ -107,3 +114,5 @@ To finalize the ingestion setup, the last step is to select the refresh schedule
 ![A screenshot of the data refresh settings.](media/ingest-data-refresh-schedule.png)
 
 After you've finished the ingestion setup, you can review the status of your ingested entities and apply any updates that are required. For more information, see the [Review, update, and delete your data](review-update-delete-data.md) section.
+
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5amRA]
