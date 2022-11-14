@@ -10,7 +10,7 @@ ms.author: johnmichalak
 
 # Welcome to Microsoft Supply Chain Center!
 
-[!Video https://www.youtube.com/embed/CUSQ](https://www.microsoft.com/en-us/videoplayer/embed/RE5azzg]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5azzg]
 
 Microsoft Supply Chain Center is a secure, enterprise-grade solution that unlocks supply chain resiliency. It seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it is transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions. Supply Chain Center's functionality is grouped into purpose-built modules that are focused on specific areas in a supply chain lifecycle. You have the flexibility to activate as many modules as you need to meet your business needs. Upon enabling the modules, you can leverage a robust data ingestion process to compile your internal data and your suppliers' data to realize the rich functionality of Supply Chain Center. The following modules are currently available:
 
