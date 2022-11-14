@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 Microsoft Supply Chain Center’s Supply & demand insights home page presents five key performance indicators (KPIs) for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance.
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5azzg]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5azzg]
 
 ## Available KPIs
 
@@ -30,7 +30,7 @@ The visualizations on the landing page are aggregations of data across multiple 
 
 You can set target rates or goals for **OTIF**, **Commitment shortage**, **Supply coverage**, and **ITR**. The target settings let users benchmark or measure performance against set goals. How often the analytics for this module refresh is another setting which makes sure you are accurately measuring your performance. Both of these settings can be found in the Admin center and more information can be found in the video below.
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cauF]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cauF]
 
 Every KPI has their own, visualized report with filters. The filters can be found towards the top of the page and let you better understand your KPI since the report updates accordingly.
 
@@ -65,7 +65,7 @@ To enable OTIF, the following entities or tables are required:
 - Inventory Transaction Shipment
 - Inventory Transaction Unserialized Item
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cl3l]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cl3l]
 
 ### Inventory turnover rate
 
@@ -97,7 +97,7 @@ To enable **ITR**, the following entities are required:
 - Inventory Transaction Unserialized Item
 - Warehouse Item Available Stock
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cisx]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cisx]
 
 ### Supply coverage
 
@@ -147,7 +147,7 @@ To enable **Supply coverage**, the following entities are required:
 - Vendor Location
 - Warehouse Item Available Stock
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cnB0]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cnB0]
 
 ### Commitment shortage
 
@@ -202,7 +202,7 @@ To enable **Projected inventory**, the following entities or tables are required
 - Shipment Item
 - Build Plan
 
-[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cisz]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cisz]
 
 ## Restock recommendations
 
