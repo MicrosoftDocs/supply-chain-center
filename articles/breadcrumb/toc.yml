@@ -1,7 +1,7 @@
-- name: Supply Chain Platform
+- name: Microsoft Supply Chain Platform
   tocHref: /supply-chain-platform/
   topicHref: /supply-chain-platform/
   items:
-    - name: Supply Chain Center
+    - name: Micrsoft Supply Chain Center
       tocHref: /supply-chain-platform/supply-chain-center/
       topicHref: /supply-chain-platform/supply-chain-center/
