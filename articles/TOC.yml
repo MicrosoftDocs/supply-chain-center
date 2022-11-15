@@ -161,7 +161,11 @@
   - name: Module library
     href: use/module-library.md
   - name: ISV modules
-    href: use/isv-modules.md
+    items: 
+    - name: ISV modules
+      href: use/isv-modules.md
+    - name: Install the Overhaul module
+      href: use/install-overhaul.md
   - name: Supply and demand analytics
     href: use/supply-and-demand.md
   - name: Configure and review restock recommendataions
