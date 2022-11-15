@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Supply & demand insights overview
 
-Microsoft Supply Chain Center’s Supply & demand insights home page presents five key performance indicators (KPIs) for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance.
+Microsoft Supply Chain Center’s Supply & demand insights home page presents five key performance indicators (KPIs) for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance. A personalized view of these KPIs can also be created through the My analytics feature which can be found by click "Create custom view" in the top bar of the Supply and demand insights module or "My analytics" in the left navigation pane.
 
 ![A screenshot of the homepage for the Supply & demand insights module.](media/supply-and-demand-overview.png)
 
@@ -109,7 +109,7 @@ Demand is available through the Build Plan entity, which holds the materials req
 
 #### Open orders
 
-The **Open orders** report shows all purchase order lines that no shipment has yet been planned for. It includes partially fulfilled orders, backordered orders, and future orders that don’t yet have planned shipments.
+The **Open orders** chart shows all purchase order lines that no shipment has yet been planned for. It includes partially fulfilled orders, backordered orders, and future orders that don’t yet have planned shipments.
 
 #### Shipments in transit
 
@@ -204,6 +204,48 @@ Supply Chain Center has AI-driven optimal inventory. You can access it by select
 
 ## Downloading reports
 
-You can download the individual reports as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of a given report and then selecting **Export data** on the menu. Then menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
+You can download the individual charts as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of a given report and then selecting **Export data** on the menu. Then menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
 
 ![A screenshot of the dropdown to export the open orders report of the supply coverage KPI.](media/supply-and-demand-supply-coverage-open-orders-export.png)
+
+## My analytics
+
+Use the My Analytics feature of Microsoft Supply Chain Center to customize the out-of-the-box KPIs found in the Supply and demand insights module. Change a line chart to a bar chart, remove an out-of-the-box chart completely, or make other edits to fit your company’s needs. Changes you make to out-of-the-box KPIs are saved under “My Analytics” and they do not overwrite your KPIs within Supply and Demand insights module.
+
+### Edit reports
+
+Your reports can be found as tabs at the bottom of the My analytics page. Switch reports by changing tabs or create a new report from scratch with a “+” button.
+
+>[!Note]
+> All PBI capabilities for new reports is not currently supported by Supply Chain Center
+
+Initially, the list of tabs corresponds to the different pages within the Supply and demand insights module and each tab contains the same information. These reports are a copy of what is in the Supply and demand insights module, so changes made in My analytics won’t appear in the module.
+
+>[!Note]
+> Changes made in My analytics are permanent and can’t automatically be reverted to their original visuals. The reports within the Supply and demand insights module will remain unchanged so that can be used as a reference to reset My analytics.
+
+#### Add and edit charts
+The right side of the page contains the following three types of ways for you to edit the reports:
+
+1. Filters allows you to change or modify filters. The filter capability is driven from the data available in the data model on which these out of the box KPI’s are built.
+1. Visualizations allow the user to change the type of chart being used. For example, the user can change a line chart into a pie chart.
+1. Fields contains data models on which visualization can be built. These models come from the entities and calculations involving the entities for the out-of-the-box KPIs.
+
+See the Build Report section of [Get started with Power BI Desktop](https://learn.microsoft.com/power-bi/fundamentals/desktop-getting-started#build-reports) to learn how fields, visualizations, and filters work together to create a chart. See [Take a tour of the report Filters pane](https://learn.microsoft.com/power-bi/consumer/end-user-report-filter) and [Visualization types in Power BI](https://learn.microsoft.com/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a) to get more information on filters and visualizations specifically.
+
+>[!Note]
+> My analytics does not support user-specific changes. Edits to the reports within My analytics will be available to all users in your Supply Chain Center environment.
+
+#### Remove charts
+Click on a chart then use the delete button to delete that chart. Alternatively, you can click the more options button in the top right corner of a chart then select “remove” from the dropdown menu.
+
+### Personalize your report
+You can personalize your report by adding text, shapes, and buttons to your report. These can be found in the top bar of My analytics. Buttons can also double as a method for adding images by the following process:
+
+1.	Navigate to “My analytics”, and then click “Blank” in the dropdown of “Buttons”
+ 
+2.	With the button selected from the “Format” panel on the right side, turn on “icon” under “Style”, change the icon type to “Custom”, and click “Browse” to upload an image – which could be a logo, or with everything customer wants to show
+ 
+3.	Change the size/position/background color/text etc. until satisfied.
+
+
