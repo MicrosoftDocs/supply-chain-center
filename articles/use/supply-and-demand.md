@@ -233,7 +233,7 @@ The right side of the page contains the following three types of ways for you to
 1. Visualizations allow the user to change the type of chart being used. For example, the user can change a line chart into a pie chart.
 1. Fields contains data models on which visualization can be built. These models come from the entities and calculations involving the entities for the out-of-the-box KPIs.
 
-See the Build Report section of [Get started with Power BI Desktop](https://learn.microsoft.com/power-bi/fundamentals/desktop-getting-started#build-reports) to learn how fields, visualizations, and filters work together to create a chart. See [Take a tour of the report Filters pane](https://learn.microsoft.com/power-bi/consumer/end-user-report-filter) and [Visualization types in Power BI](https://learn.microsoft.com/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a) to get more information on filters and visualizations specifically.
+See the Build Report section of [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started#build-reports) to learn how fields, visualizations, and filters work together to create a chart. See [Take a tour of the report Filters pane](/power-bi/consumer/end-user-report-filter) and [Visualization types in Power BI](/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a) to get more information on filters and visualizations specifically.
 
 >[!Note]
 > My analytics does not support user-specific changes. Edits to the reports within My analytics will be available to all users in your Supply Chain Center environment.
