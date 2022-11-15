@@ -210,7 +210,7 @@ You can download the individual charts as an Excel file by selecting the **More 
 
 ## My analytics
 
-Use the My Analytics feature of Microsoft Supply Chain Center to customize the out-of-the-box KPIs found in the Supply and demand insights module. Change a line chart to a bar chart, remove an out-of-the-box chart completely, or make other edits to fit your company’s needs. Changes you make to out-of-the-box KPIs are saved under “My Analytics” and they do not overwrite your KPIs within Supply and Demand insights module.
+Use the My analytics feature to customize the out-of-the-box KPIs found in the Supply and demand insights module. Change a line chart to a bar chart, remove an out-of-the-box chart completely, or make other edits to fit your company’s needs. Changes you make to out-of-the-box KPIs are saved under My analytics and they do not overwrite your KPIs within Supply and Demand insights module.
 
 ### Edit reports
 
@@ -221,8 +221,10 @@ Your reports can be found as tabs at the bottom of the My analytics page. Switch
 
 Initially, the list of tabs corresponds to the different pages within the Supply and demand insights module and each tab contains the same information. These reports are a copy of what is in the Supply and demand insights module, so changes made in My analytics won’t appear in the module.
 
+![A screenshot of My analytics with the tabs at the bottom highlighted](media/my-analytics-tabs.png)
+
 >[!Note]
-> Changes made in My analytics are permanent and can’t automatically be reverted to their original visuals. The reports within the Supply and demand insights module will remain unchanged so that can be used as a reference to reset My analytics.
+> Changes made in My analytics are permanent and can’t automatically be reverted to their original visuals. The reports within the Supply and demand insights module will remain unchanged so they can be used as a reference to reset My analytics.
 
 #### Add and edit charts
 The right side of the page contains the following three types of ways for you to edit the reports:
@@ -236,16 +238,26 @@ See the Build Report section of [Get started with Power BI Desktop](https://lear
 >[!Note]
 > My analytics does not support user-specific changes. Edits to the reports within My analytics will be available to all users in your Supply Chain Center environment.
 
+![A screenshot of My analytics with the filters, visualizations, and fields panes expanded](media/my-analytics-filters-visualizations-fields.png)
+
 #### Remove charts or export the underlying data
-To remove a chart from a report or to download the raw data powering that chart, click the more options button in the top right corner of a chart then select “Remove” or "Export data" from the dropdown menu based on what you'd like to do.
+You can remove a chart from a report or to download the raw data powering that chart using the same method. First click the **More options** button in the top right corner of a chart and then select “Remove” or "Export data" from the dropdown.
+
+![A screenshot of the dropdown menu to remove a chart or export its data](media/my-analytics-export-or-remove.png)
 
 ### Personalize your report
 You can personalize your report by adding text, shapes, and buttons to your report. These can be found in the top bar of My analytics. Buttons can also double as a method for adding images by the following process:
 
-1.	Navigate to “My analytics”, and then click “Blank” in the dropdown of “Buttons”
+1.	Click **Buttons** before selecting **Blank** from the dropdown.
+
+![A screenshot of selecting the "blank" button](media/my-analytics-image-step-1.png)
  
-2.	With the button selected from the “Format” panel on the right side, turn on “icon” under “Style”, change the icon type to “Custom”, and click “Browse” to upload an image – which could be a logo, or with everything customer wants to show
+2.	With the button selected from the Format panel on the right side, turn on **Icon** section under **Style**. Change the icon type to “Custom” and then click **Browse** to upload an image.
+
+![A screenshot of the format panel](media/my-analytics-image-step-2.png)
  
-3.	Change the size/position/background color/text etc. until satisfied.
+3.	Change the size/position of the image until satisfied.
+
+![A screenshot of a Microsoft logo which can be moved, made bigger, etc](media/my-analytics-image-step-3.png)
 
 
