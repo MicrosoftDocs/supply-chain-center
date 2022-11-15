@@ -22,6 +22,8 @@
   items:
   - name: Frequently asked questions
     href: troubleshoot-faqs/product-faqs.md
+  - name: Additional requirements and limitations
+    href: troubleshoot-faqs/requirements-limitations.md
 - name: Deploy
   items:
   - name: Plan
