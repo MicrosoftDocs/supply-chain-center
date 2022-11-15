@@ -40,7 +40,7 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/supply-chain-platform/supply-chain-center/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
+      "extendBreadcrumb": false,
       "feedback_system": "None"
     },
     "fileMetadata": {
