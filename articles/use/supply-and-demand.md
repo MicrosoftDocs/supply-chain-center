@@ -236,8 +236,8 @@ See the Build Report section of [Get started with Power BI Desktop](https://lear
 >[!Note]
 > My analytics does not support user-specific changes. Edits to the reports within My analytics will be available to all users in your Supply Chain Center environment.
 
-#### Remove charts
-Click on a chart then use the delete button to delete that chart. Alternatively, you can click the more options button in the top right corner of a chart then select “remove” from the dropdown menu.
+#### Remove charts or export the underlying data
+To remove a chart from a report or to download the raw data powering that chart, click the more options button in the top right corner of a chart then select “Remove” or "Export data" from the dropdown menu based on what you'd like to do.
 
 ### Personalize your report
 You can personalize your report by adding text, shapes, and buttons to your report. These can be found in the top bar of My analytics. Buttons can also double as a method for adding images by the following process:
