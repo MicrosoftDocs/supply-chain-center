@@ -49,7 +49,7 @@ When a Supply Chain Center trial is started, a new Dataverse account will be cre
 
 ### How do I add more users to the trial environment?
 
-For detailed instructions, see the [Add users](/administer/add-users.md) section.
+For detailed instructions, see the [Add users](../administer/add-users.md) section.
 
 ### How many users can I add to my trial environment?
 
@@ -61,7 +61,7 @@ You can't reset the trial environment. However, you can wait for the trial perio
 
 ### How do I extend the trial?
 
-You can extend the trial for another trial period in the Power Platform admin center. For instructions, see [Extend your trial](/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial one time.
+You can extend the trial for another trial period in the Power Platform admin center. For instructions, see [Extend your trial](https://learn.microsoft.com/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial one time.
 
 ### Can I convert the trial to a paid license?
 
@@ -75,7 +75,7 @@ Supply Chain Center's trial lasts 180 days. After that, you can sign up for a ne
 
 ### How do I start using the trial?
 
-After you sign up for trial, you're redirected to the Supply Chain Center home page. The home page includes links to user guides and tutorials to help you get started. For additional information, see the [Support](/get-started/preview-support.md) section.
+After you sign up for trial, you're redirected to the Supply Chain Center home page. The home page includes links to user guides and tutorials to help you get started. For additional information, see the [Support](../get-started/preview-support.md) section.
 
 ### Which features are available in the trial?
 
