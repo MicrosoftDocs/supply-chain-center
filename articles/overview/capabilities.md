@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Microsoft Supply Chain Center capabilities
 
-This article provides an overview of Microsoft Supply Chain Center's main features. The set-up feature lets you get Microsoft Supply Chain Center ready without needing a lengthy implementation phase. Other features can be selected from the title pane and navigation pane. For more information, and some tips and tricks that can help you navigate Microsoft Supply Chain Center and all its features, see [Navigate Supply Chain Center](/get-started/navigate.md).
+This article provides an overview of Microsoft Supply Chain Center's main features. The set-up feature lets you get Microsoft Supply Chain Center ready without needing a lengthy implementation phase. Other features can be selected from the title pane and navigation pane. For more information, and some tips and tricks that can help you navigate Microsoft Supply Chain Center and all its features, see [Navigate Supply Chain Center](get-started/navigate.md).
 
 ## Navigation pane
 
@@ -49,13 +49,13 @@ The following modules are currently available:
 
 ## Supply and demand insights
 
-The Supply and demand insights module is enabled by default. The module shows the health of the supply chain through an analytics dashboard that is generated from internal and external data that has been ingested to Microsoft Supply Chain Center. For more information on how to start, see [Supply and demand analytics](/use/supply-and-demand.md).
+The Supply and demand insights module is enabled by default. The module shows the health of the supply chain through an analytics dashboard that is generated from internal and external data that has been ingested to Microsoft Supply Chain Center. For more information on how to start, see [Supply and demand analytics](use/supply-and-demand.md).
 
 ![A screenshot of the Supply & demand insights screen that contains various charts and graphs.](media/supply-and-demand-overview.png)
 
 ## News
 
-The **News** module provides news that may have an impact on your supply chain. The news articles can be filtered according to different categories and will show you the potential impact they may have in your supply chain. You will need to first upload your supplier's information to be able to see the news articles. For more information on setting this up, see [News](/articles/use/news.md).
+The **News** module provides news that may have an impact on your supply chain. The news articles can be filtered according to different categories and will show you the potential impact they may have in your supply chain. You will need to first upload your supplier's information to be able to see the news articles. For more information on setting this up, see [News](use/news.md).
 
 ![A screenshot of the News module that displays a news article that was found to be relevant to the user by the AI.](media/news-list.png)
 
@@ -79,12 +79,12 @@ This section allows you to import the list of partners or create the partners th
 
 ### Supplier portal
 
-Using the **Supplier portal** capabilities, you can request data from your supply chain partners to gain end to end visibility of the health of your supply chain. For more information, see [Supplier portal](/use/supplier-portal.md).
+Using the **Supplier portal** capabilities, you can request data from your supply chain partners to gain end to end visibility of the health of your supply chain. For more information, see [Supplier portal](use/supplier-portal.md).
 
 ![A screenshot of the creation screen for a new collaboration request.](media/supplier-portal-new-collaboration.png)
 
 ### Module library
 
-Using the **Module Library** , you can explore and activate the modules that are available in the Microsoft Supply Chain Center. Modules focus on specific areas in the supply chain lifecycle. You have the flexibility to choose as many modules as you require to meet your business needs. Modules are provided by Microsoft and other third parties and will grow in number over time. For more information, see [Module library](/use/module-library.md).
+Using the **Module Library** , you can explore and activate the modules that are available in the Microsoft Supply Chain Center. Modules focus on specific areas in the supply chain lifecycle. You have the flexibility to choose as many modules as you require to meet your business needs. Modules are provided by Microsoft and other third parties and will grow in number over time. For more information, see [Module library](use/module-library.md).
 
 ![A screenshot of the Module library that shows the available modules.](media/module-library-modules-list.png)
