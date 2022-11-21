@@ -31,7 +31,7 @@ Removal of your data can take a few moments. Until it's completed, some modules 
 
 ## Data management
 
-To manage your company’s data or data that you want to ingest on behalf of a partner organization (supplier or customer), see the [data upload documentation](ingest-data.md). To request data from your supplier via the Supplier Portal feature, see the [Supplier Portal documentation.](/use/supplier-portal.md)
+To manage your company’s data or data that you want to ingest on behalf of a partner organization (supplier or customer), see the [data upload documentation](ingest-data.md). To request data from your supplier via the Supplier Portal feature, see the [Supplier Portal documentation.](../use/supplier-portal.md)
 
 ## Supply & demand insights
 
@@ -50,11 +50,11 @@ The page also contains a status indicator that tells you when the analytics were
 - **On Time in Full**: On Time in Full (OTIF) is the measure of a supplier’s ability to fulfill an order in full and deliver it on time per the originally requested delivery date. OTIF is a key supply chain metric to measure a supplier’s performance. It's sometimes referred to as Perfect Order.
 - **Commitment Shortage**: Commitment Shortage is the measure of a supplier’s forecast commitments and its ability to meet those commitments. In other words, it's the measure of the original promise versus the actual delivery. This measure is indicative of a supplier’s ability to fulfill its commitment and is an important measure for evaluating a supplier’s reliability. A low number indicates good performance, and a high number indicates an unreliable supplier.
 
-To learn more about the supply chain KPIs, see the [Supply & demand insights module overview documentation](/use/supply-and-demand.md).
+To learn more about the supply chain KPIs, see the [Supply & demand insights module overview documentation](../use/supply-and-demand.md).
 
 ### Restock recommendations
 
-The **Restock recommendations** page lets users configure settings that affect the recommendations about when and how much inventory to order for a specific product at a specific location. You should configure the settings if you have a target service level that you want to meet, or if you have cost information that will be used to recommend the optimal target service level. To learn more about these settings, see [Configure and review restock recommendations](/use/restock-recommendations.md).
+The **Restock recommendations** page lets users configure settings that affect the recommendations about when and how much inventory to order for a specific product at a specific location. You should configure the settings if you have a target service level that you want to meet, or if you have cost information that will be used to recommend the optimal target service level. To learn more about these settings, see [Configure and review restock recommendations](../use/restock-recommendations.md).
 
 ![A screenshot of the restock recommendation settings for the Supply & demand insights module.](media/admin-center-supply-and-demand-restock-recommendation-settings.png)
 
