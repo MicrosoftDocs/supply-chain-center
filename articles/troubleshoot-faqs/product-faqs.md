@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 ### What is Microsoft Supply Chain Center?
 
-Microsoft Supply Chain Center is part of Microsoft's supply chain platform solution and is currently in public preview. Supply Chain Center is composed of Microsoft-built modules and independent software vendor (ISV)–built modules that address different needs from customers, depending on the supply chain challenges that they are seeking to solve. Because Supply Chain Center is built on [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro), it facilitates the integration of data that comes from different sources. That data is then used by Supply Chain Center's modules to provide better visibility into the health of the customer's supply chain. Learn more about the [architecture](/overview/architecture.md).
+Microsoft Supply Chain Center is part of Microsoft's supply chain platform solution and is currently in public preview. Supply Chain Center is composed of Microsoft-built modules and independent software vendor (ISV)–built modules that address different needs from customers, depending on the supply chain challenges that they are seeking to solve. Because Supply Chain Center is built on [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro), it facilitates the integration of data that comes from different sources. That data is then used by Supply Chain Center's modules to provide better visibility into the health of the customer's supply chain. Learn more about the [architecture](../overview/architecture.md).
 
 ### Where is my data stored?
 
@@ -34,7 +34,7 @@ All roles that need higher visibility into their supply chain and/or that must b
 
 ### Do you have any resources for learning how to use Supply Chain Center and getting help?
 
-We have extensive documentation, and videos are available in Supply Chain Center's user interface. For more information, see **What is Supply Chain Center?** Our [community portal](https://community.dynamics.com/) is the way to get support and connect with other Supply Chain Center users.
+We have extensive documentation, and videos are available in Supply Chain Center's user interface. For more information, see **What is Supply Chain Center?** Our [community portal](https://community.dynamics.com/365/microsoft-supply-chain-center) is the way to get support and connect with other Supply Chain Center users.
 
 ### What is the cost model for Supply Chain Center?
 
@@ -42,7 +42,7 @@ Supply Chain Center is in public preview. Therefore, there is no cost to use the
 
 ### How is Supply Chain Center deployed? Will I have to maintain it?
 
-Supply Chain Center is deployed as a solution in your Power Platform environment. Your data is stored in the Dataverse instance that accompanies the Power Platform environment, so that you have full control over that data. Supply Chain Center gets automatic updates that deliver feature updates and improvements without requiring any action on your part. For more information, see [Architecture](/overview/architecture.md).
+Supply Chain Center is deployed as a solution in your Power Platform environment. Your data is stored in the Dataverse instance that accompanies the Power Platform environment, so that you have full control over that data. Supply Chain Center gets automatic updates that deliver feature updates and improvements without requiring any action on your part. For more information, see [Architecture](../overview/architecture.md).
 
 ### I have an idea for a feature that I want to see in Supply Chain Center. How can I tell you about it?
 
@@ -52,15 +52,15 @@ If something isn't working as expected, you have a suggestion, or you have a que
 
 ### How can I sign up for my company?
 
-You can sign up for a free trial. For more information, see [Sign up for a free trial of Supply Chain Center's public preview](/get-started/free-trial.md).
+You can sign up for a free trial. For more information, see [Sign up for a free trial of Supply Chain Center's public preview](../get-started/free-trial.md).
 
 ### How does Supply Chain Center get set up?
 
-For more information, see [Sign up for a free trial of Supply Chain Center's public preview](/get-started/free-trial.md).
+For more information, see [Sign up for a free trial of Supply Chain Center's public preview](../get-started/free-trial.md).
 
 ### How do I add or remove users?
 
-The Supply Chain Center portal provides tools for user management, and enables the addition, deletion, and modification of access to users. The assigned Supply Chain Center user role and access levels will determine the service elements that are available for the user. For more information about user management, see [Adding users](/administer/add-users.md).
+The Supply Chain Center portal provides tools for user management, and enables the addition, deletion, and modification of access to users. The assigned Supply Chain Center user role and access levels will determine the service elements that are available for the user. For more information about user management, see [Adding users](../administer/add-users.md).
 
 ### What are the "entities" that Supply Chain Center uses?
 
@@ -68,11 +68,11 @@ Entities are basically data tables. They are collections of attributes that are 
 
 ### Which analytics does Supply Chain Center natively support?
 
-For more information, see [Supply & Demand analytics overview](/use/supply-and-demand.md).
+For more information, see [Supply & Demand analytics overview](../use/supply-and-demand.md).
 
 ### How are the analytics calculated?
 
-For more information, see [Supply & Demand analytics overview](/use/supply-and-demand.md).
+For more information, see [Supply & Demand analytics overview](../use/supply-and-demand.md).
 
 ### Can I personalize my analytics dashboards according to the ingested data?
 
@@ -84,7 +84,7 @@ Custom analytics aren't currently available.
 
 ### How do I upload data into Supply Chain Center?
 
-For more information, see [Ingest data](/administer/ingest-data.md).
+For more information, see [Ingest data](../administer/ingest-data.md).
 
 ### Do I need my supplier's data to use Supply Chain Center?
 
@@ -92,7 +92,7 @@ Some of the analytics of the Supply and Demand insights module rely on the avail
 
 ### I currently receive data files from my suppliers. Can I use that data in Supply Chain Center?
 
-Yes, you can ingest that data on behalf of your suppliers. You will have to provide credentials and access details for the source where your supplier data is stored. For more information, see [Ingest data](/administer/ingest-data.md).
+Yes, you can ingest that data on behalf of your suppliers. You will have to provide credentials and access details for the source where your supplier data is stored. For more information, see [Ingest data](../administer/ingest-data.md).
 
 ### How similar or different are the data models of Supply Chain Center and Dataverse?
 

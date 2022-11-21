@@ -21,7 +21,7 @@ You have the following responsibilities:
 
 ## Data subject access requests
 
-Data subject deletion requests can be completed by deleting the relevant entities within Supply Chain Center. When you respond to a deletion request, you should update the ingestion source for the entities to ensure that the data that is involved in the deletion request isn't uploaded into the application again. For more information about how to delete data, see the [Review, update, and delete your data](/administer/review-update-delete-data.md) section.
+Data subject deletion requests can be completed by deleting the relevant entities within Supply Chain Center. When you respond to a deletion request, you should update the ingestion source for the entities to ensure that the data that is involved in the deletion request isn't uploaded into the application again. For more information about how to delete data, see the [Review, update, and delete your data](../administer/review-update-delete-data.md) section.
 
 >[!Note]
 > If the deleted data was originally shared with a supplier through collaboration in the Supplier portal, and the supplier exported the data, the supplier might still have the data.

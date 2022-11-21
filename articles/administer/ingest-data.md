@@ -18,7 +18,7 @@ Before you can start to use the Microsoft Supply Chain Center modules, Supply Ch
 
 Data is ingested into Supply Chain Center in the form of tables, according to the Supply Chain Center data schema of entities and attributes. Although it's useful if your data tables are prepared according to the required entities and attributes, you can transform your data later in the ingestion process.
 
-Before you ingest your data, review the information in [Compliance, privacy, and security](/overview/compliance-privacy-security.md) to ensure that Supply Chain Center meets your company's expectations.
+Before you ingest your data, review the information in [Compliance, privacy, and security](../overview/compliance-privacy-security.md) to ensure that Supply Chain Center meets your company's expectations.
 
 ## Ingesting data for the first time
 
@@ -32,7 +32,7 @@ To remove preloaded sample data, follow these steps.
 1. Select **Remove all data**
 
 
-To learn more about data deletion, see [Admin settings](/administer/admin-settings.md).
+To learn more about data deletion, see [Admin settings](admin-settings.md).
 
 ![A screenshot of the general settings within the Admin center.](media/admin-center-general-settings.png)
 
