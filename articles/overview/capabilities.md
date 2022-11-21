@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Microsoft Supply Chain Center capabilities
 
-This article provides an overview of Microsoft Supply Chain Center's main features. The set-up feature lets you get Microsoft Supply Chain Center ready without needing a lengthy implementation phase. Other features can be selected from the title pane and navigation pane. For more information, and some tips and tricks that can help you navigate Microsoft Supply Chain Center and all its features, see [Navigate Supply Chain Center](get-started/navigate.md).
+This article provides an overview of Microsoft Supply Chain Center's main features. The set-up feature lets you get Microsoft Supply Chain Center ready without needing a lengthy implementation phase. Other features can be selected from the title pane and navigation pane. For more information, and some tips and tricks that can help you navigate Microsoft Supply Chain Center and all its features, see [Navigate Supply Chain Center](./get-started/navigate.md).
 
 ## Navigation pane
 
