@@ -61,7 +61,7 @@ You can't reset the trial environment. However, you can wait for the trial perio
 
 ### How do I extend the trial?
 
-You can extend the trial for another trial period in the Power Platform admin center. For instructions, see [Extend your trial](https://learn.microsoft.com/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial one time.
+You can extend the trial for another trial period in the Power Platform admin center. For instructions, see [Extend your trial](/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial one time.
 
 ### Can I convert the trial to a paid license?
 
