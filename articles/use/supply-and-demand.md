@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Supply & demand insights overview
 
-Microsoft Supply Chain Center’s Supply & demand insights home page presents five key performance indicators (KPIs) for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance. A personalized view of these KPIs can also be created through the My analytics feature which can be found by click "Create custom view" in the top bar of the Supply and demand insights module or "My analytics" in the left navigation pane.
+Microsoft Supply Chain Center’s Supply & demand insights home page presents five key performance indicators (KPIs) for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance. A personalized view of these KPIs can also be created through the My analytics feature which can be found by selecting **Create custom view** in the top bar of the Supply and demand insights module or **My analytics** in the left navigation pane.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5azzg]
 
@@ -214,55 +214,55 @@ Supply Chain Center has AI-driven optimal inventory. You can access it by select
 
 ## Downloading reports
 
-You can download the individual charts as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of a given report and then selecting **Export data** on the menu. Then menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
+You can download the individual charts as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of a given report, and then selecting **Export data** on the menu. Then menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
 
 ![A screenshot of the dropdown to export the open orders report of the supply coverage KPI.](media/supply-and-demand-supply-coverage-open-orders-export.png)
 
 ## My analytics
 
-Use the My analytics feature to customize the out-of-the-box KPIs found in the Supply and demand insights module. Change a line chart to a bar chart, remove an out-of-the-box chart completely, or make other edits to fit your company’s needs. Changes you make to out-of-the-box KPIs are saved under My analytics and they do not overwrite your KPIs within Supply and Demand insights module.
+Use the **My analytics** feature to customize the out-of-the-box KPIs found in the **Supply and demand insights** module. Change a line chart to a bar chart, remove an out-of-the-box chart completely, or make other edits to fit your company’s needs. Changes you make to out-of-the-box KPIs are saved under **My analytics** and they do not overwrite your KPIs within **Supply and Demand insights** module.
 
 ### Edit reports
 
-Your reports can be found as tabs at the bottom of the My analytics page. Switch reports by changing tabs or create a new report from scratch with a “+” button.
+Your reports can be found as tabs at the bottom of the **My analytics** page. Switch reports by changing tabs or create a new report from scratch using the **+** button.
 
 >[!Note]
-> All PBI capabilities for new reports is not currently supported by Supply Chain Center
+> All PBI capabilities for new reports is not currently supported by Supply Chain Center.
 
-Initially, the list of tabs corresponds to the different pages within the Supply and demand insights module and each tab contains the same information. These reports are a copy of what is in the Supply and demand insights module, so changes made in My analytics won’t appear in the module.
+Initially, the list of tabs corresponds to the different pages within the **Supply and demand insights** module and each tab contains the same information. These reports are a copy of what is in the **Supply and demand insights module**, so changes made in **My analytics** won’t appear in the module.
 
 ![A screenshot of My analytics with the tabs at the bottom highlighted](media/my-analytics-tabs.png)
 
 >[!Note]
-> Changes made in My analytics are permanent and can’t automatically be reverted to their original visuals. The reports within the Supply and demand insights module will remain unchanged so they can be used as a reference to reset My analytics.
+> Changes made in **My analytics** are permanent and can’t be reverted automatically to their original visuals. The reports within the **Supply and demand insights** module will remain unchanged so they can be used as a reference to reset **My analytics**.
 
 #### Add and edit charts
-The right side of the page contains the following three types of ways for you to edit the reports:
+The right side of the page contains the following options for you to edit the reports:
 
-1. Filters allows you to change or modify filters. The filter capability is driven from the data available in the data model on which these out of the box KPI’s are built.
-1. Visualizations allow the user to change the type of chart being used. For example, the user can change a line chart into a pie chart.
-1. Fields contains data models on which visualization can be built. These models come from the entities and calculations involving the entities for the out-of-the-box KPIs.
+- Filters allow you to change or modify filters. The filter capability is driven from the data available in the data model on which these out of the box KPI’s are built.
+- Visualizations allow you to change the type of chart being used. For example, you can change a line chart into a pie chart.
+- Fields contains data models on which visualization can be built. These models come from the entities and calculations involving the entities for the out-of-the-box KPIs.
 
-See the Build Report section of [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started#build-reports) to learn how fields, visualizations, and filters work together to create a chart. See [Take a tour of the report Filters pane](/power-bi/consumer/end-user-report-filter) and [Visualization types in Power BI](/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a) to get more information on filters and visualizations specifically.
+See the **Build Report** section of [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started#build-reports) to learn how fields, visualizations, and filters work together to create a chart. See [Take a tour of the report Filters pane](/power-bi/consumer/end-user-report-filter) and [Visualization types in Power BI](/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a) to get more information on filters and visualizations specifically.
 
 >[!Note]
-> My analytics does not support user-specific changes. Edits to the reports within My analytics will be available to all users in your Supply Chain Center environment.
+> **My analytics** does not support user-specific changes. Edits to the reports within **My analytics** are available to all users in your Supply Chain Center environment.
 
 ![A screenshot of My analytics with the filters, visualizations, and fields panes expanded](media/my-analytics-filters-visualizations-fields.png)
 
 #### Remove charts or export the underlying data
-You can remove a chart from a report or to download the raw data powering that chart using the same method. First click the **More options** button in the top right corner of a chart and then select “Remove” or "Export data" from the dropdown.
+You can remove a chart from a report or download the raw data that powers the chart using the same method. First select the **More options** button in the top right corner of a chart, and then select **Remove** or **Export data**.
 
 ![A screenshot of the dropdown menu to remove a chart or export its data](media/my-analytics-export-or-remove.png)
 
 ### Personalize your report
-You can personalize your report by adding text, shapes, and buttons to your report. These can be found in the top bar of My analytics. Buttons can also double as a method for adding images by the following process:
+You can personalize your report by adding text, shapes, and buttons to your report. These can be found in the top bar of **My analytics**. Buttons can also double as a method for adding images by using the following process:
 
 1.	Click **Buttons** before selecting **Blank** from the dropdown.
 
-![A screenshot of selecting the "blank" button](media/my-analytics-image-step-1.png)
+![A screenshot of selecting the blank button](media/my-analytics-image-step-1.png)
  
-2.	With the button selected from the Format panel on the right side, turn on **Icon** section under **Style**. Change the icon type to “Custom” and then click **Browse** to upload an image.
+2.	With the button selected, from the **Format** panel on the right side, turn on **Icon** section under **Style**. Change the icon type to **Custom**, and then select **Browse** to upload an image.
 
 ![A screenshot of the format panel](media/my-analytics-image-step-2.png)
  
