@@ -5,7 +5,7 @@ summary: "  "
 
 metadata:
   title: Microsoft Supply Chain Center documentation
-  description: Microsoft Supply Chain Center description of the page will go here.
+  description: Microsoft Supply Chain Center is a secure, enterprise-grade solution that unlocks supply chain resiliency. It seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it is transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions.
   ms.service: dynamics-365-supply-chain-insights
   ms.topic: landing-page
   author: johnmichalak
