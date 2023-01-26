@@ -183,6 +183,8 @@ To enable **Commitment shortage**, the following entities are required:
 - Location
 - Inventory Transaction Unserialized Item
 
+> [!Video [https://www.microsoft.com/videoplayer/embed/RE5azzg](https://www.microsoft.com/en-us/videoplayer/embed/RE5cqYQ)]
+
 ### Projected inventory
 
 **Projected inventory** is the quantity of an item that's a shortfall or surplus for the on-hand demand. It's calculated as the difference between supply and firm demand. The following formula is used:
