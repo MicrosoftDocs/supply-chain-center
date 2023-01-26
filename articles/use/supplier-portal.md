@@ -6,7 +6,7 @@ ms.author: rahulmital
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
-ms.date: 11/3/2022
+ms.date: 01/26/2023
 ms.custom: bap-template
 ---
 
@@ -33,10 +33,8 @@ We’ve chosen to focus on the following scenarios because they are key concerns
 
 Supply Chain Center lets you schedule the automated ingestion of data from a customer’s data source for these two scenarios:
 
-- **Supplier Forecast**: Supplier Forecast Upload Template.xlsx
-- **Purchase Order Commits**: Supplier PO Commit Template.xlsx
-
-To receive a copy of the spreadsheet for each scenario, contact Support.
+- **Supplier Forecast**
+- **Purchase Order Commits**
 
 When you select either **Supplier Portal - Forecast** or **Purchase Order Commits**, you can view the entities that are required to ingest data from the data source into Supply Chain Center.
 
