@@ -34,11 +34,11 @@ Supply Chain Center ingests, stores and manages all supply chain data for its mo
 
 #### Data Schema
 
-Supply Chain Center expects all its data to conform to a common schema for its various modules to interoperate with each other. Supply Chain Center's schema is based on [Microsoft Azure Synapse Database Templates](/azure/synapse-analytics/database-designer/overview-database-templates) schema, which is a large set of schemas that span multiple industry verticals, including supply chain and logistics.
+Supply Chain Center expects all its data to conform to a common schema for its various modules to interoperate with each other. Supply Chain Center's schema is based on [Microsoft Azure Synapse Database Templates](/azure/synapse-analytics/database-designer/overview-database-templates) schema, which is a large set of schemas that span multiple industry verticals, including supply chain and logistics. For more information on the data scheme used in Supply Chain Center, see [Data schema](.../administer/data-schema.md)
 
 #### Ingestion
 
-As shown in the diagram above, there are multiple ways of ingesting data in Supply Chain Center. You can connect to your source ERP systems, pull and transform the data into the Supply Chain Center schema using Microsoft Power Query Dataflows. You can also leverage the Supplier portal to request structured information (such as PO commits) from your suppliers.
+As shown in the diagram above, there are multiple ways of ingesting data in Supply Chain Center. You can connect to your source ERP systems, pull and transform the data into the Supply Chain Center schema using Microsoft Power Query Dataflows. You can also leverage the Supplier portal to request structured information (such as PO commits) from your suppliers. See [Ingest data](../administer/ingest-data.md) and [Supplier portal](../use/supplier-portal.md) to learn more.
 
 #### Transactional Data
 
