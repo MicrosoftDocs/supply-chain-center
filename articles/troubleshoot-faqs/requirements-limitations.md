@@ -36,11 +36,13 @@ If you have trouble signing in to Supply Chain Center after you sign up, check y
 ### Import data using OneDrive for Business
 
 The following connectors require that the user of the Azure AD tenant have a license to [OneDrive for Business](https://learn.microsoft.com/en-us/power-query/sharepoint-onedrive-files). 
-•	Excel
-•	JSON
-•	PDF
-•	XML
-•	TXT/CSV
+
+- Excel
+- JSON
+- PDF
+- XML
+- TXT/CSV
+
 If the user does not have a license to OneDrive, the global admin can [purchase a subscription or sign up for a trial](https://learn.microsoft.com/en-us/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide) using the M365 admin center. From there the global admin can [assign licenses in M365](https://learn.microsoft.com/en-US/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide), such as OneDrive for Business, to the individual user within the Azure AD tenant. 
 
 
