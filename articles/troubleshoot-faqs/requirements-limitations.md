@@ -33,6 +33,17 @@ If you have trouble signing in to Supply Chain Center after you sign up, check y
 
 ## Data
 
+### Import data using OneDrive for Business
+
+The following connectors require that the user of the Azure AD tenant have a license to [OneDrive for Business](https://learn.microsoft.com/en-us/power-query/sharepoint-onedrive-files). 
+•	Excel
+•	JSON
+•	PDF
+•	XML
+•	TXT/CSV
+If the user does not have a license to OneDrive, the global admin can [purchase a subscription or sign up for a trial](https://learn.microsoft.com/en-us/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide) using the M365 admin center. From there the global admin can [assign licenses in M365](https://learn.microsoft.com/en-US/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide), such as OneDrive for Business, to the individual user within the Azure AD tenant. 
+
+
 ### Remove data functionality
 
 In the **General** section of the Admin center, **Remove data** removes all data, including data that you imported for yourself, data that was imported on behalf of your partners, and that is data shared by partners. When you select **Remove data** for the first time, sample data is removed, but the data connectors aren't deleted. Depending on the refresh schedule that the owner set, your data might automatically be uploaded again.
