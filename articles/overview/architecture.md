@@ -34,7 +34,7 @@ Supply Chain Center ingests, stores and manages all supply chain data for its mo
 
 #### Data Schema
 
-Supply Chain Center expects all its data to conform to a common schema for its various modules to interoperate with each other. Supply Chain Center's schema is based on [Microsoft Azure Synapse Database Templates](/azure/synapse-analytics/database-designer/overview-database-templates) schema, which is a large set of schemas that span multiple industry verticals, including supply chain and logistics. For more information on the data scheme used in Supply Chain Center, see [Data schema](.../administer/data-schema.md)
+Supply Chain Center expects all its data to conform to a common schema for its various modules to interoperate with each other. Supply Chain Center's schema is based on [Microsoft Azure Synapse Database Templates](/azure/synapse-analytics/database-designer/overview-database-templates) schema, which is a large set of schemas that span multiple industry verticals, including supply chain and logistics. For more information on the data scheme used in Supply Chain Center, see [Data schema](../administer/data-schema.md)
 
 #### Ingestion
 
