@@ -26,7 +26,7 @@ Supply Chain Center curates recent relevant news articles by using a trained AI 
 
 ![A screenshot of the navigation pane with the Home page and News page highlighted and the available news categories shown. ](media/homepage-news.png)
 
-If you select **Read article** on a tile, the news story is opened on a new tab.
+If you select **Read article** on a tile, the news story is opened in a new tab.
 
 ![A screenshot of a sample news article with the Read article link highlighted.](media/news-list-read-article.png)
 
