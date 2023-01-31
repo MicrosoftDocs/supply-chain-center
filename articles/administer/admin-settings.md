@@ -31,7 +31,7 @@ Removal of your data can take a few moments. Until it's completed, some modules 
 
 ## Data management
 
-To manage your company’s data or data that you want to ingest on behalf of a partner organization (supplier or customer), see the [data upload documentation](ingest-data.md). To request data from your supplier via the Supplier Portal feature, see the [Supplier Portal documentation.](../use/supplier-portal.md)
+To manage your company’s data or data that you want to ingest on behalf of a partner organization (supplier or customer), see the [Ingest data documentation](ingest-data.md). To request data from your supplier via the Supplier Portal feature, see the [Supplier Portal documentation.](../use/supplier-portal.md)
 
 ## Supply & demand insights
 
