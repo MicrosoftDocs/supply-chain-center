@@ -37,17 +37,17 @@ If you have trouble signing in to Supply Chain Center after you sign up, check y
 
 The listed data sources require that each user have a license to OneDrive for Business in order to [import data with Power Query](https://learn.microsoft.com/en-us/power-query/sharepoint-onedrive-files). You will receive the error messages pictured below if you try to connect to the listed data sources without a license to OneDrive.
 
-•	Excel
-•	JSON
-•	PDF
-•	XML
-•	TXT/CSV
+- Excel
+- JSON
+- PDF
+- XML
+- TXT/CSV
 
 ![A screenshot importing an xlsx file to data management error](media/xls-import.png)
 
 ![A screenshot importing a json file to data management error](media/json-import.png)
 
-If your Azure AD tenant does not have a subscription to OneDrive, your global admin can purchase a subscription or trial [Microsoft 365 for Business](https://www.microsoft.com/en-us/microsoft-365/microsoft-365-business-standard-one-month-trial), which includes OneDrive and other Microsoft services, or purchase a subscription to [OneDrive for Business](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans?activetab=tab:primaryr2) individually. From there the global admin can [assign licenses in M365](https://learn.microsoft.com/en-US/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide) to the individual MSCC user within the Azure AD tenant. 
+If your Azure AD tenant does not have a subscription to OneDrive, you can purchase a subscription or trial for [Microsoft 365 for Business](https://www.microsoft.com/en-us/microsoft-365/microsoft-365-business-standard-one-month-trial), including OneDrive and other Microsoft services, or purchase a subscription to [OneDrive for Business](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans?activetab=tab:primaryr2) individually. If you don't have a license assigned but your Azure AD tenant does have a subscription for OneDrive, your global admin can [assign licenses in M365](https://learn.microsoft.com/en-US/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide) to the individual MSCC user within the tenant. 
 
 
 ### Remove data functionality
