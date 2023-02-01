@@ -33,21 +33,22 @@ If you have trouble signing in to Supply Chain Center after you sign up, check y
 
 ## Data
 
-### Import data using OneDrive for Business
+### Required Licenses for Data Sources 
 
-The following connectors require that the user of the Azure AD tenant have a license to [OneDrive for Business](https://learn.microsoft.com/en-us/power-query/sharepoint-onedrive-files). 
+The listed data sources require that each user have a license to OneDrive for Business in order to [import data with Power Query](https://learn.microsoft.com/en-us/power-query/sharepoint-onedrive-files). You will receive the error messages pictured below if you try to connect to the listed data sources without a license to OneDrive.
 
-- Excel
-- JSON
-- PDF
-- XML
-- TXT/CSV
+•	Excel
+•	JSON
+•	PDF
+•	XML
+•	TXT/CSV
 
-If the user does not have a license to OneDrive, the global admin can [purchase a subscription or sign up for a trial](https://learn.microsoft.com/en-us/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide) using the M365 admin center. From there the global admin can [assign licenses in M365](https://learn.microsoft.com/en-US/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide), such as OneDrive for Business, to the individual user within the Azure AD tenant. 
+![A screenshot importing an xlsx file to data management error](media/xls-import.png)
 
-![A screenshot importing an xlsx file to data management](media/import_xsl.png)
+![A screenshot importing a json file to data management error](media/json-import.png)
 
-![A screenshot importing a json file to data management](media/import_json.png)
+If your Azure AD tenant does not have a subscription to OneDrive, your global admin can purchase a subscription or trial [Microsoft 365 for Business](https://www.microsoft.com/en-us/microsoft-365/microsoft-365-business-standard-one-month-trial), which includes OneDrive and other Microsoft services, or purchase a subscription to [OneDrive for Business](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans?activetab=tab:primaryr2) individually. From there the global admin can [assign licenses in M365](https://learn.microsoft.com/en-US/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide) to the individual MSCC user within the Azure AD tenant. 
+
 
 ### Remove data functionality
 
