@@ -33,9 +33,9 @@ If you have trouble signing in to Supply Chain Center after you sign up, check y
 
 ## Data
 
-### Required Licenses for Data Sources 
+### Required licenses for data sources 
 
-The listed data sources require that each user have a license to OneDrive for Business in order to [import data with Power Query](/power-query/sharepoint-onedrive-files). You'll receive the error messages pictured below if you try to connect to the listed data sources without a license to OneDrive.
+The following data sources require that each user have a license to OneDrive for Business in order to [import data by using Power Query](/power-query/sharepoint-onedrive-files):
 
 - Excel
 - JSON
@@ -43,12 +43,17 @@ The listed data sources require that each user have a license to OneDrive for Bu
 - XML
 - TXT/CSV
 
-![A screenshot importing an xlsx file to data management error](media/xls-import.png)
+If you try to connect to one of these data sources without a license to OneDrive, you'll receive the following error messages:
 
-![A screenshot importing a json file to data management error](media/json-import.png)
+> Invalid credentials. (Session ID: \<session ID\>, Region: \<region\>)
 
-If your Azure AD tenant doesn't have a subscription to OneDrive, you can purchase a subscription or trial for [Microsoft 365 for Business](/microsoft-365/microsoft-365-business-standard-one-month-trial), including OneDrive and other Microsoft services. Or you can purchase a subscription to [OneDrive for Business](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans?activetab=tab:primaryr2) individually. If you don't have a license assigned but your Azure AD tenant does have a subscription for OneDrive, your global admin can [assign licenses in M365](/microsoft-365/admin/manage/assign-licenses-to-users) to the individual MSCC user within the tenant. 
+![Example of the error message when an Excel file is imported into data management.](media/xls-import.png)
 
+> Your account does not have a sufficient license for OneDrive for Business to complete the requested action. Please contact your organization's Office 365 administrator.
+
+![Example of the error message when a JSON file is imported into data management.](media/json-import.png)
+
+If your Azure AD tenant doesn't have a subscription to OneDrive, you can purchase a subscription or trial for [Microsoft 365 for Business](/microsoft-365/microsoft-365-business-standard-one-month-trial), including OneDrive and other Microsoft services. Alternatively, you can purchase a subscription to [OneDrive for Business](https://www.microsoft.com/microsoft-365/onedrive/compare-onedrive-plans?activetab=tab:primaryr2) alone. If you don't have a license assigned, but your Azure AD tenant has a subscription for OneDrive, your global admin can [assign licenses in Microsoft 365](/microsoft-365/admin/manage/assign-licenses-to-users) to individual Supply Chain Center users in the tenant. 
 
 ### Remove data functionality
 
