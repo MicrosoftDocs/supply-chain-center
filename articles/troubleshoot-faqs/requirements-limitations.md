@@ -33,6 +33,28 @@ If you have trouble signing in to Supply Chain Center after you sign up, check y
 
 ## Data
 
+### Required licenses for data sources 
+
+The following data sources require that each user have a license to OneDrive for Business in order to [import data by using Power Query](/power-query/sharepoint-onedrive-files):
+
+- Excel
+- JSON
+- PDF
+- XML
+- TXT/CSV
+
+If you try to connect to one of these data sources without a license to OneDrive, you'll receive the following error messages:
+
+> Invalid credentials. (Session ID: \<session ID\>, Region: \<region\>)
+
+![Example of the error message when an Excel file is imported into data management.](media/xls-import.png)
+
+> Your account does not have a sufficient license for OneDrive for Business to complete the requested action. Please contact your organization's Office 365 administrator.
+
+![Example of the error message when a JSON file is imported into data management.](media/json-import.png)
+
+If your Azure AD tenant doesn't have a subscription to OneDrive, you can purchase a subscription or trial for [Microsoft 365 for Business](/microsoft-365/microsoft-365-business-standard-one-month-trial), including OneDrive and other Microsoft services. Alternatively, you can purchase a subscription to [OneDrive for Business](https://www.microsoft.com/microsoft-365/onedrive/compare-onedrive-plans?activetab=tab:primaryr2) alone. If you don't have a license assigned, but your Azure AD tenant has a subscription for OneDrive, your global admin can [assign licenses in Microsoft 365](/microsoft-365/admin/manage/assign-licenses-to-users) to individual Supply Chain Center users in the tenant. 
+
 ### Remove data functionality
 
 In the **General** section of the Admin center, **Remove data** removes all data, including data that you imported for yourself, data that was imported on behalf of your partners, and that is data shared by partners. When you select **Remove data** for the first time, sample data is removed, but the data connectors aren't deleted. Depending on the refresh schedule that the owner set, your data might automatically be uploaded again.
