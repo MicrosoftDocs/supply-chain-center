@@ -31,14 +31,19 @@ You need to have the news module installed. For more information, see [News](new
 # Functionality
 
 To get started with proactive supplier collaboration, you just need to add vendors through data management in the admin center of MSCC. 
+![A screenshot of a data ingestion area with news selected as the module and vendors as an entity that has successfully been staged and processed.](media/proactive-supplier-collaboration-data.png) 
 
 Then, you can see news articles about your vendors in the news feed. 
+![A screenshot of a news feed with different articles.](media/proactive-supplier-collaboration-news.png) 
 
 You can select an article to view the detail page. Here, you can select a partner to contact.    
+![A screenshot of the news detail page, which has a news article and a table under impact with partners, type, ID, and contact status. There is a button to contact partner in the top left.](media/proactive-supplier-collaboration-contact-partner.png) 
 
 Then, select a message type for what you want to communicate. 
+![A screenshot of the news detail page with an overlay titled Contact partners with the partner name. It asks to select a message type with 3 options.](media/proactive-supplier-collaboration-select-message-type.png) 
 
 Finally, you will see a draft e-mail that you can review and then select create draft to open the mail in your default mail client.
+![A screenshot of an e-mail draft overlaid on the news page. There is an option to give feedback in a thumbs up/down and the ability to create draft or discard.](media/proactive-supplier-collaboration-create-draft.png) 
 
 # What are Proactive Supplier Collaboration’s capabilities? 
 Proactive Supplier Collaboration uses text-davinci-003 generative AI model to draft the e-mail. It leverages Azure Open AI’s Content Moderator to help validate the response, along with an NGram-based relevance filter to ensure response is on-topic.
