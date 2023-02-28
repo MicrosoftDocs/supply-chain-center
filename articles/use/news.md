@@ -43,7 +43,7 @@ Each news article is assigned an impact score and a category by the same AI mode
 
 ## Impact score definitions
 
-Each article will automatically be assigned one of the following three impact labels.
+Each article will automatically be assigned one of the following three impact labels or no impact.
 
 - **Immediate impact**: Contains news that directly negatively impacts companies currently in your supply chain.
 - **Future impact**: Contains news that has the potential to negatively impact companies in your supply chain at some point in the future.
