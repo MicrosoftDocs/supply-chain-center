@@ -26,11 +26,11 @@ Supply Chain Center curates recent relevant news articles by using a trained AI 
 
 ![A screenshot of the navigation pane with the Home page and News page highlighted and the available news categories shown. ](media/homepage-news.png)
 
-If you select **Read article** on a tile, the news story is opened in a new tab.
+On the **News** page you can view a list of articles relevant to your supply chain.
 
 ![A screenshot of a sample news article with the Read article link highlighted.](media/news-list-read-article.png)
 
-If you select **Learn impacts** on a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
+If you select a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
 
 ![A screenshot of a sample news article with the Learn impacts link highlighted.](media/news-impact.png)
 
