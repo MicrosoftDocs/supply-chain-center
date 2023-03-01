@@ -26,11 +26,11 @@ Supply Chain Center curates recent relevant news articles by using a trained AI 
 
 ![A screenshot of the navigation pane with the Home page and News page highlighted and the available news categories shown. ](media/homepage-news.png)
 
-If you select **Read article** on a tile, the news story is opened in a new tab.
+On the **News** page you can view a list of articles relevant to your supply chain.
 
 ![A screenshot of a sample news article with the Read article link highlighted.](media/news-list-read-article.png)
 
-If you select **Learn impacts** on a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
+If you select a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
 
 ![A screenshot of a sample news article with the Learn impacts link highlighted.](media/news-impact.png)
 
@@ -43,7 +43,7 @@ Each news article is assigned an impact score and a category by the same AI mode
 
 ## Impact score definitions
 
-Each article will automatically be assigned one of the following three impact labels.
+Each article will automatically be assigned one of the following three impact labels or no impact.
 
 - **Immediate impact**: Contains news that directly negatively impacts companies currently in your supply chain.
 - **Future impact**: Contains news that has the potential to negatively impact companies in your supply chain at some point in the future.
