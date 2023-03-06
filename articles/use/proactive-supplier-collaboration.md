@@ -1,68 +1,65 @@
 --- 
 
-title: Proactive Supplier Collaboration
-
-description: This article provides information about Microsoft Supply Chain Center's Proactive Supplier Collaboration capability.
-
+title: Proactive supplier collaboration
+description: This article provides information about Microsoft Supply Chain Center's Proactive supplier collaboration capability.
 author: algiddin
-
 ms.author: algiddin
-
 ms.reviewer: johnmichalak 
-
 ms.service: supply-chain-center 
-
 ms.topic: conceptual 
-
-ms.date: 02/24/2023
-
+ms.date: 03/16/2023
 ms.custom: bap-template 
 
 --- 
 
-# Proactive Supplier Collaboration
+# Proactive supplier collaboration
 
-Proactive Supplier Collaboration drafts e-mails to supply chain vendors based on a user-selected topic and news article. If the topic is to follow-up on purchase orders, then open purchase order Ids with that vendor are included in the mail. Proactive Supplier Collaboration leverages generative AI to draft the e-mail and subject line.
+Proactive supplier collaboration drafts e-mails to supply chain vendors based on a user-selected topic and news article. If the topic is to follow-up on purchase orders, then any open purchase order Ids with that vendor are included in the mail. Proactive supplier collaboration uses generative AI to create the draft e-mail and subject line.
 
-# Prerequisites
+## Prerequisites
 
-You need to have the news module installed. For more information, see [News](news.md) 
+To use Proactive supplier collaboration, the **News** module must be installed. For more information, see [News](news.md) 
 
-# Functionality
+## Functionality
 
-To get started with proactive supplier collaboration, you just need to add vendors through data management in the admin center of MSCC. 
+To get started with Proactive supplier collaboration, you need to add vendors using **Data management** \> **My data** in the **Admin Center** of Microsoft Supply Chain Center. 
+
 ![A screenshot of a data ingestion area with news selected as the module and vendors as an entity that has successfully been staged and processed.](media/proactive-supplier-collaboration-data.png) 
 
-Then, you can see news articles about your vendors in the news feed. 
+After your vendors are added, you can see news articles about them in the news feed. 
+
 ![A screenshot of a news feed with different articles.](media/proactive-supplier-collaboration-news.png) 
 
-You can select an article to view the detail page. Here, you can select a partner to contact.    
+You can select an article to view the detail page. Here, you can select a partner to contact.  
+
 ![A screenshot of the news detail page, which has a news article and a table under impact with partners, type, ID, and contact status. There is a button to contact partner in the top left.](media/proactive-supplier-collaboration-contact-partner.png) 
 
 Then, select a message type for what you want to communicate. 
+
 ![A screenshot of the news detail page with an overlay titled Contact partners with the partner name. It asks to select a message type with 3 options.](media/proactive-supplier-collaboration-select-message-type.png) 
 
-Finally, you will see a draft e-mail that you can review and then select create draft to open the mail in your default mail client.
+Finally, you'll see a draft e-mail that you can review and then select create draft to open the mail in your default mail client.
+
 ![A screenshot of an e-mail draft overlaid on the news page. There is an option to give feedback in a thumbs up/down and the ability to create draft or discard.](media/proactive-supplier-collaboration-create-draft.png) 
 
-# What are Proactive Supplier Collaboration’s capabilities? 
-Proactive Supplier Collaboration uses text-davinci-003 generative AI model to draft the e-mail. It leverages Azure Open AI’s Content Moderator to help validate the response, along with an NGram-based relevance filter to ensure response is on-topic.
+## What are Proactive Supplier Collaboration’s capabilities? 
+Proactive Supplier Collaboration uses text-davinci-003 generative AI model to draft the e-mail. It uses Azure Open AI’s Content Moderator to help validate the response, along with an NGram-based relevance filter to ensure response is on-topic.
 
-# What is Proactive Supplier Collaboration’s intended use?
-The intended use of Proactive Supplier Collaboration is to provide a way for business users to more quickly and efficiently follow-up with their partners on supply chain disruptions in the news.
+## What is Proactive Supplier Collaboration’s intended use?
+Use Proactive Supplier Collaboration to provide a way for business users to follow up with their partners more quickly and efficiently regarding supply chain disruptions that have been reported in the news.
 
-# How was Proactive Supplier Collaboration evaluated? What metrics are used to measure performance?
+## How was Proactive Supplier Collaboration evaluated? What metrics are used to measure performance?
 Proactive Supplier Collaboration was evaluated with human judgment on a random sample of drafted e-mails from a random selection of news articles. To evaluate the system, our metrics included if the e-mail contained false information, if the e-mail content was relevant and actionable, if the e-mail was syntactically correct, if the topic was correctly incorporated into the e-mail, and the amount of editing needed before sending.
 
-# What are the limitations of Proactive Supplier Collaboration? How can users minimize the impact of Proactive Supplier Collaboration’s limitations when using it?
-Proactive Supplier Collaboration today only supports drafting e-mails in the English language. The e-mail draft is generated one time, and there is not additional support for editing the draft. As we are not able to test for every possible news situation, it is possible some generated e-mails may be of lower quality than the e-mails that we tested. This can be mitigated by always reviewing the draft e-mail before sending.
+## What are the limitations of Proactive Supplier Collaboration? How can users minimize the impact of Proactive Supplier Collaboration’s limitations when using it?
+Proactive Supplier Collaboration today only supports drafting e-mails in the English language. The e-mail draft is generated one time, and there isn't support for editing the draft. As we aren't able to test every possible news situation, it's possible some generated e-mails may be of lower quality than the e-mails that we tested. This can be mitigated by always reviewing the draft e-mail before sending.
 
-# What operational factors and settings allow for effective and responsible use of Proactive Supplier Collaboration?
-The selection you make for the news article to e-mail about, and the topic of the e-mail, will have significant influence on the generated e-mail. The generated e-mail should mention the impact on supply chain from the news article, and ask the partner about the selected topic.
+## What operational factors and settings allow for effective and responsible use of Proactive Supplier Collaboration?
+The selection you make for the news article to e-mail about, and the topic of the e-mail, will have significant influence on the generated e-mail. The generated e-mail should mention the impact on supply chain from the news article and ask the partner about the selected topic.
 
-# Troubleshooting
+## Troubleshooting
 You can edit your default mail:to client in your computer settings. If it's not working for you in Chrome, you can go to chrome://settings/handlers and allow sites to handle protocols. Then go to your mail client and allow it to handle mails.
 
-# Learn More
+## Learn More
 
 Link to future blog post (WIP)
