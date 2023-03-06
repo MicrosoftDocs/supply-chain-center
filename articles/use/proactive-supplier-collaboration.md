@@ -60,6 +60,9 @@ Proactive Supplier Collaboration today only supports drafting e-mails in the Eng
 # What operational factors and settings allow for effective and responsible use of Proactive Supplier Collaboration?
 The selection you make for the news article to e-mail about, and the topic of the e-mail, will have significant influence on the generated e-mail. The generated e-mail should mention the impact on supply chain from the news article, and ask the partner about the selected topic.
 
+# Troubleshooting
+You can edit your default mail:to client in your computer settings. If it's not working for you in Chrome, you can go to chrome://settings/handlers and allow sites to handle protocols. Then go to your mail client and allow it to handle mails.
+
 # Learn More
 
 Link to future blog post (WIP)
