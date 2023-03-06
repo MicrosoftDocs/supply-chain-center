@@ -26,39 +26,45 @@ To get started with Proactive supplier collaboration, you need to add vendors us
 
 ![A screenshot of a data ingestion area with news selected as the module and vendors as an entity that has successfully been staged and processed.](media/proactive-supplier-collaboration-data.png) 
 
-After your vendors are added, you can see news articles about them in the news feed. 
+After your vendors are added, you can see news articles about them in the **News** feed. 
 
 ![A screenshot of a news feed with different articles.](media/proactive-supplier-collaboration-news.png) 
 
-You can select an article to view the detail page. Here, you can select a partner to contact.  
+You can select an article to view the detail page. In the **Impact** section on the detail page, you can select a **Partner** to contact.  
 
 ![A screenshot of the news detail page, which has a news article and a table under impact with partners, type, ID, and contact status. There is a button to contact partner in the top left.](media/proactive-supplier-collaboration-contact-partner.png) 
 
-Then, select a message type for what you want to communicate. 
+Then, select a message type for what you want to communicate to the partner. 
 
 ![A screenshot of the news detail page with an overlay titled Contact partners with the partner name. It asks to select a message type with 3 options.](media/proactive-supplier-collaboration-select-message-type.png) 
 
-Finally, you'll see a draft e-mail that you can review and then select create draft to open the mail in your default mail client.
+Finally, you'll see a draft e-mail that you can review and then select **Create draft** to open the mail in your default e-mail client.
 
 ![A screenshot of an e-mail draft overlaid on the news page. There is an option to give feedback in a thumbs up/down and the ability to create draft or discard.](media/proactive-supplier-collaboration-create-draft.png) 
 
-## What are Proactive Supplier Collaboration’s capabilities? 
-Proactive Supplier Collaboration uses text-davinci-003 generative AI model to draft the e-mail. It uses Azure Open AI’s Content Moderator to help validate the response, along with an NGram-based relevance filter to ensure response is on-topic.
+## What are Proactive supplier collaboration’s capabilities? 
 
-## What is Proactive Supplier Collaboration’s intended use?
-Use Proactive Supplier Collaboration to provide a way for business users to follow up with their partners more quickly and efficiently regarding supply chain disruptions that have been reported in the news.
+Proactive supplier collaboration uses text-davinci-003 generative AI model to draft the e-mail. It uses Azure Open AI’s Content Moderator to help validate the response, along with an NGram-based relevance filter to ensure response is on-topic.
 
-## How was Proactive Supplier Collaboration evaluated? What metrics are used to measure performance?
-Proactive Supplier Collaboration was evaluated with human judgment on a random sample of drafted e-mails from a random selection of news articles. To evaluate the system, our metrics included if the e-mail contained false information, if the e-mail content was relevant and actionable, if the e-mail was syntactically correct, if the topic was correctly incorporated into the e-mail, and the amount of editing needed before sending.
+## What is Proactive supplier collaboration’s intended use?
 
-## What are the limitations of Proactive Supplier Collaboration? How can users minimize the impact of Proactive Supplier Collaboration’s limitations when using it?
-Proactive Supplier Collaboration today only supports drafting e-mails in the English language. The e-mail draft is generated one time, and there isn't support for editing the draft. As we aren't able to test every possible news situation, it's possible some generated e-mails may be of lower quality than the e-mails that we tested. This can be mitigated by always reviewing the draft e-mail before sending.
+Use Proactive supplier collaboration to provide a way for business users to follow up with their partners more quickly and efficiently regarding supply chain disruptions that have been reported in the news.
 
-## What operational factors and settings allow for effective and responsible use of Proactive Supplier Collaboration?
-The selection you make for the news article to e-mail about, and the topic of the e-mail, will have significant influence on the generated e-mail. The generated e-mail should mention the impact on supply chain from the news article and ask the partner about the selected topic.
+## How was Proactive supplier collaboration evaluated? What metrics are used to measure performance?
+
+Proactive supplier collaboration was evaluated with human judgment on a random sample of drafted e-mails from a random selection of news articles. To evaluate the system, our metrics included if the e-mail contained false information, if the e-mail content was relevant and actionable, if the e-mail was syntactically correct, if the topic was correctly incorporated into the e-mail, and the amount of editing needed before sending.
+
+## What are the limitations of Proactive supplier collaboration? How can users minimize the impact of Proactive supplier collaboration’s limitations when using it?
+
+Proactive supplier collaboration today only supports drafting e-mails in the English language. The e-mail draft is generated one time, and there isn't support for editing the draft. As we aren't able to test every possible news situation, it's possible some generated e-mails may be of lower quality than the e-mails that we tested. This can be mitigated by always reviewing the draft e-mail before sending.
+
+## What operational factors and settings allow for effective and responsible use of Proactive supplier collaboration?
+
+The selection you make for the news article you want to draft an e-mail about and the topic of the e-mail, will have significant influence on the generated e-mail. The generated e-mail should mention the impact on the supply chain from the news article and ask the partner about the selected topic.
 
 ## Troubleshooting
-You can edit your default mail:to client in your computer settings. If it's not working for you in Chrome, you can go to chrome://settings/handlers and allow sites to handle protocols. Then go to your mail client and allow it to handle mails.
+
+You can edit your default **mail:to** client in your computer settings. If it's not working for you in Chrome, you can go to **chrome://settings/handlers** and allow sites to handle protocols. Then go to your mail client and allow it to handle mails.
 
 ## Learn More
 
