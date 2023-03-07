@@ -1,7 +1,7 @@
 --- 
 
-title: Supplier News Communication
-description: This article provides information about Microsoft Supply Chain Center's supplier news communication capability.
+title: Supplier news communication
+description: This article provides information about Microsoft Supply Chain Center's Supplier news communication capability.
 author: algiddin
 ms.author: algiddin
 ms.reviewer: johnmichalak 
@@ -12,60 +12,68 @@ ms.custom: bap-template
 
 --- 
 
-# Supplier News Communication
+# Supplier news communication
 
-Supplier news communication drafts e-mails to supply chain vendors based on a user-selected topic and news article. If the topic is to follow-up on purchase orders, then any open purchase order Ids with that vendor are included in the mail. Supplier news communication uses generative AI to create the draft e-mail and subject line.
+Supplier news communication generates draft emails to supply chain vendors, based on user-selected topics and news articles. For example, if the topic is follow-up about purchase orders, any open purchase order IDs for that vendor are included in the email. Supplier news communication uses generative AI to create the draft email and the subject line.
 
 ## Prerequisites
 
-To use Supplier news communication, the **News** module must be installed. For more information, see [News](news.md) 
+Before you can use Supplier news communication, the **News** module must be installed. For more information, see [News](news.md).
 
 ## Functionality
 
-To get started with Supplier news communication, you need to add vendors using **Data management** \> **My data** in the **Admin Center** of Microsoft Supply Chain Center. 
+To get started with Supplier news communication, you must add vendors at **Data management** \> **My data** in the Microsoft Supply Chain Center Admin Center. Make sure that **News** is selected in the **Module** field.
 
-![A screenshot of a data ingestion area with news selected as the module and vendors as an entity that has successfully been staged and processed.](media/proactive-supplier-collaboration-data.png) 
+![Vendors entity added (successfully staged and processed) in the My data area.](media/proactive-supplier-collaboration-data.png)
 
-After your vendors are added, you can see news articles about them in the **News** feed. 
+After your vendors are added (successfully staged and processed), you can view news articles about them in the **News** feed.
 
-![A screenshot of a news feed with different articles.](media/proactive-supplier-collaboration-news.png) 
+![Example of articles in the News feed.](media/proactive-supplier-collaboration-news.png)
 
-You can select an article to view the detail page. In the **Impact** section on the detail page, you can select a **Partner** to contact.  
+You can select an article to view the details page for it. In the **Impact** section on the details page, the grid shows a list of partners that are affected, and gives the type, ID, and contact status for each.
 
-![A screenshot of the news detail page, which has a news article and a table under impact with partners, type, ID, and contact status. There is a button to contact partner in the top left.](media/proactive-supplier-collaboration-contact-partner.png) 
+To contact a partner, select it in the grid, and then select **Contact partner** at the top of the page.
 
-Then, select a message type for what you want to communicate to the partner. 
+![Partner selected for contact in the Impact section of an article's details page.](media/proactive-supplier-collaboration-contact-partner.png)
 
-![A screenshot of the news detail page with an overlay titled Contact partners with the partner name. It asks to select a message type with 3 options.](media/proactive-supplier-collaboration-select-message-type.png) 
+Next, in the **Contact partner** dialog box that appears on the right side of the page, select a message type that corresponds to the information that you want to communicate to the partner.
 
-Finally, you'll see a draft e-mail that you can review and then select **Create draft** to open the mail in your default e-mail client.
+![Message type options in the Contact partners dialog box.](media/proactive-supplier-collaboration-select-message-type.png)
 
-![A screenshot of an e-mail draft overlaid on the news page. There is an option to give feedback in a thumbs up/down and the ability to create draft or discard.](media/proactive-supplier-collaboration-create-draft.png) 
+Finally, in the **Create draft** dialog box, review the draft email that's shown. At the bottom of the dialog box, notice that there's an option to provide thumbs-up or thumbs-down feedback. There are also buttons for creating and discarding the current draft email. If you're satisfied with the draft email, select **Create draft** to open the email in your default email client.
 
-## What are Supplier news communication’s capabilities? 
+![Draft email for review in the Create draft dialog box.](media/proactive-supplier-collaboration-create-draft.png)
 
-Supplier news communication uses text-davinci-003 generative AI model to draft the e-mail. It uses Azure Open AI’s Content Moderator to help validate the response, along with an NGram-based relevance filter to ensure response is on-topic.
+## What are Supplier news communication's capabilities?
 
-## What is Supplier news communication’s intended use?
+Supplier news communication uses a text-davinci-003 generative AI model to draft the e-mail. It uses Azure Open AI's Content Moderator to help validate the response, and an NGram-based relevance filter to ensure that the response is on topic.
 
-Use Supplier news communication to provide a way for business users to follow up with their partners more quickly and efficiently regarding supply chain disruptions that have been reported in the news.
+## What is Supplier news communication's intended use?
 
-## How was Supplier news communication evaluated? What metrics are used to measure performance?
+Use Supplier news communication to enable business users to follow up with their partners more quickly and efficiently about supply chain disruptions that have been reported in the news.
 
-Supplier news communication was evaluated with human judgment on a random sample of drafted e-mails from a random selection of news articles. To evaluate the system, our metrics included if the e-mail contained false information, if the e-mail content was relevant and actionable, if the e-mail was syntactically correct, if the topic was correctly incorporated into the e-mail, and the amount of editing needed before sending.
+## How was Supplier news communication evaluated? What metrics were used to measure performance?
 
-## What are the limitations of Supplier news communication? How can users minimize the impact of Proactive supplier collaboration’s limitations when using it?
+Supplier news communication was evaluated through human judgment on a random sample of drafted emails from a random selection of news articles. Here are some of the metrics that were used to evaluate the system's performance:
 
-Supplier news communication today only supports drafting e-mails in the English language. The e-mail draft is generated one time, and there isn't support for editing the draft. As we aren't able to test every possible news situation, it's possible some generated e-mails may be of lower quality than the e-mails that we tested. This can be mitigated by always reviewing the draft e-mail before sending.
+- Does the email contain false information?
+- Is the email content relevant and actionable?
+- Is the email syntactically correct?
+- Was the topic correctly incorporated into the email?
+- How much editing was required before the email could be sent?
+
+## What are Supplier news communication's limitations? How can users minimize the impact of those limitations when they use Supplier news communication?
+
+Supplier news communication currently supports drafting emails only in the English language. The draft email is generated one time, and there isn't support for editing it. Because we can't test every possible news situation, some generated emails might be of lower quality than the emails that we tested. You can mitigate this limitation by reviewing every draft email before you send it.
 
 ## What operational factors and settings allow for effective and responsible use of Supplier news communication?
 
-The selection you make for the news article you want to draft an e-mail about and the topic of the e-mail, will have significant influence on the generated e-mail. The generated e-mail should mention the impact on the supply chain from the news article and ask the partner about the selected topic.
+The news article that you select to draft an email about, and the topic of the email, will significantly influence the generated email. The generated email should mention the impact that the news article will have on the supply chain, and should ask the partner about the selected topic.
 
 ## Troubleshooting
 
-You can edit your default **mail:to** client in your computer settings. If it's not working for you in Chrome, you can go to **chrome://settings/handlers** and allow sites to handle protocols. Then go to your mail client and allow it to handle mails.
+You can edit the default **mail:to** client in your computer settings. If Supplier news communication doesn't work for you in the Google Chrome browser, go to **chrome://settings/handlers**, and enable sites to handle protocols. Then go to your email client, and enable it to handle emails.
 
-## Learn More
+## Learn more
 
 Link to future blog post (WIP)
