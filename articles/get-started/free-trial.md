@@ -13,7 +13,7 @@ ms.custom: bap-template
 # Sign up for a free trial of Supply Chain Center's public preview
 
 Microsoft Supply Chain Center offers a free 180-day trial. After a quick sign-up, you'll have access to many of Supply Chain Center's key features. The trial lets you test Supply Chain Center using sample data, and you can even try it out using your own customer data. For more information, see [Supply Chain Center capabilities](../overview/capabilities.md).
-
+  
 To sign up for the Supply Chain Center trial, follow these steps.
 
 1. Go to Supply Chain Center's marketing page and select the **Try for free** button.
@@ -35,3 +35,4 @@ Your trial environment includes all of Supply Chain Center's features. The links
 - [Learn more about the trial](../troubleshoot-faqs/trial-faqs.md)
 - [See FAQs for the product](../troubleshoot-faqs/product-faqs.md)
 - [Find more assistance](preview-support.md)
+
