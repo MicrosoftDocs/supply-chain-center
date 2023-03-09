@@ -41,3 +41,5 @@ Each of these levels would be represented by PRODUCT GROUPs for each these group
 | ProductGroup | ProductGroupId | yes | string | 36 | The unique identifier of a Product Group. |
 | ProductGroup | ProductGroupDescription | no | string | 512 | The description of a Product Group. |
 | ProductGroup | ProductGroupName | no | string | 128 | The name of a Product Group. |
+
+EOF

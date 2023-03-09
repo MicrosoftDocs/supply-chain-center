@@ -38,3 +38,5 @@ A location is a physical point that can be defined as a single latitude / longit
 | Location | LocationAddressLine1 | no | string | 512 | The 'street' component of a location. Includes street name, apartment, suite number or PO Box. |
 | Location | LocationName | no | string | 128 | The name of a location. |
 | Location | LocationDescription | no | string | 512 | The description of a location. |
+
+EOF

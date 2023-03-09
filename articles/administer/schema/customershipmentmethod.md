@@ -23,3 +23,5 @@ ms.custom: bap-template
 | CustomerShipmentMethod | CustomerShipmentMethodNote | no | string | 1024 | A note, comment or additional information regarding the associated customer shipment method. |
 | CustomerShipmentMethod | PreferenceId | no | string | 36 | The unique identifier of a Preference. |
 | CustomerShipmentMethod | PeriodEndDate | no | date | 8 | The period end date for which the associated customer shipment method information is defined.  |
+
+EOF

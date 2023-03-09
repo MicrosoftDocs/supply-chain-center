@@ -99,3 +99,5 @@ To remove the sample data, go to the **General** section of the Admin Center, an
 ### How do I restore the sample data?
 
 The sample data can't be restored after it's removed.
+
+EOF

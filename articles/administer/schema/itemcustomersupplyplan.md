@@ -22,3 +22,5 @@ Supply plan quantity that is planned for a customer by the supplier.
 | ItemCustomerSupplyPlan | ItemSku | no | string | 20 | Unique Id of the item. |
 | ItemCustomerSupplyPlan | ItemCustomerSupplyPlanDate | no | date | 0 | Item customer plan date. |
 | ItemCustomerSupplyPlan | ItemCustomerSupplyPlanQuantity | no | decimal | 0 | Item customer supply plan quantity. |
+
+EOF

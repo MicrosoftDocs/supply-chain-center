@@ -91,3 +91,5 @@ By contrast, family branding has several advantages. Each new product is quickly
 | Product | ItemSku | no | string | 20 | The Stock Keeping Unit identifier, which is typically used for inventory-related activities. |
 | Product | ProductDescription | no | string | 512 | The description of the Product. |
 | Product | ProductName | no | string | 128 | The name of the Product, which normally corresponds to the 'marketing name' of the Product. |
+
+EOF
