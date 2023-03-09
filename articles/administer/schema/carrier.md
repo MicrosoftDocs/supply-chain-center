@@ -37,4 +37,4 @@ Carriers are often identified by their two or three character abbreviation. For 
 | Carrier | CustomAttributes | no | string | 4000 |   |
 | Carrier | UnapprovedIndirectAirCarrierIndicator | no | boolean | 1 | An indirect air carrier who has not completed the FAA security training program and does not have an FAA identification number. |
 | Carrier | CarrierTypeId | no | string | 36 | The unique identifier of a Carrier Type. |
-| Carrier | CarrierName | no | string | 128 | The name of a Carrier. |
+| Carrier | CarrierName | no | string | 128 | The name of a Carrier.. |

@@ -43,4 +43,4 @@ To change your personal settings, follow these steps.
 1. Make your selections on the **General** tab, and then select **Save**. Users can change their language preferences, decide whether they want the startup checklist to appear on the home page, and decide if they want the ISV module installation steps to show on the module library page.
 
 > [!Note]
-> Your changes take effect immediately when you select **Save**. The updated settings will be saved for future sign-ins.
+> Your changes take effect immediately when you select **Save**. The updated settings will be saved for future sign-ins..

@@ -22,4 +22,4 @@ The price set by the vendor for the minimum purchase quantity of the item for th
 | VendorItemPrice | ItemSku | yes | string | 20 | The Stock Keeping Unit identifier, which is typically used for inventory-related activities. |
 | VendorItemPrice | VendorItemPriceNote | no | string | 1024 | A note, comment or additional information regarding the vendor item price. |
 | VendorItemPrice | VendorItemPrice | no | decimal | 9 | The price set by the vendor for the minimum purchase quantity of the item. |
-| VendorItemPrice | PeriodEndDate | no | date | 14 | The period end date. |
+| VendorItemPrice | PeriodEndDate | no | date | 14 | The period end date.. |

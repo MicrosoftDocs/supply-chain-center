@@ -58,4 +58,4 @@ A quantity of items, goods or bulk cargo that are shipped together.
 | Shipment | ShipmentBookingNumber | no | integer | 10 | Reservation number used to secure equipment and act as a control number prior to completion of a B/L. |
 | Shipment | ShipmentOrderId | no | string | 36 | The unique number that identifies an Order. |
 | Shipment | EstimatedNumberDeliveryDays | no | integer | 9 | The estimated number of days to deliver the Shipment. |
-| Shipment | ShipmentOrderLineNumber | no | integer | 9 | The number that identifies the Order Line Item. |
+| Shipment | ShipmentOrderLineNumber | no | integer | 9 | The number that identifies the Order Line Item.. |
