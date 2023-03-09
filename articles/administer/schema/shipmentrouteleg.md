@@ -61,4 +61,4 @@ The route leg that a shipment transits (already has transited) or is planned to 
 | ShipmentRouteLeg | PlannedDepartureTimestamp | no | timestamp | 14 | The planned departure timestamp. |
 | ShipmentRouteLeg | PlannedLatestDeliveryTimestamp | no | timestamp | 14 | The latest that the shipment items can be delivered. |
 | ShipmentRouteLeg | ActualDepartureTimestamp | no | timestamp | 14 | The actual departure timestamp. |
-| ShipmentRouteLeg | PlannedArrivalTimestamp | no | timestamp | 14 | The planned arrival timestamp. |
+| ShipmentRouteLeg | PlannedArrivalTimestamp | no | timestamp | 14 | The planned arrival timestamp.. |

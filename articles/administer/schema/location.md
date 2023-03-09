@@ -37,4 +37,4 @@ A location is a physical point that can be defined as a single latitude / longit
 | Location | LocationElevationUnitOfMeasureId | no | string | 36 | The elevation unit of measurement. |
 | Location | LocationAddressLine1 | no | string | 512 | The 'street' component of a location. Includes street name, apartment, suite number or PO Box. |
 | Location | LocationName | no | string | 128 | The name of a location. |
-| Location | LocationDescription | no | string | 512 | The description of a location. |
+| Location | LocationDescription | no | string | 512 | The description of a location.. |

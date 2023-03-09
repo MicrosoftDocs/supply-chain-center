@@ -21,4 +21,4 @@ The relationship of two or more Product Groups.
 | RelatedProductGroup | ProductGroupId | yes | string | 36 | The unique identifier of a Product Group. |
 | RelatedProductGroup | RelatedProductGroupId | yes | string | 36 | The unique identifier of a Product Group. |
 | RelatedProductGroup | ProductGroupRelationshipNote | no | string | 1024 | A note, comment or additional information regarding the product group relationship. |
-| RelatedProductGroup | PeriodEndDate | no | date | 8 | The period end date of the product relationship. |
+| RelatedProductGroup | PeriodEndDate | no | date | 8 | The period end date of the product relationship.. |

@@ -24,5 +24,5 @@ The News module proactively notifies you about current events that may affect yo
 
 ## ISV modules
 
-For more information about modules that are currently available, see [ISV modules](use/isv-modules.md).
+For more information about modules that are currently available, see [ISV modules](use/isv-modules.md)..
 

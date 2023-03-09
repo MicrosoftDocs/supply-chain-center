@@ -71,4 +71,4 @@ A tab for the installed Overhaul module appears within the left menu, which make
 13. Enter your Overhaul account credentials, and then select **Sign In**.
 14. After you're signed in, you can see your Overhaul Command Center.
 
-![A screenshot of the Overhaul module Comand Center.](media/comand-center.png)
+![A screenshot of the Overhaul module Comand Center.](media/comand-center.png).

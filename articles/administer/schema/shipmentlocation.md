@@ -24,4 +24,4 @@ A location of a shipment.
 | ShipmentLocation | ShipmentLocationGpsLatitudePosition | no | decimal | 14 | The GPS position of the Shipment Location. expressed in latitude. This may be an in-transit location.</br></br>For example:GPS Coords (Ex= 39deg 58.589min) - seconds are converted to decimal format. |
 | ShipmentLocation | PeriodEndTimestamp | no | timestamp | 14 | The period end timestamp that the shipment was at the shipping location. |
 | ShipmentLocation | VendorId | no | string | 36 | The unique identifier of a Vendor. |
-| ShipmentLocation | ShipmentLocationGpsLongitudePosition | no | decimal | 14 | The GPS position of the Shipment expressed in longitude. This may be an in-transit location.</br></br>For example: GPS Coords (Ex= 39deg 58.589min) - seconds are converted to decimal format. |
+| ShipmentLocation | ShipmentLocationGpsLongitudePosition | no | decimal | 14 | The GPS position of the Shipment expressed in longitude. This may be an in-transit location.</br></br>For example: GPS Coords (Ex= 39deg 58.589min) - seconds are converted to decimal format.. |

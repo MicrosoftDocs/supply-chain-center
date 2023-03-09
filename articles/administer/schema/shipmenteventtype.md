@@ -100,4 +100,4 @@ A term sometimes used for stowing cargo in a container."
 | --- | --- | --- | --- | --- | --- |
 | ShipmentEventType | ShipmentEventTypeId | yes | string | 36 | The unique identifier of a Shipment Event Type. |
 | ShipmentEventType | ShipmentEventTypeDescription | no | string | 512 | The description of a Shipment Event Type. |
-| ShipmentEventType | ShipmentEventTypeName | no | string | 128 | The name of a Shipment Event Type. |
+| ShipmentEventType | ShipmentEventTypeName | no | string | 128 | The name of a Shipment Event Type.. |
