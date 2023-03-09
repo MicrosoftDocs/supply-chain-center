@@ -24,5 +24,3 @@ A specific Inventory Transaction that is applied to or carried out at a specific
 | InventoryTransaction | TransactionRequestedTimestamp | no | timestamp | 8 | The timestamp that the Item Inventory Location Transaction was requested. |
 | InventoryTransaction | InventoryTransactionStatusId | no | string | 36 | The unique identifier of an Inventory Transaction Status. |
 | InventoryTransaction | ToWarehouseId | no | string | 36 | The unique identifier of a Warehouse. |
-
-EOF

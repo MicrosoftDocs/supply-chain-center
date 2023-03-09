@@ -21,5 +21,3 @@ The on-hand balance for the associated timestamp. The quantity of an item shown 
 | WarehouseItemBalance | WarehouseId | yes | string | 36 | The unique identifier of a Warehouse. |
 | WarehouseItemBalance | ActualItemQuantity | no | decimal | 9 | The actual Item on-hand balance for the associated period. |
 | WarehouseItemBalance | PlannedItemQuantity | no | decimal | 9 | The planned Item on-hand balance for the associated period. |
-
-EOF

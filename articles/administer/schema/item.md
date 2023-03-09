@@ -76,5 +76,3 @@ Items are classified as follows:
 | Item | ItemVolume | no | decimal | 6 | The standard item volume. |
 | Item | ItemWeight | no | decimal | 6 | The standard item weight. |
 | Item | ItemVolumeUomId | no | string | 36 | The unique identifier of a Unit Of Measure. |
-
-EOF

@@ -53,5 +53,3 @@ A document or commission by the customer to order products.
 | Order | CustomerId | no | string | 36 | The unique identifier of a customer. |
 | Order | OrderReceivedTimestamp | no | timestamp | 8 | The timestamp that the Order was received from the Customer/Customer Account. |
 | Order | OrderEnteredByEmployeeId | no | string | 36 | The employee ID of the employee entering the Order into the order entry system. |
-
-EOF

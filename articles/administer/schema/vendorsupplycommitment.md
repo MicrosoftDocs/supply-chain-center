@@ -24,5 +24,3 @@ A vendor supply commitment is essentially an acknowledgement of a purchase order
 | VendorSupplyCommitment | VendorSupplyCommitmentQuantity | no | decimal | 9 | The quantity of the item that will be fulfilled in this commitment. |
 | VendorSupplyCommitment | VendorSupplyCommitmentShipmentDate | no | timestamp | 14 | The date that a vendor intends to ship a specific supply commitment. |
 | VendorSupplyCommitment | VendorSupplyCommitmentDeliveryDate | no | timestamp | 14 | The date that a vendor intends to deliver a specific supply commitment. |
-
-EOF

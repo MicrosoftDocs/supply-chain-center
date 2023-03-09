@@ -62,5 +62,3 @@ Pivots are used to navigate between two or more areas of related content. In the
 ![A screenshot of the Supply & demand insights page with the overview and AI recommendations tabs highlighted. ](media/pivots-supply-coverage.png)
 
 Because many pivots are on the same page, they are based on the same level of the information hierarchy and usually provide a similar amount of detail. In this way, pivots differ from breadcrumbs, where pages increase in their specificity.
-
-EOF

@@ -33,5 +33,3 @@ An event that is associated with a Shipment to track its progress or status as i
 | ShipmentEvent | ShipmentEventTypeName | no | string | 256 | Name of the shipment event |
 | ShipmentEvent | TrackingIdentifier | no | string | 256 | Tracking number of the shipment |
 | ShipmentEvent | ShipmentReferenceNumberTypeName | no | string | 256 | Name of the shipment reference number type |
-
-EOF
