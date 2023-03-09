@@ -62,4 +62,4 @@ Because Supply Chain Center and its modules run on top of Power Platform, you ca
 
 Supply Chain Center includes a dedicated web portal through which business users can interact with the functionality provided by modules. As an example, they can look at critical supply chain KPIs, review relevant news articles that can impact their supply chain, etc.
 
-In addition, IT admins can use the web portal's admin settings to discover and configure new modules and set up and monitor data ingestion and transformation pipeline.
+In addition, IT admins can use the web portal's admin settings to discover and configure new modules and set up and monitor data ingestion and transformation pipeline..

@@ -285,4 +285,4 @@ Buttons can also be used to add images, as described in the following procedure.
 
     ![Microsoft logo added to a report.](media/my-analytics-image-step-3.png)
 
-3. Adjust the size and position of the uploaded image until you're satisfied with the result.
+3. Adjust the size and position of the uploaded image until you're satisfied with the result..

@@ -44,4 +44,4 @@ For example:
 | VendorLocation | PhoneNumber | no | string | 256 | Phone number of the vendor |
 | VendorLocation | CustomerId | no | string | 36 | Customer Id the vendor maintains |
 | VendorLocation | CustomerWarehouseId | no | string | 36 | Warehouse Id the vendor services or supports |
-| VendorLocation | Fax | no | string | 256 | Fax number of the vendor |
+| VendorLocation | Fax | no | string | 256 | Fax number of the vendor. |

@@ -50,4 +50,4 @@ The customer order that contains the items, quantity and date required.
 | OrderLine | QuantityBacklog | no | decimal | 9 | The quantity on backlog. |
 | OrderLine | QuantityBooked | no | decimal | 9 | The quantity of Product booked. |
 | OrderLine | QuantityCancelled | no | decimal | 9 | The quantity of Order Line Items cancelled. |
-| OrderLine | AcceptedQuantity | no | decimal | 9 | The quantity of Order Line Item products accepted. |
+| OrderLine | AcceptedQuantity | no | decimal | 9 | The quantity of Order Line Item products accepted.. |

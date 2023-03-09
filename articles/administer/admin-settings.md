@@ -56,5 +56,5 @@ To learn more about the supply chain KPIs, see the [Supply & demand insights mod
 
 The **Restock recommendations** page lets users configure settings that affect the recommendations about when and how much inventory to order for a specific product at a specific location. You should configure the settings if you have a target service level that you want to meet, or if you have cost information that will be used to recommend the optimal target service level. To learn more about these settings, see [Configure and review restock recommendations](../use/restock-recommendations.md).
 
-![A screenshot of the restock recommendation settings for the Supply & demand insights module.](media/admin-center-supply-and-demand-restock-recommendation-settings.png)
+![A screenshot of the restock recommendation settings for the Supply & demand insights module.](media/admin-center-supply-and-demand-restock-recommendation-settings.png).
 
