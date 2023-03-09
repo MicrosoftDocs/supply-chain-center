@@ -48,3 +48,5 @@ The lines on a shipment each consisting of one item.
 | ShipmentItem | WeightUnitOfMeasureId | no | string | 36 | The unique identifier of a Unit Of Measure. |
 | ShipmentItem | ItemLength | no | decimal | 9 | The length of the Item. |
 | ShipmentItem | ItemWidth | no | decimal | 9 | The width of the Item. |
+
+EOF

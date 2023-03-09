@@ -44,3 +44,5 @@ To change your personal settings, follow these steps.
 
 > [!Note]
 > Your changes take effect immediately when you select **Save**. The updated settings will be saved for future sign-ins.
+
+EOF

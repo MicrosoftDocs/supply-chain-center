@@ -24,3 +24,5 @@ The one or more locations that comprise a route in the associated sequence.
 | CarrierRouteLeg | PlannedRouteLegTransitTime | no | string | 256 | The planned transit time for completion of the leg in hours. |
 | CarrierRouteLeg | PlannedRouteLegDistance | no | integer | 8 | The planned route leg distance in miles. |
 | CarrierRouteLeg | ToLocationId | no | string | 36 | The unique identifier of a Shipping Location. |
+
+EOF

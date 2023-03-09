@@ -20,3 +20,5 @@ The customer location(s) of the associated Location Type for the indicated perio
 | CustomerLocation | PeriodStartTimestamp | yes | timestamp | 8 | The period start timestamp associated with the information. |
 | CustomerLocation | CustomerId | yes | string | 36 | The unique identifier of a Customer. |
 | CustomerLocation | LocationTypeId | yes | string | 36 | The unique identifier of a Location Type. |
+
+EOF

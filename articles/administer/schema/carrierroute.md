@@ -32,3 +32,5 @@ To: Shanghai, China, To Location = SHA
 | CarrierRoute | RouteId | no | string | 36 | The unique identifier of a route. |
 | CarrierRoute | FromLocationId | no | string | 36 | The unique identifier of a Shipping Location. |
 | CarrierRoute | ToLocationId | no | string | 36 | The unique identifier of a Shipping Location. |
+
+EOF

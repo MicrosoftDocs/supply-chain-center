@@ -31,3 +31,5 @@ A Build Plan is the break down, usually by a specific Item, to accomplish the Ma
 | BuildPlan | BuildPlanName | no | string | 128 | The name of the Build Plan. |
 | BuildPlan | BuildPlanCreatedDate | no | date | 8 | The date that the Build Plan was created. |
 | BuildPlan | BuildPlanItemUnitQuantity | no | decimal | 8,2 | The total number of item(s) to be built under the associated Build Plan. |
+
+EOF

@@ -26,3 +26,5 @@ Forecast made for a specific time period for an item demanded by a customer.
 | ItemCustomerDemandForecast | UnitOfMeasureId | no | string | 36 | Unit of measure of the forecast quantity. |
 | ItemCustomerDemandForecast | CustomerId | no | string | 36 | Customer Id for the forecast. |
 | ItemCustomerDemandForecast | ItemCustomerDemandForecastName | no | string | 256 | Name of the forecast. |
+
+EOF

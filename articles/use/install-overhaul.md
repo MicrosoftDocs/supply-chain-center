@@ -72,3 +72,5 @@ A tab for the installed Overhaul module appears within the left menu, which make
 14. After you're signed in, you can see your Overhaul Command Center.
 
 ![A screenshot of the Overhaul module Comand Center.](media/comand-center.png)
+
+EOF

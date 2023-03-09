@@ -31,3 +31,5 @@ For example:
 | PurchaseOrderRelatedParty | PartyId | yes | string | 36 | The unique identifier of a Party. |
 | PurchaseOrderRelatedParty | PurchaseOrderRelatedPartyNote | no | string | 1024 | A note, comment or additional information regarding the Purchase Order Party Relationship. |
 | PurchaseOrderRelatedParty | PurchaseOrderRelatedPartyEndDate | no | date | 8 | The end date of the Purchase Order Party Relationship. |
+
+EOF

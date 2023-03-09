@@ -20,3 +20,5 @@ The Product(s) that comprise or are members of the associated Product Group.
 | ProductGroupProduct | ProductId | yes | string | 36 | The unique identifier of a Product. |
 | ProductGroupProduct | ProductGroupId | yes | string | 36 | The unique identifier of a Product Group. |
 | ProductGroupProduct | PeriodEndDate | no | date | 8 | The period end date of the product relationship. |
+
+EOF

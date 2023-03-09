@@ -32,3 +32,5 @@ A Purchase Order is a contract between the buyer and seller that specifies the i
 | PurchaseOrder | ShipToName | no | string | 128 | The name of the person or organization that the PO items are to be shipped to (if different from the buyers). |
 | PurchaseOrder | PoFreightAmount | no | decimal | 9 | The total amount of freight due for the PO items. |
 | PurchaseOrder | PoProductAmount | no | decimal | 9 | The total product value of the PO exclusive of taxes, freight and any other costs. |
+
+EOF
