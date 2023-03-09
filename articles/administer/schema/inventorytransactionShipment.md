@@ -18,4 +18,4 @@ The shipments used to transport the items specified in the inventory transaction
 | --- | --- | --- | --- | --- | --- |
 | InventoryTransactionShipment | TransactionId | yes | string | 36 | The unique identifier of a Transaction. |
 | InventoryTransactionShipment | ShipmentItemNumber | yes | integer | 6 | The shipment line number. |
-| InventoryTransactionShipment | ShipmentId | yes | string | 36 | The unique identifier of a Shipment.. |
+| InventoryTransactionShipment | ShipmentId | yes | string | 36 | The unique identifier of a Shipment. |

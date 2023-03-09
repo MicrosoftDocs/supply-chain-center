@@ -23,4 +23,4 @@ The status of the Shipment Event. For example:
 | --- | --- | --- | --- | --- | --- |
 | ShipmentEventStatus | ShipmentEventStatusId | yes | string | 36 | The unique identifier of a Shipment Event Status. |
 | ShipmentEventStatus | ShipmentEventStatusDescription | no | string | 512 | The description of a Shipment Event Status. |
-| ShipmentEventStatus | ShipmentEventStatusName | no | string | 128 | The name of a Shipment Event Status.. |
+| ShipmentEventStatus | ShipmentEventStatusName | no | string | 128 | The name of a Shipment Event Status. |

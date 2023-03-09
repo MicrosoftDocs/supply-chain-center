@@ -98,4 +98,4 @@ To review recommendation status and results, complete the following procedure:
 1. In the navigation pane, select **Supply & demand**.
 1. Select **Supply & demand mismatch**.
 1. Select **Inventory turnover rate** or **Supply Coverage**.
-1. Select the **Restock recommendations** tab..
+1. Select the **Restock recommendations** tab.

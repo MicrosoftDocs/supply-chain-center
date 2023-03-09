@@ -87,4 +87,4 @@ Using the **Supplier portal** capabilities, you can request data from your suppl
 
 Using the **Module Library** , you can explore and activate the modules that are available in the Microsoft Supply Chain Center. Modules focus on specific areas in the supply chain lifecycle. You have the flexibility to choose as many modules as you require to meet your business needs. Modules are provided by Microsoft and other third parties and will grow in number over time. For more information, see [Module library](../use/module-library.md).
 
-![A screenshot of the Module library that shows the available modules.](media/module-library-modules-list.png).
+![A screenshot of the Module library that shows the available modules.](media/module-library-modules-list.png)

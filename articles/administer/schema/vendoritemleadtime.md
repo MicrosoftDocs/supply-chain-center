@@ -21,4 +21,4 @@ The leadtime expressed in days required to get the associated Item from the Vend
 | VendorItemLeadtime | PeriodStartDate | yes | date | 14 | The period start date. |
 | VendorItemLeadtime | AverageLeadTimeDays | no | integer | 9 | The lead time expressed in days that it takes to get the associated Item from the Vendor. |
 | VendorItemLeadtime | NegotiatedLeadTimeDays | no | integer | 9 | The negotiated lead time expressed in days agreed by the vendor/supplier to provide the associated Item. |
-| VendorItemLeadtime | PeriodEndDate | no | date | 14 | The period end date.. |
+| VendorItemLeadtime | PeriodEndDate | no | date | 14 | The period end date. |
