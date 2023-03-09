@@ -28,4 +28,4 @@ A supply plan that a vendor makes for an item.
 | ItemVendorSupplyPlan | ItemVendorSupplyPlanEndDate | no | timestamp | 0 | End date of the item vendor supply plan |
 | ItemVendorSupplyPlan | ToWarehouseId | no | string | 36 | Vendor supply plan for the To location Id. |
 | ItemVendorSupplyPlan | ItemVendorSupplyPlanQuantity | no | decimal | 0 | Item vendor supply plan quantity. |
-| ItemVendorSupplyPlan | ItemVendorSupplyPlanStartDate | no | timestamp | 0 | Start date of the item vendor supply plan.. |
+| ItemVendorSupplyPlan | ItemVendorSupplyPlanStartDate | no | timestamp | 0 | Start date of the item vendor supply plan. |

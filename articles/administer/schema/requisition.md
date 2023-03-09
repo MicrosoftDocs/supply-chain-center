@@ -20,4 +20,4 @@ A Requisition is an internal document prepared to detail funding and authorizati
 | Requisition | PartyId | no | string | 36 | The unique identifier of a Party. |
 | Requisition | DocumentId | no | string | 36 | The unique identifier of a Document. |
 | Requisition | RequisitionSubmittedDate | no | date | 8 | The date that the Requisition was submitted for approval/fulfillment. |
-| Requisition | RequisitionSubmittedByName | no | string | 128 | The name of the person submitting the Requisition.. |
+| Requisition | RequisitionSubmittedByName | no | string | 128 | The name of the person submitting the Requisition. |

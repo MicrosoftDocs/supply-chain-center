@@ -20,4 +20,4 @@ The on-hand balance for the associated timestamp. The quantity of an item shown 
 | WarehouseItemBalance | ItemSku | yes | string | 20 | The Stock Keeping Unit identifier, which is typically used for inventory-related activities. |
 | WarehouseItemBalance | WarehouseId | yes | string | 36 | The unique identifier of a Warehouse. |
 | WarehouseItemBalance | ActualItemQuantity | no | decimal | 9 | The actual Item on-hand balance for the associated period. |
-| WarehouseItemBalance | PlannedItemQuantity | no | decimal | 9 | The planned Item on-hand balance for the associated period.. |
+| WarehouseItemBalance | PlannedItemQuantity | no | decimal | 9 | The planned Item on-hand balance for the associated period. |

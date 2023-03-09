@@ -24,4 +24,4 @@ Examples of Unit Of Measure are EA (eaches), Pack, LB (Pounds), KG (Kilograms), 
 | UnitOfMeasure | UnitOfMeasureAbbreviation | no | string | 3 | The abbreviation assigned to the Unit Of Measure. |
 | UnitOfMeasure | UnitOfMeasureTypeId | no | integer | 9 | The unique identifier of a Unit Of Measure Type. |
 | UnitOfMeasure | UnitOfMeasureName | no | string | 128 | The name of a Unit Of Measure. |
-| UnitOfMeasure | UnitOfMeasureDescription | no | string | 512 | The description of a Unit Of Measure.. |
+| UnitOfMeasure | UnitOfMeasureDescription | no | string | 512 | The description of a Unit Of Measure. |

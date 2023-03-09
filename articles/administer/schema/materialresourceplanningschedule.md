@@ -26,4 +26,4 @@ Material resource planning (MRP) for an item with expected requirement date.
 | MaterialResourcePlanningSchedule | VendorId | no | string | 36 | Unique Id of the supplier or vendor. |
 | MaterialResourcePlanningSchedule | MRPPlanner | no | string | 40 | MRP planner associated with Material Resource Planning (MRP). |
 | MaterialResourcePlanningSchedule | UnitOfMeasureId | no | string | 36 | Unit of measure Id. |
-| MaterialResourcePlanningSchedule | WarehouseName | no | string | 256 | Name of the warehouse.. |
+| MaterialResourcePlanningSchedule | WarehouseName | no | string | 256 | Name of the warehouse. |

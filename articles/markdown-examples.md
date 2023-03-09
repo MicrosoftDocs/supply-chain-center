@@ -97,5 +97,5 @@ This is perfectly acceptable:
 | **row two** | **row two** | **row two** |
 | **row three** | **row three** | **row three** |
 
-Use </br> if you need a line break within a cell..
+Use </br> if you need a line break within a cell.
 

@@ -63,4 +63,4 @@ The route leg that a shipment transits (already has transited) or is planned to 
 | ShipmentRouteLegIOT | DeviceBatteryVoltage | no | float | 9 | Device VOLTAGE of the shipment |
 | ShipmentRouteLegIOT | DeviceLockFittedStatus | no | string | 256 | Device STATUS of the shipment |
 | ShipmentRouteLegIOT | DevicePowerSource | no | string | 256 | Device SOURCE of the shipment |
-| ShipmentRouteLegIOT | DeviceUnitModeDetail | no | string | 256 | Device DETAIL of the shipment. |
+| ShipmentRouteLegIOT | DeviceUnitModeDetail | no | string | 256 | Device DETAIL of the shipment |

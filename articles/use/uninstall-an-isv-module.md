@@ -33,4 +33,4 @@ To uninstall an ISV module, follow these steps.
 
 When the deletion process is completed, the module will be removed and reset in the Module Library.
 
-To validate that the module was successfully uninstalled, select **Module Library** in the navigation pane. If the module was successfully uninstalled, the **Add** button is shown instead of the **Open** button..
+To validate that the module was successfully uninstalled, select **Module Library** in the navigation pane. If the module was successfully uninstalled, the **Add** button is shown instead of the **Open** button.

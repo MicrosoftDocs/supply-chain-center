@@ -22,4 +22,4 @@ A charge or fee incurred by the shipment by the indicated party.
 | ShipmentCharge | ShipmentChargePaidTimestamp | no | timestamp | 14 | The timestamp that the shipment charge was paid. |
 | ShipmentCharge | ChargeByPartyId | no | string | 36 | The unique identifier of a Party. |
 | ShipmentCharge | ShipmentLegNumber | no | integer | 9 | The unique identifier of the Shipment Leg Number, which equals the shipment leg 'sequence number'. |
-| ShipmentCharge | ShipmentChargeAmount | no | decimal | 9 | The amount of the shipment charge.. |
+| ShipmentCharge | ShipmentChargeAmount | no | decimal | 9 | The amount of the shipment charge. |
