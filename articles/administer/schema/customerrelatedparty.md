@@ -20,4 +20,4 @@ A party that has a relationship with the customer over the indicated period.
 | CustomerRelatedParty | PeriodStartTimestamp | yes | timestamp | 8 | The period start timestamp for which the associated customer - party relationship is valid or in-effect. |
 | CustomerRelatedParty | CustomerId | yes | string | 36 | The unique identifier of a Customer. |
 | CustomerRelatedParty | PartyId | yes | string | 36 | The unique identifier of a Party. |
-| CustomerRelatedParty | PeriodEndTimestamp | no | timestamp | 8 | The period end timestamp for which the associated customer - party relationship is valid or in-effect.. |
+| CustomerRelatedParty | PeriodEndTimestamp | no | timestamp | 8 | The period end timestamp for which the associated customer - party relationship is valid or in-effect. |

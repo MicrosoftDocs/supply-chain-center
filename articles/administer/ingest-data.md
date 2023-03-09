@@ -115,4 +115,4 @@ To finalize the ingestion setup, the last step is to select the refresh schedule
 
 After you've finished the ingestion setup, you can review the status of your ingested entities and apply any updates that are required. For more information, see the [Review, update, and delete your data](review-update-delete-data.md) section.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5amRA].
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5amRA]

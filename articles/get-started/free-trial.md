@@ -36,4 +36,4 @@ Your trial environment includes all of Supply Chain Center's features. The links
 - [See FAQs for the product](../troubleshoot-faqs/product-faqs.md)
 - [Find more assistance](preview-support.md)
 
-EOF.
+EOF

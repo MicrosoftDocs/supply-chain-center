@@ -159,4 +159,4 @@ Once you complete the collaboration request, your supplier will see it once they
 
 You can view a list of collaboration requests that were sent to each supplier and download responses to those requests, but you can't change them. If changes are required, you can send another collaboration request.  
 
-![A screenshot of the Supplier Portal with a list of past requests.](media/supplier-portal-collaborations-list.png).
+![A screenshot of the Supplier Portal with a list of past requests.](media/supplier-portal-collaborations-list.png)

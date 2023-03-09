@@ -22,4 +22,4 @@ The stock is held to protect against the differences between forecast and actual
 | WarehouseItemSafetyStock | ItemSku | yes | string | 20 | The Stock Keeping Unit identifier, which is typically used for inventory-related activities. |
 | WarehouseItemSafetyStock | WarehouseId | yes | string | 36 | The unique identifier of a Warehouse. |
 | WarehouseItemSafetyStock | ActualSafetyStockItemQuantity | no | decimal | 9 | The quantity of Item that was actually on-hand at the Warehouse functioning as safety stock for the associated period. |
-| WarehouseItemSafetyStock | PlannedSafetyStockItemQuantity | no | decimal | 9 | The quantity of Item that is planned to be on-hand at the Warehouse functioning as safety stock for the associated period.. |
+| WarehouseItemSafetyStock | PlannedSafetyStockItemQuantity | no | decimal | 9 | The quantity of Item that is planned to be on-hand at the Warehouse functioning as safety stock for the associated period. |
