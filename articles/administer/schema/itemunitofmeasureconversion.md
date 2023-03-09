@@ -21,3 +21,5 @@ Unit of measure conversion relationship between various units of measure for the
 | ItemUnitOfMeasureConversion | ItemSku | yes | string | 36 | Unique Id of the item. |
 | ItemUnitOfMeasureConversion | ItemUnitOfMeasureConversionNote | no | string | 36 | Note for item unit of measure conversion. |
 | ItemUnitOfMeasureConversion | ConversionFactor | no | string | 36 | Conversion factor for unit of measure Id between from and to unit of measure. This value is a number. |
+
+EOF

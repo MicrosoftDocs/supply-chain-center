@@ -23,3 +23,5 @@ The status of the Vendor in regard to supplying the associated Item.
 | VendorItemStatus | VendorItemStatusNote | no | string | 1024 | A note, comment or additional information regarding the vendor item status. |
 | VendorItemStatus | PeriodEndDate | no | date | 14 | The period end date that the associated status information is effective. |
 | VendorItemStatus | VendorItemSku | no | string | 20 | The Stock Keeping Unit identifier specified by the Vendor. |
+
+EOF

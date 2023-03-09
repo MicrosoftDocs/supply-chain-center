@@ -22,3 +22,5 @@ The shipment items that are being transported on the shipment route leg shipment
 | ShipmentRouteLegEquipmentShipmentItem | ShipmentId | yes | string | 36 | The unique identifier of a Shipment. |
 | ShipmentRouteLegEquipmentShipmentItem | ShipmentLegNumber | yes | integer | 9 | The unique identifier of the Shipment Leg Number, which equals the shipment leg 'sequence number'. |
 | ShipmentRouteLegEquipmentShipmentItem | ShipmentRouteLegEquipmentShipmentItemNote | no | string | 1024 | A note, comment, or additional information regarding the shipment route leg equipment shipment item. |
+
+EOF

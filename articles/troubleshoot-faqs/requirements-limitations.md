@@ -86,3 +86,5 @@ If a supplier receives invitations from multiple Supply Chain Center customers, 
 ### Restock recommendations
 
 If your restock recommendations show 0 (zero), the quality of the data that you uploaded to Supply Chain Center might not be good enough to support a proper recommendation.
+
+EOF

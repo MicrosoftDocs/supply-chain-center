@@ -41,3 +41,5 @@ The actual customer implemented in each model depends upon the dominant use of c
 | LegalEntityCustomer | LegalEntityName | no | string | 128 | The business name of the Legal Entity. |
 | LegalEntityCustomer | FirstDateOfOperation | no | date | 8 | The first date that the Legal Entity entered into normal business operations. |
 | LegalEntityCustomer | CountryOfLegalEntityResidence | no | string | 64 | The country in which the Legal Entity has its primary business or official residence. |
+
+EOF

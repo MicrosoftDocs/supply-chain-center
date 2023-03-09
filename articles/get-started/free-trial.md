@@ -37,3 +37,5 @@ Your trial environment includes all of Supply Chain Center's features. The links
 - [Find more assistance](preview-support.md)
 
 EOF
+
+EOF

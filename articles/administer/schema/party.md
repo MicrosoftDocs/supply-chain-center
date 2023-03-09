@@ -26,3 +26,5 @@ In short, party enables the business to examine and record the real-world intera
 | Party | GlobalLocationNumber | no | decimal | 15 | The Global Location Number (GLN) is a simple tool used to uniquely identify locations. It can be used to identify physical locations such as a warehouse, legal entities, or a function / department within a legal entity. The GLN is part of the GS1 system of standards. |
 | Party | PartyTypeId | no | string | 36 | The unique identifier of a Party Type. |
 | Party | PartyName | no | string | 128 | The name of the Party. |
+
+EOF

@@ -77,3 +77,5 @@ To disconnect and delete the data of a single entity, on the **Data Management**
 > You must be the data connection owner of an entity in order to disconnect it. The data connection owner of an entity is the user who sets up the data connection and the ingestion configuration. For an entity where you are the data connection owner, **You** will be shown as the owner in the **Owner** column. If you aren’t the data connection owner of an entity, you will see the owner’s user name in the **Owner** column.
 
 ![A screenshot of a list of entities and their owner's name.](media/ingested-data-owners.png)
+
+EOF

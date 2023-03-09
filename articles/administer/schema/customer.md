@@ -56,3 +56,5 @@ In many industries both types of customers are represented since a legal entity 
 | Customer | CustomerEstablishedDate | no | date | 8 | The date that the Customer relationship was established. |
 | Customer | CustomerTypeId | no | string | 36 | The unique identifier of a Customer Type. |
 | Customer | PartyId | no | string | 36 | The unique identifier of a Party. |
+
+EOF

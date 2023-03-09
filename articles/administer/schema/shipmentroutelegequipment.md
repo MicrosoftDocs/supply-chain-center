@@ -35,3 +35,5 @@ The shipment mode(s) being utilized for the shipment route leg.
 | ShipmentRouteLegEquipment | TowboatId | no | string | 36 | The unique identifier of a towboat. |
 | ShipmentRouteLegEquipment | InterlineCargoTransferLocationIndicator | no | boolean | 14 | Indicates that the cargo is arriving at a point by one carrier and continuing its journey through another carrier. |
 | ShipmentRouteLegEquipment | AircraftId | no | string | 36 | The unique identifier of an Aircraft. |
+
+EOF
