@@ -21,5 +21,3 @@ A document associated with a Shipment.
 | ShipmentDocument | IsoCurrencyCode | no | string | 3 | The ISO 4217 currency code. |
 | ShipmentDocument | ShipmentDocumentIssuedTimestamp | no | timestamp | 14 | The timestamp when the shipment document was issued. |
 | ShipmentDocument | ShippingDocumentTypeId | no | string | 36 | The unique identifier of a Shipping Document Type. |
-
-EOF

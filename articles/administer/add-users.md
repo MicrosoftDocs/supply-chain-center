@@ -66,5 +66,3 @@ If you experience issues, please check the following:
 1. Go to the [Azure portal](https://portal.azure.com/), and check that the user’s usage location is set to the United States.
 1. Go to the [Azure portal](https://portal.azure.com/), and check that the user has been assigned a Supply Chain Center license. 
 1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and ensure the user has been added to the correct Dataverse environment and assigned the System Administrator role.
-
-EOF

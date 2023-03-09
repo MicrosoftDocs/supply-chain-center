@@ -22,5 +22,3 @@ The relationship of two or more Customers for the associated period of time.
 | RelatedCustomer | PeriodEndDate | no | date | 8 | The period end date for which the customer relationship is effective. |
 | RelatedCustomer | CustomerRelationshipTypeId | no | string | 36 | The unique identifier of a Household Relationship Type. |
 | RelatedCustomer | RelatedCustomerNote | no | string | 1024 | A note, comment or additional information regarding the customer relationship. |
-
-EOF

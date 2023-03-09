@@ -24,5 +24,3 @@ On the **Module library** page, you can view a list of all available modules, le
 To learn more about a specific module, select **View details**. The **Overview** tab shows more information about the value that the module provides, sample screenshots, or videos about the module. You can use the Details tab to learn about the data that is required to power the module, view documentation, provide feedback, and view available release notes.
 
 ![Screenshot of the details for the Supply and demand insights module/](media/module-library-supply-and-demand-details.png)
-
-EOF

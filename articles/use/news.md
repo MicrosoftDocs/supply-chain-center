@@ -75,5 +75,3 @@ To learn more about how the model works, please see our two blog posts:
 
 [Supply Chain News: Impact and Categories - Microsoft Research](https://www.microsoft.com/research/group/dynamics-insights-apps-artificial-intelligence-machine-learning/articles/supply-chain-news-impact-and-categories/)
 
-
-EOF

@@ -99,5 +99,3 @@ This is perfectly acceptable:
 
 Use </br> if you need a line break within a cell.
 
-
-EOF

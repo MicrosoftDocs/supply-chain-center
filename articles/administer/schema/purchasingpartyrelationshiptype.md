@@ -36,5 +36,3 @@ For example:
 | PurchasingPartyRelationshipType | PurchasingPartyRelTypeId | yes | string | 36 | The unique identifier of a Purchasing Party Relationship Type. |
 | PurchasingPartyRelationshipType | PurchasingPartyRelationshipTypeDescription | no | string | 512 | The description of a Purchasing Party Relationship Type. |
 | PurchasingPartyRelationshipType | PurchasingPartyRelationshipTypeName | no | string | 128 | The name of a Purchasing Party Relationship Type. |
-
-EOF

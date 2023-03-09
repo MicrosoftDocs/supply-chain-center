@@ -23,5 +23,3 @@ The last time for which the identified shipment service type is offered by the c
 | CarrierLocationCutoffTime | PeriodStartTimestamp | yes | timestamp | 8 | The period start timestamp associated with the information. |
 | CarrierLocationCutoffTime | CarrierLocationCutoffTime | no | timestamp | 8 | The last time for which the identified shipment service type is offered by the carrier on a particular day. |
 | CarrierLocationCutoffTime | PeriodEndTimestamp | no | timestamp | 8 | The period end timestamp associated with the information. |
-
-EOF

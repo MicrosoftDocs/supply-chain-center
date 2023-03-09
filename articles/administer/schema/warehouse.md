@@ -23,5 +23,3 @@ A warehouse is synonymous with a stockroom
 | Warehouse | WarehouseOrderCutoffTime | no | string | 256 | The latest time each day that new orders will be accepted for delivery for the next scheduled delivery day. |
 | Warehouse | PickAndPackLeadTime | no | string | 256 | The default time required to pick and pack an item at a warehouse. |
 | Warehouse | WarehouseName | no | string | 128 | The name of the Warehouse. |
-
-EOF

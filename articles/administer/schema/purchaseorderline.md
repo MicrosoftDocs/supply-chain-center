@@ -27,5 +27,3 @@ The specific products, goods or services that are identified on the Purchase Ord
 | PurchaseOrderLine | OrderLineNumber | no | integer | 9 | The number that identifies the Order Line Item. |
 | PurchaseOrderLine | UnitPrice | no | decimal | 9 | The unit price of the product. |
 | PurchaseOrderLine | DateRequired | no | date | 8 | The date that the items are required. |
-
-EOF

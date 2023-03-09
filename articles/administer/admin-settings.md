@@ -58,5 +58,3 @@ The **Restock recommendations** page lets users configure settings that affect t
 
 ![A screenshot of the restock recommendation settings for the Supply & demand insights module.](media/admin-center-supply-and-demand-restock-recommendation-settings.png)
 
-
-EOF

@@ -51,5 +51,3 @@ The customer order that contains the items, quantity and date required.
 | OrderLine | QuantityBooked | no | decimal | 9 | The quantity of Product booked. |
 | OrderLine | QuantityCancelled | no | decimal | 9 | The quantity of Order Line Items cancelled. |
 | OrderLine | AcceptedQuantity | no | decimal | 9 | The quantity of Order Line Item products accepted. |
-
-EOF
