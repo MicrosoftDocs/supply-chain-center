@@ -22,7 +22,7 @@ Before you can use Supplier news communication, the **News** module must be inst
 
 ## Functionality
 
-To get started with Supplier news communication, you must add vendors at **Data management** \> **My data** in the Microsoft Supply Chain Center Admin Center. Make sure that **News** is selected in the **Module** field.
+To get started with Supplier news communication, you must add vendors at [**Data management**](../administer/ingest-data.md) \> **My data** in the Microsoft Supply Chain Center Admin Center. Make sure that **News** is selected in the **Module** field.
 
 ![Vendors entity added (successfully staged and processed) in the My data area.](media/proactive-supplier-collaboration-data.png)
 
