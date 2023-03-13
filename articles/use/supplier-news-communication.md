@@ -24,25 +24,25 @@ Before you can use Supplier news communication, the **News** module must be inst
 
 To get started with Supplier news communication, you must add vendors at [**Data management**](../administer/ingest-data.md) \> **My data** in the Microsoft Supply Chain Center Admin Center. Make sure that **News** is selected in the **Module** field.
 
-![Vendors entity added (successfully staged and processed) in the My data area.](media/proactive-supplier-collaboration-data.png)
+![Vendors entity added (successfully staged and processed) in the My data area.](media/Supplier-news-communication-data.png)
 
 After your vendors are added (successfully staged and processed), you can view news articles about them in the **News** feed.
 
-![Example of articles in the News feed.](media/proactive-supplier-collaboration-news.png)
+![Example of articles in the News feed.](media/Supplier-news-communication-news.png)
 
 You can select an article to view the details page for it. In the **Impact** section on the details page, the grid shows a list of partners that are affected, and gives the type, ID, and contact status for each.
 
 To contact a partner, select it in the grid, and then select **Contact partner** at the top of the page.
 
-![Partner selected for contact in the Impact section of an article's details page.](media/proactive-supplier-collaboration-contact-partner.png)
+![Partner selected for contact in the Impact section of an article's details page.](media/Supplier-news-communication-contact-partner.png)
 
 Next, in the **Contact partner** dialog box that appears on the right side of the page, select a message type that corresponds to the information that you want to communicate to the partner.
 
-![Message type options in the Contact partners dialog box.](media/proactive-supplier-collaboration-select-message-type.png)
+![Message type options in the Contact partners dialog box.](media/Supplier-news-communication-select-message-type.png)
 
 Finally, in the **Create draft** dialog box, review the draft email that's shown. At the bottom of the dialog box, notice that there's an option to provide thumbs-up or thumbs-down feedback. There are also buttons for creating and discarding the current draft email. If you're satisfied with the draft email, select **Create draft** to open the email in your default email client.
 
-![Draft email for review in the Create draft dialog box.](media/proactive-supplier-collaboration-create-draft.png)
+![Draft email for review in the Create draft dialog box.](media/Supplier-news-communication-create-draft.png)
 
 ## What are Supplier news communication's capabilities?
 
