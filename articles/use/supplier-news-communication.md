@@ -44,6 +44,9 @@ Finally, in the **Create draft** dialog box, review the draft email that's shown
 
 ![Draft email for review in the Create draft dialog box.](media/Supplier-news-communication-create-draft.png)
 
+## How do I get access?
+Sign up for a preview [here](https://aka.ms/AIwaitlist).
+
 ## What are Supplier news communication's capabilities?
 
 Supplier news communication uses a text-davinci-003 generative AI model to draft the e-mail. It uses Azure Open AI's Content Moderator to help validate the response, and an NGram-based relevance filter to ensure that the response is on topic. It takes as input the title and snippet from the news article, the user-selected topic, and up to 5 upcoming open purchase orders to make sure the generated e-mail includes the relevant business context.
@@ -90,7 +93,3 @@ While we do have checks in place to reduce the likelihood of the e-mail containi
 ## Troubleshooting
 
 You can edit the default **mail:to** client in your computer settings. If Supplier news communication doesn't work for you in the Google Chrome browser, go to **chrome://settings/handlers**, and enable sites to handle protocols. Then go to your email client, and enable it to handle emails.
-
-## Learn more
-
-Link to future blog post (WIP)
