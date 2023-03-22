@@ -28,18 +28,18 @@ Supply Chain Center curates recent relevant news articles by using a trained AI 
 
 On the **News** page you can view a list of articles relevant to your supply chain.
 
-![A screenshot of a sample news article with the Read article link highlighted.](media/news-list-read-article.png)
+![A screenshot of a sample news article with the Read article link highlighted.](media/news-list-read-article-3-23.png)
 
 If you select a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
 
-![A screenshot of a sample news article with the Learn impacts link highlighted.](media/news-impact.png)
+![A screenshot of a sample news article with the Learn impacts link highlighted.](media/news-impact-3-23.png)
 
 >[!Note]
 >Larger companies are more likely to be prominent in the news than smaller companies. As a result, certain sources of risks from smaller partner companies may not be highlighted if they are not in the news.
 
 Each news article is assigned an impact score and a category by the same AI model that sorts the news articles by relevance. The impact score and category definitions are learned from past news articles that were labeled with the correct impact and category. The AI model learns patterns from the sentiment and content of these labeled articles to make predictions for new articles. You can filter on these two characteristics on the **News** page. The news articles can be filtered by category by selecting an individual category on the left navigation. Additionally, multiple categories can be toggled off or on within the settings found on the **News** page.
 
-![A screenshot of the news settings](media/news-settings.png)
+![A screenshot of the news settings](media/news-settings-3-23.png)
 
 ## Impact score definitions
 
