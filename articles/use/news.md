@@ -18,7 +18,7 @@ News gathers information about world events, and then presents the news that is 
 
 ## Prerequisites
 
-News is presented using vendor names that have been ingested to Supply Chain Center.
+News is presented using vendor names that have been ingested to Supply Chain Center. You can also view news by adding Topics in the news module.
 
 ## Functionality
 
@@ -66,6 +66,19 @@ All news articles will be assigned one of the following categories:
 - **Quality**: Contains information about supplier quality or quality control issues.
 - **Sustainability**: Contains information such as new or existing sustainability efforts or environmental impacts.
 - **Workforce**: Contains information affecting employees, such as strikes or workplace conditions.
+
+## Topics
+
+You can add topics to your news feed which will show up on the left-hand side under categories by selecting "Add Topic."
+
+![A screenshot of a news feed with a button outlined titled Add Topic](media/news-add-topic.png)
+
+You can name the topic and then add keywords to get news about a topic you're interested in. Each set of keywords can be categorized as a vendor, commodity, location, or combination and specified as required or optional. Each topic can have a maximum of 20 conditions. After creating a topic, you will see news related to that topic (if there is any) by selecting that topic on the left-hand side. You can filter news in a topic by keyword using the filters at the top of the feed. Topics can be edited or deleted using the "Edit topic" and "Delete topic" options.
+
+![A screenshot of a news feed overlaid with options to create a topic using required, optional options, types, and keywords](media/news-add-topic-modal.png)
+
+## How often is news refreshed?
+News is refreshed regularly according the schedule specified in the Supply & Demand Insights settings under Admin settings.
 
 ### Learn More
 
