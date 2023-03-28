@@ -6,7 +6,7 @@ ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
-ms.date: 11/3/2022
+ms.date: 3/28/2023
 ms.custom: bap-template
 ---
 
@@ -24,22 +24,22 @@ News is presented using vendor names that have been ingested to Supply Chain Cen
 
 Supply Chain Center curates recent relevant news articles by using a trained AI model that identifies news that could affect a supply chain. The news articles are then presented as tiles on the **Home** and **News** pages of the application.
 
-![A screenshot of the navigation pane with the Home page and News page highlighted and the available news categories shown. ](media/homepage-news.png)
+:::image type="content" source="media/homepage-news.png" alt-text="A screenshot of the navigation pane with the Home page and News page highlighted and the available news categories shown."::: 
 
 On the **News** page you can view a list of articles relevant to your supply chain.
 
-![A screenshot of a sample news article with the Read article link highlighted.](media/news-list-read-article-3-23.png)
+:::image type="content" source="media/news-list-read-article-3-23.png" alt-text="A screenshot of a sample news article with the Read article link highlighted."::: 
 
 If you select a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
 
-![A screenshot of a sample news article with the Learn impacts link highlighted.](media/news-impact-3-23.png)
+:::image type="content" source="media/news-impact-3-23.png" alt-text="A screenshot of a sample news article with the Learn impacts link highlighted."::: 
 
 >[!Note]
 >Larger companies are more likely to be prominent in the news than smaller companies. As a result, certain sources of risks from smaller partner companies may not be highlighted if they are not in the news.
 
 Each news article is assigned an impact score and a category by the same AI model that sorts the news articles by relevance. The impact score and category definitions are learned from past news articles that were labeled with the correct impact and category. The AI model learns patterns from the sentiment and content of these labeled articles to make predictions for new articles. You can filter on these two characteristics on the **News** page. The news articles can be filtered by category by selecting an individual category on the left navigation. Additionally, multiple categories can be toggled off or on within the settings found on the **News** page.
 
-![A screenshot of the news settings](media/news-settings-3-23.png)
+:::image type="content" source="media/news-settings-3-23.png" alt-text="A screenshot of the news settings."::: 
 
 ## Impact score definitions
 
@@ -69,16 +69,16 @@ All news articles will be assigned one of the following categories:
 
 ## Topics
 
-You can add topics to your news feed which will show up on the left-hand side under categories by selecting "Add Topic."
+You can add topics to your news feed which will show up on the left-hand side under categories by selecting **Add Topic**.
 
-![A screenshot of a news feed with a button outlined titled Add Topic](media/news-add-topic.png)
+:::image type="content" source="media/news-add-topic.png" alt-text="A screenshot of a news feed with a button outlined titled Add Topic."::: 
 
-You can name the topic and then add keywords to get news about a topic you're interested in. Each set of keywords can be categorized as a vendor, commodity, location, or combination and specified as required or optional. Each topic can have a maximum of 20 conditions. After creating a topic, you will see news related to that topic (if there is any) by selecting that topic on the left-hand side. You can filter news in a topic by keyword using the filters at the top of the feed. Topics can be edited or deleted using the "Edit topic" and "Delete topic" options.
+You can name the topic and then add keywords to get news about a topic you're interested in. Each set of keywords can be categorized as a vendor, commodity, location, or combination, and specified as required or optional. Each topic can have a maximum of 20 conditions. After creating a topic, you will see news related to that topic (if there is any) by selecting that topic on the left side. You can filter news in a topic by keyword using the filters at the top of the feed. Topics can be edited or deleted using the "Edit topic" and "Delete topic" options.
 
-![A screenshot of a news feed overlaid with options to create a topic using required, optional options, types, and keywords](media/news-add-topic-modal.png)
+:::image type="content" source="media/news-add-topic-modal.png" alt-text="A screenshot of a news feed overlaid with options to create a topic using required, optional options, types, and keywords."::: 
 
 ## How often is news refreshed?
-News is refreshed regularly according the schedule specified in the Supply & Demand Insights settings under Admin settings.
+News is refreshed regularly according to the schedule specified in the **Supply & Demand Insights** settings in **Admin settings**.
 
 ### Learn More
 
