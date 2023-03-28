@@ -69,11 +69,11 @@ All news articles will be assigned one of the following categories:
 
 ## Topics
 
-You can add topics to your news feed which will show up on the left-hand side under categories by selecting **Add Topic**.
+You can add topics to your news feed, which will show up on the left side under categories by selecting **Add Topic**.
 
 :::image type="content" source="media/news-add-topic.png" alt-text="A screenshot of a news feed with a button outlined titled Add Topic."::: 
 
-You can name the topic and then add keywords to get news about a topic you're interested in. Each set of keywords can be categorized as a vendor, commodity, location, or combination, and specified as required or optional. Each topic can have a maximum of 20 conditions. After creating a topic, you will see news related to that topic (if there is any) by selecting that topic on the left side. You can filter news in a topic by keyword using the filters at the top of the feed. Topics can be edited or deleted using the "Edit topic" and "Delete topic" options.
+You can name the topic and then add keywords to get news about a topic you're interested in. Each set of keywords can be categorized as a vendor, commodity, location, or combination, and specified as required or optional. Each topic can have a maximum of 20 conditions. After creating a topic, you'll see news related to that topic (if there's any) by selecting that topic on the left side. You can filter news in a topic by keyword using the filters at the top of the feed. Topics can be edited or deleted using the "Edit topic" and "Delete topic" options.
 
 :::image type="content" source="media/news-add-topic-modal.png" alt-text="A screenshot of a news feed overlaid with options to create a topic using required, optional options, types, and keywords."::: 
 
