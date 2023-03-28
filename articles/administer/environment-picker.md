@@ -18,7 +18,7 @@ You can view which environment you're currently using within the header of Micro
 
 Select the environment name to expand a panel on the right and shows all Supply Chain Center environments you have access to. 
 
->![Note]
+>[!Note]
 > The list of environments only shows:
 > - Dataverse environments with the Supply Chain Center trial installed.
 > - Supply Chain Center environments that you are added to as a user.
@@ -29,5 +29,5 @@ For more information on how to add users to your Supply Chain Center environment
 
 You can search for specific environments within the search bar to quickly find an environment. 
 
->![Note]
+>[!Note]
 > Data ingested, applications installed, and any personal settings won't persist across environments. 
