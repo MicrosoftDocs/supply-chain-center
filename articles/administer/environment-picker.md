@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 The navigation bar in Microsoft Supply Chain Center shows the name of the environment that you're currently using. Some companies might use multiple environments in a tenant for Supply Chain Center. For more information, see [Sign up for a free trial](../get-started/free-trial.md).
 
-:::image type="content" source="media/environment-picker.png" alt-text="Current environment on the navigation bar in Supply Chain Center.":::
+:::image type="content" source="media/environment-picker.png" alt-text="Screenshot that shows the Current environment on the navigation bar in Supply Chain Center.":::
 
 When you select the environment name, a **Select environment** dialog box appears on the right and lists all the Supply Chain Center environments that you have access to. You can then switch to a different environment by selecting it in the list. You can use the **Search** field to quickly find specific environments.
 
@@ -24,7 +24,7 @@ When you select the environment name, a **Select environment** dialog box appear
 > - Dataverse environments where the Supply Chain Center trial is installed
 > - Supply Chain Center environments that you're added to as a user
 
-:::image type="content" source="media/environment-picker-search.png" alt-text="Select environment dialog box.":::
+:::image type="content" source="media/environment-picker-search.png" alt-text="Screenshot of the Select environment dialog box.":::
 
 For more information about how to add users to your Supply Chain Center environment, see [Add users](add-users.md). By default, these environments are named **Microsoft Supply Chain Center Trial**. You can rename environments by using the Microsoft Power Platform admin center.
 
