@@ -1,14 +1,15 @@
 ---
 title: Connect your data to Supply Chain Center
 description: This article provides information about connecting your data to Microsoft Supply Chain Center
-author: johnmichalak
-ms.author: johnmichalak
+author: mkannapiran 
+ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
 ms.date: 03/30/2023
 ms.custom: bap-template
 ---
+
 
 # Connect your data to Supply Chain Center
 
