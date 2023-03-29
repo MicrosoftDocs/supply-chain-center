@@ -34,7 +34,7 @@ The following installers must exist in desktop or virtual machine before using t
   - Install the SAP RFC Reader (V0.1.02232.26) which is an ADO.NET provider found here. 
     - .NET Framework 4.7.2 or greater is required 
     - Supported by Windows 10, Windows 11, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019, Windows Server 2022 
-  - Install the Power Query On prem Data gateway (https://go.microsoft.com/fwlink/?LinkId=2116849&clcid=0x409). To learn more about the gateway requirements or for support, follow this link (https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-install). 
+  - Install the Power Query On prem Data gateway (https://go.microsoft.com/fwlink/?LinkId=2116849&clcid=0x409). To learn more about the gateway requirements or for support, follow this link (/data-integration/gateway/service-gateway-install.md). 
 
 **Connection Settings: Connecting to SAP RFC** 
 
@@ -55,13 +55,13 @@ Setup SAP system connection string - This connector supports SAP authentication 
 
   - **Application Server:**  
 
-      - Connection string template: {"AppServerHost":"<application server>","Client":"<client id>","SystemNumber":"<system number","LogonType":"ApplicationServer"} 
+      - Connection string template: {"AppServerHost":"\<application server\>","Client":"\<client id\>","SystemNumber":"\<system number\>","LogonType":"ApplicationServer"} 
 
       - You will want to replace everything in <> with your application server system settings eg for a server sap.contoso.com with system number 00 and client id 100         it would be {"AppServerHost":"sap.contoso.com","Client":"100","SystemNumber":"00","LogonType":"ApplicationServer"} 
 
   - **Message Server:** 
 
-      - Connection string template: {"MessageServerHost": "<message server>", "MessageServerService":"<message server service name/port>", "LogonType": "Group",               "SystemID": "<system id>", "Client": "<client id>", "LogonGroup":"<logon group>"} 
+      - Connection string template: {"MessageServerHost": "\<message server\>", "MessageServerService":"\<message server service name/port\>", "LogonType": "Group",               "SystemID": "\<system id\>", "Client": "\<client id\>", "LogonGroup":"\<logon group\>"} 
 
       - You will want to replace everything in <> with your message server system settings noting that you may or may not require both MessageServerService and                 SystemID eg for a server 10.0.0.1 with messge server port 3333 and client id 800 and logon group COTO it would be {"MessageServerHost": "10.0.0.1",                     "MessageServerService":"3333", "LogonType": "Group", "Client": "800", "LogonGroup":"COTO"} 
 
