@@ -24,6 +24,8 @@
     href: troubleshoot-faqs/product-faqs.md
   - name: Additional requirements and limitations
     href: troubleshoot-faqs/requirements-limitations.md
+  - name: Connect your SAP data to Supply Chain Center FAQ
+    href: troubleshoot-faqs/connect-to-sap-faq.md
 - name: Deploy
   items:
   - name: Plan
