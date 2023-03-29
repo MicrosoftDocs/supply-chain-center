@@ -153,7 +153,21 @@
       - name: WarehouseItemSafetyStock
         href: administer/schema/warehouseitemwafetystock.md 
     - name: Ingest data
-      href: administer/ingest-data.md
+      items:
+      - name: Ingest data for the first time
+        href: administer/ingest-data.md
+      - name: Connect your data to Supply Chain Center
+        href: administer/connect-your-data.md
+      - name: Connect your SAP data to Supply Chain Center
+        href: administer/connect-your-sap-data.md
+      - name: Import a local file
+        href: administer/import-a-local-file.md
+      - name: Transform and mad the data according to your desired entity
+        href: administer/transform-and-map-data.md
+      - name: Ingest data into one entity from multiple data sources
+        href: administer/ingest-multiple-data-sources.md
+      - name: Select the refresh schedule and complete the setup process
+        href: administer/select-refresh-schedule.md
     - name: Review, update, and delete your data
       href: administer/review-update-delete-data.md
   - name: Security, compliance, and privacy
