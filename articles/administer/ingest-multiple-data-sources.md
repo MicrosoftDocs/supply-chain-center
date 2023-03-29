@@ -1,6 +1,6 @@
 ---
-title: Ingest data
-description: This article provides information about ingesting data into Microsoft Supply Chain Center
+title: Ingest data into one entity from multiple data sources
+description: This article provides information about Ingest data into one entity from multiple data sources into Microsoft Supply Chain Center
 author: mkannapiran 
 ms.author: kamanick
 ms.reviewer: johnmichalak
