@@ -1,12 +1,12 @@
 ---
 title: Select the refresh schedule and complete the setup process
 description: This article provides information about selecting the refresh schedule and complete the setup process
-author: johnmichalak
-ms.author: johnmichalak
+author: mkannapiran 
+ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
-ms.date: 11/3/2022
+ms.date: 03/30/2023
 ms.custom: bap-template
 ---
 
