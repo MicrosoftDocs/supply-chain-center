@@ -98,5 +98,5 @@ The following are some of the known issues and limitations of the SAP ERP Connec
   
 ## Frequently Asked Questions (FAQ)
 
-For answers to frequently asked questions, see [Connect your SAP data to Supply Chain Center FAQ](connect-to-sap-faq.md).
+For answers to frequently asked questions, see [Connect your SAP data to Supply Chain Center FAQ](../troubleshoot-faqs/connect-to-sap-faq.md).
 
