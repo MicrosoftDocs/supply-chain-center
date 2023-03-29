@@ -1,8 +1,8 @@
 ---
 title: Connect your SAP data to Supply Chain Center
 description: This article provides information about connecting your SAP data to Microsoft Supply Chain Center
-author: johnmichalak
-ms.author: johnmichalak
+author: mkannapiran 
+ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
