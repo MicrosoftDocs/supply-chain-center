@@ -40,7 +40,7 @@ The following installers must exist in desktop or virtual machine before using t
   1. Install the SAP RFC Reader (V0.1.02232.26) which is an ADO.NET provider found here. 
      1. .NET Framework 4.7.2 or greater is required. 
      1. The SAP RFC Reader is supported by Microsoft Windows 10, Microsoft Windows 11, Microsoft Windows Server 2012 R2, Microsoft Windows Server 2016, Microsoft Windows Server 2019, Microsoft Windows Server 2022.
-  1. Install the Microsoft [Power Query On prem Data gateway](https://go.microsoft.com/fwlink/?LinkId=2116849&clcid=0x409). To learn more about the gateway requirements or for support, see [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install.md). 
+  1. Install the Microsoft [Power Query On prem Data gateway](https://go.microsoft.com/fwlink/?LinkId=2116849&clcid=0x409). To learn more about the gateway requirements or for support, see [Install an on-premises data gateway](https://learn.microsoft.com/data-integration/gateway/service-gateway-install). 
 
 ## Connection settings for the SAP RFC connector
 
