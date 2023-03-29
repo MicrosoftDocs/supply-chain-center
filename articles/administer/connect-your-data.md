@@ -1,6 +1,6 @@
 ---
-title: Ingest data
-description: This article provides information about ingesting data into Microsoft Supply Chain Center
+title: Connect your data to Supply Chain Center
+description: This article provides information about connecting your data to Microsoft Supply Chain Center
 author: johnmichalak
 ms.author: johnmichalak
 ms.reviewer: johnmichalak
