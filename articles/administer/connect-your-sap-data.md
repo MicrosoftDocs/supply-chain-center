@@ -16,15 +16,15 @@ This article provides information about how to connect your SAP data to Microsof
 
 ## SAP ERP connector
 
-The SAP ERP connector, which is currently in beta, lets you extract data from your SAP system, and invoke Remote Function Call (RFC) and Business Application Programming Interface (BAPI) functions by using an on-premises data gateway. The SAP RFC connector is supported by Microsoft Power Platform dataflows in Supply Chain Center.
+The SAP ERP connector, which is currently in beta, lets you extract data from your SAP system, and invoke Remote Function Call (RFC) and Business Application Programming Interface (BAPI) functions by using an on-premises data gateway. The SAP ERP connector is supported by Microsoft Power Platform dataflows in Supply Chain Center.
 
 ### Prerequisites for the SAP ERP connector
 
-Before you can enable the SAP ERP connector, the following prerequisites must be completed. All these prerequisites must be completed on the same machine where the data extraction is done, and has administrator permissions that have access to the target SAP instance.
+Before you can enable the SAP ERP connector, the following prerequisites must be completed. All these prerequisites must be completed on the same machine where the data extraction is done. The user must have administrator permissions on the machine which has access to the target SAP instance.
 
 - Ensure that the Microsoft Windows machine (64-bit operating system) is updated and has access to the target SAP machine.
 - Ensure that the SAP credentials have the necessary permission to run the desired RFCs or BAPIs.
-- Ensure that the SAP S-user credentials can download the installer for SAP Connector for Microsoft .NET (NCo).
+- Ensure that the SAP S-user credentials can download the installer for SAP ERP Connector for Microsoft .NET (NCo).
 
 ## Set up the SAP ERP connector
 
@@ -39,7 +39,7 @@ Some installers must exist on the desktop or virtual machine before you can use 
     - You must select the 64-bit version. The 32-bit version won't work.
     - During installation, on the **Optional setup steps** page, be sure to select the **Install assemblies to GAC** option.
 
-1. Install the [SAP RFC Reader](URL) (V0.1.02232.26).
+1. Install the [SAP RFC Reader](https://download.microsoft.com/download/6/3/c/63c54361-0fbb-4078-844f-45a3d9c1ce5a/SapRfcReaderInstall.msi) (V0.1.02232.26).
 
     - The SAP RFC Reader is an ADO.NET provider. The .NET Framework version 4.7.2 or later is required.
     - The SAP RFC Reader is supported by Windows 10, Windows 11, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019, and Windows Server 2022.
@@ -50,7 +50,7 @@ Some installers must exist on the desktop or virtual machine before you can use 
 
 To instantiate your dataflow connection to the SAP ERP connector, you must create a connection string that includes the following parameters.
 
-| Name | Key | Required | Type | Description |
+| Name | Key | Required by | Type | Description |
 |---|---|---|---|---|
 | AS Host | AppServerHost | Application Server | String | The host name of the SAP Application Server. |
 | Client | Client | Application and Message Server | Integer | The SAP client ID that's used to connect to the SAP system. |
@@ -63,7 +63,7 @@ To instantiate your dataflow connection to the SAP ERP connector, you must creat
 
 ## Set up the SAP system connection string
 
-The SAP system connector currently supports only SAP authentication. Construction of the script depends on the connection type, as outlined here:
+The SAP ERP connector currently supports only SAP authentication. Construction of the script depends on the connection type, as outlined here:
 
 - **Application Server:** Use the following template for the connection string:
 
