@@ -77,7 +77,7 @@ The news article that you select to draft an email about, and the topic of the e
 
 The text-davinci-003 generative AI model has been trained on data on the internet with billions of parameters for tuning. It doesn’t have access to the internet, meaning that data can be stale. While we are mitigating hallucination with our content moderation checks, it is possible that the generated e-mail may contain false information.
 
-## Does Supplier News Communication product perfect emails?
+## Does Supplier News Communication produce perfect emails?
 
 It is not guaranteed to produce perfect e-mails. While we do have checks in place to reduce the frequency of offensive or false information in e-mails, you should always review the e-mail before sending.
 
