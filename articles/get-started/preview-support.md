@@ -1,5 +1,5 @@
 ---
-title: Preview support and disclaimer
+title: Contact Support and Preview disclaimer 
 description: This article provides information about how to get support during Microsoft Supply Chain Center's preview.
 author: johnmichalak
 ms.author: johnmichalak
@@ -10,9 +10,9 @@ ms.date: 11/3/2022
 ms.custom: bap-template
 ---
 
-# Preview support and disclaimer
+# Contact Support and Preview disclaimer 
 
-Preview features are features that are not complete but are made available on a “preview” basis so customers can get early access and provide feedback. Preview features are not supported by Microsoft Support, may have limited or restricted functionality, are not meant for production use, and may be available only in selected geographic areas. For more information about Supply Chain Center and its preview features, see [What is Supply Chain Center](../troubleshoot-faqs/product-faqs.md).
+Preview features are features that are not complete but are made available on a “preview” basis so customers can get early access and provide feedback. Preview features may have limited or restricted functionality, are not meant for production use, and may be available only in selected geographic areas. For more information about Supply Chain Center and its preview features, see [What is Supply Chain Center](../troubleshoot-faqs/product-faqs.md).
 
 If something is not working as expected, you can contact Microsoft Support by selecting the Help icon from the Title pane in Microsoft Supply Chain Center and clicking Contact support. From there you will be directed to the Help + support page in Power Platform admin center, once you click New support request and select Microsoft Supply Chain Center from the list of products, complete and submit the support request.
 
