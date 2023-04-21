@@ -10,7 +10,9 @@ ms.date: 4/21/2023
 ms.custom: bap-template
 ---
 
-# Report management
+# Analytics
+
+Microsoft Supply Chain Center's Analytics module empowers users to take advantage of their supply chain data through custom visualizations. Using the Dataverse-managed Power BI that comes with MSCC or their own Power BI license, users can create their own dashboards to fit their own supply chain needs.
 
 ## Create new reports
 ### Native reports
