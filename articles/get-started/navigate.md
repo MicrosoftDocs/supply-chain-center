@@ -24,8 +24,8 @@ The icons in the title pane give you access to various features. From left to ri
 
 - **App launcher** – Access other Microsoft products.
 - **Feedback** – Send feedback to the Supply Chain Center team.
-- **Notifications** – Set up your notifications.
-- **Settings** – Access your personal settings, the admin center, and the Power Platform admin center.
+- **Notifications** – View and dismiss notifications.
+- **Settings** – Access your personal settings.
 - **Help** – Access Supply Chain Center help resources, such as documentation and support.
 - **Profile Picture** – View information about your Microsoft account or Office products.
 
