@@ -31,7 +31,7 @@ The icons in the title pane give you access to various features. From left to ri
 
 ## Navigation pane
 
-The navigation pane is always located on the left side of the page and provides access to key features in Supply Chain Center. The Menu button (sometimes referred to as the hamburger button) at the top of the navigation pane lets you shrink or enlarge the pane.
+The navigation pane is always located on the left side of the page and provides access to key features in Supply Chain Center. 
 
 The content of the navigation pane changes if you are in the admin center or not. When outside of the admin center, the navigation panel gives end users quick access to commonly used features such as the enabled modules.
 
