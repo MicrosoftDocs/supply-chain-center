@@ -45,13 +45,13 @@ The Admin Center contains Supply Chain Center settings and data management, so t
 
 Many main pages also contain secondary navigation components, namely breadcrumbs and pivots, that help you organize the information in different ways.
 
-The following illustration shows the **Supply & demand** module's **Supply coverage** details page, which contains both breadcrumbs and pivots.
+The following illustration shows the **Supply & demand insights** module's **Supply coverage** details page, which contains both breadcrumbs and pivots.
 
 ### Breadcrumbs
 
 Breadcrumbs help you understand where you are in the application. Each breadcrumb represents a page that you've visited, and the final breadcrumb is the page that you're currently on. Breadcrumbs help organize information based on specificity. The more breadcrumbs there are, the more detailed or specific the information is.
 
-In the following illustration, the **Supply coverage** page contains more detailed information about the supply coverage key performance indicator (KPI) that is found on the **Supply & demand insights** page. When you've finished reviewing the Supply coverage page, you can select the Supply & demand mismatch breadcrumb to return to that page.
+In the following illustration, the **Supply coverage** page contains more detailed information about the supply coverage key performance indicator (KPI) that is found on the **Supply & demand insights** page. When you've finished reviewing the Supply coverage page, you can select the Supply & demand insights breadcrumb to return to that page.
 
 ![A screenshot of the Supply & demand insights page with the breadcrumbs highlighted. ](media/breadcrumbs-supply-coverage.png)
 
