@@ -22,14 +22,12 @@ Connected reports are those you have linked from your own Power BI workspace and
 
 #### Connect your Power BI workspace
 Before you can connect your Power BI workspace, the following prerequisites must be met:
-- You must have a Power BI Professional or Power BI Premium license
-- At least one report must be available in a Power BI workspace
-- You must have admin privilages for MSCC and Power BI
+- You must have a Power BI Professional or Power BI Premium license.
+- At least one report must be available in a Power BI workspace.
+- You must have admin privilages for MSCC and Power BI.
 - A system administrator must create a security group in Microsoft Azure Active Directory (Azure AD) and add Microsoft Dynamics 365 Supply Chain Visibility as a member of the security group. See [Create a basic group and add members using Azure Active Directory](https://learn.microsoft.com/azure/active-directory/fundamentals/how-to-manage-groups) for details on how to do this.  
-- A Power BI admin must add the security group mentioned previously to your Power BI service after enabling the following in the Power BI admin portal:
-- [Service Principal in the Developer settings](https://learn.microsoft.com/power-bi/enterprise/service-premium-service-principal#enable-service-principals)
-- [Create workspaces in the Tenant settings](https://learn.microsoft.com/power-bi/admin/service-admin-portal-workspace#create-the-new-workspaces)
-- Add a security group to your Power BI service within Microsoft Azure Active Directory which contains Microsoft Dynamics 365 Supply Chain Visibility as a memember
+- A Power BI admin must add the security group mentioned previously to your Power BI service after enabling the [Service Principal in the Developer settings](https://learn.microsoft.com/power-bi/enterprise/service-premium-service-principal#enable-service-principals) and [Create workspaces in the Tenant settings](https://learn.microsoft.com/power-bi/admin/service-admin-portal-workspace#create-the-new-workspaces) within the Power BI admin portal.
+- Add a security group to your Power BI service within Microsoft Azure Active Directory which contains Microsoft Dynamics 365 Supply Chain Visibility as a memember.
 
 #### Link a Power BI report
 Once these prerequisites have been met, an MSCC and Power BI admin can link an existing Power BI workspace or create a new one by going into MSCC's **Admin settings > Analytics > Create or link a Power BI workspace.** Once a workspace has been linked, you can connect a report from that workspace within **Analytics > Reports > Connect.** Unlinking a workspace will remove all connected reports from the Reports tab of the **Analytics module** in MSCC, but they can still be directly accessed through Power BI.  
