@@ -35,7 +35,7 @@ Before you can connect your Power BI workspace, the following prerequisites must
 - You must have a Microsoft Power BI Professional or Microsoft Power BI Premium license.
 - At least one report must be available in a Power BI workspace.
 - You must have admin privileges for Supply Chain Center and Power BI.
-- A system administrator must create a security group in Microsoft Azure Active Directory (Azure AD) and add Microsoft Dynamics 365 Supply Chain Visibility as a member of the security group. See [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/how-to-manage-groups.md) for details on how to do this.  
+- A system administrator must create a security group in Microsoft Azure Active Directory (Azure AD) and add Microsoft Dynamics 365 Supply Chain Visibility as a member of the security group. See [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/how-to-manage-groups) for details on how to do this.  
 - A Power BI admin must add the security group mentioned previously to your Power BI service after enabling the [Service Principal in the Developer settings](/power-bi/enterprise/service-premium-service-principal#enable-service-principals.md) and [Create workspaces in the Tenant settings](/power-bi/admin/service-admin-portal-workspace#create-the-new-workspaces.md) within the Power BI admin portal.
 - Add a security group to your Power BI service within Microsoft Azure Active Directory which contains Microsoft Dynamics 365 Supply Chain Visibility as a member.
 
