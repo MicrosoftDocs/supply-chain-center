@@ -186,6 +186,8 @@
       href: use/install-overhaul.md
     - name: Uninstall an ISV module
       href: use/uninstall-an-isv-module.md
+  - name: Analytics
+    href: use/analytics.md
   - name: Supply and demand analytics
     href: use/supply-and-demand.md
   - name: Configure and review restock recommendations
