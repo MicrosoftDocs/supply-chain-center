@@ -31,7 +31,7 @@ This section contains short videos on how to get started using Microsoft Supply 
 
 ### Overview
 
-This section highlights some of the insights coming from the **Supply and demand** insights module, and news articles from the **News** module.
+This section highlights some of the insights coming from the **Supply and demand insights** module, and news articles from the **News** module.
 
 At the bottom of the page, you will find more resources to help you get the most out of Microsoft Supply Chain Center.
 
