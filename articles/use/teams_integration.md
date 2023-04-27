@@ -12,13 +12,16 @@ ms.custom: bap-template
 
 # Microsoft Teams Integration
 
-The Microsoft Supply chain center integration with Microsoft Teams allows users to create and access teams chats directly within the application allowing them to communicate with their colleagues while maintaining context within the application.
+The Microsoft Supply chain center integration with Microsoft Teams allows you to create and access Teams chats directly within the application. This integration lets you communicate with your colleagues while maintaining context within the application.
 
 ## Enable Microsoft Teams
 
-The Microsoft Teams integration can be enabled via the Admin settings in Supply Chain Center. To access the admin settings, 
-select the gear symbol in the upper right corner and then select Admin settings. In Admin settings, 
-click on General to access the setting to enable Microsoft Teams. 
+The Teams integration can be enabled via the **Admin settings** in Supply Chain Center. 
+
+To access the **Admin settings**, follow these steps.
+
+1. From Supply Chain Center, select the gear symbol in the upper right corner, and then select Admin settings. 
+1. On the **Admin settings** page, select **General** to access the setting to enable Microsoft Teams. 
 
 ![Screenshot of the toggle available within admin settings for switching on the teams integration/](media/enable_teams.png) 
 
