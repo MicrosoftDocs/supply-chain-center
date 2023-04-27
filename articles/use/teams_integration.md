@@ -12,10 +12,7 @@ ms.custom: bap-template
 
 # Microsoft Teams Integration
 
-Communication plays a crucial role in modern supply chains enabling different departments and teams to collaborate 
-effectively and efficiently towards achieving common goals. The Microsoft Supply chain center integration with Microsoft Teams 
-allows users to create and access teams chats directly within the application allowing them to communicate with their colleagues 
-while maintaining context within the application.
+The Microsoft Supply chain center integration with Microsoft Teams allows users to create and access teams chats directly within the application allowing them to communicate with their colleagues while maintaining context within the application.
 
 ## Enable Microsoft Teams
 
@@ -36,7 +33,7 @@ To hide the chat window, click on the chat icon once more.
 
 ## Start a new chat in Supply Chain Center
 
-Select the Compose Chat icon in the upper-right corner of the Teams Chats pane. This will generate a new chat option 
+Select the Compose Chat icon in the upper-right corner of the Teams Chats pane. This action will generate a new chat option 
 at the bottom of the page where the user can start a new individual or group chat.
 
 ![Screenshot showing a new chat window within the teams integrations side pane/](media/start_new_chat_teams.png) 
