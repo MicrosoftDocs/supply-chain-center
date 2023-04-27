@@ -23,6 +23,8 @@ The Microsoft Teams integration can be enabled via the Admin settings in Supply 
 select the gear symbol in the upper right corner and then select Admin settings. In Admin settings, 
 click on General to access the setting to enable Microsoft Teams. 
 
+![Screenshot of the toggle available within admin settings for switching on the teams integration/](media/enable_teams.png) 
+
 ## Access Microsoft Teams in Supply Chain Center
 
 Once Microsoft Teams has been enabled, the integration can be accessed from any screen in Supply chain center via the chat icon on the Supply Chain Center header bar. 
@@ -30,11 +32,11 @@ Click on the chat icon    to launch Teams. Teams will display the list of recent
 Click on any chat to launch a chat window at the bottom of the screen where you can see the latest messages as well as send a new message. 
 To hide the chat window, click on the chat icon once more.
 
+![Screenshot showing the teams integration enabled in a side pane within MSCC/](media/access_teams_in_mscc.png) 
+
 ## Start a new chat in Supply Chain Center
 
 Select the Compose Chat icon    in the upper-right corner of the Teams Chats pane. This will generate a new chat option 
 at the bottom of the page where the user can start a new individual or group chat.
 
-On the **Module library** page, you can view a list of all available modules, learn more about each module, and enable/disable selected modules.
-
-![Screenshot of the details for the Supply and demand insights module/](media/module-library-supply-and-demand-details.png)
+![Screenshot showing a new chat window within the teams integrations side pane/](media/start_new_chat_teams.png) 
