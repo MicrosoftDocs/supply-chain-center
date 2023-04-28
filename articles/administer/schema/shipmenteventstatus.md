@@ -1,26 +1,22 @@
 ---
 title: ShipmentEventStatus
-description: This article provides information about the ShipmentEventStatus entity.
+description: This is about ShipmentEventStatus entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
-ms.service: supply-chain-center
+ms.service: supply - chain - center
 ms.topic: conceptual
-ms.date: 11/3/2022
-ms.custom: bap-template
+ms.date: 04 / 21 / 2023
+ms.custom: bap - template
 ---
 
-# ShipmentEventStatus
+# **ShipmentEventStatus**
 
-The status of the Shipment Event. For example:
-
-- planned
-- in process
-- completed
-- unknown
-
-| **Entity Name** | **Attribute Name** | **IsPrimaryKey** | **Data Type** | **Data Length** | **Description** |
-| --- | --- | --- | --- | --- | --- |
-| ShipmentEventStatus | ShipmentEventStatusId | yes | string | 36 | The unique identifier of a Shipment Event Status. |
-| ShipmentEventStatus | ShipmentEventStatusDescription | no | string | 512 | The description of a Shipment Event Status. |
-| ShipmentEventStatus | ShipmentEventStatusName | no | string | 128 | The name of a Shipment Event Status. |
+|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|---------------|--------|------|----------|-----------|
+|	ShipmentEventId	|	string	|	256	|	No	|	Shipment event Id of the shipment	|
+|	ShipmentEventNumber	|	string	|	256	|	No	|	Shipment event number of the shipment	|
+|	ShipmentEventStatusDescription	|	string	|	4000	|	No	|	The description of a Shipment Event Status.	|
+|	ShipmentEventStatusId	|	string	|	36	|	Yes	|	The unique identifier of a Shipment Event Status.	|
+|	ShipmentEventStatusName	|	string	|	256	|	No	|	The name of a Shipment Event Status.	|
+|	ShipmentEventStatusNumber	|	string	|	256	|	Yes	|	Shipment event status number of the shipment	|

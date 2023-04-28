@@ -1,27 +1,25 @@
 ---
 title: UnitOfMeasure
-description: This article provides information about the UnitOfMeasure entity.
+description: This is about UnitOfMeasure entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
-ms.service: supply-chain-center
+ms.service: supply - chain - center
 ms.topic: conceptual
-ms.date: 11/3/2022
-ms.custom: bap-template
+ms.date: 04 / 21 / 2023
+ms.custom: bap - template
 ---
 
-# UnitOfMeasure
+# **UnitOfMeasure**
 
-A standard of measurement for an item as to how it is stocked in the warehouse, priced, sold or procured.
-
-For example: Soap powder in a box may be sold as 1 EA but it may be priced based on its weight.
-
-Examples of Unit Of Measure are EA (eaches), Pack, LB (Pounds), KG (Kilograms), Ton, Cubic Litre, Cubic Foot, Box, Cartons etc.
-
-| **Entity Name** | **Attribute Name** | **IsPrimaryKey** | **Data Type** | **Data Length** | **Description** |
-| --- | --- | --- | --- | --- | --- |
-| UnitOfMeasure | UnitOfMeasureId | yes | string | 36 | The unique identifier of a Unit Of Measure. |
-| UnitOfMeasure | UnitOfMeasureAbbreviation | no | string | 3 | The abbreviation assigned to the Unit Of Measure. |
-| UnitOfMeasure | UnitOfMeasureTypeId | no | integer | 9 | The unique identifier of a Unit Of Measure Type. |
-| UnitOfMeasure | UnitOfMeasureName | no | string | 128 | The name of a Unit Of Measure. |
-| UnitOfMeasure | UnitOfMeasureDescription | no | string | 512 | The description of a Unit Of Measure. |
+|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|---------------|--------|------|----------|-----------|
+|	BaseUOM	|	string	|	256	|	No	|	Base unit of measure	|
+|	IsBaseUnit	|	boolean	|		|	No	|	Is this base unit of measure	|
+|	IsScheduleBaseUOM	|	boolean	|		|	No	|	Is this base schedule unit of measure	|
+|	Name	|	string	|	256	|	No	|	Name of unit of measure	|
+|	Quantity	|	decimal	|		|	No	|	Unit of measure quantity	|
+|	UnitOfMeasureGroupId	|	string	|	36	|	No	|	Id of the unit of measure group	|
+|	UnitOfMeasureGroupNumber	|	string	|	256	|	No	|	Number of the unit of measure group 	|
+|	UoMId	|	string	|	36	|	Yes	|	Unit of measure Id	|
+|	UoMNumber	|	string	|	256	|	Yes	|	Unit of measure ISO code	|

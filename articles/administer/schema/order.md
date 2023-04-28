@@ -1,55 +1,46 @@
 ---
 title: Order
-description: This article provides information about the Order entity.
+description: This is about Order entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
-ms.service: supply-chain-center
+ms.service: supply - chain - center
 ms.topic: conceptual
-ms.date: 11/3/2022
-ms.custom: bap-template
+ms.date: 04 / 21 / 2023
+ms.custom: bap - template
 ---
 
-# Order
+# **Order**
 
-A document or commission by the customer to order products.
-
-| **Entity Name** | **Attribute Name** | **IsPrimaryKey** | **Data Type** | **Data Length** | **Description** |
-| --- | --- | --- | --- | --- | --- |
-| Order | OrderId | yes | string | 36 | The unique number that identifies an Order. |
-| Order | ShipmentToLocationId | no | string | 36 | The unique identifier of a Location. |
-| Order | ShipmentToName | no | string | 128 | The name of the ship-to party. |
-| Order | OrderTotalRetailPriceAmount | no | decimal | 9 | The total list price value of the ordered products = (list price per unit product price)x(quantity ordered) for each line item. |
-| Order | CarrierId | no | string | 36 | The unique identifier of a Carrier. |
-| Order | OrderTotalAmount | no | decimal | 9 | The total value of the Order including Adjustment(s). |
-| Order | OrderTotalActualSalesPriceAmount | no | decimal | 9 | The total actual price value of the ordered products = (actual selling price per unit product price)x(quantity ordered) for each line item. |
-| Order | OrderReturnedDate | no | date | 8 | The date that the Order was returned. |
-| Order | OrderCancellationDate | no | date | 8 | The date that the Order was cancelled. |
-| Order | ShipmentMethodName | no | string | 256 | The unique identifier of a Shipment Method. |
-| Order | OrderProcessingStatusId | no | string | 36 | The unique identifier of an Order Processing Status. |
-| Order | RejectionReasonId | no | string | 36 | The unique identifier of a Rejection Reason. |
-| Order | VendorId | no | string | 36 | The unique identifier of a Vendor. |
-| Order | IsoCurrencyCode | no | string | 3 | The ISO 4217 currency code. |
-| Order | OrderTypeId | no | string | 36 | The unique identifier of an Order Type. |
-| Order | WeightUomId | no | string | 36 | The unique identifier of a Unit Of Measure. |
-| Order | TotalOrderWeight | no | decimal | 9 | The total weight of the Order. |
-| Order | DistributionChannelId | no | integer | 9 | The unique identifier of a Channel. |
-| Order | SalesChannelId | no | integer | 9 | The unique identifier of a Channel. |
-| Order | ProductOrderIndicator | no | boolean | 9 | Indicates that the Order is for Products. |
-| Order | LatestDeliveryWindowTimestamp | no | timestamp | 8 | The latest timestamp that the order should be made available for delivery. |
-| Order | WarehouseId | no | string | 36 | The unique identifier of a Warehouse. |
-| Order | CustomerAccountId | no | string | 36 | The unique identifier of a Customer Account. |
-| Order | EarliestDeliveryWindowTimestamp | no | timestamp | 8 | The earliest timestamp that the order should be made available for delivery. |
-| Order | StoreId | no | string | 36 | The unique identifier of a Store. |
-| Order | OrderDeliveryInstructions | no | string | 2048 | Instructions related to the delivery of the Order. |
-| Order | PoNumber | no | string | 36 | The unique identifier of a Purchase Order. |
-| Order | CustomerIdentificationMethodId | no | string | 36 | The unique identifier of a customer identification method. |
-| Order | OrderCommittedDeliveryDate | no | date | 8 | The date committed to the Customer/Customer Account for delivery of the Order. |
-| Order | OrderRequestedDeliveryDate | no | date | 8 | The date that the Customer/Customer Account requested delivery of the Order. |
-| Order | OrderActualDeliveryTimestamp | no | timestamp | 8 | The actual timestamp of delivery of the Order to the Customer/Customer Account. |
-| Order | ShipmentConfirmationTimestamp | no | timestamp | 8 | The timestamp that confirmation of the Shipment was made to the Customer/Customer Account. |
-| Order | OrderEntryTimestamp | no | timestamp | 8 | The date that the Order was entered into the order entry system. |
-| Order | OrderConfirmationNumber | no | string | 16 | The order confirmation number provided to the Customer/Customer Account. |
-| Order | CustomerId | no | string | 36 | The unique identifier of a customer. |
-| Order | OrderReceivedTimestamp | no | timestamp | 8 | The timestamp that the Order was received from the Customer/Customer Account. |
-| Order | OrderEnteredByEmployeeId | no | string | 36 | The employee ID of the employee entering the Order into the order entry system. |
+|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|---------------|--------|------|----------|-----------|
+|	AccountNumber	|	string	|	256	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|
+|	AccountTypeCode	|	string	|	256	|	No	|	Account type code indicates the type of account. An account could be Vendor, Customer etc.	|
+|	AddressId	|	string	|	256	|	No	|	Order address Id	|
+|	City	|	string	|	256	|	No	|	Order city	|
+|	Company	|	string	|	256	|	No	|	Company of the sales order	|
+|	ContactName	|	string	|	256	|	No	|	Contact name for the sales order	|
+|	Country	|	string	|	256	|	No	|	Order country	|
+|	CustomerId	|	string	|	256	|	No	|	The unique identifier of a Customer.	|
+|	CustomerIdName	|	string	|	256	|	No	|	Name of the customer Id	|
+|	CustomerIdType	|	string	|	256	|	No	|	Customer Id type of the sales order	|
+|	FreightTermsCode	|	string	|	256	|	No	|	Freight terms code for the sales order	|
+|	GeoLocationId	|	string	|	36	|	No	|	The unique identifier of a Location. This is autogenerated by Supply chain center or D365 applications	|
+|	GeoLocationNumber	|	string	|	256	|	No	|	The unique number of a location. This is a referenced in an external system to identify the unique location	|
+|	Line1	|	string	|	256	|	No	|	Order address line 1	|
+|	Line2	|	string	|	256	|	No	|	Order address line 2	|
+|	Line3	|	string	|	256	|	No	|	Order address line 3	|
+|	Name	|	string	|	256	|	No	|	Name of the sales order	|
+|	PostalCode	|	string	|	256	|	No	|	Postal code	|
+|	PreferredTermsCode	|	string	|	256	|	No	|	Order preferred terms code	|
+|	PriorityCode	|	string	|	256	|	No	|	Order priority code	|
+|	PurchaseOrderId	|	string	|	36	|	No	|	The purchase order Id for which the sales order was created	|
+|	PurchaseOrderLineId	|	string	|	36	|	No	|	The purchase order line Id for which the sales order was created	|
+|	PurchaseOrderLineNumber	|	string	|	256	|	No	|	Purchase Order line number for which the sales order was created	|
+|	PurchaseOrderNumber	|	string	|	256	|	No	|	Purchase order number for which the sales order was created	|
+|	RequestDeliveryBy	|	timestamp	|		|	No	|	Order requested deliver by date	|
+|	SalesOrderId	|	string	|	36	|	Yes	|	The unique Id of the sales order	|
+|	SalesOrderNumber	|	string	|	256	|	Yes	|	The unique number of the sales order	|
+|	ShippingMethodCode	|	string	|	256	|	No	|	Order shipping method code	|
+|	StateOrProvince	|	string	|	256	|	No	|	State or province 	|
+|	TransactionCurrencyId	|	string	|	256	|	No	|	The transaction currency of the sales order	|

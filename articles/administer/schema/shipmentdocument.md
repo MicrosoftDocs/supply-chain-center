@@ -1,23 +1,24 @@
 ---
 title: ShipmentDocument
-description: This article provides information about the ShipmentDocument entity.
+description: This is about ShipmentDocument entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
-ms.service: supply-chain-center
+ms.service: supply - chain - center
 ms.topic: conceptual
-ms.date: 11/3/2022
-ms.custom: bap-template
+ms.date: 04 / 21 / 2023
+ms.custom: bap - template
 ---
 
-# ShipmentDocument
+# **ShipmentDocument**
 
-A document associated with a Shipment.
-
-| **Entity Name** | **Attribute Name** | **IsPrimaryKey** | **Data Type** | **Data Length** | **Description** |
-| --- | --- | --- | --- | --- | --- |
-| ShipmentDocument | DocumentId | yes | string | 36 | The unique identifier of a Document. |
-| ShipmentDocument | ShipmentId | yes | string | 36 | The unique identifier of a Shipment. |
-| ShipmentDocument | IsoCurrencyCode | no | string | 3 | The ISO 4217 currency code. |
-| ShipmentDocument | ShipmentDocumentIssuedTimestamp | no | timestamp | 14 | The timestamp when the shipment document was issued. |
-| ShipmentDocument | ShippingDocumentTypeId | no | string | 36 | The unique identifier of a Shipping Document Type. |
+|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|---------------|--------|------|----------|-----------|
+|	IsoCurrencyCode	|	string	|	256	|	No	|	The ISO 4217 currency code.	|
+|	ShipmentDocumentId	|	string	|	36	|	Yes	|	The unique Id of the shipment document	|
+|	ShipmentDocumentIssuedTimestamp	|	timestamp	|		|	No	|	The timestamp when the shipment document was issued.	|
+|	ShipmentDocumentNumber	|	string	|	256	|	Yes	|	The unique number of the shipment document	|
+|	ShipmentDocumentTypeId	|	string	|	256	|	No	|	The unique Id of the shipment document type	|
+|	ShipmentDocumentTypeNumber	|	string	|	256	|	No	|	The unique number of the shipment document type	|
+|	ShipmentId	|	string	|	36	|	No	|	The unique identifier of a Shipment.	|
+|	ShipmentNumber	|	string	|	256	|	No	|	Shipment number of the shipment document	|

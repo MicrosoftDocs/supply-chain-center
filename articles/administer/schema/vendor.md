@@ -1,37 +1,124 @@
 ---
 title: Vendor
-description: This article provides information about the Vendor entity.
+description: This is about Vendor entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
-ms.service: supply-chain-center
+ms.service: supply - chain - center
 ms.topic: conceptual
-ms.date: 11/3/2022
-ms.custom: bap-template
+ms.date: 04 / 21 / 2023
+ms.custom: bap - template
 ---
 
-# Vendor
+# **Vendor**
 
-A supplier of products, goods or services.
-
-| **Entity Name** | **Attribute Name** | **IsPrimaryKey** | **Data Type** | **Data Length** | **Description** |
-| --- | --- | --- | --- | --- | --- |
-| Vendor | VendorId | yes | string | 36 | The unique identifier of a Vendor. |
-| Vendor | DunBradstreetGlobalUltimate | no | boolean | 13 | There are eight (8) types of business relationships defined in D&B WorldBase:</br></br>Single Location Subsidiary</br></br>A single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled "single location" and is not part of a corporate family.</br></br>Headquarters: A headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.</br></br>Branch: A branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.</br></br>Division: A division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.</br></br> Subsidiary: A subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.</br></br>Parent: A parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.</br></br>Domestic Ultimate: The Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.</br></br>Global Ultimate: The Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it. |
-| Vendor | LegalEntityFormId | no | string | 36 | The unique identifier of the Legal Entity Form. |
-| Vendor | DunBradstreetParent | no | boolean | 10 | There are eight (8) types of business relationships defined in D&B WorldBase:</br></br> Single Location Subsidiary: A single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled "single location" and is not part of a corporate family.</br></br>Headquarters: A headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.</br></br>Branch: A branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.</br></br>Division: A division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.</br></br>Subsidiary: A subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.</br></br>Parent: A parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.</br></br>Domestic Ultimate: The Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.</br></br>Global Ultimate: The Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it. |
-| Vendor | DunBradstreetUltimate | no | boolean | 10 | There are eight (8) types of business relationships defined in D&B WorldBase:</br></br>Single Location Subsidiary: A single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled "single location" and is not part of a corporate family.</br></br>Headquarters: A headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.</br></br>Branch: A branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.</br></br>Division: A division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.</br></br>Subsidiary: A subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.</br></br>Parent: A parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.</br></br>Domestic Ultimate: The Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.</br></br>Global Ultimate: The Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it. |
-| Vendor | ResponsibilityCenterId | no | string | 36 | The unique identifier of a Responsibility Center. |
-| Vendor | IsoCurrencyCode | no | string | 3 | The ISO 4217 currency code. |
-| Vendor | PartyId | no | string | 36 | The unique identifier of a Party. |
-| Vendor | LedgerId | no | integer | 9 | The unique identifier of a Ledger. |
-| Vendor | SicIndustryCode | no | decimal | 9 | The unique identifier of the SIC Industry. |
-| Vendor | VendorDateOfEstablishment | no | date | 14 | The date that the Vendor was established. |
-| Vendor | DunsNumber | no | decimal | 12 | The DUNS number is a nine-digit number issued by Dun & Bradstreet and assigned to each business location in the D&B database having a unique, separate, and distinct operation to businesses for the purpose of identifying them. The number as issued is random and the digits apparently have no significance as to their issuance. |
-| Vendor | VendorName | no | string | 128 | The business name of the Vendor. |
-| Vendor | VendorTypeId | no | string | 36 | The unique identifier of a Vendor Type. |
-| Vendor | DunBradstreetSingleLocationSubsidiary | no | boolean | 12 | There are eight (8) types of business relationships defined in D&B</br></br>WorldBase:</br></br>Single Location Subsidiary: A single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled "single location" and is not part of a corporate family.</br></br>Headquarters: A headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.</br></br>Branch: A branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.</br></br>Division: A division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.</br></br>Subsidiary: A subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.</br></br>Parent: A parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.</br></br>Domestic Ultimate: The Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.</br></br>Global Ultimate: The Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it. |
-| Vendor | DunBradstreetDivision | no | boolean | 12 | There are eight (8) types of business relationships defined in D&B WorldBase:</br></br>Single Location Subsidiary: A single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled "single location" and is not part of a corporate family.</br></br>Headquarters: A headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.</br></br>Branch: A branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.</br></br>Division: A division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.</br></br>Subsidiary: A subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.</br></br>Parent: A parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.</br></br>Domestic Ultimate: The Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.</br></br>Global Ultimate: The Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it. |
-| Vendor | DunBradstreetSubsidiary | no | boolean | 9 | There are eight (8) types of business relationships defined in D&B WorldBase:</br></br>Single Location Subsidiary: A single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled "single location" and is not part of a corporate family.</br></br>Headquarters: A headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.</br></br>Branch: A branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.</br></br>Division: A division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.</br></br>Subsidiary: A subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.</br></br>Parent: A parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.</br></br>Domestic Ultimate: The Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.</br></br>Global Ultimate: The Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it. |
-| Vendor | DunBradstreetHeadquarters | no | boolean | 0 | There are eight (8) types of business relationships defined in D&B WorldBase:</br></br>Single Location Subsidiary: A single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled "single location" and is not part of a corporate family.</br></br>Headquarters: A headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.</br></br>Branch: A branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.</br></br>Division: A division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.</br></br>Subsidiary: A subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.</br></br>Parent: A parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.</br></br>Domestic Ultimate: The Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.</br></br>Global Ultimate: The Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it. |
-| Vendor | DunBradstreetBranch | no | boolean | 9 | There are eight (8) types of business relationships defined in D&B WorldBase:</br></br>Single Location Subsidiary: A single location subsidiary has reporting responsibilities to its parent; however, it does not have branches or subsidiaries reporting to it. Do not confuse this with a stand-alone business which is titled "single location" and is not part of a corporate family.</br></br>Headquarters: A headquarters is a business establishment that has branches or divisions reporting to it, and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it also will be a subsidiary. If it owns more that 50% of another corporation, then it is also a parent.</br></br>Branch: A branch is a secondary location of its headquarters. It has no legal responsibility for its debts, even though bills may be paid from the branch location. It will have the same legal business name as its headquarters, although branches frequently operate under a different trade style than the headquarters establishment. A branch may be located at the same address as the headquarters if it has a unique trade style. In such cases, the branch may appear to be a duplicate with a different D-U-N-S number than the headquarters record, which may confuse customers if they don't purchase the trade style field.</br></br>Division: A division, like a branch, is a secondary location of a business. However, a division carries out specific business operations related to the headquarters under a divisional name. Divisions look similar to branches in D&B WorldBase and carry a branch code.</br></br>Subsidiary: A subsidiary is a corporation that is more than 50% owned by another corporation and will have a different legal business name from its parent company. A subsidiary may have branches and/or subsidiaries of its own. If it does, then its D-U-N-S Number appears in the headquarter/parent D-U-N-S Number field of its children.</br></br>Parent: A parent is a corporation that owns more than 50 percent of another corporation. The parent company also may be a subsidiary of another corporation. If the parent also has branches, then it is also a headquarters.</br></br>Domestic Ultimate: The Domestic Ultimate is a subsidiary within the global family tree which is the highest ranking member within a specific country.</br></br>Global Ultimate: The Global Ultimate is the top most responsible entity within the global family tree. The Global Ultimate may have branches and/or subsidiaries reporting directly or indirectly to it. |
+|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|---------------|--------|------|----------|-----------|
+|	AddressBuildingCompliment	|	string	|	256	|	No	|	#N/A	|
+|	AddressCity	|	string	|	256	|	No	|	#N/A	|
+|	AddressCountryRegionId	|	string	|	256	|	No	|	#N/A	|
+|	AddressCountryRegionISOCode	|	string	|	256	|	No	|	#N/A	|
+|	AddressCountyId	|	string	|	256	|	No	|	#N/A	|
+|	AddressDescription	|	string	|	4000	|	No	|	#N/A	|
+|	AddressDistrictName	|	string	|	256	|	No	|	#N/A	|
+|	AddressLatitude	|	decimal	|		|	No	|	#N/A	|
+|	AddressLocationId	|	string	|	256	|	No	|	#N/A	|
+|	AddressLongitude	|	decimal	|		|	No	|	#N/A	|
+|	AddressPostbox	|	string	|	256	|	No	|	#N/A	|
+|	AddressStateId	|	string	|	256	|	No	|	#N/A	|
+|	AddressStreet	|	string	|	256	|	No	|	#N/A	|
+|	AddressStreetNumber	|	string	|	256	|	No	|	#N/A	|
+|	AddressZipcode	|	string	|	256	|	No	|	#N/A	|
+|	AnniversaryYear	|	string	|	256	|	No	|	#N/A	|
+|	BirthDay	|	string	|	256	|	No	|	#N/A	|
+|	BirthYear	|	string	|	256	|	No	|	#N/A	|
+|	ChildrenNames	|	string	|	256	|	No	|	#N/A	|
+|	Company	|	string	|	256	|	No	|	#N/A	|
+|	CreditRating	|	string	|	256	|	No	|	#N/A	|
+|	CurrencyCode	|	string	|	256	|	No	|	#N/A	|
+|	DefaultPaymentDayName	|	string	|	256	|	No	|	#N/A	|
+|	DunsNumber	|	string	|	256	|	No	|	The DUNS number is a nine-digit number issued by Dun & Bradstreet and assigned to each business location in the D&B database having a unique, separate, and distinct operation to businesses for the purpose of identifying them. The number as issued is random and the digits apparently have no significance as to their issuance.	|
+|	EthnicOrigin	|	string	|	256	|	No	|	#N/A	|
+|	FirstName	|	string	|	256	|	No	|	#N/A	|
+|	FormattedPrimaryAddress	|	string	|	256	|	No	|	#N/A	|
+|	Gender	|	string	|	256	|	No	|	#N/A	|
+|	HasOnlyTakenBids	|	string	|	256	|	No	|	#N/A	|
+|	Hobbies	|	string	|	256	|	No	|	#N/A	|
+|	Initials	|	string	|	256	|	No	|	#N/A	|
+|	InvoiceVendorAccountNumber	|	string	|	256	|	No	|	#N/A	|
+|	IsForeignEntity	|	boolean	|		|	No	|	#N/A	|
+|	IsMinorityOwned	|	boolean	|		|	No	|	#N/A	|
+|	IsOneTimeVendor	|	boolean	|		|	No	|	#N/A	|
+|	IsPerson	|	boolean	|		|	No	|	#N/A	|
+|	IsServiceVeteranOwned	|	boolean	|		|	No	|	#N/A	|
+|	IsVendorLocallyOwned	|	boolean	|		|	No	|	#N/A	|
+|	IsVendorLocatedInHubZone	|	boolean	|		|	No	|	#N/A	|
+|	Language	|	string	|	256	|	No	|	#N/A	|
+|	LastName	|	string	|	256	|	No	|	#N/A	|
+|	LastNamePrefix	|	string	|	256	|	No	|	#N/A	|
+|	LinkedVendorInAccountsEntity	|	string	|	256	|	No	|	#N/A	|
+|	LinkedVendorInContactsEntity	|	string	|	256	|	No	|	#N/A	|
+|	MaritalStatus	|	string	|	256	|	No	|	#N/A	|
+|	MiddleName	|	string	|	256	|	No	|	#N/A	|
+|	Name	|	string	|	256	|	No	|	#N/A	|
+|	NumberOfEmployees	|	string	|	256	|	No	|	#N/A	|
+|	OnHoldStatus	|	string	|	4000	|	No	|	#N/A	|
+|	OrganizationNumber	|	string	|	256	|	No	|	#N/A	|
+|	OrganizationPhoneticName	|	string	|	256	|	No	|	#N/A	|
+|	OurVendorAccountNumber	|	string	|	256	|	No	|	#N/A	|
+|	OwnerIsDisabled	|	boolean	|		|	No	|	#N/A	|
+|	PaymentId	|	string	|	256	|	No	|	#N/A	|
+|	PaymentSchedule	|	string	|	256	|	No	|	#N/A	|
+|	PaymentTerms	|	string	|	4000	|	No	|	#N/A	|
+|	PersonAnniversaryDay	|	string	|	256	|	No	|	#N/A	|
+|	PersonPersonalSuffix	|	string	|	256	|	No	|	#N/A	|
+|	PersonPersonalTitle	|	string	|	256	|	No	|	#N/A	|
+|	PhoneticFirstName	|	string	|	256	|	No	|	#N/A	|
+|	PhoneticLastName	|	string	|	256	|	No	|	#N/A	|
+|	PhoneticMiddleName	|	string	|	256	|	No	|	#N/A	|
+|	PriceIncludesSalesTax	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryContactURL	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryEmailAddress	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryEmailAddressDescription	|	string	|	4000	|	No	|	#N/A	|
+|	PrimaryEmailAddressPurpose	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryFacebook	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryFacebookDescription	|	string	|	4000	|	No	|	#N/A	|
+|	PrimaryFacebookPurpose	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryFaxNumber	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryFaxNumberDescription	|	string	|	4000	|	No	|	#N/A	|
+|	PrimaryFaxNumberExtension	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryFaxNumberPurpose	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryLinkedin	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryLinkedinDescription	|	string	|	4000	|	No	|	#N/A	|
+|	PrimaryLinkedinPurpose	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryPhoneNumber	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryPhoneNumberDescription	|	string	|	4000	|	No	|	#N/A	|
+|	PrimaryPhoneNumberExtension	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryPhoneNumberPurpose	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryTelex	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryTelexDescription	|	string	|	4000	|	No	|	#N/A	|
+|	PrimaryTelexPurpose	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryTwitter	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryTwitterDescription	|	string	|	4000	|	No	|	#N/A	|
+|	PrimaryTwitterPurpose	|	string	|	256	|	No	|	#N/A	|
+|	PrimaryURLDescription	|	string	|	4000	|	No	|	#N/A	|
+|	PrimaryURLPurpose	|	string	|	256	|	No	|	#N/A	|
+|	ProfessionalSuffix	|	string	|	256	|	No	|	#N/A	|
+|	ProfessionalTitle	|	string	|	256	|	No	|	#N/A	|
+|	TaxGroup	|	string	|	256	|	No	|	#N/A	|
+|	VendorAccountNumber	|	string	|	256	|	No	|	#N/A	|
+|	VendorCreatedByWorkflow	|	string	|	256	|	No	|	#N/A	|
+|	VendorCreditLimit	|	string	|	256	|	No	|	#N/A	|
+|	VendorGroupId	|	string	|	36	|	No	|	#N/A	|
+|	VendorId	|	string	|	36	|	Yes	|	The unique identifier of a Vendor.	|
+|	VendorKnownAsName	|	string	|	256	|	No	|	#N/A	|
+|	VendorNumber	|	string	|	256	|	Yes	|	#N/A	|
+|	VendorOnHoldReleaseDate	|	date	|		|	No	|	#N/A	|
+|	VendorPartyNumber	|	string	|	256	|	No	|	#N/A	|
+|	VendorPaymentMethod	|	string	|	256	|	No	|	#N/A	|
+|	VendorPersonAnniversaryMonth	|	string	|	256	|	No	|	#N/A	|
+|	VendorPersonBirthMonth	|	string	|	256	|	No	|	#N/A	|
+|	VendorPersonCreatedByWorkflow	|	string	|	256	|	No	|	#N/A	|
+|	VendorPriceToleranceGroup	|	string	|	256	|	No	|	#N/A	|
+|	VendorPrimaryContactPerson	|	string	|	256	|	No	|	#N/A	|
+|	WomanOwner	|	string	|	256	|	No	|	#N/A	|
