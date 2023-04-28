@@ -12,6 +12,10 @@ ms.custom: bap - template
 
 # **AccountGroup**
 
+This is account group, supporting account.
+
+
+
 |	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountGroupDescription	|	string	|	4000	|	No	|	Description of the account group	|
