@@ -39,7 +39,7 @@ If you already have an existing KPI, then you can assign it as a parent to the n
  
 •	**Summary**: Review the details of the KPI you are creating. You can edit any of the information on the previous steps.
  
-##Edit or Delete an Existing KPI##
+## Edit or Delete an Existing KPI
 •	Currently, apart from modifying its Parent or Child KPIs,  an existing KPI cannot be edited. To delete a KPI, select the KPI you wish to delete and then select “Delete KPI”.
 
 ## View a KPI
