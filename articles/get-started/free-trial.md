@@ -16,7 +16,7 @@ Microsoft Supply Chain Center offers a free 180-day trial. After a quick sign-up
 
 To sign up for the Supply Chain Center trial, follow these steps.
 
-1. Go to Supply Chain Center's marketing page and select the **Try for free** button.
+1. Go to [Supply Chain Center's marketing page](https://www.microsoft.com/en-us/microsoft-cloud/solutions/microsoft-supply-chain-platform) and select the **Try for free** button.
 2. Follow the onscreen guidance to enter the email associated with your Microsoft account] and your contact information.
 
 The trial takes a few minutes to load, then you can start using the app. See [Additional requirements and limitations](../troubleshoot-faqs/requirements-limitations.md) if you are having problems signing up.
