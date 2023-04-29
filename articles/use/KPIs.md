@@ -11,12 +11,12 @@ ms.custom: bap-template
 ---
 
 
-#KPIs
+# KPIs
 
-##What are KPIs?
+## What are KPIs?
 KPIs, or Key Performance Indicators, are measurable values that help organizations, teams, or individuals assess their progress towards achieving specific objectives or goals. These quantifiable metrics are used to evaluate the effectiveness of processes, projects, or initiatives, and to track performance over time. Managing the use of KPIs includes setting a target (the desired level of performance), tracking progress against those targets and taking corrective actions.
 
-##Create a new KPI
+## Create a new KPI
 **Prerequisite**
 In order to create a KPI, you must first create or import Calculations. 
 **Create a new KPI**
@@ -42,12 +42,12 @@ o	**Map**: Select the measure value and date columns in your Calculation you wou
 ##Edit or Delete an Existing KPI##
 •	Currently, apart from modifying its Parent or Child KPIs,  an existing KPI cannot be edited. To delete a KPI, select the KPI you wish to delete and then select “Delete KPI”.
 
-##View a KPI##
+## View a KPI
 In the KPIs page, you can view different KPIs by their Name, Description, Status, Value, Units, Progress, Start Date, End Date, Owner and Categories. You may filter by Status by selecting the different Status labels on the top of the page.
  
 To view the details of a KPI, click on its name. In this screen, you can view the KPI’s performance over time, its value history, any Parent or Child KPIs it is related to, and other details. 
  
-##Best Practices##
+## Best Practices 
 
 1.	Best practices for creating calculations to be used by KPI 
 a.	Include a measure and date column in your calculation: 
