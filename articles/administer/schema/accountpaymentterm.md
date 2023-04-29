@@ -15,7 +15,7 @@ ms.custom: bap - template
 Account Payment terms refer to the agreed-upon conditions and requirements that govern the payment process between a buyer and a seller in a business transaction. These terms outline when and how payments should be made, including details such as the payment method, due date etc. Payment terms are usually negotiated between the buyer and seller before the transaction takes place. They help establish clear expectations and ensure that both parties are aware of their payment obligations, reducing the risk of payment disputes and providing a framework for efficient financial management.
 
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountPaymentTermId	|	string	|	36	|	Yes	|	Id of the payment term for the account	|
 |	AccountPaymentTermNumber	|	string	|	256	|	Yes	|	Number or code of the payment term for the account	|

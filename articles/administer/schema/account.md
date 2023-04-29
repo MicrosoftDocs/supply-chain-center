@@ -15,7 +15,7 @@ ms.custom: bap - template
 Accounts refer to a business or organization that is being tracked and managed within the ERP system as a customer or vendor. An account record within an ERP typically contains detailed information about the business or organization, such as its name, address, industry, size, type of account and contact information. An account may be linked to related records such as contacts, opportunities, and activities. This allows users to see a complete picture of their interactions with the account and to track the status of sales opportunities, customer service issues, Purchases, Shipments, and other business activities. Accounts are a fundamental element of any ERP system, as they provide a way to organize and manage customer, vendor, 3rd party service providers track all interactions, activities and transactions over time.
 
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountCategoryCode	|	string	|	256	|	No	|	Select a category to indicate whether the customer account is standard or preferred.	|
 |	AccountCategoryCodeName	|	string	|	256	|	No	|	Account category code name	|

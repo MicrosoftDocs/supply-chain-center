@@ -15,7 +15,7 @@ ms.custom: bap - template
 The account product lead time refers to the duration it takes for a specific product to be delivered from the seller to the buyer. It encompasses the entire process, starting from when the seller receives the order, to the time required for manufacturing, picking, packing, shipping, and ultimately delivering the product to its final destination. It's important to note that this lead time does not consider any specific freight terms or international commercial agreements. Regardless of these factors, this lead time remains unchanged.
 
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountId	|	string	|	36	|	No	|	The unique Id of the account 	|
 |	AccountNumber	|	string	|	256	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|

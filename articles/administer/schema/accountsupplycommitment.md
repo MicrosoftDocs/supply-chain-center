@@ -15,7 +15,7 @@ ms.custom: bap - template
 The account supply commitment pertains to the assurance or undertaking made by suppliers regarding a purchase order. Suppliers guarantee specific ship dates, delivery dates, and quantities they are capable of delivering. If customers permit partial shipments, suppliers can furnish a delivery schedule that includes multiple promised ship dates and quantities associated with those purchase order schedules.
 
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountId	|	string	|	36	|	No	|	A unique identifier of an account. The account could be a customer or vendor etc. AccountId is an auto generated Id by Microsoft D365 or Supply chain center. 	|
 |	AccountNumber	|	string	|	256	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|

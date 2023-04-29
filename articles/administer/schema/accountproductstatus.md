@@ -16,7 +16,7 @@ The account product status refers to the products current status. The status of 
 
 
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountId	|	string	|	36	|	No	|	The unique Id of the account. This is an internal system generated Id by D365 applications	|
 |	AccountNumber	|	string	|	256	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|
