@@ -28,10 +28,10 @@ o	Enter the general details of the KPI: Name, description, categories, start dat
 o	The Start Date and End Date represent the period over which the KPI will be tracked.
 o	Categories can be used to group KPIs together. 
 If you already have an existing KPI, then you can assign it as a parent to the new KPI. This is useful for showing the relationship between different KPIs.   
+
 •	**Measure**
-o	**Select**: Select the Calculation you would like to use for measuring the KPI. Only calculations that were successfully refreshed can be selected.
- 
-o	**Map**: Select the measure value and date columns in your Calculation you would like to use for tracking the KPI. A measure value is the value that will be tracked over time as the KPI. Date column will be used as the time series data over which the KPI is measured and evaluated. Then, enter the Units which the KPI is measured in, for example: USD, EUR, Lb, KG, pallets, cases. 
+ o	**Select**: Select the Calculation you would like to use for measuring the KPI. Only calculations that were successfully refreshed can be selected.
+ o	**Map**: Select the measure value and date columns in your Calculation you would like to use for tracking the KPI. A measure value is the value that will be tracked over time as the KPI. Date column will be used as the time series data over which the KPI is measured and evaluated. Then, enter the Units which the KPI is measured in, for example: USD, EUR, Lb, KG, pallets, cases. 
  
 •	**Target**: Set your target value for the KPI. The target value will be used to calculate the KPI progress. 
  
