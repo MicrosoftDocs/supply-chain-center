@@ -29,7 +29,7 @@ Then, select create to start the KPI creation wizard.
  -	Categories can be used to group KPIs together. 
  -	If you already have an existing KPI, then you can assign it as a parent to the new KPI. This is useful for showing the relationship between different KPIs.   
 -	**Measure**
- -	**Select**: Select the Calculation you would like to use for measuring the KPI. Only calculations that were successfully refreshed can be selected.
+ - **Select**: Select the Calculation you would like to use for measuring the KPI. Only calculations that were successfully refreshed can be selected.
  - **Map**: Select the measure value and date columns in your Calculation you would like to use for tracking the KPI. A measure value is the value that will be tracked over time as the KPI. Date column will be used as the time series data over which the KPI is measured and evaluated. Then, enter the Units which the KPI is measured in, for example: USD, EUR, Lb, KG, pallets, cases. 
 -	**Target**: Set your target value for the KPI. The target value will be used to calculate the KPI progress. 
 -	**Threshold**: A KPI is required to have at least one rule. A rule consists of a set of conditions and actions. Added to actions will be performed when the a condition is met. In addition, you can change the status of the KPI when the rule is met.. For example if you are making  an On Time In Full KPI, you can setup a threshold for when the value is less than 95% that will set the KPI status to “At risk” and trigger a Power Automate Flow. KPI rules are evaluated periodically, according to the data refresh rate set in the Supply and demand insights section in Settings. 
