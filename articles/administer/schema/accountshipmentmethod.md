@@ -12,6 +12,10 @@ ms.custom: bap - template
 
 # **AccountShipmentMethod**
 
+The account shipment method refers to the process or means by which products or goods are delivered to the account. There are various shipment methods available, and the choice of method often depends on factors such as the nature of the product, customer preferences, geographical location, and time constraints. This entity records an accounts default preference related to shipping. The default preference can be overwritten at the time of placing the order. 
+
+
+
 |	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountId	|	string	|	256	|	No	|	The unique Id of the account. This is an internal system generated Id by D365 applications	|

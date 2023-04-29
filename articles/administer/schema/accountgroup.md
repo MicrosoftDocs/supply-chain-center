@@ -12,8 +12,7 @@ ms.custom: bap - template
 
 # **AccountGroup**
 
-This is account group, supporting account.
-
+Account group entity defines the group or classification an account belongs. Account group is a categorization or segmentation of accounts based on certain criteria or characteristics. Account groups are used to group accountss together for various purposes,business processes and relations such as sales and marketing activities, pricing and discount management, analytics, market segmentation etc.
 
 
 |	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|

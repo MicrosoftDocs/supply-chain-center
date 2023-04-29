@@ -12,6 +12,9 @@ ms.custom: bap - template
 
 # **AccountProductPrice**
 
+The account product lead price refers to the contractual price or agreed price for a specific product the seller sells to the buyer. Account product price encompasses price list price and any additional surcharges for the product. It's important to note that this price does not consider any specific freight charges or any applicable taxes, duties. The product price has a validity period defined by period start date and period end date.
+
+
 |	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountId	|	string	|	36	|	No	|	The unique Id of the account	|
