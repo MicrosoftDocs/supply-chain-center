@@ -1,3 +1,16 @@
+---
+title: KPIs
+description: This article provides information about Microsoft Supply Chain Center's KPIs feature.
+author: itayhi
+ms.author: itayh
+ms.reviewer: johnmichalak
+ms.service: supply-chain-center
+ms.topic: conceptual
+ms.date: 4/29/2023
+ms.custom: bap-template
+---
+
+
 #KPIs
 
 ##What are KPIs?
