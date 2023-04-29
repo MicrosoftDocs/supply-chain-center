@@ -40,7 +40,7 @@ Yes, you can. To view all available trials, see [Get started with a Dynamics 365
 
 When you sign up for the trial, you'll receive an email that includes the trial details. If you don't see the email in your inbox, check your spam folder. Alternatively, follow these steps to access your app.
 
-1. Go to the trial site, and select **Try for free**.
+1. Go to [Supply Chain Center's marketing page](https://www.microsoft.com/en-us/microsoft-cloud/solutions/microsoft-supply-chain-platform), and select **Try for free**.
 1. Enter the email ID that you used when you signed up for the trial. You'll be redirected to your trial app.
 
 ### Where is my data stored?
