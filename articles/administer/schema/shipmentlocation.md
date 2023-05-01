@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShipmentLocation**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipment location entity refers to the location of the shipment during its journey from origin to destination.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountId	|	string	|	36	|	No	|	A unique identifier of an account. The account could be a customer or vendor etc. AccountId is an auto generated Id by Microsoft D365 or Supply chain center. 	|
 |	AccountNumber	|	string	|	256	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|

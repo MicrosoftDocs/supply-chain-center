@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ReturnOrderLine**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The return order line entity refers to the details of the return order. The return order line contains the product that is returned with quantity and product quality code for returns.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Carrier	|	string	|	256	|	No	|	Carrier of the return order line	|
 |	CarrierDeliveryService	|	string	|	256	|	No	|	Carrier delivery service for return order line	|

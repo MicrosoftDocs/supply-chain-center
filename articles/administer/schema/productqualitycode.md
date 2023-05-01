@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ProductQualityCode**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The product quality code entity refers to the various code associated with quality management of the product. 
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Action	|	string	|	256	|	No	|	Action associated with the product quality code	|
 |	CompanyName	|	string	|	256	|	No	|	Name of the company	|

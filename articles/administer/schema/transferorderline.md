@@ -12,7 +12,12 @@ ms.custom: bap - template
 
 # **TransferOrderLine**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A transfer order entity typically refers to a document or record that facilitates the movement of goods or products from one location to another within an organization. It is commonly used in logistics and supply chain management systems to initiate and track the transfer of inventory products.
+
+A transfer order entity contains information such as the source location (where the goods are currently located), the destination location (where the goods should be transferred to), the quantity of items to be transferred, and any other relevant details specific to the organization's requirements.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AllowedOverDeliveryPercentage	|	string	|	256	|	No	|	Allowed over delivery percentage	|
 |	AllowedUnderDeliveryPercentage	|	string	|	256	|	No	|	Allowed under weight percentage	|

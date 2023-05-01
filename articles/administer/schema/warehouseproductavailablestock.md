@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **WarehouseProductAvailableStock**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The warehouse product available stock entity refers to the available inventory on hand. The quantity is a snapshot of time. This entity can have both available to promise quantity and on hand available quantity.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Aisle	|	string	|	256	|	No	|	The aisle where the stock keeping unit of the product is located	|
 |	Bin	|	string	|	256	|	No	|	The bin where the stock keeping unit of the product is located	|

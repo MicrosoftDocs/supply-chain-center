@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **UnitOfMeasure**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The unit of measure entity holds the various selling and buying unit of measure of the products. Example unit of measure include eaches, packs, kilograms, litre etc.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	BaseUOM	|	string	|	256	|	No	|	Base unit of measure	|
 |	IsBaseUnit	|	boolean	|		|	No	|	Is this base unit of measure	|

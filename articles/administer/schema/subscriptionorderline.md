@@ -12,7 +12,12 @@ ms.custom: bap - template
 
 # **SubscriptionOrderLine**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A subscription order line entity refers to a specific type of entity or object in a business or e-commerce system that represents a customer's subscription order.
+
+When a customer subscribes to a product or service on a recurring basis, such as a magazine, a software license, or a streaming service, their subscription order is typically managed through an entity specifically designed to handle the details of the subscription. This entity contains information about the customer, the subscription plan, the billing details, and any additional parameters related to the subscription.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	BaseAmount	|	decimal	|		|	No	|	#N/A	|
 |	BaseAmountBase	|	decimal	|		|	No	|	#N/A	|

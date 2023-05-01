@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShippingService**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipping service entity refers to the various shipping service associated with the carrier and shipment
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Company	|	string	|	256	|	No	|	Company	|
 |	Description	|	string	|	4000	|	No	|	Description of the shipping service	|

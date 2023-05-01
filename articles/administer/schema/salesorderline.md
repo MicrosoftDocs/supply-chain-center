@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **SalesOrderLine**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The sales order line entity refers to the details of the sales order containing the product being shipped and the quantity.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AddressId	|	string	|	256	|	No	|	Address Id of the sales order line	|
 |	City	|	string	|	256	|	No	|	City of the sales order line	|

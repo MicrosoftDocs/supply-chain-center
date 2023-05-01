@@ -12,7 +12,15 @@ ms.custom: bap - template
 
 # **ShipmentEventStatus**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipment event status entity refers to the status of the shipment.
+For example:
+
+planned
+in process
+completed
+unknown
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ShipmentEventId	|	string	|	256	|	No	|	Shipment event Id of the shipment	|
 |	ShipmentEventNumber	|	string	|	256	|	No	|	Shipment event number of the shipment	|

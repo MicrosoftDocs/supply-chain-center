@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShipmentRouteLegEquipmentShipmentItem**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipment items that are being transported on the shipment route leg shipment mode.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ShipmentId	|	string	|	36	|	No	|	The unique identifier of a Shipment.	|
 |	ShipmentItemDeconsolidationNumber	|	string	|	256	|	No	|	A portion (breakdown / deconsolidation) of the a shipment item into smaller parts for the purpose of transport.	|

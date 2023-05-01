@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShipmentItemConsolidation**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The consolidation of shipment items for transfer. Shipments Items are not breakable (SHIPMENT CONSOLIDATION). Shipment Item Consolidation deals with Shipments that can be broken at the item level.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ConsolidatedShipmentId	|	string	|	36	|	No	|	The unique identifier of a Shipment.	|
 |	ConsolidatedShipmentItemId	|	string	|	36	|	No	|	Consolidated shipment item Id of the shipment	|

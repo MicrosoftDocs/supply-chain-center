@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShipmentCharge**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipment charge entity refers to the applicable fee or charges incurred by the account for a shipment. 
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ChargeByPartyId	|	string	|	256	|	No	|	The unique identifier of a Party.	|
 |	ChargeByPartyNumber	|	string	|	256	|	No	|	Shipment charge by party number	|

@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **PurchaseOrderLine**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The purchase order line entity refers to the specific products, goods or services that are identified on the Purchase Order. The purchase order line entity typically contains order quantity, requested delivery date or ship date and delivery address.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AssociateToWarehouseId	|	string	|	36	|	No	|	To warehouse Id	|
 |	AssociateToWarehouseNumber	|	string	|	256	|	No	|	To warehouse number	|

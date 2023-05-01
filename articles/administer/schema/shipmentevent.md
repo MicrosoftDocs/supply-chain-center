@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShipmentEvent**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipment event entity refers to an event that is associated with a Shipment to track its progress or status as it is shipped, stored, in customs etc.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	CustomAttributes	|	string	|	256	|	No	|	Custom attributes	|
 |	ExceptionInitiatedBy	|	string	|	256	|	No	|	Event initiator	|

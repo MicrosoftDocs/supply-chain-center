@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **SalesOrderScheduleLine**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+THe sales order schedule line entity refers to sales order confirmation details. If the order line has multiple partial confirmations then the schedule contains details of the line with multiple delivery times and corresponding quantities.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	CommitmentItemSku	|	string	|	256	|	No	|	The product number of the sales order line	|
 |	CommitmentProductId	|	string	|	36	|	No	|	The product Id of the sales order line	|

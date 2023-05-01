@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShipmentRouteLegIOT**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The route leg that a shipment transits (already has transited) or is planned to transit and where an IOT device is associated with that route leg.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	DeviceAccuracy	|	string	|	256	|	No	|	Device ACCURACY of the shipment	|
 |	DeviceActivity	|	string	|	256	|	No	|	Device ACTIVITY of the shipment	|

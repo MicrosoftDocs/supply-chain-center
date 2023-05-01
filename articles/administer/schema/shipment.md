@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **Shipment**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipment entity refers to a quantity of items, goods or bulk cargo that are shipped together. The shipment contains the origin and destination location details.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ActualShipTimestamp	|	timestamp	|		|	No	|	The actual shipment date.	|
 |	CarrierId	|	string	|	36	|	No	|	The unique identifier of a Carrier.	|

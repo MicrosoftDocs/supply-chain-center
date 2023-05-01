@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ReturnOrder**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The return order entity refers to the return, repair or exchange order.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	BillToCity	|	string	|	256	|	No	|	City of the bill to account	|
 |	BillToContactName	|	string	|	256	|	No	|	Contact name of the bill to account	|

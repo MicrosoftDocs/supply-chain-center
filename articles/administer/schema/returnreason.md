@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ReturnReason**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The return reason entity refers to the return reason code for return, repair and exchange process. The return reason is typically documented at the time of creating the return order.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Company	|	string	|	256	|	No	|	Company	|
 |	Description	|	string	|	4000	|	No	|	Description of the return reason	|

@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ReturnAction**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The return action entity refers to the return action code used in return process.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AdditionalInfo	|	string	|	256	|	No	|	Additional comments or information for return action	|
 |	Description	|	string	|	4000	|	No	|	Description of the return action	|

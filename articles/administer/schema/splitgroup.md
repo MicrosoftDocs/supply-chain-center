@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **SplitGroup**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The split group entity refers to the various split group.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Description	|	string	|	4000	|	No	|	#N/A	|
 |	Name	|	string	|	256	|	No	|	#N/A	|

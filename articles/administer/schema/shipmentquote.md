@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShipmentQuote**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipment quote entity refers to the freight quote by the shipping carrier.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	BookingAmount	|	decimal	|		|	No	|	Booking amount	|
 |	BookingAmountBase	|	decimal	|		|	No	|	Base amount of the booking	|

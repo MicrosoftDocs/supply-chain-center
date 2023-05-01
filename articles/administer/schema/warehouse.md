@@ -12,7 +12,12 @@ ms.custom: bap - template
 
 # **Warehouse**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A warehouse entity refers to a physical location or facility where goods or products are stored before they are sold or distributed. Warehouses play a crucial role in the supply chain and logistics of businesses, serving as storage spaces for inventory.
+
+Warehouses are designed to accommodate large quantities of goods and are equipped with various features to facilitate efficient storage and retrieval of items. These features may include shelving systems, pallet racks, forklifts, conveyor belts, and inventory management systems.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AllowMarkingReservationRemoval	|	string	|	256	|	No	|	Allow marking reservation removal 	|
 |	AreItemsCoveragePlannedManually	|	boolean	|		|	No	|	Are items coverage planned manually	|

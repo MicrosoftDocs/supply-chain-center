@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **Vendor**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A supplier of products, goods or services.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AddressBuildingCompliment	|	string	|	256	|	No	|	#N/A	|
 |	AddressCity	|	string	|	256	|	No	|	#N/A	|

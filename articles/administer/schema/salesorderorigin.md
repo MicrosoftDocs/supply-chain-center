@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **SalesOrderOrigin**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The sales order origin entity refers to the origin of the sales order.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Company	|	string	|	256	|	No	|	#N/A	|
 |	OriginCode	|	string	|	256	|	No	|	#N/A	|

@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShipmentRouteLegEquipment**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipment route leg equipment entity refers to the equipment associated with the shipment route leg.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AircraftId	|	string	|	256	|	No	|	The unique identifier of an Aircraft.	|
 |	AircraftNumber	|	string	|	256	|	No	|	Aircraft number of the shipment route leg	|

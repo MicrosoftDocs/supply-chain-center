@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShipmentDocument**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipment document entity refers to the document associated with that shipment. Typical shipment documents are bill of lading, provisional invoice, customs invoice etc.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	IsoCurrencyCode	|	string	|	256	|	No	|	The ISO 4217 currency code.	|
 |	ShipmentDocumentId	|	string	|	36	|	Yes	|	The unique Id of the shipment document	|

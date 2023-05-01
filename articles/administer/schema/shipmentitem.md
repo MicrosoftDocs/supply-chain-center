@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ShipmentItem**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The shipment line item entity refers to the product being shipped against sales order line or purchase order line. Containing the product and the corresponding shipped quantity.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ActualGrossShipmentWeight	|	decimal	|		|	No	|	The weight of the shipment including all packing, blocking, platforms, special bracing, etc., if required. (includes weight of unit load device, when applicable.)	|
 |	CargoTypeId	|	string	|	256	|	No	|	The unique identifier of a Cargo Type.	|
