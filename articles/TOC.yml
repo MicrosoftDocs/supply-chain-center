@@ -187,7 +187,13 @@
     - name: Uninstall an ISV module
       href: use/uninstall-an-isv-module.md
   - name: Analytics
-    href: use/analytics.md
+    - items: 
+      - name: Analytics
+        href: use/analytics.md
+      - name: Calculations
+        href: use/calculations.md
+      - name: KPIs
+        href: use/kpis.md
   - name: Supply and demand analytics
     href: use/supply-and-demand.md
   - name: Configure and review restock recommendations
