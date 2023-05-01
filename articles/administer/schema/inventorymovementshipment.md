@@ -12,7 +12,9 @@ ms.custom: bap - template
 
 # **InventoryMovementShipment**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The inventory movement shipment entity refers to the shipments used to transport the items specified in the inventory transaction.
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	InventoryMovementId	|	string	|	36	|	No	|	Inventory movement id for the inventory shipment	|
 |	InventoryMovementNumber	|	string	|	256	|	No	|	Inventory movement number for the inventory shipment	|

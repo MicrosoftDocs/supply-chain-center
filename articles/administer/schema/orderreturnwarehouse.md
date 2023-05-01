@@ -12,7 +12,9 @@ ms.custom: bap - template
 
 # **OrderReturnWarehouse**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The order return warehouse is the warehouse or service center where the return orders are received.
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	City	|	string	|	256	|	No	|	#N/A	|
 |	Country	|	string	|	256	|	No	|	#N/A	|

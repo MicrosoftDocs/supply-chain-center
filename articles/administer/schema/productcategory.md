@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ProductCategory**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The product category entity refers to the classification or hierarchy of the product family.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ExternalProductCategoryId	|	string	|	256	|	No	|	External product category Id	|
 |	FriendlyCategoryName	|	string	|	256	|	No	|	Friendly category name of the product category	|

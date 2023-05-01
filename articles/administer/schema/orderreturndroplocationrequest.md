@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **OrderReturnDropLocationRequest**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The order return drop location request entity refers to return authorization request for returns, repairs or exchanges drop location.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	CountryCode	|	string	|	256	|	No	|	#N/A	|
 |	Name	|	string	|	256	|	No	|	#N/A	|

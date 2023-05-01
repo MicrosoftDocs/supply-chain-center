@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **InspectionCode**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Inspection code entity refers to the various inspection code used in quality of the goods received.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Description	|	string	|	4000	|	No	|	#N/A	|
 |	InspectionCode	|	string	|	256	|	Yes	|	#N/A	|

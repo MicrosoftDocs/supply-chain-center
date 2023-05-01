@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **OrderReturnDropLocation**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The order return drop location entity refers to the warehouse or service center where the return orders are received from customers.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	CountryCode	|	string	|	256	|	No	|	#N/A	|
 |	DropOffAddressStreet1	|	string	|	256	|	No	|	#N/A	|

@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ProductCategoryHierarchyRole**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The product category hierarchy role entity refers to the role of a product within a hierarchy or category refers to its position, function, or purpose relative to other products. Roles can vary depending on the specific context or perspective. For example, a product may have the role of a flagship product, a complementary product, or an entry-level product within its category.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ProductCategoryHierarchyRoleId	|	string	|	36	|	Yes	|	Id of the product hierarchy role	|
 |	ProductCategoryHierarchyRoleNumber	|	string	|	256	|	Yes	|	Number of the product hierarchy role	|

@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **Product**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The product entity refers to the stock keeping unit of the goods that is purchased or sold. The product entity contains the base unit of measure, weight, volume and product related. Base price and cost of the product. The product entity has references to product category and the product family. 
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AllowedSubscriptionFrequency	|	string	|	256	|	No	|	Subscription frequency allowed	|
 |	CompanyId	|	string	|	256	|	No	|	Company of the product	|

@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **GeoLocation**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A geo location entity refers to a specific location on the Earth's surface that is identified and represented using geographical coordinates. It typically includes latitude and longitude values that pinpoint the exact position of a place or point of interest. Geo location holds the street address, city, state and country information of the geo location.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	CountryName	|	string	|	256	|	No	|	The country where this is located. Recommended to use ISO code for country	|
 |	DaylightSavingsTimeObservedIndicator	|	boolean	|		|	No	|	Indicates whether daylight savings time (DST) is observed at this location.	|

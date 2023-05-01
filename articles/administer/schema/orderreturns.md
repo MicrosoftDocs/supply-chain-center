@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **OrderReturns**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The order returns entity refers to the returns order. The returns order contains the ship to address, return order id and RMA number for returns.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountNumber	|	string	|	36	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|
 |	AccountOrderReference	|	string	|	256	|	No	|	Order reference for the account	|

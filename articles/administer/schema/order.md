@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **Order**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Order entity refers to the sales order. The sales order entity contains the sold to party, ship to party and their address. Order requested delivery by date, shipping method and transaction currency.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountNumber	|	string	|	256	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|
 |	AccountTypeCode	|	string	|	256	|	No	|	Account type code indicates the type of account. An account could be Vendor, Customer etc.	|

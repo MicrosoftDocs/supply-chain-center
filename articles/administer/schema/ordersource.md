@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **OrderSource**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The order source entity refers to the source of the order
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Name	|	string	|	256	|	No	|	#N/A	|
 |	OrderSourceId	|	string	|	36	|	Yes	|	#N/A	|

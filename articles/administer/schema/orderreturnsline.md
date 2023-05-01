@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **OrderReturnsLine**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The order returns line entity refers to the details of the returns order. The return order line typically contains the product that is being returned, quantity and reference order against which this return is initiated. 
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ActualArrivalDate	|	date	|		|	No	|	Actual arrival date	|
 |	AdditionalComments	|	string	|	256	|	No	|	Additional comments	|

@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **InventoryMovement**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Inventory movement entity refers to the process of tracking and managing the movement of goods or products within a company's supply chain. An inventory movement entity refers to a specific item or batch of items that are being tracked as they move through various stages of the supply chain, such as from the production facility to a warehouse, between different warehouses, or from a warehouse to a retail store.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AllocatedToWorkOrder	|	string	|	256	|	No	|	Allocated to work order for the inventory movement	|
 |	FromWarehouseId	|	string	|	36	|	No	|	The unique identifier of a Warehouse.	|

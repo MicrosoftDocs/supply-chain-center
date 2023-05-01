@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **ProductDimensionGroup**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A product dimension group entity refers to a grouping of similar products based on certain dimensions or attributes. By associating products with a dimension group entity, businesses can efficiently manage their inventory and track product variations.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	GroupDescription	|	string	|	4000	|	No	|	#N/A	|
 |	GroupName	|	string	|	256	|	No	|	#N/A	|

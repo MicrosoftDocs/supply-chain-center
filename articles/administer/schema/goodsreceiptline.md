@@ -12,7 +12,12 @@ ms.custom: bap - template
 
 # **GoodsReceiptLine**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Goods receipt line entity is the details of the goods receipt document. Goods receipt line includes information such as the date and time of receipt, the quantity and description of the received goods, the supplier or vendor from whom the goods were obtained, and any relevant purchase order or transfer order or other reference numbers.
+
+Goods receipt line entity helps ensure transparency and accuracy in the supply chain by providing a documented record of the goods received, which aids in maintaining efficient inventory control and smooth business operations.
+ 
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AssociateToWarehouseId	|	string	|	36	|	No	|	#N/A	|
 |	AssociateToWarehouseNumber	|	string	|	256	|	No	|	#N/A	|

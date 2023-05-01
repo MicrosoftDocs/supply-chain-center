@@ -12,7 +12,9 @@ ms.custom: bap - template
 
 # **OrderReturnRequest**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The order return request entity refers to the return authorization document for returns, repairts or exchanges.
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ClientGeneratedId	|	string	|	256	|	No	|	#N/A	|
 |	Name	|	string	|	256	|	No	|	#N/A	|
