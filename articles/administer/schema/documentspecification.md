@@ -12,7 +12,11 @@ ms.custom: bap - template
 
 # **DocumentSpecification**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Documentation specification entity refers to the specification of the document.
+
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	DocumentSpecificationId	|	string	|	36	|	Yes	|	Document specification Id	|
 |	DocumentSpecificationName	|	string	|	256	|	No	|	Name of the documentation specification	|

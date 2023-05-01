@@ -12,7 +12,11 @@ ms.custom: bap - template
 
 # **DayOfWeek**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+
+The day of week entity refers to the specific day within a week. A week consists of days like Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday. 
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	BusinessDayIndicator	|	string	|	256	|	No	|	Indicates that the associated day is a business day.	|
 |	DayOfWeekDescription	|	string	|	256	|	No	|	Description of day of the week	|

@@ -12,6 +12,9 @@ ms.custom: bap - template
 
 # **DeliveryOrderTrackingLine**
 
+The delivery order tracking line entity refers to the details of the tracking associated with the delivery order.
+
+
 |	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	DeliveryOrderLineId	|	string	|	256	|	No	|	Delivery order line Id	|

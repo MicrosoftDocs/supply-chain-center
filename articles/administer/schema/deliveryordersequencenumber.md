@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **DeliveryOrderSequenceNumber**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Delivery order sequence entity refers to the sequencing of delivery order.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	DeliveryOrderId	|	string	|	36	|	No	|	Delivery order Id	|
 |	DeliveryOrderName	|	string	|	256	|	No	|	Name of the delivery order sequence	|

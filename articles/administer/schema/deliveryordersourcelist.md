@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **DeliveryOrderSourceList**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Delivery order source list entity refers to the list of orders related to the delivery order.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	DeliveryOrderSourceListId	|	string	|	36	|	Yes	|	The unique Id of the delivery order source list 	|
 |	DeliveryOrderSourceListName	|	string	|	256	|	No	|	Name of the delivery order source list	|

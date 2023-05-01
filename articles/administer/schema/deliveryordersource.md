@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **DeliveryOrderSource**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Delivery order source entity refers to the source order and source order type for the delivery order. 
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AddressStreet	|	string	|	256	|	No	|	address line of the delivery order	|
 |	AddressStreet1	|	string	|	256	|	No	|	Address line 1	|

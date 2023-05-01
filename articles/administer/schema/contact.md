@@ -12,7 +12,19 @@ ms.custom: bap - template
 
 # **Contact**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The contact entity refers to an individual or organization associated with the account.
+The contact could be a primary contact person, a designated account manager, or any other relevant party representing the account.
+
+A contact for an account entity would include information such as:
+
+First Name and Last Name: The full name of the contact person or the organization's name.
+
+Position/Role: The position or role the contact person holds within the organization.
+
+Contact Details: Contact information like phone number, email address, mailing address, or any other preferred means of communication.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountId	|	string	|	36	|		|	Unique identifier of the account with which the contact is associated.	|
 |	AccountIdName	|	string	|	100	|		|	AccountIdName	|

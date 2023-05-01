@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **DeliveryOrderTrackingHistory**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Delivery order tracking history entity refers to the history of the tracking number. The events associated with shipment tracking from origin to destination.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	CarrierOccurredOn	|	timestamp	|		|	No	|	Carrier occurred on date and time	|
 |	City	|	string	|	256	|	No	|	City of the delivery order	|

@@ -12,7 +12,14 @@ ms.custom: bap - template
 
 # **DeliveryOrderLine**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A delivery order line refers to the document created or issued by a supplier to the customer acknowledging delivery of goods or services. It serves as an official confirmation and instruction for the shipment of products or provision of services to a specified location. It is the details entity for delivery order entity.
+
+A delivery order line primarily contains item details:
+
+Item details: A list of the items or services being delivered, including their descriptions, quantities, and any applicable codes or identifiers.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ActualShipDate	|	date	|		|	No	|	Actual ship date of the delivery order line	|
 |	CarrierDeliveryService	|	string	|	256	|	No	|	Carrier delivery service	|

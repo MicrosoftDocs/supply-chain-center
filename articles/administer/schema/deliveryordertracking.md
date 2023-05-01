@@ -12,6 +12,9 @@ ms.custom: bap - template
 
 # **DeliveryOrderTracking**
 
+Delivery order tracking entity refers to the tracking number associated with the delivery order.
+
+
 |	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	CarrierDeliveryServiceId	|	string	|	36	|	No	|	Service Id of the carrier	|

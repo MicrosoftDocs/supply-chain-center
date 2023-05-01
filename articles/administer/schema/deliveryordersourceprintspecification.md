@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **DeliveryOrderSourcePrintSpecification**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Delivery order source print specification entity refers to the print specification for the delivery order.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	DeliveryOrderSourceId	|	string	|	36	|	No	|	The unique Id of the delivery order source	|
 |	DeliveryOrderSourceNumber	|	string	|	256	|	No	|	Number of the delivery order source	|

@@ -12,7 +12,24 @@ ms.custom: bap - template
 
 # **DeliveryOrder**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A delivery order refers to the document created or issued by a supplier to the customer acknowledging delivery of goods or services. It serves as an official confirmation and instruction for the shipment of products or provision of services to a specified location.
+
+A delivery order typically contains the following information:
+
+Order details: This includes the order number, date, and any specific reference numbers or codes associated with the order.
+
+Supplier information: The name, address, and contact details of the supplier or shipping company responsible for delivering the goods or services.
+
+Customer information: The name, address, and contact details of the customer or recipient who requested the delivery.
+
+Delivery instructions: Any specific instructions or requirements for the delivery, such as the delivery date, preferred time, or special handling instructions.
+
+Billing and payment details: If applicable, the delivery order may include information regarding the payment terms, such as the total amount due, payment method, and any other relevant billing details.
+
+Terms and conditions: This section outlines the terms and conditions of the delivery, including liability, warranties, and any other relevant contractual agreements.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountNumber	|	string	|	256	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|
 |	AccountTypeCode	|	string	|	256	|	No	|	Account type code indicates the type of account. An account could be Vendor, Customer etc.	|

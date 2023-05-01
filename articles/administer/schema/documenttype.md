@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **DocumentType**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The document type entity refers to the definition of type of document.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Description	|	string	|	4000	|	No	|	Description of the document type	|
 |	DocumentTypeId	|	string	|	36	|	Yes	|	The unique Id of the document	|
