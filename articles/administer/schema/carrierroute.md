@@ -12,7 +12,11 @@ ms.custom: bap - template
 
 # **CarrierRoute**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Carrier route is the duration it takes to ship products from origin to destination for the shipping service or shipment method offered by the carrier. The carrier route contains the transit time expressed in days and the distance between origin and destination expressed in miles.
+
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	CarrierId	|	string	|	256	|	No	|	The unique identifier of a Carrier.	|
 |	CarrierNumber	|	string	|	256	|	No	|	The unique number of the carrier	|

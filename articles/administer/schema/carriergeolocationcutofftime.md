@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **CarrierGeoLocationCutoffTime**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The carrier geolocation cut off time refers to the cut off time for shipping services offered by the carrier. The cut off time can vary depending on the shipping carrier and the specific service offered by the carrier. These cut off times are typically set by the carrier and indicate the latest time by which the carrier need to receive the shipment for it to be processed and dispatched on the same day. It's important to note that cut-off times can also vary based on the location of the carrier.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	CarrierGeoCutoffTimestamp	|	timestamp	|		|	No	|	The cut off time of the carrier	|
 |	CarrierGeoLocationCutoffTimeId	|	string	|	36	|	Yes	|	The unique Id of the carrier location cut off time	|

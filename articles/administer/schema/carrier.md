@@ -12,7 +12,14 @@ ms.custom: bap - template
 
 # **Carrier**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A company or corporation engaged in transporting passengers or goods (mail, freight or cargo). Any entity who, in a contract of carriage, undertakes to perform or to procure the performance of carriage by rail, road, sea, air, inland waterway or by a combination of such modes.
+
+For example, United Airlines, Air Canada, Aer Lingus, UPS, Federal Express, US Postal Service, DHL, JB Hunt, Yellow Freight, American President Lines, Maersk- Sealand etc.
+
+Carriers are often identified by their two or three character abbreviation. For example, AK for Alaska airlines. They are also identified by Standard Carrier Alpha Code (commonly known as SCAC code)
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountCode	|	string	|	256	|	No	|	The account number or contract number with the carrier	|
 |	CarrierCode	|	string	|	256	|	No	|	Carrier code	|

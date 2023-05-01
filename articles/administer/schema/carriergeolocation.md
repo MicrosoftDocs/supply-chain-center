@@ -12,7 +12,10 @@ ms.custom: bap - template
 
 # **CarrierGeoLocation**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+The carrier geo location refers to the various carrier locations like corporate office, carrier freight consolidation hub or freight transfer location etc. The carrier location contains address id. The actual address of these location is stored in geo location entity. The carrier geo location entity has a valid start date and end date indicating the period for which the address is valid. If the address is a current address then populate end date with December, 31, 2100.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	CarrierAddressNote	|	string	|	4000	|	No	|	Comments or notes for this carrier location	|
 |	CarrierId	|	string	|	36	|	No	|	The unique Id of the carrier.	|

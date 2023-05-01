@@ -12,7 +12,17 @@ ms.custom: bap - template
 
 # **BillOfMaterials**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A bill of materials (BOM) is a comprehensive list of all the components, parts, materials, and assemblies required to manufacture a product. It serves as a structured document that provides detailed information about each item needed to build or assemble a product.
+
+The BOM includes the following details for each item:
+Part number or identifier: A unique identifier for each component.
+Quantity: The number of units required for each component.
+Unit of measure: The unit in which the quantity is measured (e.g., pieces, meters, kilograms).
+Manufacturer and supplier information: The account number or manufacturer number of the component.
+
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountId	|	string	|	36	|	No	|	A unique identifier of an account. The account could be a customer or vendor etc. AccountId is an auto generated Id by Microsoft D365 or Supply chain center. 	|
 |	AccountNumber	|	string	|	256	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|

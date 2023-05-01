@@ -12,7 +12,12 @@ ms.custom: bap - template
 
 # **BuildPlan**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+A Build Plan is the break down, usually by a specific Item, to accomplish the Master Schedule or Material Requirements Planning (Demand)
+
+The Master Schedule-Product Build is the product building plan that is used by manufacturers to build products or items via one or more individual Build Plans. A Master Schedule is a schedule to build several item(s) over a specific period. A Master Schedule may identify one or more Items to build. A Build Plan is the breakdown, usually by a specific Item, to accomplish the Master Schedule. A Run is the actual order to manufacture, or build a set number of Items on a date and/or time.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	BuildPlanCreateDate	|	date	|		|	No	|	The date the build plan was created	|
 |	BuildPlanId	|	string	|	36	|	Yes	|	The unique identifier of a Build Plan.	|

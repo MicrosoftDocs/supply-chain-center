@@ -12,7 +12,17 @@ ms.custom: bap - template
 
 # **CarrierRouteAccountTariffSchedule**
 
-|	EntityAttribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+Carrier route account tariff schedule refers to the published rates and fees charged by shipping carriers for their services. These tariffs outline the costs associated with various shipping options, such as domestic or international shipping, different delivery speeds, origin and destination (carrier route id) package sizes, and additional services like tracking or insurance.
+
+The tariffs usually include:
+
+Base Rates: The standard rates charged for shipping based on factors like package weight, dimensions, and destination.
+Surcharges: Additional fees applied under specific circumstances, such as fuel surcharges or residential delivery surcharges.
+Accessorial Charges: Extra services like signature confirmation, insurance, or special handling that incur additional fees.
+Specialized Services: Tariffs may outline rates for specialized services like overnight or express delivery, international shipping, or freight services.
+
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountId	|	string	|	36	|	No	|	The unique Id of the account	|
 |	AccountNumber	|	string	|	256	|	Yes	|	Number or code for the account to quickly search and identify the account in system views.	|
