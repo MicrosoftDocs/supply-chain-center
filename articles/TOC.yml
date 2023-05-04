@@ -200,6 +200,8 @@
     href: use/supplier-portal.md
   - name: Supplier portal for suppliers
     href: use/supplier-portal-for-suppliers.md
+  - name: Microsoft Teams integration
+    href: use/teams_integration.md
 - name: Manage 
   items:
   - name: Add users
