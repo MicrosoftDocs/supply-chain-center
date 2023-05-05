@@ -31,12 +31,12 @@ To create a KPI, follow these steps.
 1. Select **Create** to start the KPI creation wizard.
 1. Provide the general **Details** for the KPI:
    -	Name, description, categories, start date, end date, parent. 
-   -	The Start Date and End Date represent the period over which the KPI will be tracked.
+   -	The Start Date and End Date represent the period over which the KPI are tracked.
    -	Categories can be used to group KPIs together. 
-   -	If you already have an existing KPI, then you can assign it as a parent to the new KPI. This is useful for showing the relationship between different KPIs.   
+   -	If you already have an existing KPI, then you can assign it as a parent to the new KPI. Assigning it as a parent is useful for showing the relationship between different KPIs.   
  1. Provide the **Measure** for the KPI.
  1. Select the **Calculation** you would like to use for measuring the KPI. You can only select calculations that were successfully refreshed.
- 1. **Map**: Select the measure value and date columns in your Calculation you would like to use for tracking the KPI. A measure value is the value that will be tracked over time as the KPI. Date column is used as the time series data over which the KPI is measured and evaluated. Then, enter the Units that the KPI is measured in, for example: USD, EUR, Lbs, KG, pallets, cases. 
+ 1. **Map**: Select the measure value and date columns in your Calculation you would like to use for tracking the KPI. A measure value is the value that is tracked over time as the KPI. Date column is used as the time series data over which the KPI is measured and evaluated. Then, enter the Units that the KPI is measured in, for example: USD, EUR, Lbs, KG, pallets, cases. 
 1. Set your **Target** value for the KPI. The target value is used to calculate KPI progress. 
 1. Set your **Threshold** for the KPI. A KPI is required to have at least one rule. A rule consists of a set of conditions and actions. Added to actions are performed when a condition is met. In addition, you can change the status of the KPI when the rule is met. For example if you're making an On Time In Full KPI, you can set up a threshold for when the value is less than 95% that sets the KPI status to “At risk” and trigger a Power Automate Flow. KPI rules are evaluated periodically, according to the data refresh rate set in the Supply and demand insights section in Settings. 
 1. Review the details of the KPI you're creating. You can edit any of the information on the previous steps.
@@ -48,7 +48,7 @@ Currently, editing an existing KPI isn't available. You can modify the parent an
 
 ## View a KPI
 
-On the KPIs page, you can view KPIs by their **Name**, **Description**, **Status**, **Value**, **Units**, **Progress**, **Start Date**, **End Date**, **Owner**, and **Categories**. You may filter by **Status** by selecting the different dtatus labels on the top of the page.
+On the KPIs page, you can view KPIs by their **Name**, **Description**, **Status**, **Value**, **Units**, **Progress**, **Start Date**, **End Date**, **Owner**, and **Categories**. You may filter by **Status** by selecting the different status labels on the top of the page.
  
 To view the details of a KPI, select its **Name**. You can view the KPI’s performance over time, its value history, any parent or child KPIs it's related to, and other details. 
  
@@ -66,7 +66,7 @@ The following sections include best practices for creating calculations and KPIs
 ### Best practices for creating KPIs 
 
 -	**Use a calculation that fulfills all the above criteria**. To ensure that your KPI accurately reflects the data you want to track, it's important to use a calculation that meets all the criteria outlined in the above section. This includes having a measure and date column, sorting date columns in descending order, refreshing calculations regularly, and using the appropriate level of aggregation. 
--	**Keep in mind the start date when evaluating progress**. When evaluating progress for a KPI, it's important to keep in mind that the progress is with respect to the start date of the KPI and doesn't consider historical data. 
+-	**Keep in mind the start date when evaluating progress**. When evaluating progress for a KPI, it's important to keep in mind that the progress is based on the start date of the KPI and doesn't consider historical data. 
 -	**A KPI target can't have a negative value**.
 -	**Child KPIs don't roll up to Parent KPIs**. Each KPI tracks its own progress and doesn't roll up the progress from its child KPIs. This allows you to track progress at different levels of aggregation and identify areas that may require further analysis. 
 
