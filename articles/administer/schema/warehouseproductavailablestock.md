@@ -4,10 +4,10 @@ description: This is about WarehouseProductAvailableStock entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
-ms.service: supply - chain - center
+ms.service: supply-chain-center
 ms.topic: conceptual
-ms.date: 04 / 21 / 2023
-ms.custom: bap - template
+ms.date: 05/05/2023
+ms.custom: bap-template
 ---
 
 # **WarehouseProductAvailableStock**
