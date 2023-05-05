@@ -79,8 +79,8 @@ The Restock recommendations results per item grid on the Restock recommendations
 - **ItemSku** – The name of the product or item.
 - **WarehouseId/WarehouseName** – The warehouse location of the product.
 - **PolicyType** – Designates the re-order policy type, can be either:
-  - **RS** – A baseline or optimal periodic policy type where inventory is reordered on a time basis.
-  - **sQ** – An optimal continuous policy type where inventory is replenished when falling below a threshold level.
+  - **(R,S)** – A base-stock or optimal periodic policy type where inventory is reordered on a time basis.
+  - **(s,Q)** – An optimal continuous policy type where inventory is replenished when falling below a threshold level.
 - **Reorder Point Quantity \[Optimal continuous policy only\]** – In a continuous policy, inventory should be reordered whenever inventory levels fall below the reorder point quantity.
 - **Reorder Quantity \[Optimal continuous policy only\]** – In a continuous policy, a reorder should be for the exact reorder quantity.
 - **Review Period \[Optimal periodic/baseline policy only\]** – For periodic policies the review period sets how often inventory should be reordered, in weeks.
