@@ -18,8 +18,8 @@ Calculations are data tables that contain measures and dimensions. Calculations 
 
 To create a new calculation, follow these steps.
 
-1.	From ... select ...
-1. Name the calculation.
+1. Sign into Microsoft Supply Chain Center, and then select **Analytics**.
+1. From the navigation pane, select **Calculation**.
 1.	Select one or more data sources to use for the calculation. Ingested entities are marked as an **Application data** **Type**. Previously created calculations are marked as a **Calculation** **Type**. After you select the required data sources, select **Next**.
 1.	The selected data sources to form into a **Power Query** screen. On the left side, you may see queries called as the data sources are used. You may transform the data in any of these queries, but make sure to include the data that would be used as a measure in the **Transformation** query. The Transformation query, by default, includes the same data as the top data source you selected. Once complete, select **Next**.
 1.	Select the cadence for refreshing the Calculation. Select **Refresh manually** to refresh the data once. Select **Refresh automatically** to refresh the data on a recurring basis. 
@@ -35,7 +35,7 @@ In the Calculations page, you may view the details of a calculation.
 
 To view deails for a calcualtion, select its name.
 
--	In **Calculation**, you may find the underlying used queries.
+-	In a **Calculation**, you may find the underlying used queries.
 -	In **Dependencies**, you may find the underlying data sources that the calculation is dependent on. You may also find any resources that are dependent on the calculation you're viewing. 
 
 ## Managing an existing calculation
@@ -51,9 +51,9 @@ Currently, editing an existing calculation isn't available. To manage an existin
 
 While working with calculations, please observer the following best practices.
 
-1.	Include a measure and a date column in your calculation. 
-2.	Sort date columns in descending order. To ensure that your KPI accurately reflects historical trends, it's important to sort your date columns in descending order. This way, the most recent data is displayed first to allow you to quickly see if there are any changes or trends over time. 
-3.	Refresh calculations. Calculations used in KPIs should be successfully refreshed to ensure that they're up to date and accurate.  
-4.	Use the appropriate level of aggregation. When creating calculations for use in KPIs, it's important to measure the smallest possible unit to a high level of aggregation. This means that you should create calculations that represent the data at different levels, from the most granular (such as individual transactions) to the most aggregated (such as total revenue). For example, if you want to track revenue growth for a company by region, you should create separate calculations for each region, and create a calculation for the company as a whole. The most aggregated calculation can be used in parent KPIs and most granular level in children KPIs. 
+-	**Include a measure and date column in your calculation**. It's important to include both a measure (or an aggregation) and a date column. The measure should represent the data that you want to track, such as revenue or customer satisfaction. The date column should represent the time period over which you want to track the data, such as days, weeks, or months. 
+-	**Sort date columns in descending order**. To ensure that your KPI accurately reflects historical trends, it's important to sort your date columns in descending order. This way, the most recent data is displayed first to allow you to quickly see if there are any changes or trends over time. 
+-	**Refresh calculations**. Calculations used in KPIs should be successfully refreshed to ensure that they're up to date and accurate.  
+-	**Use the appropriate level of aggregation**. When creating calculations for use in KPIs, it's important to measure the smallest possible unit to a high level of aggregation. This means that you should create calculations that represent the data at different levels, from the most granular (such as individual transactions) to the most aggregated (such as total revenue). For example, if you want to track revenue growth for a company by region, you should create separate calculations for each region, and create a calculation for the company as a whole. The most aggregated calculation can be used in parent KPIs and most granular level in children KPIs. 
 
 
