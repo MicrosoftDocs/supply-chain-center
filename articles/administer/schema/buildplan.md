@@ -7,7 +7,7 @@ ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
 ms.date: 005/05/2023
-ms.custom: bap - template
+ms.custom: bap-template
 ---
 
 # **BuildPlan**
