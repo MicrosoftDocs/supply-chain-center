@@ -7,7 +7,7 @@ ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
 ms.date: 05/05/2023
-ms.custom: bap - template
+ms.custom: bap-template
 ---
 
 # **BillOfMaterials**
