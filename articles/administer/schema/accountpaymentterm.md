@@ -4,9 +4,9 @@ description: This is about AccountPaymentTerm entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
-ms.service: supply - chain - center
+ms.service: supply-chain-center
 ms.topic: conceptual
-ms.date: 04 / 21 / 2023
+ms.date: 05/05/2023
 ms.custom: bap - template
 ---
 
