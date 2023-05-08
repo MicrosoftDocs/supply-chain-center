@@ -1,6 +1,6 @@
 ---
 title: BuildPlan
-description: This is about BuildPlan entity.
+description: This article provides information about the BuildPlan entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
