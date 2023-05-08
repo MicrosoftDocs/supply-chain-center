@@ -1,5 +1,5 @@
 ---
-title: SalesOrderLine
+title: SalesOrderDetail
 description: This is about SalesOrderLine entity.
 author: mkannapiran
 ms.author: kamanick
@@ -10,9 +10,9 @@ ms.date: 04 / 21 / 2023
 ms.custom: bap - template
 ---
 
-# **SalesOrderLine**
+# **SalesOrderDetail**
 
-The sales order line entity refers to the details of the sales order containing the product being shipped and the quantity.
+The sales order detail entity refers to the details of the sales order containing the product being shipped and the quantity. This is the line item details of the sales order.
 
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|

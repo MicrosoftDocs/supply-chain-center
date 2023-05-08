@@ -1,5 +1,5 @@
 ---
-title: BillOfMaterials
+title: BillOfMaterial
 description: This is about BillOfMaterials entity.
 author: mkannapiran
 ms.author: kamanick
@@ -10,9 +10,9 @@ ms.date: 04 / 21 / 2023
 ms.custom: bap - template
 ---
 
-# **BillOfMaterials**
+# **BillOfMaterial**
 
-A bill of materials (BOM) is a comprehensive list of all the components, parts, materials, and assemblies required to manufacture a product. It serves as a structured document that provides detailed information about each item needed to build or assemble a product.
+A bill of material (BOM) is a comprehensive list of all the components, parts, materials, and assemblies required to manufacture a product. It serves as a structured document that provides detailed information about each item needed to build or assemble a product.
 
 The BOM includes the following details for each item:
 Part number or identifier: A unique identifier for each component.

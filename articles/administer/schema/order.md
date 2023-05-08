@@ -1,5 +1,5 @@
 ---
-title: Order
+title: SalesOrder
 description: This is about Order entity.
 author: mkannapiran
 ms.author: kamanick
@@ -10,7 +10,7 @@ ms.date: 04 / 21 / 2023
 ms.custom: bap - template
 ---
 
-# **Order**
+# **SalesOrder**
 
 Order entity refers to the sales order. The sales order entity contains the sold to party, ship to party and their address. Order requested delivery by date, shipping method and transaction currency.
 

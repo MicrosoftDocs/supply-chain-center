@@ -1,5 +1,5 @@
 ---
-title: InventoryMovement
+title: InventoryJournal
 description: This is about InventoryMovement entity.
 author: mkannapiran
 ms.author: kamanick
@@ -10,7 +10,7 @@ ms.date: 04 / 21 / 2023
 ms.custom: bap - template
 ---
 
-# **InventoryMovement**
+# **InventoryJournal**
 
 Inventory movement entity refers to the process of tracking and managing the movement of goods or products within a company's supply chain. An inventory movement entity refers to a specific item or batch of items that are being tracked as they move through various stages of the supply chain, such as from the production facility to a warehouse, between different warehouses, or from a warehouse to a retail store.
 
@@ -23,8 +23,8 @@ Inventory movement entity refers to the process of tracking and managing the mov
 |	GoodsReceiptLineId	|	string	|	36	|	No	|	Goods receipt line id for the inventory movement	|
 |	GoodsReceiptLineNumber	|	string	|	256	|	No	|	Goods receipt line number for the inventory movement	|
 |	InventoryAdjustmentProduct	|	string	|	256	|	No	|	Inventory adjustment product for the inventory movement	|
-|	InventoryMovementId	|	string	|	36	|	Yes	|	The unique identifier of a inventory movement transaction.	|
-|	InventoryMovementNumber	|	string	|	256	|	Yes	|	The unique number of the inventory movement transaction	|
+|	InventoryJournalId	|	string	|	36	|	Yes	|	The unique identifier of a inventory movement transaction.	|
+|	InventoryJournalNumber	|	string	|	256	|	Yes	|	The unique number of the inventory movement transaction	|
 |	InventoryTransactionClassId	|	string	|	256	|	No	|	The unique identifier of the Inventory Transaction Class.	|
 |	InventoryTransactionStatusId	|	string	|	256	|	No	|	The unique identifier of an Inventory Transaction Status.	|
 |	ItemSku	|	string	|	256	|	No	|	Item sku for the inventory movement	|
