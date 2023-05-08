@@ -1,6 +1,6 @@
 ---
 title: DeliveryOrderTrackingHistory
-description: This is about DeliveryOrderTrackingHistory entity.
+description: This article provides information about the DeliveryOrderTrackingHistory entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

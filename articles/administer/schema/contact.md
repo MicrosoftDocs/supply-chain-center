@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: This is about Contact entity.
+description: This article provides information about the Contact entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

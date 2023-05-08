@@ -1,6 +1,6 @@
 ---
 title: SubscriptionOrder
-description: This is about SubscriptionOrder entity.
+description: This article provides information about the SubscriptionOrder entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

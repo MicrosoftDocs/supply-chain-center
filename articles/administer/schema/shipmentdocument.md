@@ -1,6 +1,6 @@
 ---
 title: ShipmentDocument
-description: This is about ShipmentDocument entity.
+description: This article provides information about the ShipmentDocument entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

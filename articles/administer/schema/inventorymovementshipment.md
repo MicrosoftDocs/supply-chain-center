@@ -1,6 +1,6 @@
 ---
 title: InventoryMovementShipment
-description: This is about InventoryMovementShipment entity.
+description: This article provides information about the InventoryMovementShipment entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
@@ -13,6 +13,7 @@ ms.custom: bap-template
 # **InventoryMovementShipment**
 
 The inventory movement shipment entity refers to the shipments used to transport the items specified in the inventory transaction.
+
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|

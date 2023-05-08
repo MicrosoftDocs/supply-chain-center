@@ -1,6 +1,6 @@
 ---
 title: WarehouseProductAvailableStock
-description: This is about WarehouseProductAvailableStock entity.
+description: This article provides information about the WarehouseProductAvailableStock entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

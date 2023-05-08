@@ -1,6 +1,6 @@
 ---
 title: AccountProductStatus
-description: This is about AccountProductStatus entity.
+description: This is aboutThis article provides information about the AccountProductStatus entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

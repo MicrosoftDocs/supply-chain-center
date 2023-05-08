@@ -1,6 +1,6 @@
 ---
 title: ShipmentQuote
-description: This is about ShipmentQuote entity.
+description: This article provides information about the ShipmentQuote entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

@@ -1,6 +1,6 @@
 ---
 title: TransferOrderLine
-description: This is about TransferOrderLine entity.
+description: This article provides information about the TransferOrderLine entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

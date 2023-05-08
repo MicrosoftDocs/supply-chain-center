@@ -1,6 +1,6 @@
 ---
 title: PurchaseOrder
-description: This is about PurchaseOrder entity.
+description: This article provides information about the PurchaseOrder entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

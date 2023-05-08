@@ -1,6 +1,6 @@
 ---
 title: SplitGroup
-description: This is about SplitGroup entity.
+description: This article provides information about the SplitGroup entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

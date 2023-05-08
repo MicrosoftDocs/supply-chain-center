@@ -1,6 +1,6 @@
 ---
 title: DeliveryOrderLine
-description: This is about DeliveryOrderLine entity.
+description: This article provides information about the DeliveryOrderLine entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

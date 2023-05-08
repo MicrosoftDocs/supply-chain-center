@@ -1,6 +1,6 @@
 ---
 title: OrderReturnDropLocationRequest
-description: This is about OrderReturnDropLocationRequest entity.
+description: This article provides information about the OrderReturnDropLocationRequest entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

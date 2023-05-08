@@ -1,6 +1,6 @@
 ---
 title: ProductAccountSupplyPlan
-description: This is about ProductAccountSupplyPlan entity.
+description: This article provides information about the ProductAccountSupplyPlan entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

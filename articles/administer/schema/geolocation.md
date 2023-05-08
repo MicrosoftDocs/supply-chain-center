@@ -1,6 +1,6 @@
 ---
 title: GeoLocation
-description: This is about GeoLocation entity.
+description: This article provides information about the GeoLocation entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

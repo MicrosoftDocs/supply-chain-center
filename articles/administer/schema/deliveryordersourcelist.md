@@ -1,6 +1,6 @@
 ---
 title: DeliveryOrderSourceList
-description: This is about DeliveryOrderSourceList entity.
+description: This article provides information about the DeliveryOrderSourceList entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

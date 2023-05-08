@@ -1,6 +1,6 @@
 ---
 title: SalesOrder
-description: This is about Order entity.
+description: This article provides information about the SalesOrder entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
@@ -12,7 +12,9 @@ ms.custom: bap-template
 
 # **SalesOrder**
 
-Order entity refers to the sales order. The sales order entity contains the sold to party, ship to party and their address. Order requested delivery by date, shipping method and transaction currency.
+A sales order entity is refers to the sales agreement between a supplier and customer. A term commonly used in the context of sales management and refers to a document or record that outlines the details of a customer's request for products or services from a business.
+
+Sales orders typically include information such as the customer's name, shipping and billing addresses, product or service descriptions, quantities, pricing, payment terms, and delivery dates.
 
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|

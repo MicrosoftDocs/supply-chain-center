@@ -1,6 +1,6 @@
 ---
 title: ShipmentEventType
-description: This is about ShipmentEventType entity.
+description: This article provides information about the ShipmentEventType entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
@@ -94,7 +94,8 @@ The consignee has retrieved cargo from the airport.
 
 VANNING
 
-A term sometimes used for stowing cargo in a container."
+A term sometimes used for stowing cargo in a container.
+
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|

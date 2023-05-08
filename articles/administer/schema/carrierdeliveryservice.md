@@ -1,6 +1,6 @@
 ---
 title: CarrierDeliveryService
-description: This is about CarrierDeliveryService entity.
+description: This article provides information about the CarrierDeliveryService entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
@@ -15,7 +15,7 @@ ms.custom: bap-template
 Carrier service refers to the transportation and delivery of goods or items from one location to another by a carrier or shipping company. It involves the process of moving packages, parcels, or freight using various modes of transportation such as trucks, ships, airplanes, or trains.
 Carriers offer different type of delivery service. Some of the various delivery services are shown below. 
 
-Express Shipping: This type of service offers the fastest delivery times, often within one to two days. Express shipping is typically used for urgent or time-sensitive shipments. Some of express shipping are same day delivery or overnight delivery
+Express Shipping: This type of service offers the fastest delivery times, often within one to two days. Express shipping is typically used for urgent or time-sensitive shipments. Some of express shipping are same day delivery or overnight delivery.
 
 Standard Shipping: Standard shipping is the most common and affordable option for shipping packages. It usually takes a few days to a week for the shipment to reach its destination.
 

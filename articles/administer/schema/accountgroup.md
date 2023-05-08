@@ -1,6 +1,6 @@
 ---
 title: AccountGroup
-description: This is about AccountGroup entity.
+description: This article provides information about the AccountGroup entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

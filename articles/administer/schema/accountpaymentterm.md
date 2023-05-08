@@ -1,6 +1,6 @@
 ---
 title: AccountPaymentTerm
-description: This is about AccountPaymentTerm entity.
+description: This article provides information about the AccountPaymentTerm entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

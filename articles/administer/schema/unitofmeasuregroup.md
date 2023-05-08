@@ -1,6 +1,6 @@
 ---
 title: UnitOfMeasureGroup
-description: This is about UnitOfMeasureGroup entity.
+description: This article provides information about the UnitOfMeasureGroup entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

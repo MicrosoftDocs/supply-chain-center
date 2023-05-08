@@ -1,6 +1,6 @@
 ---
 title: ReturnAction
-description: This is about ReturnAction entity.
+description: This article provides information about the ReturnAction entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

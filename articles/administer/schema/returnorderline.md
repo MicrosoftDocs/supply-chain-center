@@ -1,6 +1,6 @@
 ---
 title: ReturnOrderLine
-description: This is about ReturnOrderLine entity.
+description: This article provides information about the ReturnOrderLine entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

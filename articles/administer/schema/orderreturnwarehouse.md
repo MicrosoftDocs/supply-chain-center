@@ -1,6 +1,6 @@
 ---
 title: OrderReturnWarehouse
-description: This is about OrderReturnWarehouse entity.
+description: This article provides information about the OrderReturnWarehouse entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

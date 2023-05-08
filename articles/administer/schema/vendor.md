@@ -1,6 +1,6 @@
 ---
 title: Vendor
-description: This is about Vendor entity.
+description: This article provides information about the Vendor entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

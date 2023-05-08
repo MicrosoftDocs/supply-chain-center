@@ -1,6 +1,6 @@
 ---
 title: ShipmentItem
-description: This is about ShipmentItem entity.
+description: This article provides information about the ShipmentItem entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

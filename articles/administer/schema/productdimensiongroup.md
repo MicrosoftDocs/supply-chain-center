@@ -1,6 +1,6 @@
 ---
 title: ProductDimensionGroup
-description: This is about ProductDimensionGroup entity.
+description: This article provides information about the ProductDimensionGroup entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

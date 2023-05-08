@@ -1,6 +1,6 @@
 ---
 title: OrderSource
-description: This is about OrderSource entity.
+description: This article provides information about the OrderSource entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
@@ -12,7 +12,7 @@ ms.custom: bap - template
 
 # **OrderSource**
 
-The order source entity refers to the source of the order
+The order source entity refers to the source of the order.
 
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|

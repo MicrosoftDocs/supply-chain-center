@@ -1,6 +1,6 @@
 ---
 title: UnitOfMeasure
-description: This is about UnitOfMeasure entity.
+description: This article provides information about the UnitOfMeasure entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

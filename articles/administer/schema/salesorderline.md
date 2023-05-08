@@ -1,6 +1,6 @@
 ---
 title: SalesOrderDetail
-description: This is about SalesOrderLine entity.
+description: This article provides information about the SalesOrderLine entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

@@ -1,6 +1,6 @@
 ---
 title: OrderReturnRequest
-description: This is about OrderReturnRequest entity.
+description: This article provides information about the OrderReturnRequest entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

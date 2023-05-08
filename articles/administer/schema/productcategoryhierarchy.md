@@ -1,6 +1,6 @@
 ---
 title: ProductCategoryHierarchy
-description: This is about ProductCategoryHierarchy entity.
+description: This article provides information about the ProductCategoryHierarchy entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

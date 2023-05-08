@@ -1,6 +1,6 @@
 ---
 title: DeliveryOrderSourcePrintSpecification
-description: This is about DeliveryOrderSourcePrintSpecification entity.
+description: This article provides information about the DeliveryOrderSourcePrintSpecification entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

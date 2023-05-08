@@ -1,6 +1,6 @@
 ---
 title: ShipmentLocation
-description: This is about ShipmentLocation entity.
+description: This article provides information about the ShipmentLocation entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

@@ -1,6 +1,6 @@
 ---
 title: ReturnOrder
-description: This is about ReturnOrder entity.
+description: This article provides information about the ReturnOrder entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

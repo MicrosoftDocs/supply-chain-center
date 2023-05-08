@@ -1,6 +1,6 @@
 ---
 title: Account
-description: This is about Account entity.
+description: This article provides information about the about Account entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

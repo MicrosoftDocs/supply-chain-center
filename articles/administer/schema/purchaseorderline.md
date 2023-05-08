@@ -1,6 +1,6 @@
 ---
 title: PurchaseOrderLine
-description: This is about PurchaseOrderLine entity.
+description: This article provides information about the PurchaseOrderLine entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

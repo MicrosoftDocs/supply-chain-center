@@ -1,6 +1,6 @@
 ---
 title: ProductAccountDemandForecast
-description: This is about ProductAccountDemandForecast entity.
+description: This article provides information about the ProductAccountDemandForecast entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

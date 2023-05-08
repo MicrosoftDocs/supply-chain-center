@@ -1,6 +1,6 @@
 ---
 title: ReturnReason
-description: This is about ReturnReason entity.
+description: This article provides information about the ReturnReason entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

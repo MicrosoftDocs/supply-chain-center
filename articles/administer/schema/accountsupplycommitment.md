@@ -1,6 +1,6 @@
 ---
 title: AccountSupplyCommitment
-description: This is about AccountSupplyCommitment entity.
+description: This article provides information about the AccountSupplyCommitment entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

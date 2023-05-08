@@ -1,6 +1,6 @@
 ---
 title: BillOfMaterial
-description: This is about BillOfMaterials entity.
+description: This article provides information about the BillOfMaterial entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

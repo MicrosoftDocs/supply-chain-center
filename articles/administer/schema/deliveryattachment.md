@@ -1,6 +1,6 @@
 ---
 title: DeliveryAttachment
-description: This is about DeliveryAttachment entity.
+description: This article provides information about the DeliveryAttachment entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

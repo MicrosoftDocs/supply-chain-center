@@ -1,6 +1,6 @@
 ---
 title: TransferOrder
-description: This is about TransferOrder entity.
+description: This article provides information about the TransferOrder entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

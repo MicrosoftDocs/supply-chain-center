@@ -1,6 +1,6 @@
 ---
 title: DeliveryOrder
-description: This is about DeliveryOrder entity.
+description: This article provides information about the DeliveryOrder entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

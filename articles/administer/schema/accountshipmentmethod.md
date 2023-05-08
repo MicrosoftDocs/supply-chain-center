@@ -1,6 +1,6 @@
 ---
 title: AccountShipmentMethod
-description: This is about AccountShipmentMethod entity.
+description: This article provides information about the AccountShipmentMethod entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

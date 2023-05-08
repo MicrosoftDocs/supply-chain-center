@@ -1,6 +1,6 @@
 ---
 title: ProductUnitOfMeasureConversion
-description: This is about ProductUnitOfMeasureConversion entity.
+description: This article provides information about the ProductUnitOfMeasureConversion entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

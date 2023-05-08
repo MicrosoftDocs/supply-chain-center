@@ -1,6 +1,6 @@
 ---
 title: ShipmentItemConsolidation
-description: This is about ShipmentItemConsolidation entity.
+description: This article provides information about the ShipmentItemConsolidation entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

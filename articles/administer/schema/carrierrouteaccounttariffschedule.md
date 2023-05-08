@@ -1,6 +1,6 @@
 ---
 title: CarrierRouteAccountTariffSchedule
-description: This is about CarrierRouteAccountTariffSchedule entity.
+description: This article provides information about the CarrierRouteAccountTariffSchedule entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

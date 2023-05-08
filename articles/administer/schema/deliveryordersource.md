@@ -1,6 +1,6 @@
 ---
 title: DeliveryOrderSource
-description: This is about DeliveryOrderSource entity.
+description: This article provides information about the DeliveryOrderSource entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

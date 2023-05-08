@@ -1,6 +1,6 @@
 ---
 title: Product
-description: This is about Product entity.
+description: This article provides information about the Product entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

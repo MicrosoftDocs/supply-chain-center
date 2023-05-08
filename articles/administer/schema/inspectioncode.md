@@ -1,6 +1,6 @@
 ---
 title: InspectionCode
-description: This is about InspectionCode entity.
+description: This article provides information about the InspectionCode entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

@@ -1,6 +1,6 @@
 ---
 title: DayOfWeek
-description: This is about DayOfWeek entity.
+description: This article provides information about the DayOfWeek entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

@@ -1,6 +1,6 @@
 ---
 title: AccountProductPrice
-description: This is about AccountProductPrice entity.
+description: This article provides information about the AccountProductPrice entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

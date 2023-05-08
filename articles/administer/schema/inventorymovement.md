@@ -1,6 +1,6 @@
 ---
 title: InventoryJournal
-description: This is about InventoryMovement entity.
+description: This article provides information about the InventoryJournal entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # **InventoryJournal**
 
-Inventory movement entity refers to the process of tracking and managing the movement of goods or products within a company's supply chain. An inventory movement entity refers to a specific item or batch of items that are being tracked as they move through various stages of the supply chain, such as from the production facility to a warehouse, between different warehouses, or from a warehouse to a retail store.
+Inventory journal entity refers to the process of tracking and managing the movement of goods or products within a company's supply chain. An inventory journal entity refers to a specific item or batch of items that are being tracked as they move through various stages of the supply chain, such as from the production facility to a warehouse, between different warehouses, or from a warehouse to a retail store.
 
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|

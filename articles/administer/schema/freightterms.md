@@ -1,6 +1,6 @@
 ---
 title: FreightTerms
-description: This is about FreightTerms entity.
+description: This article provides information about the FreightTerms entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

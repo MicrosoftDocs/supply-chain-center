@@ -1,6 +1,6 @@
 ---
 title: DeliveryOrderSequenceNumber
-description: This is about DeliveryOrderSequenceNumber entity.
+description: This article provides information about the DeliveryOrderSequenceNumber entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

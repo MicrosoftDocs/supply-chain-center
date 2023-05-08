@@ -1,6 +1,6 @@
 ---
 title: SubscriptionOrderLine
-description: This is about SubscriptionOrderLine entity.
+description: This article provides information about the SubscriptionOrderLine entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

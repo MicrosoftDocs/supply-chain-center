@@ -1,6 +1,6 @@
 ---
 title: CarrierGeoLocation
-description: This is about CarrierGeoLocation entity.
+description: This article provides information about the CarrierGeoLocation entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

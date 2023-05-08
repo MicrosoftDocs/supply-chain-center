@@ -1,6 +1,6 @@
 ---
 title: ProductCategory
-description: This is about ProductCategory entity.
+description: This article provides information about the ProductCategory entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

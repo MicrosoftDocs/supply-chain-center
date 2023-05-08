@@ -1,6 +1,6 @@
 ---
 title: CarrierRouteLeg
-description: This is about CarrierRouteLeg entity.
+description: This article provides information about the CarrierRouteLeg entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

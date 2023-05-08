@@ -1,6 +1,6 @@
 ---
 title: ShipmentEvent
-description: This is about ShipmentEvent entity.
+description: This article provides information about the ShipmentEvent entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

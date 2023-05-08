@@ -1,6 +1,6 @@
 ---
 title: GoodsReceipt
-description: This is about GoodsReceipt entity.
+description: This article provides information about the GoodsReceipt entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

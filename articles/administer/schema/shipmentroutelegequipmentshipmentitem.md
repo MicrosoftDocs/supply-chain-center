@@ -1,6 +1,6 @@
 ---
 title: ShipmentRouteLegEquipmentShipmentItem
-description: This is about ShipmentRouteLegEquipmentShipmentItem entity.
+description: This article provides information about the ShipmentRouteLegEquipmentShipmentItem entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

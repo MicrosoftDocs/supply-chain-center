@@ -1,6 +1,6 @@
 ---
 title: ProductQualityCode
-description: This is about ProductQualityCode entity.
+description: This article provides information about the ProductQualityCode entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

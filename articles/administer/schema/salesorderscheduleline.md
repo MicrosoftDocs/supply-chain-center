@@ -1,6 +1,6 @@
 ---
 title: SalesOrderScheduleLine
-description: This is about SalesOrderScheduleLine entity.
+description: This article provides information about the SalesOrderScheduleLine entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

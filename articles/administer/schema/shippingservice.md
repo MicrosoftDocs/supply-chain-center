@@ -1,6 +1,6 @@
 ---
 title: ShippingService
-description: This is about ShippingService entity.
+description: This article provides information about the ShippingService entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # **ShippingService**
 
-The shipping service entity refers to the various shipping service associated with the carrier and shipment
+The shipping service entity refers to the various shipping service associated with the carrier and shipment.
 
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|

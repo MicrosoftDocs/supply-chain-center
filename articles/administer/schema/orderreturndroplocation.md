@@ -1,6 +1,6 @@
 ---
 title: OrderReturnDropLocation
-description: This is about OrderReturnDropLocation entity.
+description: This article provides information about the OrderReturnDropLocation entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

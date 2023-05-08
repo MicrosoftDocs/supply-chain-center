@@ -1,6 +1,6 @@
 ---
 title: Warehouse
-description: This is about Warehouse entity.
+description: This article provides information about the Warehouse entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

@@ -1,6 +1,6 @@
 ---
 title: ProductResourcePlanningSchedule
-description: This is about ProductResourcePlanningSchedule entity.
+description: This article provides information about the ProductResourcePlanningSchedule entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

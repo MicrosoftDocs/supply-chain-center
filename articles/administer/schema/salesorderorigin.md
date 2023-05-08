@@ -1,6 +1,6 @@
 ---
 title: SalesOrderOrigin
-description: This is about SalesOrderOrigin entity.
+description: This article provides information about the SalesOrderOrigin entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

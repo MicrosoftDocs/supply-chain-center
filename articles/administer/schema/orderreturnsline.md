@@ -1,6 +1,6 @@
 ---
 title: OrderReturnsLine
-description: This is about OrderReturnsLine entity.
+description: This article provides information about the OrderReturnsLine entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

@@ -1,6 +1,6 @@
 ---
 title: AccountProductLeadTime
-description: This is about AccountProductLeadTime entity.
+description: This article provides information about the AccountProductLeadTime entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

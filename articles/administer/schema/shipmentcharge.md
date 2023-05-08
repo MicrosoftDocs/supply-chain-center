@@ -1,6 +1,6 @@
 ---
 title: ShipmentCharge
-description: This is about ShipmentCharge entity.
+description: This article provides information about the ShipmentCharge entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

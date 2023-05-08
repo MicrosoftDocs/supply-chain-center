@@ -1,6 +1,6 @@
 ---
 title: ShipmentEventStatus
-description: This is about ShipmentEventStatus entity.
+description: This article provides information about the ShipmentEventStatus entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

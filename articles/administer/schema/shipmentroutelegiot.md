@@ -1,6 +1,6 @@
 ---
 title: ShipmentRouteLegIOT
-description: This is about ShipmentRouteLegIOT entity.
+description: This article provides information about the ShipmentRouteLegIOT entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

@@ -1,6 +1,6 @@
 ---
 title: Carrier
-description: This is about Carrier entity.
+description: This article provides information about the Carrier entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
@@ -16,7 +16,7 @@ A company or corporation engaged in transporting passengers or goods (mail, frei
 
 For example, United Airlines, Air Canada, Aer Lingus, UPS, Federal Express, US Postal Service, DHL, JB Hunt, Yellow Freight, American President Lines, Maersk- Sealand etc.
 
-Carriers are often identified by their two or three character abbreviation. For example, AK for Alaska airlines. They are also identified by Standard Carrier Alpha Code (commonly known as SCAC code)
+Carriers are often identified by their two or three character abbreviation. For example, AK for Alaska airlines. They are also identified by Standard Carrier Alpha Code (commonly known as SCAC code).
 
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|

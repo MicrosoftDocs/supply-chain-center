@@ -1,6 +1,6 @@
 ---
 title: ShipmentRouteLeg
-description: This is about ShipmentRouteLeg entity.
+description: This article provides information about the ShipmentRouteLeg entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

@@ -1,6 +1,6 @@
 ---
 title: DeliveryOrderTracking
-description: This is about DeliveryOrderTracking entity.
+description: This article provides information about the DeliveryOrderTracking entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

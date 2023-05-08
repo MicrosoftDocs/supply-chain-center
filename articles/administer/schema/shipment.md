@@ -1,6 +1,6 @@
 ---
 title: Shipment
-description: This is about Shipment entity.
+description: This article provides information about the Shipment entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

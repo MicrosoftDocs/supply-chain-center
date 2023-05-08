@@ -1,6 +1,6 @@
 ---
 title: DocumentType
-description: This is about DocumentType entity.
+description: This article provides information about the DocumentType entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

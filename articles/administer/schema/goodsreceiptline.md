@@ -1,6 +1,6 @@
 ---
 title: GoodsReceiptLine
-description: This is about GoodsReceiptLine entity.
+description: This article provides information about the GoodsReceiptLine entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

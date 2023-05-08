@@ -1,6 +1,6 @@
 ---
 title: CarrierGeoLocationCutoffTime
-description: This is about CarrierGeoLocationCutoffTime entity.
+description: This article provides information about the CarrierGeoLocationCutoffTime entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak

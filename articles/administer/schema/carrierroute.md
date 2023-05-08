@@ -1,6 +1,6 @@
 ---
 title: CarrierRoute
-description: This is about CarrierRoute entity.
+description: This article provides information about the CarrierRoute entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
