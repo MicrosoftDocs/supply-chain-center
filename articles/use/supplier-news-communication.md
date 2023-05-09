@@ -49,7 +49,7 @@ Sign up for a preview [here](https://aka.ms/AIwaitlist).
 
 ## What are Supplier news communication's capabilities?
 
-Supplier news communication uses a text-davinci-003 generative AI model to draft the e-mail. It uses Azure Open AI's Content Moderator to help validate the response, and an NGram-based relevance filter to ensure that the response is on topic. It takes as input the title and snippet from the news article, the user-selected topic, and up to 5 upcoming open purchase orders to make sure the generated e-mail includes the relevant business context.
+Supplier news communication uses a text-davinci-003 generative AI model to draft the e-mail. It uses Azure Open AI's Content Moderator to help validate the response, and an NGram-based relevance filter to ensure that the response is on topic. It takes as input the title and snippet from the news article, the user-selected topic, and up to five upcoming open purchase orders to make sure the generated e-mail includes the relevant business context.
 
 ## What is Supplier news communication's intended use?
 
@@ -75,11 +75,11 @@ The news article that you select to draft an email about, and the topic of the e
 
 ## What data has Supplier News Communication been trained on? 
 
-The text-davinci-003 generative AI model has been trained on data on the internet with billions of parameters for tuning. It doesn’t have access to the internet, meaning that data can be stale. While we are mitigating hallucination with our content moderation checks, it is possible that the generated e-mail may contain false information.
+The text-davinci-003 generative AI model has been trained on data on the internet with billions of parameters for tuning. It doesn’t have access to the internet, meaning that data can be stale. While we'e mitigating incorrect information with our content moderation checks, it's possible that the generated e-mail may contain false information.
 
 ## Does Supplier News Communication produce perfect emails?
 
-It is not guaranteed to produce perfect e-mails. While we do have checks in place to reduce the frequency of offensive or false information in e-mails, you should always review the e-mail before sending.
+It's not guaranteed to produce perfect e-mails. While we do have checks in place to reduce the frequency of offensive or false information in e-mails, you should always review the e-mail before sending.
 
 ## How does a customer get the most out of Supplier News Communication? 
 
@@ -87,7 +87,7 @@ A customer can get the most out of Supplier News Communication by selecting topi
 
 ## Does Supplier News Communication produce offensive content?
 
-While we do have checks in place to reduce the likelihood of the e-mail containing offensive content, it is not guaranteed so you should always review the e-mail before sending.
+While we do have checks in place to reduce the likelihood of the e-mail containing offensive content, it's not guaranteed so you should always review the e-mail before sending.
 
 
 ## Troubleshooting
