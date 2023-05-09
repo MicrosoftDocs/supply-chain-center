@@ -83,14 +83,14 @@ Topics that you add appear on the left, under **Categories**. To view any news t
 
 News is regularly refreshed, according to the schedule that's specified in the **Supply & Demand Insights** settings in **Admin settings**.
 
-## What is News intended use?
+## How should I use News?
 News should be used for tracking news that could affect your supply chain, such as news about your vendors, carriers, locations where you have product, or commodities important to your supply chain.
 
 ## How was the news model evaluated? What metrics are used to measure its performance?
 The news model was evaluated by using labeled judgments from humans on an article's relevance to supply chain, potential impact to supply chain, and category. You can review the definitions for impact and category earlier in this article.
 
 ## What are the limitations of News? How can users minimize the impact of those limitations when they use News?
-The News system has only been trained to support English language articles, so accuracy on category, impact, and relevance is likely lower for non-English languages. The system doesn't use sources other than news articles to find relevant information about the provided topics. The system doesn't evaluate the accuracy of the news article, so it's important for users to review the news article for accuracy before acting on the information. 
+The News system has only been trained to support English language articles, so accuracy on category, impact, and relevance is likely lower for non-English languages. The system doesn't use sources other than news articles from Bing News to find relevant information about the provided topics. As it's using publicly available information, there may be less news for smaller organizations. The system doesn't evaluate the accuracy of the news article, so it's important for users to review the news article for accuracy before acting on the information. 
 
 ## Does News produce offensive content?
 We leverage Bing's filter for adult content and have it set to Moderate, which means that it can return news articles with adult text but not adult images or videos.
