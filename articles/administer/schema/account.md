@@ -188,7 +188,7 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	ProcessId	|	string	|	256	|	No	|	Shows the ID of the process.	|
 |	Revenue	|	string	|	256	|	No	|	The annual revenue for the account. Used as an indicator in financial performance analysis.	|
 |	RevenueBase	|	string	|	256	|	No	|	The revenue base of the account.	|
-|	SalesAccelerationInsightId	|	string	|	256	|	No	|	Teh sales acceleration insight ID.	|
+|	SalesAccelerationInsightId	|	string	|	256	|	No	|	The sales acceleration insight ID.	|
 |	SalesTaxGroup	|	string	|	256	|	No	|	The sales tax group.	|
 |	SegmentId	|	string	|	256	|	No	|	The segment ID.	|
 |	SharesOutstanding	|	string	|	256	|	No	|	The number of shares available to the public for the account. This number is used as an indicator in financial performance analysis.	|
@@ -200,7 +200,7 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	StockExchange	|	string	|	256	|	No	|	The Stock exchange of the account.	|
 |	TaxExempt	|	string	|	256	|	No	|	Tax exempt.	|
 |	TaxExemptNumber	|	string	|	256	|	No	|	Tax exempt number.	|
-|	Telephone1	|	string	|	256	|	No	|	The elephone number of the account.	|
+|	Telephone1	|	string	|	256	|	No	|	The telephone number of the account.	|
 |	Telephone1Description	|	string	|	4000	|	No	|	A description for telephone1.	|
 |	Telephone1Extension	|	string	|	256	|	No	|	The extension number for telephone1.	|
 |	Telephone2	|	string	|	256	|	No	|	An alternate telephone number for the account.	|
