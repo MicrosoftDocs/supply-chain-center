@@ -26,7 +26,7 @@ Payment terms are negotiated between tduhe buyer and seller before the transacti
 |	CreditCardCreditCheckType	|	string	|	256	|	No	|	The credit card credit check type.	|
 |	CreditCardPaymentType	|	string	|	256	|	No	|	The credit card payment type.	|
 |	CustomerDueDateUpdatePolicy	|	string	|	256	|	No	|	The customer due date update policy.	|
-|	CutOffDayOfMonth	|	string	|	256	|	No	|	The cut off day of month for the payment term.	|
+|	CutOffDayOfMonth	|	string	|	256	|	No	|	The cutoff day of month for the payment term.	|
 |	Days	|	integer	|		|	No	|	The number of days in the payment term.	|
 |	Description	|	string	|	4000	|	No	|	A description of the payment term.	|
 |	IsCashPayment	|	boolean	|		|	No	|	Indicates if the account is enabled for cash payment.	|
@@ -36,5 +36,5 @@ Payment terms are negotiated between tduhe buyer and seller before the transacti
 |	NumberOfMonth	|	string	|	256	|	No	|	Number of month for payment terms.	|
 |	NumberOfMonths	|	string	|	256	|	No	|	Number of months for payment terms.	|
 |	PaymentDayName	|	string	|	256	|	No	|	The name of the payment day.	|
-|	PaymentMethodType	|	string	|	256	|	No	|	The method of payment for this account or to this account. For example, if it's for a customer, then it's payment terms for accounts receivables. If it's for a vendor or service provider, then it's the payment terms for accounts payables.	|
+|	PaymentMethodType	|	string	|	256	|	No	|	The method of payment for this account or to this account. For example, if it's for a customer, then its payment terms are for accounts receivables. If it's for a vendor or service provider, then its payment terms are for accounts payables.	|
 |	PaymentScheduleName	|	string	|	256	|	No	|	The name of the payment schedule.	|
