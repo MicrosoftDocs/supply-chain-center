@@ -21,15 +21,15 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
-|	AccountCategoryCode	|	string	|	256	|	No	|	Indicates whether the customer account is standard or preferred.	|
+|	AccountCategoryCode	|	string	|	256	|	No	|	Indicates if the customer account is standard or preferred.	|
 |	AccountCategoryCodeName	|	string	|	256	|	No	|	Account category code name.	|
-|	AccountClassificationCode	|	string	|	256	|	No	|	Select a classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length, or other criteria.	|
+|	AccountClassificationCode	|	string	|	256	|	No	|	A classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length, or other criteria.	|
 |	AccountClassificationCodeName	|	string	|	256	|	No	|	Account type code indicates the type of account. An account could be Vendor, Customer etc.	|
 |	AccountGroupNumber	|	string	|	256	|	No	|	Account group number.	|
 |	AccountId	|	string	|	36	|	Yes	|	A unique identifier of an account. The account could be a customer or vendor etc. AccountId is an auto generated ID by Microsoft Dynamics 365 or Microsoft Supply Chain Center. |
 |	AccountNumber	|	string	|	256	|	Yes	|	A number or code that is used for the account to quickly search for and identify it in system views.	|
 |	AccountPaymentTerm	|	string	|	256	|	No	|	The payment terms for the account.	|
-|	AccountRatingCode	|	string	|	256	|	No	|	Select a rating to indicate the value of the customer account.	|
+|	AccountRatingCode	|	string	|	256	|	No	|	A rating to indicate the value of the customer account.	|
 |	AccountTypeCode	|	string	|	256	|	Yes	|	Account type code indicates the type of account. An account could be Vendor, Customer etc.	|
 |	Address1_AddressId	|	string	|	256	|	No	|	The unique identifier for address 1.	|
 |	Address1_AddressTypeCode	|	string	|	256	|	No	|	The primary address type.	|
@@ -99,7 +99,7 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	CreditLimit	|	string	|	256	|	No	|	The credit limit of the account. CreditLimitBase is a useful reference when you address invoice and accounting issues with the customer.	|
 |	CreditLimitBase	|	string	|	256	|	No	|	Credit limit base.	|
 |	CreditLimitIsMandatory	|	string	|	256	|	No	|	Indicates that a credit limit is mandatory for the account.	|
-|	CreditOnHold	|	string	|	256	|	No	|	Select whether the credit for the account is on hold. CreditOnHold a useful reference while addressing the invoice and accounting issues with the customer.	|
+|	CreditOnHold	|	string	|	256	|	No	|	Indicates if the credit for the account is on hold. CreditOnHold a useful reference while addressing the invoice and accounting issues with the customer.	|
 |	CreditRating	|	string	|	256	|	No	|	Credit rating of the account.	|
 |	CustomerGroupId	|	string	|	36	|	No	|	Default customer group ID.	|
 |	CustomerPaymentMethod	|	string	|	256	|	No	|	Default customer payment method.	|
