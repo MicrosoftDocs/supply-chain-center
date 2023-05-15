@@ -30,11 +30,11 @@ Payment terms are negotiated between the buyer and seller before the transaction
 |	Days	|	integer	|		|	No	|	The number of days in the payment term.	|
 |	Description	|	string	|	4000	|	No	|	A description of the payment term.	|
 |	IsCashPayment	|	boolean	|		|	No	|	Indicates if the account is enabled for cash payment.	|
-|	IsCertifiedCompanyCheck	|	boolean	|		|	No	|	Is certified company check.	|
+|	IsCertifiedCompanyCheck	|	boolean	|		|	No	|	Is this account a certified account, yes or no boolean value	|
 |	IsDefaultPaymentTerm	|	boolean	|		|	No	|	The default payment term.	|
 |	Name	|	string	|	256	|	No	|	The name of the payment term for the account.	|
-|	NumberOfMonth	|	string	|	256	|	No	|	Number of month for payment terms.	|
-|	NumberOfMonths	|	string	|	256	|	No	|	Number of months for payment terms.	|
-|	PaymentDayName	|	string	|	256	|	No	|	The name of the payment day.	|
+|	NumberOfMonth	|	string	|	256	|	No	|	The length of payment terms expressed in months. |
+|	NumberOfMonths	|	string	|	256	|	No	|	The length of payment terms expressed in months..	|
+|	PaymentDayName	|	string	|	256	|	No	|	The name of the payment day.	Example first day of the month, 5the day of the month etc. |
 |	PaymentMethodType	|	string	|	256	|	No	|	The method of payment for this account or to this account. For example, if it's for a customer, then its payment terms are for accounts receivables. If it's for a vendor or service provider, then its payment terms are for accounts payables.	|
 |	PaymentScheduleName	|	string	|	256	|	No	|	The name of the payment schedule.	|
