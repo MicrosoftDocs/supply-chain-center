@@ -28,16 +28,16 @@ You can identify Carriers using their two or three character abbreviation. For e
 |	CarrierTypeId	|	string	|	256	|	No	|	The unique identifier of a Carrier Type.	|
 |	CommonCarrierIndicator	|	string	|	256	|	No	|	A transportation company that provides service to the general public at published rates.	|
 |	CustomAttributes	|	string	|	256	|	No	|	Customer defined attributes for the carrier.	|
-|	DirectAirCarrierIndicator	|	string	|	256	|	No	|	An air carrier that operates airplanes on a scheduled or contract (charter) basis, or both, and provides transportation for a charge.  An airline as opposed to a freight forwarder.	|
+|	DirectAirCarrierIndicator	|	string	|	256	|	No	|	An air carrier that operates airplanes on a scheduled or contract (charter) basis, or both, and provides transportation for a charge. An airline as opposed to a freight forwarder.	|
 |	DunBradstreetGlobalUltimate	|	string	|	256	|	No	|	There are eight types of business relationships defined in D&B WorldBase. |
 
-Single Location Subsidiary
+## Single Location Subsidiary
 
 A single location subsidiary has reporting responsibilities to its parent; however, it doesn't have branches or subsidiaries reporting to it. Don't confuse a single location subsidiary with a stand-alone business which is titled "single location" and isn't part of a corporate family.
 
 ## Headquarters
 
-Headquarters are a business establishment that has branches or divisions reporting to it and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it's also a subsidiary. If it owns more than 50% of another corporation, then it's also a parent.
+Headquarters are a business establishment that has branches or divisions reporting to it and is financially responsible for those branches or divisions. If the headquarters is more that 50% owned by another corporation, it's also a subsidiary. If it owns more than 50% of another corporation, then its also considered a parent.
 
 ## Branch
 
@@ -53,7 +53,7 @@ A subsidiary is a corporation that is more than 50% owned by another corporation
 
 ## Parent
 
-A parent is a corporation that owns more than 50 percent of another corporation. The parent company may also be a subsidiary of another corporation. If the parent also has branches, then it's also considered headquarters.
+A parent is a corporation that owns more than 50 percent of another corporation. The parent company may also be a subsidiary of another corporation. If the parent also has branches, then its also considered headquarters.
 
 ## Domestic Ultimate
 
@@ -119,5 +119,5 @@ Telephony designator: AMERICAN |
 |	PronumberCode	|	string	|	256	|	No	|	Unique pronumber code	|
 |	ScacCommonCarrierCode	|	string	|	256	|	No	|	Standard Carrier Abbreviation Code identifying an individual common carrier. A three letter carrier code followed by a suffix identifies the carrier's equipment. A suffix of "U" is a container and "C" is a chassis.	|
 |	TrackingBaseURL	|	string	|	256	|	No	|	URL for shipment tracking	|
-|	UnapprovedIndirectAirCarrierIndicator	|	string	|	256	|	No	|	An indirect air carrier who hasn't completed the FAA security training program and does not have an FAA identification number.	|
+|	UnapprovedIndirectAirCarrierIndicator	|	string	|	256	|	No	|	An indirect air carrier who hasn't completed the FAA security training program and doesn't have an FAA identification number.	|
 |	Website	|	string	|	256	|	No	|	URL of the carrier	|
