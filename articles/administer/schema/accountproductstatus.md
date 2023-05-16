@@ -19,7 +19,7 @@ The account product status refers to the products current status. The status of 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	AccountId	|	string	|	36	|	No	|	The unique ID of the account. The Account ID is an internal system generated ID by Microsoft Dynamics 365 applications.	|
-|	AccountNumber	|	string	|	256	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|
+|	AccountNumber	|	string	|	256	|	No	|	A number or code that is used for the account to quickly search for and identify it in system views.	|
 |	AccountProductId	|	string	|	36	|	No	|	The Stockkeeping Unit of the product, which is typically used for inventory-related activities. The unique ID of the product managed by the account. For example, if the account is a customer, then AccountProductId holds the product ID the customer uses to refer the sellers product.	|
 |	AccountProductNumber	|	string	|	256	|	No	|	The unique product number for the account. If the account is a customer, then AccountProductNumber identifies the product number of the customer, or if its vendor then AccountProductNumber identifies the product number of the vendor.	|
 |	AccountProductStatusId	|	string	|	36	|	Yes	|	The unique ID of the account product status	|
