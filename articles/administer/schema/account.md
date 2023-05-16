@@ -30,9 +30,9 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	AccountNumber	|	string	|	256	|	Yes	|	A number or code that is used for the account to quickly search for and identify it in system views.	|
 |	AccountPaymentTerm	|	string	|	256	|	No	|	The payment terms for the account.	|
 |	AccountRatingCode	|	string	|	256	|	No	|	A rating to indicate the value of the customer account.	|
-|	AccountTypeCode	|	string	|	256	|	Yes	|	Account type code indicates the type of account. An account could be Vendor, Customer etc.	|
+|	AccountTypeCode	|	string	|	256	|	Yes	|	Account type code indicates the type of account. An account could be Vendor, Customer, etc.	|
 |	Address1_AddressId	|	string	|	256	|	No	|	The unique identifier for address 1.	|
-|	Address1_AddressTypeCode	|	string	|	256	|	No	|	The primary address type.	For example is this address corporate address, distribution center or regional office etc.|
+|	Address1_AddressTypeCode	|	string	|	256	|	No	|	The primary address type.	For example, corporate address,  distribution center, or regional office.|
 |	address1_addresstypecodename	|	string	|	256	|	No	|	The address type code name.	|
 |	Address1_City	|	string	|	256	|	No	|	The city for the primary address.	|
 |	Address1_Composite	|	string	|	256	|	No	|	The complete primary address.	|
@@ -60,17 +60,17 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	Address1_UTCOffset	|	string	|	256	|	No	|	The time zone, or UTC offset, for this address. Used as a reference when you contact someone at this address.	|
 |	Address2_AddressId	|	string	|	256	|	No	|	Unique identifier for address 2.	|
 |	Address2_AddressTypeCode	|	string	|	256	|	No	|	The secondary address type.	|
-|	Address2_City	|	string	|	256	|	No	|	Type the city for the secondary address.	|
+|	Address2_City	|	string	|	256	|	No	|	The city for the secondary address.	|
 |	Address2_Composite	|	string	|	256	|	No	|	Shows the complete secondary address.	|
-|	Address2_Country	|	string	|	256	|	No	|	Type the country or region for the secondary address.	|
-|	Address2_County	|	string	|	256	|	No	|	Type the county for the secondary address.	|
-|	Address2_Fax	|	string	|	256	|	No	|	Type the fax number for the secondary address.	|
+|	Address2_Country	|	string	|	256	|	No	|	The country or region for the secondary address.	|
+|	Address2_County	|	string	|	256	|	No	|	The county for the secondary address.	|
+|	Address2_Fax	|	string	|	256	|	No	|	The fax number for the secondary address.	|
 |	Address2_FreightTermsCode	|	string	|	256	|	No	|	The freight terms for the secondary address to make sure shipping orders are processed correctly.	|
-|	Address2_Latitude	|	decimal	|		|	No	|	Type the latitude value for the address. Used for mapping and other applications.	|
-|	Address2_Line1	|	string	|	256	|	No	|	Type the first line of the secondary address.	|
-|	Address2_Line2	|	string	|	256	|	No	|	Type the second line of the secondary address.	|
-|	Address2_Line3	|	string	|	256	|	No	|	Type the third line of the secondary address.	|
-|	Address2_Longitude	|	decimal	|		|	No	|	Type the longitude value for the secondary address. Used for mapping and other applications.	|
+|	Address2_Latitude	|	decimal	|		|	No	|	The latitude value for the address. Used for mapping and other applications.	|
+|	Address2_Line1	|	string	|	256	|	No	|	The first line of the secondary address.	|
+|	Address2_Line2	|	string	|	256	|	No	|	The second line of the secondary address.	|
+|	Address2_Line3	|	string	|	256	|	No	|	The third line of the secondary address.	|
+|	Address2_Longitude	|	decimal	|		|	No	|	The longitude value for the secondary address. Used for mapping and other applications.	|
 |	Address2_Name	|	string	|	256	|	No	|	A descriptive name for the secondary address. For example, Corporate Headquarters.	|
 |	Address2_PostalCode	|	string	|	256	|	No	|	The ZIP Code or postal code for the secondary address.	|
 |	Address2_PostOfficeBox	|	string	|	256	|	No	|	The post office box number of the secondary address.	|
@@ -107,7 +107,7 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	CustomerTypeCodeName	|	string	|	256	|	No	|	Customer type code. 	|
 |	DefaultPriceLevelId	|	string	|	256	|	No	|	Default price level ID.	|
 |	DefaultVendorPaymentMethodName	|	string	|	256	|	No	|	Default vendor payment method name.	|
-|	Description	|	string	|	4000	|	No	|	Type additional information to describe the account. For example, an excerpt from the company's website.	|
+|	Description	|	string	|	4000	|	No	|	Additional information to describe the account. For example, an excerpt from the company's website.	|
 |	DoNotBulkEmail	|	string	|	256	|	No	|	Don't bulk email to the account.	|
 |	DoNotBulkPostalMail	|	string	|	256	|	No	|	Indicates if the account allows bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but is excluded from the postal mail.	|
 |	DoNotEmail	|	string	|	256	|	No	|	Don't email address of the account.	|
@@ -127,7 +127,7 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	FaxExtension	|	string	|	256	|	No	|	Fax extension.	|
 |	FollowEmail	|	string	|	256	|	No	|	Email of the account to follow.	|
 |	FTPSiteURL	|	string	|	256	|	No	|	The URL for the account's FTP site to enable users to access data and share documents.	|
-|	GDPROptOut	|	string	|	256	|	No	|	GDPR opt-out. This is an indicator showing if the account has opted out of GDPR in europe	|
+|	GDPROptOut	|	string	|	256	|	No	|	GDPR opt-out. This is an indicator showing if the account has opted out of GDPR in Europe.	|
 |	GeoLocationId	|	string	|	36	|	No	|	The unique identifier of a Location. Supply Chain Center or Dynamics 365 applications generate the GeoLocationId. |
 |	GeoLocationNumber	|	string	|	256	|	No	|	The unique number of a location. GeoLocationNumber is a referenced in an external system to identify the unique location.	|
 |	IdentificationNumber	|	string	|	256	|	No	|	Identification number for the account.	|
@@ -135,7 +135,7 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	IndustryCodeName	|	string	|	256	|	No	|	Industry code name.	|
 |	InternalAccountNumber	|	string	|	256	|	Yes	|	A unique number for an account. The account number is the user preferred number or an internal number to identify the account.	|
 |	InvoiceAddress	|	string	|	256	|	No	|	Invoice address for the account.	|
-|	InvoiceVendorAccount	|	string	|	256	|	No	|The account to which invoice needs to be sent or received	|
+|	InvoiceVendorAccount	|	string	|	256	|	No	|The account to which the invoice needs to be sent or received.	|
 |	Language	|	string	|	256	|	No	|	The language of the account.	|
 |	LastOnHoldTime	|	string	|	256	|	No	|	Contains the date and time stamp of the last on hold time.	|
 |	LastUsedInCampaign	|	string	|	256	|	No	|	The date when the account was last included in a marketing campaign or quick campaign.	|
@@ -143,7 +143,7 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	MappedVendorAccount	|	string	|	256	|	No	|	Mapped vendor account.	|
 |	MarketCap	|	string	|	256	|	No	|	The market capitalization of the account to identify the company's equity. Used as an indicator in financial performance analysis.	|
 |	MarketCapBase	|	string	|	256	|	No	|	The market cap base of the account.	|
-|	MarketingOnly	|	string	|	256	|	No	|	Is this account primarily used only for marketing.	|
+|	MarketingOnly	|	string	|	256	|	No	|	This account is primarily used only for marketing.	|
 |	MasterId	|	string	|	256	|	No	|	The master account that the account was merged with.	|
 |	Merged	|	string	|	256	|	No	|	Indicates if the account has been merged with another account.	|
 |	Name	|	string	|	256	|	No	|	The company or business name.	|
@@ -198,7 +198,7 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	SLAInvokedId	|	string	|	256	|	No	|	The SLA Invoke ID of the account.	|
 |	StageId	|	string	|	256	|	No	|	The Stage ID of the account.	|
 |	StockExchange	|	string	|	256	|	No	|	The Stock exchange of the account.	|
-|	TaxExempt	|	string	|	256	|	No	|	Is this account eligible for tax exemption.	|
+|	TaxExempt	|	string	|	256	|	No	|	This account is eligible for tax exemption.	|
 |	TaxExemptNumber	|	string	|	256	|	No	|	Tax exempt number.	|
 |	Telephone1	|	string	|	256	|	No	|	The telephone number of the account.	|
 |	Telephone1Description	|	string	|	4000	|	No	|	A description for telephone1.	|
@@ -212,7 +212,7 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	TransactionCurrencyId	|	string	|	256	|	No	|	Transaction currency of the account.	|
 |	TransactionCurrencyIdDescription	|	string	|	256	|	No	|	Description of the transaction currency of the account.	|
 |	TraversedPath	|	string	|	256	|	No	|	Traversed path of the account.	|
-|	VendorCreatedByWorkflow	|	string	|	256	|	No	|	The record created by name for this account|
+|	VendorCreatedByWorkflow	|	string	|	256	|	No	|	The record created by name for this account. |
 |	VendorGroup	|	string	|	256	|	No	|	Vendor group.	|
 |	VendorId	|	string	|	36	|	No	|	A Unique ID for the vendor.	|
 |	VendorKnownAsName	|	string	|	256	|	No	|	Vendor known as name.	|
@@ -220,4 +220,4 @@ Accounts are a fundamental element of any ERP system, as they provide a way to o
 |	VendorOrganizationName	|	string	|	256	|	No	|	Vendor organization name.	|
 |	WebsiteURL	|	string	|	256	|	No	|	URL of the account.	|
 |	WebsiteURLDescription	|	string	|	4000	|	No	|	URL of the website.	|
-|	YomiName	|	string	|	256	|	No	|	Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.	|
+|	YomiName	|	string	|	256	|	No	|	The phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.	|
