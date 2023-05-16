@@ -164,7 +164,7 @@
         href: administer/connect-your-sap-data.md
       - name: Import a local file
         href: administer/import-a-local-file.md
-      - name: Transform and mad the data according to your desired entity
+      - name: Transform and map the data according to your desired entity
         href: administer/transform-and-map-data.md
       - name: Ingest data into one entity from multiple data sources
         href: administer/ingest-multiple-data-sources.md
