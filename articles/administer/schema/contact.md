@@ -6,7 +6,7 @@ ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
-ms.date: 0/5/2023
+ms.date: 05/15/2023
 ms.custom: bap-template
 ---
 
