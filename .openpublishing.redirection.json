@@ -37,7 +37,7 @@
     },
     {
       "source_path": "articles/administer/schema/inventorytransaction.md",
-      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_url": "articles/administer/schema/inventoryjournal.md",
       "redirect_document_id": "false"
     },
     {
@@ -82,6 +82,46 @@
     },
     {
       "source_path": "articles/administer/schema/legalentitycustomer.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/location.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/materialresourceplanningschedule.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/orderline.md",
+      "redirect_url": "articles/administer/schema/salesorderdetail.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/party.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/productgroup.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/productgroupproduct.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/purchaseorderrelatedparty.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/purchasingpartyrelationshiptype.md",
       "redirect_url": "articles/administer/schema/data-schema.md",
       "redirect_document_id": "false"
     },
