@@ -164,16 +164,6 @@
       "source_path": "articles/administer/schema/vendorlocation.md",
       "redirect_url": "articles/administer/schema/data-schema.md",
       "redirect_document_id": "false"
-    },
-    {
-      "source_path": "articles/administer/schema/purchasingpartyrelationshiptype.md",
-      "redirect_url": "articles/administer/schema/data-schema.md",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "articles/administer/schema/purchasingpartyrelationshiptype.md",
-      "redirect_url": "articles/administer/schema/data-schema.md",
-      "redirect_document_id": "false"
-    },
+    }
    ]
 }
