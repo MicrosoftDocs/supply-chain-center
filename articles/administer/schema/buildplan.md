@@ -1,33 +1,40 @@
 ---
 title: BuildPlan
-description: This article provides information about BuildPlan entity.
+description: This article provides information about the BuildPlan entity.
 author: mkannapiran
 ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
-ms.date: 11/3/2022
+ms.date: 05/05/2023
 ms.custom: bap-template
 ---
 
-# BuildPlan
+# **BuildPlan**
 
-A Build Plan is the break down, usually by a specific Item, to accomplish the Master Schedule or Material Requirements Planning (Demand)
+A Build Plan is the breakdown, usually by a specific Item, to accomplish the Master Schedule or Material Requirements Planning (Demand).
 
- The Master Schedule-Product Build is the product building plan that is used by manufacturers to build products or items via one or more individual Build Plans. A Master Schedule is a schedule to build several item(s) over a specific period. A Master Schedule may identify one or more Items to build. A Build Plan is the breakdown, usually by a specific Item, to accomplish the Master Schedule.
- A Run is the actual order to manufacture, or build a set number of Items on a date and/or time.
+The Master Schedule-Product Build is the product building plan that is used by manufacturers to build products or items via one or more individual Build Plans. A Master Schedule is a schedule to build several items over a specific period. A Master Schedule may identify one or more Items to build. A Build Plan is the breakdown, usually by a specific Item, to accomplish the Master Schedule. A Run is the actual order to manufacture or build a set number of Items on a date and/or time. 
 
-| **Entity Name** | **Attribute Name** | **IsPrimaryKey** | **Data Type** | **Data Length** | **Description** |
-| --- | --- | --- | --- | --- | --- |
-| BuildPlan | BuildPlanId | yes | string | 36 | The unique identifier of a Build Plan. |
-| BuildPlan | BuildPlanPriorityId | no | string | 36 | The unique identifier of a Build Plan Priority. |
-| BuildPlan | BuildPlanPeriodEndDate | no | date | 8 | The date that the Build Plan Period ended. |
-| BuildPlan | BuildPlanPeriodStartDate | no | date | 8 | The date that the Build Plan Period started. |
-| BuildPlan | BuildPlanStatusId | no | string | 36 | The unique identifier of a Build Plan Status. |
-| BuildPlan | ManufacturerId | no | string | 36 | Manufacturer ID is the supplier ID or manufacturing location ID who will fulfill the demand |
-| BuildPlan | ManufacturerFacilityId | no | string | 36 | Manufacturing facility ID is the warehouse ID or plant ID where the demand is needed to required |
-| BuildPlan | ItemSku | no | string | 20 | The Stock Keeping Unit identifier, which is typically used for inventory-related activities. |
-| BuildPlan | MasterScheduleId | no | string | 36 | The unique identifier of a Master Schedule. |
-| BuildPlan | BuildPlanName | no | string | 128 | The name of the Build Plan. |
-| BuildPlan | BuildPlanCreatedDate | no | date | 8 | The date that the Build Plan was created. |
-| BuildPlan | BuildPlanItemUnitQuantity | no | decimal | 8,2 | The total number of item(s) to be built under the associated Build Plan. |
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|---------------|--------|------|----------|-----------|
+|	BuildPlanCreateDate	|	date	|		|	No	|	The date the build plan is created.	|
+|	BuildPlanId	|	string	|	36	|	Yes	|	The unique identifier of a Build Plan.	|
+|	BuildPlanName	|	string	|	256	|	No	|	The name of the Build Plan.	|
+|	BuildPlanNumber	|	string	|	256	|	Yes	|	The unique identifier of a Build Plan.	|
+|	BuildPlanPeriodEndDate	|	date	|		|	No	|	The validity or expiry date of this record.	|
+|	BuildPlanPeriodStartDate	|	date	|		|	No	|	The beginning or effective start date of this record.	|
+|	BuildPlanPriorityNumber	|	string	|	256	|	No	|	The priority of this build plan.	|
+|	BuildPlanProductUnitQuantity	|	decimal	|		|	No	|	Build plan quantity that was planned for this period or time horizon.	|
+|	BuildPlanStatus	|	string	|	4000	|	No	|	The status of the build plan.	|
+|	ItemSku	|	string	|	256	|	No	|	The stockkeeping unit identifier, which is typically used for inventory-related activities.	|
+|	ManufacturerFacilityNumber	|	string	|	256	|	No	|	The manufacturing or receiving location number (identifier) for which this build plan was created.	|
+|	ManufacturerNumber	|	string	|	256	|	No	|	The unique number of the manufacturer, useful especially in a contract manufacturer scenario or retail scenario.	|
+|	MasterSchedule	|	string	|	256	|	No	|	The unique identifier of the master schedule.	|
+|	MasterScheduleNumber	|	string	|	256	|	No	|	The unique identifier of a Master Schedule.	|
+|	ProductNumber	|	string	|	256	|	No	|	The product for which the build plan was created.	|
+|	UoMId	|	string	|	36	|	No	|	The unit of measure ID.	|
+|	UoMNumber	|	string	|	256	|	No	|	The unit of measure ISO code.	|
+|	WarehouseId	|	string	|	36	|	No	|	The unique ID of the warehouse.	|
+|	WarehouseNumber	|	string	|	256	|	No	|	The location or stockkeeping location where the product will be received.	|
