@@ -1,5 +1,49 @@
 {
   "redirections": [
-    
+    {
+      "source_path": "articles/administer/schema/carrierlocation.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },    
+    {
+      "source_path": "articles/administer/schema/carrierlocationcutofftime.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/contact.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/customer.md",
+      "redirect_url": "articles/administer/schema/account.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/customerlocation.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/customerrelatedparty.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/customershipmentmethod.md",
+      "redirect_url": "articles/administer/schema/accountshipmentmethod.md.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/inventorytransaction.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/inventorytransactionShipment.md",
+      "redirect_url": "articles/administer/schema/inventorymovementshipment.md",
+      "redirect_document_id": "false"
+    },
    ]
 }
