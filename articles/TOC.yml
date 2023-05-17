@@ -183,9 +183,9 @@
       - name: ShipmentLocation
         href: administer/schema/shipmentlocation.md 
       - name: ShipmentQuote
-        href: /administer/schema/shipmentquote.md
+        href: administer/schema/shipmentquote.md
       - name: ShipmentRouteLeg
-        hred: /administer/schema/shipmentrouteleg.md 
+        hred: administer/schema/shipmentrouteleg.md 
       - name: ShipmentRouteLegEquipment
         href: administer/schema/shipmentroutelegequipment.md 
       - name: ShipmentRouteLegEquipmentShipmentItem
@@ -193,21 +193,21 @@
       - name: ShipmentRouteLegIOT
         href: administer/schema/shipmentroutelegiot.md 
       - name: ShippingService
-        href: /administer/schema/shippingservice.md
+        href: administer/schema/shippingservice.md
       - name: SplitGroup
-        href: /administer/schema/splitgroup.md
+        href: administer/schema/splitgroup.md
       - name: SubscriptionOrder
-        href: /administer/schema/subscriptionorder.md
+        href: administer/schema/subscriptionorder.md
       - name: SubscriptionOrderLine
-        href: /administer/schema/subscriptionorderline.md
+        href: administer/schema/subscriptionorderline.md
       - name: TransferOrder
-        href: /administer/schema/transferorder.md
+        href: administer/schema/transferorder.md
       - name: TransferOrderLine
-        href: /administer/schema/transferorderline.md
+        href: administer/schema/transferorderline.md
       - name: UnitOfMeasure
-        href: /administer/schema/unitofmeasure.md
+        href: administer/schema/unitofmeasure.md
       - name: UnitOfMeasureGroup
-        href: /administer/schema/unitofmeasuregroup.md
+        href: administer/schema/unitofmeasuregroup.md
       - name: Vendor
         href: administer/schema/vendor.md 
       - name: Warehouse
