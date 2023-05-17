@@ -11,11 +11,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "articles/administer/schema/contact.md",
-      "redirect_url": "articles/administer/schema/data-schema.md",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "articles/administer/schema/customer.md",
       "redirect_url": "articles/administer/schema/account.md",
       "redirect_document_id": "false"
@@ -141,27 +136,42 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "articles/administer/schema/shipment.md",
-      "redirect_url": "articles/administer/schema/data-schema.md",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "articles/administer/schema/vendoritemleadtime.md",
-      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_url": "articles/administer/schema/accountproductleadtime.md",
       "redirect_document_id": "false"
     },
     {
       "source_path": "articles/administer/schema/vendoritemprice.md",
-      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_url": "articles/administer/schema/accountproductprice.md",
       "redirect_document_id": "false"
     },
     {
       "source_path": "articles/administer/schema/vendoritemstatus.md",
-      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_url": "articles/administer/schema/accountproductstatus.md",
       "redirect_document_id": "false"
     },
     {
       "source_path": "articles/administer/schema/vendorlocation.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/vendorsupplycommitment.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/warehouseitemavailablestock.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/warehouseitembalance.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/warehouseitemwafetystock.md",
       "redirect_url": "articles/administer/schema/data-schema.md",
       "redirect_document_id": "false"
     }
