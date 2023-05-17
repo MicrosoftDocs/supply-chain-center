@@ -45,5 +45,45 @@
       "redirect_url": "articles/administer/schema/inventorymovementshipment.md",
       "redirect_document_id": "false"
     },
+    {
+      "source_path": "articles/administer/schema/inventorytransactionunserializeditem.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/item.md",
+      "redirect_url": "articles/administer/schema/product.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/itemcustomerdemandforecast.md",
+      "redirect_url": "articles/administer/schema/productaccountdemandforecast.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/itemcustomersupplyallocation.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/itemcustomersupplyplan.md",
+      "redirect_url": "articles/administer/schema/productaccountsupplyplan.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/itemunitofmeasureconversion.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/itemvendorsupplyplan.md",
+      "redirect_url": "articles/administer/productaccountsupplyplan.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/administer/schema/legalentitycustomer.md",
+      "redirect_url": "articles/administer/schema/data-schema.md",
+      "redirect_document_id": "false"
+    },
    ]
 }
