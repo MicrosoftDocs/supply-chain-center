@@ -6,11 +6,11 @@ ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
-ms.date: 11/3/2022
+ms.date: 05/05/2023
 ms.custom: bap-template
 ---
 
-# ShipmentEventType
+# **ShipmentEventType**
 
 A type of event that may be associated with a Shipment for a period of time or a point in time. For example: Abandonment, Area check, Break Bulk, Customs Entry, Customs Exit, Detention, Devanning, Embargo, In Bond, In Customs, In-Transit Entry, Lay Order, Shipment Aboard, and Shipment Alongside.
 
@@ -94,10 +94,12 @@ The consignee has retrieved cargo from the airport.
 
 VANNING
 
-A term sometimes used for stowing cargo in a container."
+A term sometimes used for stowing cargo in a container.
 
-| **Entity Name** | **Attribute Name** | **IsPrimaryKey** | **Data Type** | **Data Length** | **Description** |
-| --- | --- | --- | --- | --- | --- |
-| ShipmentEventType | ShipmentEventTypeId | yes | string | 36 | The unique identifier of a Shipment Event Type. |
-| ShipmentEventType | ShipmentEventTypeDescription | no | string | 512 | The description of a Shipment Event Type. |
-| ShipmentEventType | ShipmentEventTypeName | no | string | 128 | The name of a Shipment Event Type. |
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|---------------|--------|------|----------|-----------|
+|	ShipmentEventTypeDescription	|	string	|	4000	|	No	|	The description of a Shipment Event Type.	|
+|	ShipmentEventTypeId	|	string	|	36	|	Yes	|	The unique identifier of a Shipment Event Type.	|
+|	ShipmentEventTypeName	|	string	|	256	|	No	|	The name of a Shipment Event Type.	|
+|	ShipmentEventTypeNumber	|	string	|	256	|	Yes	|	Shipment event type number of the shipment	|

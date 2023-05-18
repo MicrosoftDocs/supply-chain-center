@@ -6,20 +6,26 @@ ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
-ms.date: 11/3/2022
+ms.date: 05/05/2023
 ms.custom: bap-template
 ---
 
-# ShipmentCharge
+# **ShipmentCharge**
 
-A charge or fee incurred by the shipment by the indicated party.
+The shipment charge entity refers to the applicable fee or charges incurred by the account for a shipment. 
 
-| **Entity Name** | **Attribute Name** | **IsPrimaryKey** | **Data Type** | **Data Length** | **Description** |
-| --- | --- | --- | --- | --- | --- |
-| ShipmentCharge | ShipmentChargeTimestamp | yes | timestamp | 14 | The timestamp of the shipment charge. |
-| ShipmentCharge | ShipmentChargeTypeId | yes | string | 36 | The unique identifier of a shipment charge type. |
-| ShipmentCharge | ShipmentId | yes | string | 36 | The unique identifier of a Shipment. |
-| ShipmentCharge | ShipmentChargePaidTimestamp | no | timestamp | 14 | The timestamp that the shipment charge was paid. |
-| ShipmentCharge | ChargeByPartyId | no | string | 36 | The unique identifier of a Party. |
-| ShipmentCharge | ShipmentLegNumber | no | integer | 9 | The unique identifier of the Shipment Leg Number, which equals the shipment leg 'sequence number'. |
-| ShipmentCharge | ShipmentChargeAmount | no | decimal | 9 | The amount of the shipment charge. |
+
+|	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
+|---------------|--------|------|----------|-----------|
+|	ChargeByPartyId	|	string	|	256	|	No	|	The unique identifier of a Party.	|
+|	ChargeByPartyNumber	|	string	|	256	|	No	|	Shipment charge by party number	|
+|	ShipmentChargeAmount	|	decimal	|		|	No	|	The amount of the shipment charge.	|
+|	ShipmentChargeId	|	string	|	36	|	Yes	|	Shipment charge Id	|
+|	ShipmentChargeNumber	|	string	|	256	|	Yes	|	Shipment charge number 	|
+|	ShipmentChargePaidTimestamp	|	timestamp	|		|	No	|	The timestamp that the shipment charge was paid.	|
+|	ShipmentChargeTimestamp	|	timestamp	|		|	No	|	The timestamp of the shipment charge.	|
+|	ShipmentChargeTypeId	|	string	|	256	|	No	|	The unique identifier of a shipment charge type.	|
+|	ShipmentChargeTypeNumber	|	string	|	256	|	No	|	Type of shipment charge number	|
+|	ShipmentId	|	string	|	36	|	No	|	The unique identifier of a Shipment.	|
+|	ShipmentLegNumber	|	string	|	256	|	No	|	The unique identifier of the Shipment Leg Number, which equals the shipment leg 'sequence number'.	|
+|	ShipmentNumber	|	string	|	256	|	No	|	Number of the shipment	|
