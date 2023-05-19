@@ -29,15 +29,13 @@ To create a KPI, follow these steps.
 1. Sign into Microsoft Supply Chain Center, and then select **Analytics**.
 1. From the navigation pane, select **KPIs**. 
 1. Select **Create** to start the KPI creation wizard.
+1. Select the **Calculation** you would like to use for measuring the KPI. You can only select calculations that were successfully refreshed. The selected calculation must have Date and Measure columns so they can be selected for tracking the KPI. Date will be used as the time series data over which the KPI is tracked. Measure is the value that will be used for tracking the KPI. Only calculations that were successfully refreshed can be selected.
+1. **Measure and target**: Select the **Measure** and **Date** columns, and the **Target** of the KPI. Target represents the desired level of performance or achievement for the KPI, and it is  is used to calculate KPI progress. You may add the Units the KPI would be measure in, for example: Lb., KG, %, USD, EUR, etc.
 1. Provide the general **Details** for the KPI:
    -	Name, description, categories, start date, end date, parent. 
    -	The Start Date and End Date represent the period over which the KPI are tracked.
    -	Categories can be used to group KPIs together. 
    -	If you already have an existing KPI, then you can assign it as a parent to the new KPI. Assigning it as a parent is useful for showing the relationship between different KPIs.   
- 1. Provide the **Measure** for the KPI.
- 1. Select the **Calculation** you would like to use for measuring the KPI. You can only select calculations that were successfully refreshed.
- 1. **Map**: Select the measure value and date columns in your Calculation you would like to use for tracking the KPI. A measure value is the value that is tracked over time as the KPI. Date column is used as the time series data over which the KPI is measured and evaluated. Then, enter the Units that the KPI is measured in, for example: USD, EUR, Lbs, KG, pallets, cases. 
-1. Set your **Target** value for the KPI. The target value is used to calculate KPI progress. 
 1. Set your **Threshold** for the KPI. A KPI is required to have at least one rule. A rule consists of a set of conditions and actions. Added to actions are performed when a condition is met. In addition, you can change the status of the KPI when the rule is met. For example if you're making an On Time In Full KPI, you can set up a threshold for when the value is less than 95% that sets the KPI status to “At risk” and trigger a Power Automate Flow. KPI rules are evaluated periodically, according to the data refresh rate set in the Supply and demand insights section in Settings. 
 1. Review the details of the KPI you're creating. You can edit any of the information on the previous steps.
 1. Select **Submit** to create the KPI.
