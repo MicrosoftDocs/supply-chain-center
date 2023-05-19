@@ -29,14 +29,18 @@ To create a KPI, follow these steps.
 1. Sign into Microsoft Supply Chain Center, and then select **Analytics**.
 1. From the navigation pane, select **KPIs**. 
 1. Select **Create** to start the KPI creation wizard.
-1. Select the **Calculation** you would like to use for measuring the KPI. You can only select calculations that were successfully refreshed. The selected calculation must have Date and Measure columns so they can be selected for tracking the KPI. Date will be used as the time series data over which the KPI is tracked. Measure is the value that will be used for tracking the KPI. Only calculations that were successfully refreshed can be selected.
+1. Select the **Data Source** you would like to use for measuring the KPI. You can only select calculations that were successfully refreshed. The selected calculation must have Date and Measure columns so they can be selected for tracking the KPI. Date will be used as the time series data over which the KPI is tracked. Measure is the value that will be used for tracking the KPI. Only calculations that were successfully refreshed can be selected.
+![A screenshot of the KPI Wizard pane - Data Source.](media/KPI-DataSource.png)
 1. **Measure and target**: Select the **Measure** and **Date** columns, and the **Target** of the KPI. Target represents the desired level of performance or achievement for the KPI, and it is  is used to calculate KPI progress. You may add the Units the KPI would be measure in, for example: Lb., KG, %, USD, EUR, etc.
+![A screenshot of the KPI Wizard pane - Measure and target.](media/KPI-MeasureTarget.png)
 1. Provide the general **Details** for the KPI:
    -	Name, description, categories, start date, end date, parent. 
    -	The Start Date and End Date represent the period over which the KPI are tracked.
    -	Categories can be used to group KPIs together. 
-   -	If you already have an existing KPI, then you can assign it as a parent to the new KPI. Assigning it as a parent is useful for showing the relationship between different KPIs.   
-1. Set your **Threshold** for the KPI. A KPI is required to have at least one rule. A rule consists of a set of conditions and actions. Added to actions are performed when a condition is met. In addition, you can change the status of the KPI when the rule is met. For example if you're making an On Time In Full KPI, you can set up a threshold for when the value is less than 95% that sets the KPI status to “At risk” and trigger a Power Automate Flow. KPI rules are evaluated periodically, according to the data refresh rate set in the Supply and demand insights section in Settings. 
+   -	If you already have an existing KPI, then you can assign it as a parent to the new KPI. Assigning it as a parent is useful for showing the relationship between different KPIs. 
+![A screenshot of the KPI Wizard pane - Details.](media/KPI-Details.png)
+1. Set your **Threshold** for the KPI. A KPI is required to have at least one rule. A rule consists of a set of conditions and actions. Added to actions are performed when a condition is met. In addition, you can change the status of the KPI when the rule is met. For example if you're making an On Time In Full KPI, you can set up a threshold for when the value is less than 95% that sets the KPI status to “At risk” and trigger a Power Automate Flow. KPI rules are evaluated periodically, according to the data refresh rate set in the Supply and demand insights section in Settings.
+![A screenshot of the KPI Wizard pane - Thresholds.](media/KPI-Threshold.png) 
 1. Review the details of the KPI you're creating. You can edit any of the information on the previous steps.
 1. Select **Submit** to create the KPI.
  
