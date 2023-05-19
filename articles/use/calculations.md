@@ -20,9 +20,13 @@ To create a new calculation, follow these steps.
 
 1. Sign into Microsoft Supply Chain Center, and then select **Analytics**.
 1. From the navigation pane, select **Calculation**.
+![A screenshot of the Analytics - Calculation page.](media/calculations-homepage.png)
 1.	Select one or more data sources to use for the calculation. Ingested entities are marked as an **Application data** **Type**. Previously created calculations are marked as a **Calculation** **Type**. After you select the required data sources, select **Next**.
-1.	The selected data sources to form into a **Power Query** screen. On the left side, you may see queries called as the data sources are used. You may transform the data in any of these queries, but make sure to include the data that would be used as a measure in the **Transformation** query. The Transformation query, by default, includes the same data as the top data source you selected. Once complete, select **Next**.
+![A screenshot of the Calculation creation pane - Select Data Source.](media/calculations-selectdatasource.png)
+1.	The selected data sources will be formed into a **Power Query** editor. On the left side, you may see queries called as the data sources are used. You may transform the data in any of these queries, but make sure to include the data that would be used as a measure in the **Transformation** query. The Transformation query, by default, includes the same data as the top data source you selected. Once complete, select **Next**.
+![A screenshot of the Power Query editor.](media/calculations-transformqueries.png)
 1.	Select the cadence for refreshing the Calculation. Select **Refresh manually** to refresh the data once. Select **Refresh automatically** to refresh the data on a recurring basis. 
+![A screenshot of the Analytics - Refresh settings.](media/calculations-refreshsettings.png)
 1. Select **Submit** to create the Calculation.
  
 ## View Calculation details 
