@@ -1,6 +1,6 @@
 ---
 title: Create and use calculations
-description: This article provides information about how to create and use calculations in Microsoft Supply Chain Center.
+description: This article explains how to create and use calculations in Microsoft Supply Chain Center.
 author: itayhi
 ms.author: itayh
 ms.reviewer: johnmichalak
@@ -12,52 +12,61 @@ ms.custom: bap-template
 
 # Create and use calculations
 
-Calculations are data tables that contain measures and dimensions. Calculations can be used to create KPIs.
+Calculations are data tables that contain measures and dimensions. Calculations can be used to create key performance indicators (KPIs).
 
-## Create a new calculation
+## Create a calculation
 
-To create a new calculation, follow these steps.
+To create a calculation, follow these steps.
 
-1. Sign into Microsoft Supply Chain Center, and then select **Analytics**.
-1. From the navigation pane, select **Calculation**.
-![A screenshot of the Analytics - Calculation page.](media/calculations-homepage.png)
-1.	Select one or more data sources to use for the calculation. Ingested entities are marked as an **Application data** **Type**. Previously created calculations are marked as a **Calculation** **Type**. After you select the required data sources, select **Next**.
-![A screenshot of the Calculation creation pane - Select Data Source.](media/calculations-selectdatasource.png)
-1.	The selected data sources will be formed into a **Power Query** editor. On the left side, you may see queries called as the data sources are used. You may transform the data in any of these queries, but make sure to include the data that would be used as a measure in the **Transformation** query. The Transformation query, by default, includes the same data as the top data source you selected. Once complete, select **Next**.
-![A screenshot of the Power Query editor.](media/calculations-transformqueries.png)
-1.	Select the cadence for refreshing the Calculation. Select **Refresh manually** to refresh the data once. Select **Refresh automatically** to refresh the data on a recurring basis. 
-![A screenshot of the Analytics - Refresh settings.](media/calculations-refreshsettings.png)
-1. Select **Submit** to create the Calculation.
- 
-## View Calculation details 
+1. Sign in to Microsoft Supply Chain Center, and then select **Analytics**.
+1. On the navigation pane, select **Calculations**.
 
-In the Calculations page, you may view the details of a calculation.
- 
--	**Owner** shows the user who created the calculation. 
--	**Last run** shows the last time the data refresh was run for the given calculation. 
-- **Status** shows the status of the latest data refresh of the calculation. The **Success** status means the data refresh was completed successfully. The **Idle** status means the last data refresh wasn't completed successfully.  
+    ![Screenshot of the Calculations page.](media/calculations-homepage.png)
 
-To view deails for a calcualtion, select its name.
+1. Select **Create** to open the calculation creation wizard.
+1. Select one or more data sources to use for the calculation. Ingested entities show a value of **Application data** in the **Type** column. Previously created calculations show a value of **Calculation** in the **Type** column.
 
--	In a **Calculation**, you may find the underlying used queries.
--	In **Dependencies**, you may find the underlying data sources that the calculation is dependent on. You may also find any resources that are dependent on the calculation you're viewing. 
+    ![Screenshot that shows data sources selected in the calculation creation wizard.](media/calculations-selectdatasource.png)
 
-## Managing an existing calculation
+1. When you've finished selecting the required data sources, select **Next**.
+1. The selected data sources are formed into a Power Query editor. The **Queries** pane on the left shows the queries that are called as the data sources are used. You can transform the data in any of these queries, but be sure to include the data that will be used as a measure in the **Transformation** query. By default, the **Transformation** query includes the same data as the top data source that you selected.
 
-Currently, editing an existing calculation isn't available. To manage an existing calculation, select on the **More actions** icon next to the calculation's name. The following actions can be performed on the calculation.
- 
--	**Clone** creates a copy of an existing calculation and changes any underlying data transformation using **Power Query**. 
--	**Rename** changes the name of the selected calculation.
--	**Refresh** sets a one-time data refresh of the calculation.
--	**Delete** removes the selected calculation. 
+    ![Screenshot of the Power Query editor.](media/calculations-transformqueries.png)
 
-## Best Practices
+1. When you've finished, select **Next**.
+1. Select the cadence for refreshing the calculation. Select **Refresh manually** to refresh the data once. Select **Refresh automatically** to refresh the data on a recurring basis.
 
-While working with calculations, please observer the following best practices.
+    ![Refresh settings in the calculation creation wizard.](media/calculations-refreshsettings.png)
 
--	**Include a measure and date column in your calculation**. It's important to include both a measure (or an aggregation) and a date column. The measure should represent the data that you want to track, such as revenue or customer satisfaction. The date column should represent the time period over which you want to track the data, such as days, weeks, or months. 
--	**Sort date columns in descending order**. To ensure that your KPI accurately reflects historical trends, it's important to sort your date columns in descending order. This way, the most recent data is displayed first to allow you to quickly see if there are any changes or trends over time. 
--	**Refresh calculations**. Calculations used in KPIs should be successfully refreshed to ensure that they're up to date and accurate.  
--	**Use the appropriate level of aggregation**. When creating calculations for use in KPIs, it's important to measure the smallest possible unit to a high level of aggregation. This means that you should create calculations that represent the data at different levels, from the most granular (such as individual transactions) to the most aggregated (such as total revenue). For example, if you want to track revenue growth for a company by region, you should create separate calculations for each region, and create a calculation for the company as a whole. The most aggregated calculation can be used in parent KPIs and most granular level in children KPIs. 
+1. Select **Submit** to create the calculation.
 
+## View calculation details
 
+On the **Calculations** page, you can view the details of a calculation:
+
+- **Owner** – The user who created the calculation.
+- **Last run** – The last time that the data refresh was run for the calculation.
+- **Status** – The status of the latest data refresh of the calculation. The **Success** status indicates the data refresh was successfully completed. The **Idle** status indicates that the last data refresh wasn't successfully completed.
+
+To view details for a calculation, select its name.
+
+- In a calculation, you can find the underlying queries that are used.
+- In **Dependencies**, you can find the underlying data sources that the calculation depends on. You can also find any resources that depend on the calculation that you're viewing.
+
+## Manage an existing calculation
+
+Currently, you can't edit an existing calculation. To manage an existing calculation, select the **More actions** button next to the calculation name, and then select an action. The following actions can be performed on a calculation:
+
+- **Clone** – Create a copy of the calculation, and change any underlying data transformation by using Power Query.
+- **Rename** – Change the name of the calculation.
+- **Refresh** – Set a one-time data refresh of the calculation.
+- **Delete** – Remove the calculation.
+
+## Best practices
+
+While you work with calculations, observe the following best practices:
+
+- **Include measure and date columns in your calculation.** It's important that you include both a measure (or aggregation) column and a date column. The measure column should represent the data that you want to track, such as revenue or customer satisfaction. The date column should represent the period that you want to track the data over, such as days, weeks, or months.
+- **Sort date columns in descending order.** To ensure that your KPI accurately reflects historical trends, sort date columns in descending order. In this way, the most recent data is shown first, so that you can quickly identify any changes or trends over time.
+- **Refresh calculations.** Calculations that are used in KPIs should be successfully refreshed to ensure that they're up to date and accurate.
+- **Use the appropriate level of aggregation.** When you create calculations to use in KPIs, it's important that you measure the smallest possible unit to a high level of aggregation. Therefore, you should create calculations that represent the data at different levels, from the most granular (such as individual transactions) to the most aggregated (such as total revenue). For example, if you want to track revenue growth for a company by region, create separate calculations for each region, and create a calculation for the company as a whole. The most aggregated level can be used in parent KPIs, and the most granular level can be used in children KPIs.
