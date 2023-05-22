@@ -25,43 +25,43 @@ The home page has two main sections:
 
 ### Get started
 
-This section contains short videos on how to get started using Microsoft Supply Chain Center. After you're familiar with Microsoft Supply Chain Center, you can dismiss this section so that it's no longer visible on the home page. You can change the visibility of the Get started section from **Settings** by toggling **Show onboarding tasks on the home page**.
+This section contains short videos about how to get started using Microsoft Supply Chain Center. After you're familiar with Microsoft Supply Chain Center, you can dismiss this section so that it's no longer visible on the home page. To change the visibility of the **Get started** section, set the **Show onboarding tasks on the home page** option in **Settings**.
 
-![A screenshot of the Supply Chain Center Home page and the Get started section.](media/homescreen-get-started.png)
+![Screenshot of the Supply Chain Center Home page and the Get started section.](media/homescreen-get-started.png)
 
 ### Overview
 
-This section highlights some of the insights coming from the **Supply and demand insights** module, and news articles from the **News** module.
+This section highlights some of the insights that come from the **Supply and demand insights** module and news articles that come from the **News** module.
 
-At the bottom of the page, you find more resources to help you get the most out of Microsoft Supply Chain Center.
+At the bottom of the page, you can find more resources to help you get the most out of Microsoft Supply Chain Center.
 
-![A screenshot of the Supply Chain Center Overview, Additional features and More resources sections.](media/homescreen-overview.png)
+![Screenshot of the Supply Chain Center Overview, Additional features and More resources sections.](media/homescreen-overview.png)
 
 ## Microsoft Supply Chain Center modules
 
-Microsoft Supply Chain Center's functionality is grouped into purpose-built modules that are focused on specific areas in a supply chain lifecycle. You have the flexibility to activate as many modules as you need to meet your business needs. Upon enabling the modules, you can use a robust data ingestion process to compile your internal data and your suppliers' data to realize the rich functionality of Microsoft Supply Chain Center.
+Microsoft Supply Chain Center's functionality is grouped into purpose-built modules that are focused on specific areas in a supply chain lifecycle. You have the flexibility to activate as many modules as you require to meet your business needs. After you enable the modules, you can use a robust data ingestion process to compile your internal data and your suppliers' data to realize the rich functionality of Microsoft Supply Chain Center.
 
 The following modules are currently available:
 
 - Supply and demand insights
 - News
-- Variety of third party modules
+- Variety of third-party modules
 
 ## Supply and demand insights
 
 The Supply and demand insights module is enabled by default. The module shows the health of the supply chain through an analytics dashboard that is generated from internal and external data that has been ingested to Microsoft Supply Chain Center. For more information on how to start, see [Supply and demand analytics](../use/supply-and-demand.md).
 
-![A screenshot of the Supply & demand insights screen that contains various charts and graphs.](media/supply-and-demand-overview.png)
+![Screenshot of the Supply & demand insights screen that contains various charts and graphs.](media/supply-and-demand-overview.png)
 
 ## News
 
-The **News** module provides news that may have an impact on your supply chain. The news articles can be filtered according to different categories and will show you the potential impact they may have in your supply chain. You need to first upload your supplier's information to be able to see the news articles. For more information on setting this up, see [News](../use/news.md).
+The **News** module provides news that might have an impact on your supply chain. The news articles can be filtered according to different categories and show the potential impact on your supply chain. Before you can view the news articles, you must upload your supplier's information. For more information about this setup, see [News](../use/news.md).
 
-![A screenshot of the News module that displays a news article that was found to be relevant to the user by the AI.](media/news-list.png)
+![Screenshot of the News module that displays a news article that was found to be relevant to the user by the AI.](media/news-list.png)
 
 ## Microsoft Supply Chain Center horizontal capabilities
 
-There are some capabilities that are always available and don't depend on the enablement of any modules. Those capabilities are found below the module menu and are grouped as follows:
+Some capabilities are always available and don't require that you enable any modules. Those capabilities are found below the module menu and are grouped in the following way:
 
 - Partners
 - Supplier portal
@@ -71,20 +71,20 @@ There are some capabilities that are always available and don't depend on the en
 
 This section allows you to import the list of partners or create the partners that are part of your supply chain. The list of partners allows Microsoft Supply Chain Center to:
 
-- Gather the news about your partners and display them in the **News** module
+- Gather the news about your partners and display it in the **News** module
 - Classify the data you ingest on behalf of those partners to enable the capabilities of other modules.
 - Create data requests through the Supplier portal capability. More on this below.
 
-![A screenshot of the Supply Chain Center Partners page showing a list of partner names and sidebar to create a new partner.](media/supplier-portal-new-partner-no-red.png)
+![Screenshot of the Supply Chain Center Partners page showing a list of partner names and sidebar to create a new partner.](media/supplier-portal-new-partner-no-red.png)
 
 ### Supplier portal
 
 Using the **Supplier portal** capabilities, you can request data from your supply chain partners to gain end to end visibility of the health of your supply chain. For more information, see [Supplier portal](../use/supplier-portal.md).
 
-![A screenshot of the creation screen for a new collaboration request.](media/supplier-portal-new-collaboration.png)
+![Screenshot of the creation screen for a new collaboration request.](media/supplier-portal-new-collaboration.png)
 
 ### Module library
 
 Using the **Module Library** , you can explore and activate the modules that are available in the Microsoft Supply Chain Center. Modules focus on specific areas in the supply chain lifecycle. You have the flexibility to choose as many modules as you require to meet your business needs. Modules are provided by Microsoft and other third parties and will grow in number over time. For more information, see [Module library](../use/module-library.md).
 
-![A screenshot of the Module library that shows the available modules.](media/module-library-modules-list.png)
+![Screenshot of the Module library that shows the available modules.](media/module-library-modules-list.png)
