@@ -16,6 +16,9 @@ The Supply & demand insights home page in Microsoft Supply Chain Center presents
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5azzg]
 
+## SDI Landing Page
+SDI landing page consists of favorite KPI’s and supply chain maps. The user can choose any three KPI’s from the persona pages. The user can choose all three favorite KPI’s from one persona or from multiple persona pages. The user must click on the pin icon  on the top right corner of the KPI’s in the persona pages to add it as favorite KPI’s on the landing page.
+
 ## Available KPIs
 
 The **On time in full** (**OTIF**) and **Commitment shortage** KPIs measure the performance of vendors (suppliers), and the general trend of their performance is visualized in the line chart. **OTIF** shows how often the suppliers are delivering the purchase orders in full and on time as requested.
