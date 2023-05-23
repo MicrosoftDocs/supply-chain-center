@@ -32,20 +32,20 @@ An Azure AD tenant is required to sign up for a Supply Chain Center trial, and i
 
 ### Can I sign up for multiple app trials, such as Dynamics 365 Sales, Marketing, and Customer Service?
 
-Yes, you can. To view all available trials, see [Get started with a Dynamics 365 free trial](https://dynamics.microsoft.com/dynamics-365-free-trial/). You can use the same email account to sign up for different trials. However, you can't have multiple apps on the same trial site. Each trial will be on a different organization and URL. The trial data won't be shared across apps.
+Yes, you can. To view all available trials, see [Get started with a Dynamics 365 free trial](https://dynamics.microsoft.com/dynamics-365-free-trial/). You can use the same email account to sign up for different trials. However, you can't have multiple apps on the same trial site. Each trial is on a different organization and URL. The trial data isn't shared across apps.
 
 ## Trial app
 
 ### I didn't receive the trial details email after I signed up. What should I do?
 
-When you sign up for the trial, you'll receive an email that includes the trial details. If you don't see the email in your inbox, check your spam folder. Alternatively, follow these steps to access your app.
+When you sign up for the trial, you receive an email that includes the trial details. If you don't see the email in your inbox, check your spam folder. Alternatively, follow these steps to access your app.
 
-1. Go to the trial site, and select **Try for free**.
-1. Enter the email ID that you used when you signed up for the trial. You'll be redirected to your trial app.
+1. Go to [Supply Chain Center's marketing page](https://www.microsoft.com/microsoft-cloud/solutions/microsoft-supply-chain-platform), and select **Try for free**.
+1. Enter the email ID that you used when you signed up for the trial. You're redirected to your trial app.
 
 ### Where is my data stored?
 
-When a Supply Chain Center trial is started, a new Dataverse account will be created to store and manage data that is uploaded/related to Supply Chain Center. The new Dataverse account will be provisioned in the United States, regardless of where the user who signs up for the trial is located. There is currently no way to change where the Dataverse account will be created. However, this situation will eventually change Supply Chain Center expands into additional regions.
+When a Supply Chain Center trial is started, a new Dataverse account is created to store and manage data that is uploaded and related to Supply Chain Center. The new Dataverse account is provisioned in the United States, regardless of where the user who signs up for the trial is located. There is currently no way to change where the Dataverse account is created. However, this situation will eventually change as Supply Chain Center expands into additional regions.
 
 ### How do I add more users to the trial environment?
 
@@ -75,7 +75,7 @@ Supply Chain Center's trial lasts 180 days. After that, you can sign up for a ne
 
 ### How do I start using the trial?
 
-After you sign up for trial, you're redirected to the Supply Chain Center home page. The home page includes links to user guides and tutorials to help you get started. For additional information, see the [Support](../get-started/preview-support.md) section.
+After you sign up for trial, you're redirected to the Supply Chain Center home page. The home page includes links to user guides and tutorials to help you get started. For more information, see [Contact Support and Preview disclaimer](../get-started/preview-support.md).
 
 ### Which features are available in the trial?
 
@@ -84,9 +84,10 @@ The Supply Chain Center trial includes a fully functional Supply Chain Center en
 - Data management
 - Supplier portal
 - Modules:
-  - News
-  - Supply and demand insights
-  - Available ISV modules
+
+    - News
+    - Supply and demand insights
+    - Available ISV modules
 
 ### How long does the trial last?
 
