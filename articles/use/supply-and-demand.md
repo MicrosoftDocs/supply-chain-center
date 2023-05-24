@@ -19,6 +19,18 @@ The Supply & demand insights home page in Microsoft Supply Chain Center presents
 ## SDI Landing Page
 SDI landing page consists of favorite KPI’s and supply chain maps. The user can choose any three KPI’s from the persona pages. The user can choose all three favorite KPI’s from one persona or from multiple persona pages. The user must click on the pin icon  on the top right corner of the KPI’s in the persona pages to add it as favorite KPI’s on the landing page.
 
+![Landing page for the Supply & demand insights module.](media/SDI-Landing-Page.png)
+
+The dropdown option under the summary offers options for the user to navigate to persona specific KPI pages. 
+
+![Dropdown for persona driven Supply & demand insights module.](media/SDI-Persona-Dropdown.png)
+
+## How to make KPI’s favorite on the landing page
+
+Choose any option under the summary dropdown. Click on the pin icon   on the KPI to add it to the landing page as a favorite KPI.
+
+![Setting favorites for Supply & demand insights landing page.](media/Pin-Favorite-KPI.png)
+
 ## Available KPIs
 
 The **On time in full** (**OTIF**) and **Commitment shortage** KPIs measure the performance of vendors (suppliers), and the general trend of their performance is visualized in the line chart. **OTIF** shows how often the suppliers are delivering the purchase orders in full and on time as requested.
@@ -212,6 +224,47 @@ To enable **Projected inventory**, the following entities or tables are required
 - Build Plan
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5cisz]
+
+### Planning Shortage
+
+In supply chain management, Key Performance Indicators (KPIs) are used to measure and evaluate the performance of various aspects of the supply chain. One important KPI related to planning is the "Planning Shortage KPI." This KPI measures the extent to which there is a shortage or shortfall in the planned inventory versus the planned commitment from the supplier. Planning shortage is the ratio of shortfall or surplus to that of planned requirements.
+
+![Planning shortage KPI report.](media/Planning-Shortage.png)
+
+#### Required entities
+
+To enable **Planning shortage**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status 
+- Product Resource Planning Schedule (OEM data)
+- Product Account Supply Plan (Supplier provided data) 
+
+### Purchase order fill rate
+
+Order fill rate is a metric that measures the percentage of orders that are fulfilled by a supplier within a specified timeframe. It is commonly used in the context of inventory management, supply chain management, and e-commerce.
+The purchase order fill rate indicates how well a supplier is meeting demand and fulfilling orders on time. A high order fill rate means that the supplier is meeting customer expectations and fulfilling product demand promptly, while a low order fill rate indicates that the supplier is struggling to keep up with demand or experiencing supply chain disruptions.
+
+![Purchase order fill rate KPI report.](media/Purchase-Order-Fill-Rate.png)
+
+Purchase order fill rate is the ratio of sum of delivered quantities of purchase order lines to that of sum of purchase order lines order quantity in a given a period. The period is expressed in month or week.
+
+#### Required entities
+
+To enable **Purchase order fill rate**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status 
+- Purchase Order
+- Purchase Order Line
+- Vendor Supply Commitment (Supplier)
+- Shipment
+- Shipment Item  
+
 
 ## Restock recommendations
 
