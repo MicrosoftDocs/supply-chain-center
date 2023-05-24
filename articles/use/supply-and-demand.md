@@ -17,19 +17,19 @@ The Supply & demand insights home page in Microsoft Supply Chain Center presents
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5azzg]
 
 ## SDI Landing Page
-SDI landing page consists of favorite KPIs and supply chain maps. The user can choose any three KPIs from the persona pages. The user can choose all three favorite KPIs from one persona or from multiple persona pages. The user must click on the pin icon on the top right corner of the KPIs in the persona pages to add it as favorite KPIs on the landing page.
+The SDI landing page consists of **Favorite KPIs** and supply chain maps. You can choose any three KPIs from one or more persona pages. Select the pin icon on the top right corner of the KPI card on the persona pages to add it as a **Favorite KPI** on the landing page.
 
-![Landing page for the Supply & demand insights module.](media/SDI-Landing-Page.png)
+:::image type="content" source="media/SDI-Landing-Page.png" alt-text="Screenshot of Favorite KPIs pinned to the landing page for the Supply & demand insights module."::: 
 
-The dropdown option under the summary offers options for the user to navigate to persona specific KPI pages. 
+The **Summary** dropdown offers options for your to navigate to persona specific KPI pages. 
 
-![Dropdown for persona driven Supply & demand insights module.](media/SDI-Persona-Dropdown.png)
+:::image type="content" source="media/SDI-Persona-Dropdown.png" alt-text="Screenshot of the Summary dropdown for persona driven Supply & demand insights module."::: 
 
-## How to make KPIs favorite on the landing page
+## How to set favorite KPIs on the landing page
 
-Choose any option under the summary dropdown. Click on the pin icon   on the KPI to add it to the landing page as a favorite KPI.
+Choose any option under the summary dropdown. Select on the pin icon on the KPI to add it to the landing page as a favorite KPI.
 
-![Setting favorites for Supply & demand insights landing page.](media/Pin-Favorite-KPI.png)
+:::image type="content" source="media/Pin-Favorite-KPI.png" alt-text="Screenshot of the Supply coverage KPI."::: 
 
 ## Available KPIs
 
@@ -41,7 +41,7 @@ The **Projected inventory** KPI is an aggregated view of supply and demand acros
 
 The visualizations on the landing page are aggregations of data across multiple facilities and items by all suppliers.
 
-![Home page for the Supply & demand insights module.](media/supply-and-demand-overview.png)
+:::image type="content" source="media/supply-and-demand-overview.png" alt-text="Screenshot of the home page for the Supply & demand insights module."::: 
 
 You can set target rates or goals for **OTIF**, **Commitment shortage**, **Supply coverage**, and **ITR**. The target settings let users benchmark or measure performance against set goals. You can also set the refresh frequency for the analytics of the **Supply and demand insights** module. In this way, you can ensure that you're accurately measuring your performance. You can find both settings in the Admin center. The following video provides more information.
 
@@ -49,7 +49,7 @@ You can set target rates or goals for **OTIF**, **Commitment shortage**, **Suppl
 
 Every KPI has its own visualized report. Filters near the top of each report page can help you better understand the related KPI, because the report is updated based on the filters that you apply.
 
-![Filters for the OTIF report.](media/supply-and-demand-OTIF-filters.png)
+:::image type="content" source="media/supply-and-demand-OTIF-filters.png" alt-text="Screenshot with the available filters highlighted for the OTIF report."::: 
 
 ### On time in full
 
@@ -59,7 +59,7 @@ Every KPI has its own visualized report. Filters near the top of each report pag
 
 OTIF = (_All order lines delivered in full and on time in a month_ &divide; _All order lines for that month_) &times; 100
 
-![On time in full KPI report.](media/supply-and-demand-OTIF-overview.png)
+:::image type="content" source="media/supply-and-demand-OTIF-overview.png" alt-text="Screenshot of an example On time in full KPI report."::: 
 
 To determine whether an order is fulfilled in full, the system compares the purchase order quantity against the line item (Purchase Order Line table) with the quantity of all shipments that are in transit and the quantity that has been received against that line item of the purchase order.
 
@@ -95,7 +95,7 @@ Consumption of an item during each month is determined from Inventory Transactio
 
 A higher **ITR** value indicates better inventory management. In general, an **ITR** value above 2 is recommended.
 
-![Inventory turnover rate KPI report.](media/supply-and-demand-inventory-turnover-overview.png)
+:::image type="content" source="media/supply-and-demand-inventory-turnover-overview.png" alt-text="Screenshot of the Inventory turnover rate KPI report."::: 
 
 #### Required entities
 
@@ -125,7 +125,7 @@ Supply consists of both on-hand inventory and inventory for shipments that are i
 
 A higher percentage indicates better supply coverage. A lower percentage indicates supply shortfalls and potential risks to meeting demand.
 
-![Supply coverage KPI report.](media/supply-and-demand-supply-coverage-overview.png)
+:::image type="content" source="media/supply-and-demand-supply-coverage-overview.png" alt-text="Screenshot of the Supply coverage KPI report."::: 
 
 #### Open orders
 
@@ -166,7 +166,7 @@ The supplier's commitment quantity for the period is derived from the ItemCustom
 
 A low percentage indicates reliable performance (better commitment by the supplier), and a high percentage indicates a potentially unreliable supplier.
 
-![Commitment shortage KPI report.](media/supply-and-demand-commitment-shortage-overview.png)
+:::image type="content" source="media/supply-and-demand-commitment-shortage-overview.png" alt-text="Screenshot of the Commitment shortage KPI report."::: 
 
 #### Required entities
 
@@ -194,7 +194,7 @@ Projected inventory = _On-hand inventory_ + _In-transit shipments_ – _Firm dem
 
 Supply consists of both what's available on hand and what you expect to receive (in-transit shipments). 
 
-![Projected inventory KPI report.](media/supply-and-demand-projected-inventory-overview.png)
+:::image type="content" source="media/supply-and-demand-projected-inventory-overview.png" alt-text="Screenshot of the Projected inventory KPI report."::: 
 
 #### Required entities
 
@@ -213,9 +213,9 @@ To enable **Projected inventory**, the following entities or tables are required
 
 ### Planning Shortage
 
-In supply chain management, Key Performance Indicators (KPIs) are used to measure and evaluate the performance of various aspects of the supply chain. One important KPI related to planning is the "Planning Shortage KPI." This KPI measures the extent to which there's a shortage or shortfall in the planned inventory versus the planned commitment from the supplier. Planning shortage is the ratio of shortfall or surplus to that of planned requirements.
+In supply chain management, KPIs are used to measure and evaluate the performance of various aspects of the supply chain. One important KPI related to planning is the **Planning Shortage KPI**. This KPI measures the extent to which there's a shortage or shortfall in the planned inventory versus the planned commitment from the supplier. Planning shortage is the ratio of shortfall or surplus to that of planned requirements.
 
-![Planning shortage KPI report.](media/Planning-Shortage.png)
+:::image type="content" source="media/Planning-Shortage.png" alt-text="Screenshot of the Planning shortage KPI report."::: 
 
 #### Required entities
 
@@ -234,7 +234,7 @@ Order fill rate is a metric that measures the percentage of orders a supplier fu
 
 The purchase order fill rate indicates how well a supplier is meeting demand and fulfilling orders on time. A high order fill rate means that the supplier is meeting customer expectations and fulfilling product demand promptly. A low order fill rate indicates that the supplier is struggling to keep up with demand or experiencing supply chain disruptions.
 
-![Purchase order fill rate KPI report.](media/Purchase-Order-Fill-Rate.png)
+:::image type="content" source="media/Purchase-Order-Fill-Rate.png" alt-text="Screenshot of the Purchase order fill rate KPI report."::: 
 
 Purchase order fill rate is the ratio of the sum of delivered quantities of purchase order lines to the sum of purchase order lines order quantity in a given a period. The period is expressed in month or week.
 
@@ -258,7 +258,7 @@ Purchase order commitment rate refers to the percentage of customer orders that 
 
 The purchase order commitment rate is an important metric for businesses to monitor because it directly affects satisfaction and loyalty. If a supplier consistently fails to meet its customer expectations or consistently promises less than demand, it leads to the customer being dissatisfied and more importantly the supplier as unreliable. 
 
-![Purchase order commitment rate KPI report.](media/Purchase-Order-Commitment.png)
+:::image type="content" source="media/Purchase-Order-Commitment.png" alt-text="Screenshot of the Purchase order commitment rate KPI report."::: 
 
 #### Required entities
 
@@ -277,7 +277,7 @@ The purchase order return rate refers to the percentage of orders that are retur
 
 A high order return rate may indicate issues with product quality, inaccurate product descriptions, or problems with the order fulfillment process. On the other hand, a low order return rate can indicate higher standards of quality and consistency by the supplier. By tracking order return rates over time, the customer can identify areas where improvements can be made to reduce returns and improve overall supply chain reliability.
 
-![Purchase order return rate KPI report.](media/Purchase-Order-Return-Rate.png)
+:::image type="content" source="media/Purchase-Order-Return-Rate.png" alt-text="Screenshot of the Purchase order return rate KPI report."::: 
 
 #### Required entities
 
@@ -298,7 +298,7 @@ For example, if a company has 500 units of a product in stock and consumes 50 un
 
 Weeks of supply can be calculated for various types of products, including raw materials, finished goods, and supplies. It's an important metric for inventory management, production planning, and supply chain management. Weeks of supply helps companies to avoid stockouts, minimize waste, and ensure that they have sufficient inventory to meet customer demand.
 
-![Weeks of supply KPI report.](media/Weeks-Of-Supply.png)
+:::image type="content" source="media/Weeks-Of-Supply.png" alt-text="Screenshot of the Weeks of supply KPI report."::: 
 
 #### Required entities
 
@@ -317,7 +317,7 @@ Purchase order cycle time is a metric that is used to measure the time it takes 
 
 The purchase order cycle time metric that begins when the purchase request is submitted and ends when the vendor or supplier delivers goods or services. The metric can be used to evaluate the efficiency of the procurement process and identify areas where improvements can be made to streamline the procurement process.
 
-![Weeks of supply KPI report.](media/Weeks-Of-Supply.png)
+:::image type="content" source="media/Weeks-Of-Supply.png" alt-text="Screenshot of the Weeks of supply KPI report."::: 
 
 #### Required entities
 
@@ -339,7 +339,7 @@ This metric is typically used by businesses to track the efficiency of their pro
 
 In general, a shorter Purchase Order transit time is desirable because it means that the business can receive the products it needs more quickly, which can help reduce lead times and improve operating margins and minimize inventory carrying cost by reducing weeks of supply.
 
-![Purchase transit time KPI report.](media/Purchase-Transit-Time.png)
+:::image type="content" source="media/Purchase-Transit-Time.png" alt-text="Screenshot of the Purchase transit time KPI report."::: 
 
 #### Required entities
 
@@ -360,7 +360,7 @@ To enable **Purchase order cycle time**, the following entities or tables are re
 
 Supply Chain Center has AI-driven optimal inventory. You can access it by selecting the **Restock recommendations** tab at the top of the page, as shown in the following illustration.
 
-![Restock recommendations tab of the Supply coverage report page.](media/supply-and-demand-supply-coverage-restock-recommendations.png)
+:::image type="content" source="media/supply-and-demand-supply-coverage-restock-recommendations.png" alt-text="Screenshot of the Restock recommendations tab of the Supply coverage report page."::: 
 
 The **Restock recommendations** tab shows the reorder quantity by facility and item. It also shows the recommended safety stock for the combination of a facility and an item. You can download this recommendation as an Excel file. For more information, see [Configure and review restock recommendations](restock-recommendations.md).
 
@@ -368,7 +368,7 @@ The **Restock recommendations** tab shows the reorder quantity by facility and i
 
 You can download individual charts as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of a given report and then selecting **Export data** on the menu. The menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get more sort options.
 
-![Export and sort options on the More options menu for a report.](media/supply-and-demand-supply-coverage-open-orders-export.png)
+:::image type="content" source="media/supply-and-demand-supply-coverage-open-orders-export.png" alt-text="Screenshot of the Export and sort options on the More options menu for a report."::: 
 
 ## My analytics
 
@@ -383,7 +383,7 @@ To create a new report from scratch, select the plus sign (**+**) button to the 
 > [!NOTE]
 > Supply Chain Center doesn't currently support all Power BI capabilities for new reports.
 
-![Report tabs and plus sign button at the bottom of the My analytics page.](media/my-analytics-tabs.png)
+:::image type="content" source="media/my-analytics-tabs.png" alt-text="Screenshot of the Report tabs and plus sign button at the bottom of the My analytics page."::: 
 
 Initially, the set of tabs corresponds to the different pages in the **Supply and demand insights** module, and each tab contains the same information. Each of these reports is a copy of what's in the **Supply and demand insights** module. Changes that you make to the reports on the **My analytics** page don't affect the reports in the **Supply and demand insights** module.
 
@@ -403,7 +403,7 @@ To learn how fields, visualizations, and filters work together to create a chart
 > [!NOTE]
 > The **My analytics** feature doesn't support user-specific changes. Edits that are made to the reports on the **My analytics** page are available to all users in your Supply Chain Center environment.
 
-![Filters, Visualizations, and Fields panes expanded on the My analytics page.](media/my-analytics-filters-visualizations-fields.png)
+:::image type="content" source="media/my-analytics-filters-visualizations-fields.png" alt-text="Screenshot of the Filters, Visualizations, and Fields panes expanded on the My analytics page."::: 
 
 #### Remove charts or export the underlying data
 
@@ -411,7 +411,7 @@ To remove a chart from a report, select the **More options** button (three dots)
 
 To download the raw data that powers a chart, select the **More options** button in the upper-right corner of the chart, and then select **Export data**.
 
-![Export data and Remove options on the More option menu for a chart.](media/my-analytics-export-or-remove.png)
+:::image type="content" source="media/my-analytics-export-or-remove.png" alt-text="Export data and Remove options on the More option menu for a chart."::: 
 
 ### Personalize your report
 
@@ -421,14 +421,14 @@ Buttons can also be used to add images, as described in the following procedure.
 
 1. Select **Buttons** on the toolbar, and then select **Blank** on the menu.
 
-    ![Selecting Blank on the Buttons menu.](media/my-analytics-image-step-1.png)
- 
+    :::image type="content" source="media/my-analytics-image-step-1.png" alt-text="Screenshot with Blank highlighted on the Buttons menu."::: 
+    
 2. While the new button is selected, in the **Format** pane on the right, under **Style**, set the **Icon** option to **On**. Then change the icon type to **Custom**, and select **Browse** to upload an image.
 
-    ![Icon style options in the Format pane.](media/my-analytics-image-step-2.png)
- 
+    :::image type="content" source="media/my-analytics-image-step-2.png" alt-text="Screenshot of the icon style options in the Format pane."::: 
+    
     In the example in the following illustration, the Microsoft logo has been uploaded.
 
-    ![Microsoft logo added to a report.](media/my-analytics-image-step-3.png)
-
+    :::image type="content" source="media/my-analytics-image-step-3.png" alt-text="Screenshot of the Microsoft logo added to a report."::: 
+    
 3. Adjust the size and position of the uploaded image until you're satisfied with the result.
