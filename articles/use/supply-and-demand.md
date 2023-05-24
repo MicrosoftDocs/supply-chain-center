@@ -6,7 +6,7 @@ ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: overview
-ms.date: 11/3/2022
+ms.date: 05/24/2023
 ms.custom: bap-template
 ---
 
@@ -17,7 +17,7 @@ The Supply & demand insights home page in Microsoft Supply Chain Center presents
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5azzg]
 
 ## SDI Landing Page
-SDI landing page consists of favorite KPI’s and supply chain maps. The user can choose any three KPI’s from the persona pages. The user can choose all three favorite KPI’s from one persona or from multiple persona pages. The user must click on the pin icon  on the top right corner of the KPI’s in the persona pages to add it as favorite KPI’s on the landing page.
+SDI landing page consists of favorite KPIs and supply chain maps. The user can choose any three KPIs from the persona pages. The user can choose all three favorite KPIs from one persona or from multiple persona pages. The user must click on the pin icon on the top right corner of the KPIs in the persona pages to add it as favorite KPIs on the landing page.
 
 ![Landing page for the Supply & demand insights module.](media/SDI-Landing-Page.png)
 
@@ -25,7 +25,7 @@ The dropdown option under the summary offers options for the user to navigate to
 
 ![Dropdown for persona driven Supply & demand insights module.](media/SDI-Persona-Dropdown.png)
 
-## How to make KPI’s favorite on the landing page
+## How to make KPIs favorite on the landing page
 
 Choose any option under the summary dropdown. Click on the pin icon   on the KPI to add it to the landing page as a favorite KPI.
 
@@ -116,7 +116,6 @@ To enable **ITR**, the following entities are required:
 
 ### Supply coverage
 
-**Supply coverage** is a measure of supply that meets demand. It helps you determine whether the on-hand inventory and the expected supply that's in transit for a period will meet the demand for that period.
 
 **Supply coverage** is calculated as the ratio of demand and supply, and is expressed as a percentage. The following formula is used:
 
@@ -134,7 +133,7 @@ The **Open orders** chart shows all purchase order lines that no shipment has ye
 
 #### Shipments in transit
 
-In-transit shipments are shipments that have been shipped by a supplier and are on their way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
+In-transit shipments are shipments that the supplier has shipped and are on the way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
 
 #### Required entities
 
@@ -149,7 +148,7 @@ To enable **Supply coverage**, the following entities are required:
 - Shipment
 - Shipment Item
 - Account
-- Account Product Leadtime
+- Account Product Lead Time
 - Account Product Status
 - Warehouse Product Available Stock
 
@@ -159,7 +158,7 @@ To enable **Supply coverage**, the following entities are required:
 
 **Commitment shortage** is a measure of a supplier's forecasted commitments and its ability to meet those commitments. It's an important KPI that's used to evaluate a supplier's commitments.
 
-**Commitment shortage** is the ratio of the supplier's forecast that's shared in weekly or daily buckets to the shipments that are received for that period. It's calculated by comparing the original promise and the actual delivery, and is expressed as a percentage. The following formula is used:
+**Commitment shortage** is the ratio of the supplier's forecast that's shared in weekly or daily buckets to the shipments that are received for that period. It's calculated by comparing the original promise and the actual delivery and is expressed as a percentage. The following formula is used:
 
 Commitment shortage = (_Quantity not delivered by the supplier for a period_ &divide; _Commitment quantity by the supplier for the period_) &times; 100
 
@@ -193,7 +192,7 @@ To enable **Commitment shortage**, the following entities are required:
 
 Projected inventory = _On-hand inventory_ + _In-transit shipments_ – _Firm demand_
 
-Supply consists of both what's available on hand and what's expected to be received (in-transit shipments). 
+Supply consists of both what's available on hand and what you expect to receive (in-transit shipments). 
 
 ![Projected inventory KPI report.](media/supply-and-demand-projected-inventory-overview.png)
 
@@ -214,7 +213,7 @@ To enable **Projected inventory**, the following entities or tables are required
 
 ### Planning Shortage
 
-In supply chain management, Key Performance Indicators (KPIs) are used to measure and evaluate the performance of various aspects of the supply chain. One important KPI related to planning is the "Planning Shortage KPI." This KPI measures the extent to which there is a shortage or shortfall in the planned inventory versus the planned commitment from the supplier. Planning shortage is the ratio of shortfall or surplus to that of planned requirements.
+In supply chain management, Key Performance Indicators (KPIs) are used to measure and evaluate the performance of various aspects of the supply chain. One important KPI related to planning is the "Planning Shortage KPI." This KPI measures the extent to which there's a shortage or shortfall in the planned inventory versus the planned commitment from the supplier. Planning shortage is the ratio of shortfall or surplus to that of planned requirements.
 
 ![Planning shortage KPI report.](media/Planning-Shortage.png)
 
@@ -231,13 +230,13 @@ To enable **Planning shortage**, the following entities or tables are required:
 
 ### Purchase order fill rate
 
-Order fill rate is a metric that measures the percentage of orders that are fulfilled by a supplier within a specified timeframe. It is commonly used in the context of inventory management, supply chain management, and e-commerce.
+Order fill rate is a metric that measures the percentage of orders a supplier fulfills within a specified timeframe. It's commonly used in the context of inventory management, supply chain management, and e-commerce.
 
-The purchase order fill rate indicates how well a supplier is meeting demand and fulfilling orders on time. A high order fill rate means that the supplier is meeting customer expectations and fulfilling product demand promptly, while a low order fill rate indicates that the supplier is struggling to keep up with demand or experiencing supply chain disruptions.
+The purchase order fill rate indicates how well a supplier is meeting demand and fulfilling orders on time. A high order fill rate means that the supplier is meeting customer expectations and fulfilling product demand promptly. A low order fill rate indicates that the supplier is struggling to keep up with demand or experiencing supply chain disruptions.
 
 ![Purchase order fill rate KPI report.](media/Purchase-Order-Fill-Rate.png)
 
-Purchase order fill rate is the ratio of sum of delivered quantities of purchase order lines to that of sum of purchase order lines order quantity in a given a period. The period is expressed in month or week.
+Purchase order fill rate is the ratio of the sum of delivered quantities of purchase order lines to the sum of purchase order lines order quantity in a given a period. The period is expressed in month or week.
 
 #### Required entities
 
@@ -255,7 +254,7 @@ To enable **Purchase order fill rate**, the following entities or tables are req
 
 ### Purchase order commitment rate
 
-Purchase order commitment rate refers to the percentage of customer orders that a supplier commits to fulfilling within a specific timeframe. This commitment could be a promise by the supplier to deliver goods or services to customers within a certain number of days or hours.
+Purchase order commitment rate refers to the percentage of customer orders that a supplier commits to fulfilling within a specific timeframe. This commitment could be a promise by the supplier to deliver goods or services to customers within a number of days or hours.
 
 The purchase order commitment rate is an important metric for businesses to monitor because it directly affects satisfaction and loyalty. If a supplier consistently fails to meet its customer expectations or consistently promises less than demand, it leads to the customer being dissatisfied and more importantly the supplier as unreliable. 
 
@@ -293,11 +292,11 @@ To enable **Purchase order fill rate**, the following entities or tables are req
 
 ### Weeks of supply
 
-Weeks of supply is a metric to measure how long a product inventory will last before it needs to be replenished. It is a metric that calculates the number of weeks that a company or organization can continue to operate based on its current inventory levels based on its current sales or consumption.
+Weeks of supply is a metric to measure how long a product inventory lasts before it needs to be replenished. It's a metric that calculates the number of weeks that a company or organization can continue to operate based on its current inventory levels based on its current sales or consumption.
 
-For example, if a company has 500 units of a product in stock and consumes 50 units per week on average, its weeks of supply would be 10 weeks (500 units ÷ 50 units per week). This means that the company can continue to operate for 10 weeks before it needs to replenish its inventory to avoid stockouts or delays in fulfilling customer orders.
+For example, if a company has 500 units of a product in stock and consumes 50 units per week on average, its weeks of supply would be 10 weeks (500 units ÷ 50 units per week). In this case, the company can continue to operate for 10 weeks before it needs to replenish its inventory to avoid stockouts or delays in fulfilling customer orders.
 
-Weeks of supply can be calculated for various types of products, including raw materials, finished goods, and supplies. It is an important metric for inventory management, production planning, and supply chain management, as it helps companies to avoid stockouts, minimize waste, and ensure that they have sufficient inventory to meet customer demand.
+Weeks of supply can be calculated for various types of products, including raw materials, finished goods, and supplies. It's an important metric for inventory management, production planning, and supply chain management. Weeks of supply helps companies to avoid stockouts, minimize waste, and ensure that they have sufficient inventory to meet customer demand.
 
 ![Weeks of supply KPI report.](media/Weeks-Of-Supply.png)
 
@@ -314,9 +313,9 @@ To enable **Weeks of supply**, the following entities or tables are required:
 
 ### Purchase order cycle time
 
-Purchase order cycle time is a metric used to measure the time it takes for a purchase order to be created, approved, and processed to final delivery of goods or services by the supplier to the customer. It is essentially the time it takes for a purchase order to move from the initial request stage to the point where goods and services are delivered.
+Purchase order cycle time is a metric that is used to measure the time it takes for a purchase order to be created, approved, and processed to final delivery of goods or services by the supplier to the customer. It's essentially the time it takes for a purchase order to move from the initial request stage to delivered.
 
-The purchase order cycle time metric begins when the purchase request is submitted and ends when the vendor or supplier delivers goods or services. The metric can be used to evaluate the efficiency of the procurement process and identify areas where improvements can be made to streamline the procurement process.
+The purchase order cycle time metric that begins when the purchase request is submitted and ends when the vendor or supplier delivers goods or services. The metric can be used to evaluate the efficiency of the procurement process and identify areas where improvements can be made to streamline the procurement process.
 
 ![Weeks of supply KPI report.](media/Weeks-Of-Supply.png)
 
@@ -335,8 +334,8 @@ To enable **Purchase order cycle time**, the following entities or tables are re
 
 ### Purchase transit time  
 
-Purchase Order transit time is a metric that measures the time it takes for a purchase order to be fulfilled from the moment it is placed until it is delivered to the buyer's location.
-This metric is typically used by businesses to track the efficiency of their procurement, shipping and transportation processes in their supply chain. By measuring the Purchase Order transit time, businesses can identify potential bottlenecks in their shipping and transportation processes that impact inventory.
+Purchase Order transit time is a metric that measures the time it takes to fulfill a purchase order from the moment it's placed until it's delivered to the buyer's location.
+This metric is typically used by businesses to track the efficiency of their procurement, shipping, and transportation processes in their supply chain. Measuring the Purchase Order transit time, helps businesses identify potential bottlenecks in their shipping and transportation processes that impact inventory.
 
 In general, a shorter Purchase Order transit time is desirable because it means that the business can receive the products it needs more quickly, which can help reduce lead times and improve operating margins and minimize inventory carrying cost by reducing weeks of supply.
 
@@ -367,7 +366,7 @@ The **Restock recommendations** tab shows the reorder quantity by facility and i
 
 ## Downloading reports
 
-You can download individual charts as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of a given report and then selecting **Export data** on the menu. The menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
+You can download individual charts as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of a given report and then selecting **Export data** on the menu. The menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get more sort options.
 
 ![Export and sort options on the More options menu for a report.](media/supply-and-demand-supply-coverage-open-orders-export.png)
 
