@@ -71,16 +71,15 @@ A higher **OTIF** value indicates better performance. Target levels above 90 per
 
 To enable **OTIF**, the following entities or tables are required:
 
-- Item
-- Vendors
+- Product
+- Account
 - Warehouse
 - Purchase Order
 - Purchase Order Line
 - Shipment
 - Shipment Item
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Inventory Transaction Unserialized Item
+- Inventory Journal
+- Inventory Movement Shipment
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5cl3l]
 
@@ -102,17 +101,16 @@ A higher **ITR** value indicates better inventory management. In general, an **I
 
 To enable **ITR**, the following entities are required:
 
-- Item
-- Vendors
+- Product
+- Account
 - Warehouse
 - Purchase Order
 - Purchase Order Line
 - Shipment
 - Shipment Item
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Inventory Transaction Unserialized Item
-- Warehouse Item Available Stock
+- Inventory Journal
+- Inventory Movement Shipment
+- Warehouse Product Available Stock
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5cisx]
 
@@ -143,26 +141,17 @@ In-transit shipments are shipments that have been shipped by a supplier and are 
 To enable **Supply coverage**, the following entities are required:
 
 - Build Plan
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Inventory Transaction Unserialized Item
-- Item
-- Item Unit Of Measure Conversion
-- Location
+- Inventory Journal
+- Inventory Movement Shipment
+- Product
 - Purchase Order
 - Purchase Order Line
 - Shipment
 - Shipment Item
-- Shipment Location
-- Shipment Route Leg
-- Shipment Route Leg Equipment
-- Shipment Route Leg Equipment Shipment Item
-- Shipment Route Leg IOT
-- Vendor
-- Vendor Item Leadtime
-- Vendor Item Status
-- Vendor Location
-- Warehouse Item Available Stock
+- Account
+- Account Product Leadtime
+- Account Product Status
+- Warehouse Product Available Stock
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5cnB0]
 
@@ -184,19 +173,17 @@ A low percentage indicates reliable performance (better commitment by the suppli
 
 To enable **Commitment shortage**, the following entities are required:
 
-- Item
-- Vendors
+- Product
+- Account
 - Warehouse
 - Purchase Order
 - Purchase Order Line
 - Shipment
 - Shipment Item
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Item Customer Supply Plan
-- Vendor Location
-- Location
-- Inventory Transaction Unserialized Item
+- Inventory Journal
+- Inventory Movement Shipment
+- Product Account Supply Plan
+
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cqYQ]
 
@@ -214,8 +201,8 @@ Supply consists of both what's available on hand and what's expected to be recei
 
 To enable **Projected inventory**, the following entities or tables are required:
 
-- Item
-- Vendors
+- Product
+- Account
 - Warehouse
 - Purchase Order
 - Purchase Order Line
@@ -245,6 +232,7 @@ To enable **Planning shortage**, the following entities or tables are required:
 ### Purchase order fill rate
 
 Order fill rate is a metric that measures the percentage of orders that are fulfilled by a supplier within a specified timeframe. It is commonly used in the context of inventory management, supply chain management, and e-commerce.
+
 The purchase order fill rate indicates how well a supplier is meeting demand and fulfilling orders on time. A high order fill rate means that the supplier is meeting customer expectations and fulfilling product demand promptly, while a low order fill rate indicates that the supplier is struggling to keep up with demand or experiencing supply chain disruptions.
 
 ![Purchase order fill rate KPI report.](media/Purchase-Order-Fill-Rate.png)
@@ -261,10 +249,113 @@ To enable **Purchase order fill rate**, the following entities or tables are req
 - Account Product Status 
 - Purchase Order
 - Purchase Order Line
-- Vendor Supply Commitment (Supplier)
+- Vendor Supply Commitment (Supplier provided data)
 - Shipment
 - Shipment Item  
 
+### Purchase order commitment rate
+
+Purchase order commitment rate refers to the percentage of customer orders that a supplier commits to fulfilling within a specific timeframe. This commitment could be a promise by the supplier to deliver goods or services to customers within a certain number of days or hours.
+
+The purchase order commitment rate is an important metric for businesses to monitor because it directly affects satisfaction and loyalty. If a supplier consistently fails to meet its customer expectations or consistently promises less than demand, it leads to the customer being dissatisfied and more importantly the supplier as unreliable. 
+
+![Purchase order commitment rate KPI report.](media/Purchase-Order-Commitment.png)
+
+#### Required entities
+
+To enable **Purchase order commitment rate**, the following entities or tables are required:
+- Product
+- Account
+- Warehouse
+- Account Product Status 
+- Purchase Order
+- Purchase Order Line
+- Vendor Supply Commitment (Supplier provided data)   
+
+### Purchase order return rate
+
+The purchase order return rate refers to the percentage of orders that are returned to the suppliers after a purchase. This metric is commonly used by businesses to track the supplier’s product quality and its impact on meeting demand. This provides an insight into product quality and also monitors suppliers’ overall business performance.
+
+A high order return rate may indicate issues with product quality, inaccurate product descriptions, or problems with the order fulfillment process. On the other hand, a low order return rate can indicate higher standards of quality and consistency by the supplier. By tracking order return rates over time, the customer can identify areas where improvements can be made to reduce returns and improve overall supply chain reliability.
+
+![Purchase order return rate KPI report.](media/Purchase-Order-Return-Rate.png)
+
+#### Required entities
+
+To enable **Purchase order fill rate**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status 
+- Inventory Journal
+- Inventory Movement Shipment
+
+### Weeks of supply
+
+Weeks of supply is a metric to measure how long a product inventory will last before it needs to be replenished. It is a metric that calculates the number of weeks that a company or organization can continue to operate based on its current inventory levels based on its current sales or consumption.
+
+For example, if a company has 500 units of a product in stock and consumes 50 units per week on average, its weeks of supply would be 10 weeks (500 units ÷ 50 units per week). This means that the company can continue to operate for 10 weeks before it needs to replenish its inventory to avoid stockouts or delays in fulfilling customer orders.
+
+Weeks of supply can be calculated for various types of products, including raw materials, finished goods, and supplies. It is an important metric for inventory management, production planning, and supply chain management, as it helps companies to avoid stockouts, minimize waste, and ensure that they have sufficient inventory to meet customer demand.
+
+![Weeks of supply KPI report.](media/Weeks-Of-Supply.png)
+
+#### Required entities
+
+To enable **Weeks of supply**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status 
+- Inventory Journal
+- Inventory Movement Shipment
+
+### Purchase order cycle time
+
+Purchase order cycle time is a metric used to measure the time it takes for a purchase order to be created, approved, and processed to final delivery of goods or services by the supplier to the customer. It is essentially the time it takes for a purchase order to move from the initial request stage to the point where goods and services are delivered.
+
+The purchase order cycle time metric begins when the purchase request is submitted and ends when the vendor or supplier delivers goods or services. The metric can be used to evaluate the efficiency of the procurement process and identify areas where improvements can be made to streamline the procurement process.
+
+![Weeks of supply KPI report.](media/Weeks-Of-Supply.png)
+
+#### Required entities
+
+To enable **Purchase order cycle time**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status 
+- Purchase Order
+- Purchase Order Line
+- Inventory Journal
+- Inventory Movement Shipment
+
+### Purchase transit time  
+
+Purchase Order transit time is a metric that measures the time it takes for a purchase order to be fulfilled from the moment it is placed until it is delivered to the buyer's location.
+This metric is typically used by businesses to track the efficiency of their procurement, shipping and transportation processes in their supply chain. By measuring the Purchase Order transit time, businesses can identify potential bottlenecks in their shipping and transportation processes that impact inventory.
+
+In general, a shorter Purchase Order transit time is desirable because it means that the business can receive the products it needs more quickly, which can help reduce lead times and improve operating margins and minimize inventory carrying cost by reducing weeks of supply.
+
+![Purchase transit time KPI report.](media/Purchase-Transit-Time.png)
+
+#### Required entities
+
+To enable **Purchase order cycle time**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status 
+- Purchase Order
+- Purchase Order Line
+- Shipment
+- Shipment Item
+- Inventory Journal
+- Inventory Movement Shipment
 
 ## Restock recommendations
 
