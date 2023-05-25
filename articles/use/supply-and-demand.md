@@ -6,15 +6,31 @@ ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: overview
-ms.date: 11/3/2022
+ms.date: 05/24/2023
 ms.custom: bap-template
 ---
 
 # Supply & demand insights overview
 
-The Supply & demand insights home page in Microsoft Supply Chain Center presents a dashboard that shows five key performance indicators (KPIs) for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance. You can also create a personalized view of these KPIs through the My analytics feature. Just select **Create custom view** on the top bar in the **Supply and demand insights** module or **My analytics** in the left navigation pane.
+The Supply & demand insights home page in Microsoft Supply Chain Center presents a dashboard that shows five key performance indicators (KPIs) for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance. You can also create a personalized view of these KPIs through the My analytics feature. Just select **Create custom view** on the top bar in the **Supply & demand insights** module or **My analytics** in the left navigation pane.
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5azzg]
+
+## Supply & demand insights landing page
+
+The landing page for the **Supply & demand insights** module consists of favorite KPIs and supply chain maps. You can choose any three KPIs from one or more persona-specific KPI pages and add (pin) them to the landing page as favorite KPIs.
+
+:::image type="content" source="media/SDI-Landing-Page.png" alt-text="Screenshot of the landing page for the Supply & demand insights module, showing three pinned favorite KPIs and a supply chain map."::: 
+
+## Add favorite KPIs to the landing page
+
+1. On the **Summary** drop-down menu, select an option to go to a persona-specific KPI page.
+
+    :::image type="content" source="media/SDI-Persona-Dropdown.png" alt-text="Screenshot of the Summary drop-down menu for the persona-driven Supply & demand insights module."::: 
+
+1. In the upper-right corner of the KPI card, select the pin symbol to pin that KPI to the landing page as a favorite KPI.
+
+    :::image type="content" source="media/Pin-Favorite-KPI.png" alt-text="Screenshot of the card for the Supply coverage KPI.":::
 
 ## Available KPIs
 
@@ -26,15 +42,15 @@ The **Projected inventory** KPI is an aggregated view of supply and demand acros
 
 The visualizations on the landing page are aggregations of data across multiple facilities and items by all suppliers.
 
-![Home page for the Supply & demand insights module.](media/supply-and-demand-overview.png)
+:::image type="content" source="media/supply-and-demand-overview.png" alt-text="Screenshot of the home page for the Supply & demand insights module.":::
 
-You can set target rates or goals for **OTIF**, **Commitment shortage**, **Supply coverage**, and **ITR**. The target settings let users benchmark or measure performance against set goals. You can also set the refresh frequency for the analytics of the **Supply and demand insights** module. In this way, you can ensure that you're accurately measuring your performance. You can find both settings in the Admin center. The following video provides more information.
+You can set target rates or goals for **OTIF**, **Commitment shortage**, **Supply coverage**, and **ITR**. The target settings let users benchmark or measure performance against set goals. You can also set the refresh frequency for the analytics of the **Supply & demand insights** module. In this way, you can ensure that you're accurately measuring your performance. You can find both settings in the Admin center. The following video provides more information.
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5cauF]
 
 Every KPI has its own visualized report. Filters near the top of each report page can help you better understand the related KPI, because the report is updated based on the filters that you apply.
 
-![Filters for the OTIF report.](media/supply-and-demand-OTIF-filters.png)
+:::image type="content" source="media/supply-and-demand-OTIF-filters.png" alt-text="Screenshot with the available filters highlighted for the OTIF report.":::
 
 ### On time in full
 
@@ -44,7 +60,7 @@ Every KPI has its own visualized report. Filters near the top of each report pag
 
 OTIF = (_All order lines delivered in full and on time in a month_ &divide; _All order lines for that month_) &times; 100
 
-![On time in full KPI report.](media/supply-and-demand-OTIF-overview.png)
+:::image type="content" source="media/supply-and-demand-OTIF-overview.png" alt-text="Screenshot of an example On time in full KPI report.":::
 
 To determine whether an order is fulfilled in full, the system compares the purchase order quantity against the line item (Purchase Order Line table) with the quantity of all shipments that are in transit and the quantity that has been received against that line item of the purchase order.
 
@@ -56,16 +72,15 @@ A higher **OTIF** value indicates better performance. Target levels above 90 per
 
 To enable **OTIF**, the following entities or tables are required:
 
-- Item
-- Vendors
+- Product
+- Account
 - Warehouse
 - Purchase Order
 - Purchase Order Line
 - Shipment
 - Shipment Item
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Inventory Transaction Unserialized Item
+- Inventory Journal
+- Inventory Movement Shipment
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5cl3l]
 
@@ -81,29 +96,27 @@ Consumption of an item during each month is determined from Inventory Transactio
 
 A higher **ITR** value indicates better inventory management. In general, an **ITR** value above 2 is recommended.
 
-![Inventory turnover rate KPI report.](media/supply-and-demand-inventory-turnover-overview.png)
+:::image type="content" source="media/supply-and-demand-inventory-turnover-overview.png" alt-text="Screenshot of the Inventory turnover rate KPI report.":::
 
 #### Required entities
 
 To enable **ITR**, the following entities are required:
 
-- Item
-- Vendors
+- Product
+- Account
 - Warehouse
 - Purchase Order
 - Purchase Order Line
 - Shipment
 - Shipment Item
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Inventory Transaction Unserialized Item
-- Warehouse Item Available Stock
+- Inventory Journal
+- Inventory Movement Shipment
+- Warehouse Product Available Stock
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5cisx]
 
 ### Supply coverage
 
-**Supply coverage** is a measure of supply that meets demand. It helps you determine whether the on-hand inventory and the expected supply that's in transit for a period will meet the demand for that period.
 
 **Supply coverage** is calculated as the ratio of demand and supply, and is expressed as a percentage. The following formula is used:
 
@@ -113,7 +126,7 @@ Supply consists of both on-hand inventory and inventory for shipments that are i
 
 A higher percentage indicates better supply coverage. A lower percentage indicates supply shortfalls and potential risks to meeting demand.
 
-![Supply coverage KPI report.](media/supply-and-demand-supply-coverage-overview.png)
+:::image type="content" source="media/supply-and-demand-supply-coverage-overview.png" alt-text="Screenshot of the Supply coverage KPI report.":::
 
 #### Open orders
 
@@ -121,33 +134,24 @@ The **Open orders** chart shows all purchase order lines that no shipment has ye
 
 #### Shipments in transit
 
-In-transit shipments are shipments that have been shipped by a supplier and are on their way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
+In-transit shipments are shipments that the supplier has shipped and that are on the way to their final destination. The **Shipments in transit** report shows the original requested delivery date and the actual ship date, together with the original order quantity and the actual delivery quantity.
 
 #### Required entities
 
 To enable **Supply coverage**, the following entities are required:
 
 - Build Plan
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Inventory Transaction Unserialized Item
-- Item
-- Item Unit Of Measure Conversion
-- Location
+- Inventory Journal
+- Inventory Movement Shipment
+- Product
 - Purchase Order
 - Purchase Order Line
 - Shipment
 - Shipment Item
-- Shipment Location
-- Shipment Route Leg
-- Shipment Route Leg Equipment
-- Shipment Route Leg Equipment Shipment Item
-- Shipment Route Leg IOT
-- Vendor
-- Vendor Item Leadtime
-- Vendor Item Status
-- Vendor Location
-- Warehouse Item Available Stock
+- Account
+- Account Product Lead Time
+- Account Product Status
+- Warehouse Product Available Stock
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5cnB0]
 
@@ -155,7 +159,7 @@ To enable **Supply coverage**, the following entities are required:
 
 **Commitment shortage** is a measure of a supplier's forecasted commitments and its ability to meet those commitments. It's an important KPI that's used to evaluate a supplier's commitments.
 
-**Commitment shortage** is the ratio of the supplier's forecast that's shared in weekly or daily buckets to the shipments that are received for that period. It's calculated by comparing the original promise and the actual delivery, and is expressed as a percentage. The following formula is used:
+**Commitment shortage** is the ratio of the supplier's forecast that's shared in weekly or daily buckets to the shipments that are received for that period. It's calculated by comparing the original promise and the actual delivery and is expressed as a percentage. The following formula is used:
 
 Commitment shortage = (_Quantity not delivered by the supplier for a period_ &divide; _Commitment quantity by the supplier for the period_) &times; 100
 
@@ -163,25 +167,22 @@ The supplier's commitment quantity for the period is derived from the ItemCustom
 
 A low percentage indicates reliable performance (better commitment by the supplier), and a high percentage indicates a potentially unreliable supplier.
 
-![Commitment shortage KPI report.](media/supply-and-demand-commitment-shortage-overview.png)
+:::image type="content" source="media/supply-and-demand-commitment-shortage-overview.png" alt-text="Screenshot of the Commitment shortage KPI report.":::
 
 #### Required entities
 
 To enable **Commitment shortage**, the following entities are required:
 
-- Item
-- Vendors
+- Product
+- Account
 - Warehouse
 - Purchase Order
 - Purchase Order Line
 - Shipment
 - Shipment Item
-- Inventory Transaction
-- Inventory Transaction Shipment
-- Item Customer Supply Plan
-- Vendor Location
-- Location
-- Inventory Transaction Unserialized Item
+- Inventory Journal
+- Inventory Movement Shipment
+- Product Account Supply Plan
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5cqYQ]
 
@@ -191,16 +192,16 @@ To enable **Commitment shortage**, the following entities are required:
 
 Projected inventory = _On-hand inventory_ + _In-transit shipments_ – _Firm demand_
 
-Supply consists of both what's available on hand and what's expected to be received (in-transit shipments). 
+Supply consists of both what's available on hand and what you expect to receive (in-transit shipments).
 
-![Projected inventory KPI report.](media/supply-and-demand-projected-inventory-overview.png)
+:::image type="content" source="media/supply-and-demand-projected-inventory-overview.png" alt-text="Screenshot of the Projected inventory KPI report.":::
 
 #### Required entities
 
 To enable **Projected inventory**, the following entities or tables are required:
 
-- Item
-- Vendors
+- Product
+- Account
 - Warehouse
 - Purchase Order
 - Purchase Order Line
@@ -210,19 +211,163 @@ To enable **Projected inventory**, the following entities or tables are required
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5cisz]
 
+### Planning shortage
+
+In supply chain management, KPIs are used to measure and evaluate the performance of different aspects of the supply chain. One important KPI that's related to planning is **Planning shortage**. This KPI measures the extent to which there's a shortage or shortfall in the planned inventory versus the planned commitment from the supplier. It's calculated as the ratio of shortfall or surplus to planned requirements.
+
+:::image type="content" source="media/Planning-Shortage.png" alt-text="Screenshot of the Planning shortage KPI report.":::
+
+#### Required entities
+
+To enable **Planning shortage**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status
+- Product Resource Planning Schedule (Original equipment manufacturer \[OEM\] data)
+- Product Account Supply Plan (Supplier-provided data)
+
+### Purchase order fill rate
+
+**Purchase order fill rate** is a measure of the percentage of orders that a supplier fulfills during a specific timeframe. It indicates how well a supplier is meeting demand and fulfilling orders on time. It's often used in the context of inventory management, supply chain management, and e-commerce.
+
+**Purchase order fill rate** is the ratio of the sum of delivered quantities on purchase order lines to the sum of ordered quantities on purchase order lines in a given period. The period is expressed in months or weeks.
+
+A high order fill rate indicates that the supplier is meeting customer expectations and promptly fulfilling product demand. A low order fill rate indicates that the supplier is struggling to keep up with demand or is experiencing supply chain disruptions.
+
+:::image type="content" source="media/Purchase-Order-Fill-Rate.png" alt-text="Screenshot of the Purchase order fill rate KPI report.":::
+
+#### Required entities
+
+To enable **Purchase order fill rate**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status
+- Purchase Order
+- Purchase Order Line
+- Vendor Supply Commitment (Supplier-provided data)
+- Shipment
+- Shipment Item
+
+### Purchase order commitment rate
+
+**Purchase order commitment rate** is a measure of the percentage of customer orders that a supplier commits to fulfilling during a specific timeframe. This commitment might be a promise that the supplier makes to deliver goods or services to customers within a specific number of days or hours.
+
+**Purchase order commitment rate** is an important metric for businesses to monitor because it directly affects satisfaction and loyalty. If a supplier consistently fails to meet customer expectations or consistently promises less than demand, the customer becomes dissatisfied and, more importantly, the supplier is considered unreliable.
+
+:::image type="content" source="media/Purchase-Order-Commitment.png" alt-text="Screenshot of the Purchase order commitment rate KPI report.":::
+
+#### Required entities
+
+To enable **Purchase order commitment rate**, the following entities or tables are required:
+- Product
+- Account
+- Warehouse
+- Account Product Status
+- Purchase Order
+- Purchase Order Line
+- Vendor Supply Commitment (Supplier-provided data)
+
+### Purchase order return rate
+
+**Purchase order return rate** is a measure of the percentage of orders that are returned to suppliers after purchase. Businesses often use this metric to track a supplier's product quality and its impact on meeting demand. It provides insight into product quality and also helps monitor a supplier's overall business performance.
+
+A high order return rate can indicate issues with product quality, inaccurate product descriptions, or problems with the order fulfillment process. A low order return rate can indicate higher standards of quality and consistency on the part of the supplier. The ability to track order return rates over time can help customers identify areas where improvements can be made to reduce returns and improve overall supply chain reliability.
+
+:::image type="content" source="media/Purchase-Order-Return-Rate.png" alt-text="Screenshot of the Purchase order return rate KPI report.":::
+
+#### Required entities
+
+To enable **Purchase order return rate**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status
+- Inventory Journal
+- Inventory Movement Shipment
+
+### Weeks of supply
+
+**Weeks of supply** measures how long a product inventory lasts before it must be replenished. It's an important metric for inventory management, production planning, and supply chain management. It calculates the number of weeks that a company or organization can continue to operate based on its current inventory levels and its current sales or consumption. Therefore, it helps companies avoid stockouts, minimize waste, and ensure that they have enough inventory to meet customer demand.
+
+For example, if a company has 500 units of a product in stock and consumes 50 units per week on average, it has 10 weeks of supply (500 units &divide; 50 units per week). In this case, the company can continue to operate for 10 weeks before it must replenish its inventory to avoid stockouts or delays in customer order fulfillment.
+
+**Weeks of supply** can be calculated for different types of products, including raw materials, finished goods, and supplies. 
+
+:::image type="content" source="media/Weeks-Of-Supply.png" alt-text="Screenshot of the Weeks of supply KPI report.":::
+
+#### Required entities
+
+To enable **Weeks of supply**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status
+- Inventory Journal
+- Inventory Movement Shipment
+
+### Purchase order cycle time
+
+**Purchase order cycle time** is a measure of the time that's required for creation, approval, and processing of purchase order, up through final delivery of goods or services to the customer by the supplier. It's essentially the time that a purchase order takes to move from the initial request stage through delivery. It can be used to evaluate the efficiency of the procurement process and identify areas where improvements can be made to streamline the procurement process.
+
+The **Purchase order cycle time** metric begins when the purchase request is submitted and ends when the vendor or supplier delivers goods or services.
+
+:::image type="content" source="media/Weeks-Of-Supply.png" alt-text="Screenshot of the Weeks of supply KPI report.":::
+
+#### Required entities
+
+To enable **Purchase order cycle time**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status
+- Purchase Order
+- Purchase Order Line
+- Inventory Journal
+- Inventory Movement Shipment
+
+### Purchase transit time
+
+**Purchase Order transit time** is a measure of the time that's required to fulfill a purchase order from the moment that it's placed until the moment that it's delivered to the buyer's location. Businesses typically use this metric to track the efficiency of their procurement, shipping, and transportation processes in their supply chain. The ability to measure the purchase order transit time helps businesses identify potential bottlenecks that might affect inventory in their shipping and transportation processes.
+
+In general, a shorter purchase order transit time is desirable because it indicates that the business can receive the products that it needs more quickly. Faster receipt of products can, in turn, help reduce lead times and improve operating margins. It also helps minimize inventory carrying costs by reducing the weeks of supply.
+
+:::image type="content" source="media/Purchase-Transit-Time.png" alt-text="Screenshot of the Purchase transit time KPI report.":::
+
+#### Required entities
+
+To enable **Purchase order cycle time**, the following entities or tables are required:
+
+- Product
+- Account
+- Warehouse
+- Account Product Status
+- Purchase Order
+- Purchase Order Line
+- Shipment
+- Shipment Item
+- Inventory Journal
+- Inventory Movement Shipment
+
 ## Restock recommendations
 
 Supply Chain Center has AI-driven optimal inventory. You can access it by selecting the **Restock recommendations** tab at the top of the page, as shown in the following illustration.
 
-![Restock recommendations tab of the Supply coverage report page.](media/supply-and-demand-supply-coverage-restock-recommendations.png)
+:::image type="content" source="media/supply-and-demand-supply-coverage-restock-recommendations.png" alt-text="Screenshot of the Restock recommendations tab of the Supply coverage report page.":::
 
 The **Restock recommendations** tab shows the reorder quantity by facility and item. It also shows the recommended safety stock for the combination of a facility and an item. You can download this recommendation as an Excel file. For more information, see [Configure and review restock recommendations](restock-recommendations.md).
 
 ## Downloading reports
 
-You can download individual charts as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of a given report and then selecting **Export data** on the menu. The menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get additional sort options.
+You can download individual charts as an Excel file by selecting the **More options** button (three dots) in the upper-right corner of a given report and then selecting **Export data** on the menu. The menu also includes options that let you sort the report in different ways. For example, to sort the report by a specific column, select **Sort by** to get more sort options.
 
-![Export and sort options on the More options menu for a report.](media/supply-and-demand-supply-coverage-open-orders-export.png)
+:::image type="content" source="media/supply-and-demand-supply-coverage-open-orders-export.png" alt-text="Screenshot of the Export and sort options on the More options menu for a report.":::
 
 ## My analytics
 
@@ -237,7 +382,7 @@ To create a new report from scratch, select the plus sign (**+**) button to the 
 > [!NOTE]
 > Supply Chain Center doesn't currently support all Power BI capabilities for new reports.
 
-![Report tabs and plus sign button at the bottom of the My analytics page.](media/my-analytics-tabs.png)
+:::image type="content" source="media/my-analytics-tabs.png" alt-text="Screenshot of the Report tabs and plus sign button at the bottom of the My analytics page.":::
 
 Initially, the set of tabs corresponds to the different pages in the **Supply and demand insights** module, and each tab contains the same information. Each of these reports is a copy of what's in the **Supply and demand insights** module. Changes that you make to the reports on the **My analytics** page don't affect the reports in the **Supply and demand insights** module.
 
@@ -257,7 +402,7 @@ To learn how fields, visualizations, and filters work together to create a chart
 > [!NOTE]
 > The **My analytics** feature doesn't support user-specific changes. Edits that are made to the reports on the **My analytics** page are available to all users in your Supply Chain Center environment.
 
-![Filters, Visualizations, and Fields panes expanded on the My analytics page.](media/my-analytics-filters-visualizations-fields.png)
+:::image type="content" source="media/my-analytics-filters-visualizations-fields.png" alt-text="Screenshot of the Filters, Visualizations, and Fields panes expanded on the My analytics page.":::
 
 #### Remove charts or export the underlying data
 
@@ -265,7 +410,7 @@ To remove a chart from a report, select the **More options** button (three dots)
 
 To download the raw data that powers a chart, select the **More options** button in the upper-right corner of the chart, and then select **Export data**.
 
-![Export data and Remove options on the More option menu for a chart.](media/my-analytics-export-or-remove.png)
+:::image type="content" source="media/my-analytics-export-or-remove.png" alt-text="Screenshot of the Export data and Remove options on the More option menu for a chart.":::
 
 ### Personalize your report
 
@@ -275,14 +420,14 @@ Buttons can also be used to add images, as described in the following procedure.
 
 1. Select **Buttons** on the toolbar, and then select **Blank** on the menu.
 
-    ![Selecting Blank on the Buttons menu.](media/my-analytics-image-step-1.png)
- 
+    :::image type="content" source="media/my-analytics-image-step-1.png" alt-text="Screenshot with Blank highlighted on the Buttons menu.":::
+
 2. While the new button is selected, in the **Format** pane on the right, under **Style**, set the **Icon** option to **On**. Then change the icon type to **Custom**, and select **Browse** to upload an image.
 
-    ![Icon style options in the Format pane.](media/my-analytics-image-step-2.png)
- 
+    :::image type="content" source="media/my-analytics-image-step-2.png" alt-text="Screenshot of the icon style options in the Format pane.":::
+
     In the example in the following illustration, the Microsoft logo has been uploaded.
 
-    ![Microsoft logo added to a report.](media/my-analytics-image-step-3.png)
+    :::image type="content" source="media/my-analytics-image-step-3.png" alt-text="Screenshot of the Microsoft logo added to a report.":::
 
 3. Adjust the size and position of the uploaded image until you're satisfied with the result.
