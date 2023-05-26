@@ -24,5 +24,5 @@ The return reason entity refers to the return reason code for return, repair and
 |	IsReplaceEligible	|	boolean	|		|	No	|	Is this return reason replacement eligible	|
 |	Name	|	string	|	256	|	No	|	Name of the return reason number	|
 |	ReasonGroup	|	string	|	256	|	No	|	The reason group of this return reason 	|
-|	ReturnReasonId	|	string	|	36	|	Yes	|	The unique Id of the return reason 	|
+|	ReturnReasonId	|	string	|	36	|	Yes	|	The unique ID of the return reason 	|
 |	ReturnReasonNumber	|	string	|	256	|	Yes	|	The unique number of the return reason 	|

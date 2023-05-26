@@ -18,10 +18,10 @@ The shipment document entity refers to the document associated with that shipmen
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	IsoCurrencyCode	|	string	|	256	|	No	|	The ISO 4217 currency code.	|
-|	ShipmentDocumentId	|	string	|	36	|	Yes	|	The unique Id of the shipment document	|
+|	ShipmentDocumentId	|	string	|	36	|	Yes	|	The unique ID of the shipment document	|
 |	ShipmentDocumentIssuedTimestamp	|	timestamp	|		|	No	|	The timestamp when the shipment document was issued.	|
 |	ShipmentDocumentNumber	|	string	|	256	|	Yes	|	The unique number of the shipment document	|
-|	ShipmentDocumentTypeId	|	string	|	256	|	No	|	The unique Id of the shipment document type	|
+|	ShipmentDocumentTypeId	|	string	|	256	|	No	|	The unique ID of the shipment document type	|
 |	ShipmentDocumentTypeNumber	|	string	|	256	|	No	|	The unique number of the shipment document type	|
 |	ShipmentId	|	string	|	36	|	No	|	The unique identifier of a Shipment.	|
 |	ShipmentNumber	|	string	|	256	|	No	|	Shipment number of the shipment document	|

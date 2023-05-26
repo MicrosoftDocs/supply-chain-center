@@ -17,7 +17,7 @@ Delivery order source list entity refers to the list of orders related to the de
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
-|	DeliveryOrderSourceListId	|	string	|	36	|	Yes	|	The unique Id of the delivery order source list 	|
+|	DeliveryOrderSourceListId	|	string	|	36	|	Yes	|	The unique ID of the delivery order source list 	|
 |	DeliveryOrderSourceListName	|	string	|	256	|	No	|	Name of the delivery order source list	|
 |	DeliveryOrderSourceListNumber	|	string	|	256	|	Yes	|	The unique number of the delivery order source list	|
 |	Description	|	string	|	4000	|	No	|	Description of the source list	|

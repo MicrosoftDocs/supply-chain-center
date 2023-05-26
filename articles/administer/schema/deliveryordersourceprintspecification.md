@@ -17,12 +17,12 @@ Delivery order source print specification entity refers to the print specificati
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
-|	DeliveryOrderSourceId	|	string	|	36	|	No	|	The unique Id of the delivery order source	|
+|	DeliveryOrderSourceId	|	string	|	36	|	No	|	The unique ID of the delivery order source	|
 |	DeliveryOrderSourceNumber	|	string	|	256	|	No	|	Number of the delivery order source	|
-|	DeliveryOrderSourcePrintSpecificationId	|	string	|	36	|	Yes	|	The unique Id of the delivery order source print specification	|
+|	DeliveryOrderSourcePrintSpecificationId	|	string	|	36	|	Yes	|	The unique ID of the delivery order source print specification	|
 |	DeliveryOrderSourcePrintSpecificationNumber	|	string	|	256	|	Yes	|	The unique number of the delivery order source print specification	|
-|	DocumentSpecificationId	|	string	|	36	|	No	|	The unique Id of the document specification	|
+|	DocumentSpecificationId	|	string	|	36	|	No	|	The unique ID of the document specification	|
 |	DocumentSpecificationNumber	|	string	|	256	|	No	|	Document specification number of the print specification	|
-|	DocumentTypeId	|	string	|	36	|	No	|	The unique Id of the document type	|
+|	DocumentTypeId	|	string	|	36	|	No	|	The unique ID of the document type	|
 |	DocumentTypeNumber	|	string	|	256	|	No	|	Document type number of the print specification	|
 |	Name	|	string	|	256	|	No	|	Name of the print specification for delivery order source	|

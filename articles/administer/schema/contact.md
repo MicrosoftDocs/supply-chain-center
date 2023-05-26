@@ -218,7 +218,7 @@ Contact Details: Contact information like phone number, email address, mailing a
 |	ParentContactIdYomiName	|	string	|	100	|		|	ParentContactIdYomiName	|
 |	ParentCustomerId	|	string	|	256	|		|	Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities.	|
 |	ParentCustomerIdName	|	string	|	160	|		|	ParentCustomerIdName	|
-|	ParentCustomerIdType	|	string	|	256	|		|	Parent Customer Id Type	|
+|	ParentCustomerIdType	|	string	|	256	|		|	Parent Customer ID Type	|
 |	ParentCustomerIdYomiName	|	string	|	450	|		|	ParentCustomerIdYomiName	|
 |	ParticipatesInWorkflow	|	boolean	|		|		|	Shows whether the contact participates in workflow rules.	|
 |	PaymentTermsCode	|	string	|	256	|		|	Select the payment terms to indicate when the customer needs to pay the total amount.	|

@@ -32,24 +32,24 @@ ensure proper handling of the cargo. This can be in the form of marks (see Cauti
 |	IncotermNumber	|	string	|	256	|	No	|	The Incoterms of the shipment 	|
 |	ItemSku	|	string	|	256	|	No	|	The Stock Keeping Unit identifier, which is typically used for inventory-related activities.	|
 |	OrderId	|	string	|	36	|	No	|	The unique number that identifies an Order.	|
-|	OrderLineId	|	string	|	36	|	No	|	Order line Id on the shipment	|
+|	OrderLineId	|	string	|	36	|	No	|	Order line ID on the shipment	|
 |	PackingInstructions	|	string	|	256	|	No	|	Packing instructions for the associated shipped item.	|
 |	PerItemDimensionalWeight	|	decimal	|		|	No	|	The per item dimensional weight, which is the conversion of the cubic space of a shipment into pounds. Commonly referred to as dim weight. The international term is volume weight.	|
 |	PerItemPackagedWeight	|	decimal	|		|	No	|	The weight of each item packaged for shipment.	|
 |	PerItemWeight	|	decimal	|		|	No	|	The individual or per item weight of an item.	|
 |	ProductHeight	|	decimal	|		|	No	|	Height of the product on the shipment	|
-|	ProductId	|	string	|	36	|	No	|	The product Id of the shipment 	|
+|	ProductId	|	string	|	36	|	No	|	The product ID of the shipment 	|
 |	ProductLength	|	decimal	|		|	No	|	Length of the product on the shipment	|
 |	ProductNetWeight	|	decimal	|		|	No	|	Net weight of the product that is shipped in this shipment	|
 |	ProductWidth	|	decimal	|		|	No	|	Product width of the product of the shipment item	|
-|	PurchaseOrderId	|	string	|	36	|	No	|	The purchase order line Id on the shipment	|
-|	PurchaseOrderLineId	|	string	|	36	|	No	|	The purchase order Id on the shipment	|
+|	PurchaseOrderId	|	string	|	36	|	No	|	The purchase order line ID on the shipment	|
+|	PurchaseOrderLineId	|	string	|	36	|	No	|	The purchase order ID on the shipment	|
 |	PurchaseOrderLineNumber	|	string	|	256	|	No	|	Purchase Order Line number that was shipped on this shipment	|
 |	PurchaseOrderNumber	|	string	|	256	|	No	|	Purchase order that was shipped on this shipment	|
 |	SalesOrderDetailLineNumber	|	string	|	256	|	No	|	Sales order line that was shipped on this shipment	|
 |	SalesOrderNumber	|	string	|	256	|	No	|	Sales order that was shipped on this shipment	|
 |	ShipmentId	|	string	|	36	|	No	|	The unique identifier of a Shipment.	|
-|	ShipmentItemId	|	string	|	36	|	Yes	|	The unique Id of the shipment item	|
+|	ShipmentItemId	|	string	|	36	|	Yes	|	The unique ID of the shipment item	|
 |	ShipmentItemNumber	|	string	|	256	|	Yes	|	The shipment line number.	|
 |	ShipmentNumber	|	string	|	256	|	No	|	Shipment number for this shipment item	|
 |	ShipmentProductNetWeight	|	decimal	|		|	No	|	Net weight of the product that is shipped in this shipment	|

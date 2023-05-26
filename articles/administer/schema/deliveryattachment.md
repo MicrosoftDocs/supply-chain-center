@@ -17,8 +17,8 @@ Delivery attachment refers to the shipping related documents attached to the del
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
-|	DeliveryAttachmentId	|	string	|	36	|	Yes	|	The unique Id of delivery attachement	|
+|	DeliveryAttachmentId	|	string	|	36	|	Yes	|	The unique ID of delivery attachement	|
 |	DeliveryAttachmentNumber	|	string	|	256	|	Yes	|	The number of the delivery attachment on the delivery order	|
 |	DeliveryName	|	string	|	256	|	No	|	Name of the delivery order	|
-|	DeliveryOrderTrackingId	|	string	|	36	|	No	|	The tracking Id of the delivery order	|
+|	DeliveryOrderTrackingId	|	string	|	36	|	No	|	The tracking ID of the delivery order	|
 |	DeliveryOrderTrackingNumber	|	string	|	256	|	No	|	The tracking number of the delivery order	|

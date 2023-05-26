@@ -18,6 +18,6 @@ The document type entity refers to the definition of type of document.
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	Description	|	string	|	4000	|	No	|	Description of the document type	|
-|	DocumentTypeId	|	string	|	36	|	Yes	|	The unique Id of the document	|
+|	DocumentTypeId	|	string	|	36	|	Yes	|	The unique ID of the document	|
 |	DocumentTypeName	|	string	|	256	|	No	|	Name of the document type	|
 |	DocumentTypeNumber	|	string	|	256	|	Yes	|	The unique number of the document	|

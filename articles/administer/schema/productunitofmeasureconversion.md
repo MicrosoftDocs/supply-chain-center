@@ -23,7 +23,7 @@ The product unit of measure conversion entity refers to the various selling or b
 |	ItemSku	|	string	|	256	|	No	|	Stock keeping unit of the product	|
 |	Numerator	|	string	|	256	|	No	|	Numerator	|
 |	ProductNumber	|	string	|	256	|	No	|	Product number	|
-|	ProductUnitOfMeasureConversionId	|	string	|	36	|	Yes	|	The unique Id for product unit of measure	|
+|	ProductUnitOfMeasureConversionId	|	string	|	36	|	Yes	|	The unique ID for product unit of measure	|
 |	ProductUnitOfMeasureConversionNumber	|	string	|	256	|	Yes	|	The unique number for product unit of measure	|
 |	Rounding	|	string	|	256	|	No	|	Rounding 	|
 |	ToUnit	|	string	|	256	|	No	|	Unit of measure to which the conversion is applicable	|
