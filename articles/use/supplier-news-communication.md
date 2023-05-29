@@ -19,7 +19,7 @@ Supplier news communication generates draft emails to supply chain vendors, base
 ## Prerequisites
 
 - Before you can use Supplier news communication, the **News** module must be installed. For more information, see [News](news.md).
-- Before you can use the Supply Chain Center native email drafting experience, you need to have your mailbox set up to send email, see [instructions](https://learn.microsoft.com/en-us/power-platform/admin/connect-exchange-online#configure-mailboxes)
+- Before you can use the Supply Chain Center native email drafting experience, you need to have your mailbox set up to send email, see [instructions](/power-platform/admin/connect-exchange-online#configure-mailboxes)
 
 ## Functionality
 
