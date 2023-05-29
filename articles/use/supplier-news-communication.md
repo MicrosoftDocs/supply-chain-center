@@ -93,4 +93,4 @@ While we do have checks in place to reduce the likelihood of the e-mail containi
 
 ## Troubleshooting
 
-If you find that your Supply Chain Center environment is not set up to send email, see the following [documentation](https://learn.microsoft.com/en-us/power-platform/admin/connect-exchange-online)
+If you find that your Supply Chain Center environment is not set up to send email, see the following [documentation](/power-platform/admin/connect-exchange-online)
