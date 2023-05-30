@@ -26,9 +26,9 @@ Supply Chain Center curates recent relevant news articles by using a trained AI 
 
 :::image type="content" source="media/homepage-news.png" alt-text="Screenshot of the navigation pane with the Home page and News page highlighted and the available news categories shown."::: 
 
-On the **News** page you can view a list of articles relevant to your supply chain.
+On the **News** page you can view a list of articles relevant to your supply chain. You can filter news articles you have already read by toggling the "hide read" option. News articles are automatically identifed as read when they are clicked.
 
-:::image type="content" source="media/news-list-read-article-3-23.png" alt-text="Screenshot of a sample news article with the Read article link highlighted."::: 
+:::image type="content" source="media/news-list-read-article-5-30.png" alt-text="Screenshot of a sample news article with the Read article link highlighted."::: 
 
 If you select a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
 
@@ -78,6 +78,11 @@ In the **Add topic** dialog box, you can name the new topic and then add keyword
 :::image type="content" source="media/news-add-topic-modal.png" alt-text="Screenshot of the New topic dialog box.":::
 
 Topics that you add appear on the left, under **Categories**. To view any news that's related to a topic, select that topic on the left. You can use the filters at the top of the feed to filter the news in a topic by keyword. You can edit or delete topics by using the **Edit topic** or **Delete topic** option.
+
+## Feedback
+You can give feedback on the quality of the news articles using the dropdown on an article on the main page, which you can update at any time.
+
+:::image type="content" source="media/news-feedback.png" alt-text="Screenshot of a feedback options "more news like this" and "less news like this" on the news article."::: 
 
 ## How often is news refreshed?
 
