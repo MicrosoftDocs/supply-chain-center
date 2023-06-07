@@ -6,7 +6,7 @@ ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: conceptual
-ms.date: 3/28/2023
+ms.date: 06/07/2023
 ms.custom: bap-template
 ---
 
@@ -26,16 +26,16 @@ Supply Chain Center curates recent relevant news articles by using a trained AI 
 
 :::image type="content" source="media/homepage-news.png" alt-text="Screenshot of the navigation pane with the Home page and News page highlighted and the available news categories shown."::: 
 
-On the **News** page you can view a list of articles relevant to your supply chain.
+You can view a list of articles relevant to your supply chain on the **News** page. You can filter news articles you have already read by toggling the "hide read" option. News articles are automatically identified as read when they're clicked.
 
-:::image type="content" source="media/news-list-read-article-3-23.png" alt-text="Screenshot of a sample news article with the Read article link highlighted."::: 
+:::image type="content" source="media/news-list-read-article-5-30.png" alt-text="Screenshot of a sample news article with the Read article link highlighted."::: 
 
 If you select a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
 
 :::image type="content" source="media/news-impact-3-23.png" alt-text="Screenshot of a sample news article with the Learn impacts link highlighted."::: 
 
 >[!Note]
->Larger companies are more likely to be prominent in the news than smaller companies. As a result, certain sources of risks from smaller partner companies may not be highlighted if they are not in the news.
+>Larger companies are more likely to be prominent in the news than smaller companies. As a result, certain sources of risks from smaller partner companies may not be highlighted if they're not in the news.
 
 Each news article is assigned an impact score and a category by the same AI model that sorts the news articles by relevance. The impact score and category definitions are learned from past news articles that were labeled with the correct impact and category. The AI model learns patterns from the sentiment and content of these labeled articles to make predictions for new articles. You can filter on these two characteristics on the **News** page. The news articles can be filtered by category by selecting an individual category on the left navigation. Additionally, multiple categories can be toggled off or on within the settings found on the **News** page.
 
@@ -79,6 +79,11 @@ In the **Add topic** dialog box, you can name the new topic and then add keyword
 
 Topics that you add appear on the left, under **Categories**. To view any news that's related to a topic, select that topic on the left. You can use the filters at the top of the feed to filter the news in a topic by keyword. You can edit or delete topics by using the **Edit topic** or **Delete topic** option.
 
+## Provide feedback
+You can give feedback on the quality of the news articles using the dropdown on an article on the main page, which you can update at any time.
+
+:::image type="content" source="media/news-feedback.png" alt-text="Screenshot of a feedback options 'more news like this' and 'less news like this' on the news article."::: 
+
 ## How often is news refreshed?
 
 News is regularly refreshed, according to the schedule that's specified in the **Supply & Demand Insights** settings in **Admin settings**.
@@ -93,11 +98,11 @@ The news model was evaluated by using labeled judgments from humans on an articl
 The News system has only been trained to support English language articles, so accuracy on category, impact, and relevance is likely lower for non-English languages. The system doesn't use sources other than news articles from Bing News to find relevant information about the topics provided. As it's using publicly available information, there may be less news for smaller organizations. The system doesn't evaluate the accuracy of the news article, so it's important for users to review the news article for accuracy before acting on the information. 
 
 ## Does News produce offensive content?
-We leverage Bing's filter for adult content and have it set to Moderate, which means that it can return news articles with adult text but not adult images or videos.
+We use Bing's filter for adult content and have it set to Moderate, which means that it can return news articles with adult text but not adult images or videos.
 
 ### Learn More
 
-To learn more about how the model works, please see our two blog posts:
+To learn more about how the model works, see our two blog posts:
 
 [Supply Chain News for your Digital Twin - Microsoft Research](https://www.microsoft.com/research/group/dynamics-insights-apps-artificial-intelligence-machine-learning/articles/supply-chain-news-for-your-digital-twin/)
 
