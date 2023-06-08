@@ -21,5 +21,5 @@ The product quality code entity refers to the various code associated with quali
 |	CompanyName	|	string	|	256	|	No	|	Name of the company	|
 |	Description	|	string	|	4000	|	No	|	Description of the product quality code	|
 |	ProductQualityCode	|	string	|	256	|	Yes	|	Product quality code	|
-|	ProductQualityCodeId	|	string	|	36	|	Yes	|	The unique Id of the product quality code	|
+|	ProductQualityCodeId	|	string	|	36	|	Yes	|	The unique ID of the product quality code	|
 |	ProductQualityCodeNumber	|	string	|	256	|	Yes	|	The unique number of the product quality code	|

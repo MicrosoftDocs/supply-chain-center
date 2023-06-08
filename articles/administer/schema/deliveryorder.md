@@ -33,12 +33,12 @@ Terms and conditions: This section outlines the terms and conditions of the deli
 |---------------|--------|------|----------|-----------|
 |	AccountNumber	|	string	|	256	|	No	|	Number or code for the account to quickly search and identify the account in system views.	|
 |	AccountTypeCode	|	string	|	256	|	No	|	Account type code indicates the type of account. An account could be Vendor, Customer etc.	|
-|	CustomerId	|	string	|	256	|	No	|	Account Id of the account for which this delivery order is created	|
+|	CustomerId	|	string	|	256	|	No	|	Account ID of the account for which this delivery order is created	|
 |	DeliveryNotes	|	string	|	4000	|	No	|	Notes or comments for this delivery order	|
 |	DeliveryOrderNumber	|	string	|	256	|	Yes	|	The unique number of the delivery order	|
-|	DeliveryOrderNumberId	|	string	|	36	|	Yes	|	The unique Id of the delivery order	|
+|	DeliveryOrderNumberId	|	string	|	36	|	Yes	|	The unique ID of the delivery order	|
 |	DeliveryOrderPlan	|	string	|	256	|	No	|	Plan for this delivery order	|
-|	DeliveryOrderSourceId	|	string	|	36	|	No	|	Source Id for this delivery order	|
+|	DeliveryOrderSourceId	|	string	|	36	|	No	|	Source ID for this delivery order	|
 |	DeliveryOrderSourceNumber	|	string	|	256	|	No	|	Source number for this delivery order	|
 |	DeliveryOrderWillCall	|	string	|	256	|	No	|	Delivery order will call	|
 |	EmailAddress	|	string	|	256	|	No	|	Email address for the delivery order	|
@@ -48,7 +48,7 @@ Terms and conditions: This section outlines the terms and conditions of the deli
 |	OrderSourceNumber	|	string	|	256	|	No	|	Order source number	|
 |	PlannedDeliveryDate	|	date	|		|	No	|	Planned delivery date	|
 |	PlannedShippingDate	|	date	|		|	No	|	Planned shipping date	|
-|	SalesOrderOriginId	|	string	|	36	|	No	|	Sales order origin Id for this delivery order	|
+|	SalesOrderOriginId	|	string	|	36	|	No	|	Sales order origin ID for this delivery order	|
 |	SalesOrderOriginNumber	|	string	|	256	|	No	|	Sales order origin number for this delivery order	|
 |	ShipmentBookingAmount	|	decimal	|		|	No	|	Freight booking amount for the delivery order	|
 |	ShipmentBookingAmountBase	|	decimal	|		|	No	|	Base amount of shipment booking for this delivery order	|

@@ -20,5 +20,5 @@ The shipping service entity refers to the various shipping service associated wi
 |	Company	|	string	|	256	|	No	|	Company	|
 |	Description	|	string	|	4000	|	No	|	Description of the shipping service	|
 |	Name	|	string	|	256	|	No	|	Name of the shipping service	|
-|	ShippingServiceId	|	string	|	36	|	Yes	|	The unique Id of the shipping service	|
+|	ShippingServiceId	|	string	|	36	|	Yes	|	The unique ID of the shipping service	|
 |	ShippingServiceNumber	|	string	|	256	|	Yes	|	The unique number of the shipping service	|

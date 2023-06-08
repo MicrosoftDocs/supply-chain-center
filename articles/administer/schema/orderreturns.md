@@ -56,7 +56,7 @@ The order returns entity refers to the returns order. The returns order contains
 |	IsReturnProcessingStopped	|	boolean	|		|	No	|	Is this returns order processing stopped	|
 |	Language	|	string	|	256	|	No	|	Language of the returns order	|
 |	Name	|	string	|	256	|	No	|	Name of the returns order	|
-|	OrderReturnsId	|	string	|	36	|	Yes	|	The unique Id of the returns order	|
+|	OrderReturnsId	|	string	|	36	|	Yes	|	The unique ID of the returns order	|
 |	OrderReturnsNumber	|	string	|	256	|	Yes	|	The unique number of the returns order	|
 |	OrderSourceId	|	string	|	36	|	No	|	Order source Id	|
 |	OrderSourceNumber	|	string	|	256	|	No	|	Order source number	|
@@ -65,12 +65,12 @@ The order returns entity refers to the returns order. The returns order contains
 |	ReturnAddress2	|	string	|	256	|	No	|	Street address 2 of the returns address	|
 |	ReturnAddressCity	|	string	|	256	|	No	|	City of the returns address	|
 |	ReturnAddressCountryRegionId	|	string	|	256	|	No	|	Country of the returns address	|
-|	ReturnAddressCountyId	|	string	|	256	|	No	|	County Id of the returns address	|
+|	ReturnAddressCountyId	|	string	|	256	|	No	|	County ID of the returns address	|
 |	ReturnAddressDescription	|	string	|	4000	|	No	|	Description of the returns address	|
 |	ReturnAddressDistrictName	|	string	|	256	|	No	|	District name of the returns address	|
 |	ReturnAddressDunsNumber	|	string	|	256	|	No	|	Duns number of the returns address	|
 |	ReturnAddressLatitude	|	decimal	|		|	No	|	Latitude of the location	|
-|	ReturnAddressLocationId	|	string	|	36	|	No	|	Location Id of the return address	|
+|	ReturnAddressLocationId	|	string	|	36	|	No	|	Location ID of the return address	|
 |	ReturnAddressLongitude	|	decimal	|		|	No	|	Longitude of the location	|
 |	ReturnAddressName	|	string	|	256	|	No	|	Name on the return address	|
 |	ReturnAddressPostalCode	|	string	|	256	|	No	|	Postal code of the return address	|
@@ -79,7 +79,7 @@ The order returns entity refers to the returns order. The returns order contains
 |	ReturnAddressTimezone	|	string	|	256	|	No	|	Time zone of the return address	|
 |	ReturnDeadline	|	string	|	256	|	No	|	Deadline for returns order	|
 |	ReturnOrderStatus	|	string	|	4000	|	No	|	Status of returns order	|
-|	ReturnReasonId	|	string	|	36	|	No	|	Return reason Id for the returns order	|
+|	ReturnReasonId	|	string	|	36	|	No	|	Return reason ID for the returns order	|
 |	ReturnReasonNumber	|	string	|	256	|	No	|	Return reason number for the returns order	|
 |	RMANumber	|	string	|	256	|	No	|	RMA number for sales order returns	|
 |	RMAStatus	|	string	|	4000	|	No	|	Status of RMA	|

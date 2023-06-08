@@ -25,7 +25,7 @@ The shipment quote entity refers to the freight quote by the shipping carrier.
 |	Name	|	string	|	256	|	No	|	Name of the shipment quote	|
 |	QuoteAmount	|	decimal	|		|	No	|	Amount quoted in the quote	|
 |	QuoteAmountBase	|	decimal	|		|	No	|	Base amount of the quote	|
-|	QuoteId	|	string	|	256	|	Yes	|	The unique Id of the quote	|
-|	ShipmentQuoteId	|	string	|	36	|	Yes	|	The unique Id of the shipment quote. 	|
+|	QuoteId	|	string	|	256	|	Yes	|	The unique ID of the quote	|
+|	ShipmentQuoteId	|	string	|	36	|	Yes	|	The unique ID of the shipment quote. 	|
 |	ShipmentQuoteNumber	|	string	|	256	|	Yes	|	The unique number of the shipment quote	|
 |	TransactionCurrencyId	|	string	|	256	|	No	|	Currency of the shipment quote	|

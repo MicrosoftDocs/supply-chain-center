@@ -18,9 +18,9 @@ The consolidation of shipment items for transfer. Shipments Items are not breaka
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
 |	ConsolidatedShipmentId	|	string	|	36	|	No	|	The unique identifier of a Shipment.	|
-|	ConsolidatedShipmentItemId	|	string	|	36	|	No	|	Consolidated shipment item Id of the shipment	|
+|	ConsolidatedShipmentItemId	|	string	|	36	|	No	|	Consolidated shipment item ID of the shipment	|
 |	ConsolidatedShipmentItemNumber	|	string	|	256	|	No	|	The shipment line number.	|
-|	ConsolidatedShipmentNumber	|	string	|	256	|	No	|	The unique geographical location Id of the shipment	|
+|	ConsolidatedShipmentNumber	|	string	|	256	|	No	|	The unique geographical location ID of the shipment	|
 |	ContainerId	|	string	|	256	|	No	|	The unique identifier of the container.
 
 This would be the 'serial number' of the container if it is serialized.	|
@@ -59,9 +59,9 @@ This enables shipped to plan for containerizing shipped items.	|
 |	PackingTypeNumber	|	string	|	256	|	No	|	Packing type number of the shipment	|
 |	Quantity	|	decimal	|		|	No	|	The quantity of shipped items in the associated lot.	|
 |	ShipmentId	|	string	|	36	|	No	|	The unique identifier of a Shipment.	|
-|	ShipmentItemConsolidationId	|	string	|	36	|	Yes	|	The unique consolidation Id of the shipment	|
+|	ShipmentItemConsolidationId	|	string	|	36	|	Yes	|	The unique consolidation ID of the shipment	|
 |	ShipmentItemConsolidationNumber	|	string	|	256	|	Yes	|	The unique consolidation number of the shipment	|
-|	ShipmentItemId	|	string	|	36	|	No	|	Shipment item Id of the shipment	|
+|	ShipmentItemId	|	string	|	36	|	No	|	Shipment item ID of the shipment	|
 |	ShipmentItemNumber	|	string	|	256	|	No	|	The shipment line number.	|
 |	ShipmentNumber	|	string	|	256	|	No	|	Shipment number of the shipment	|
 |	UoMId	|	string	|	36	|	No	|	Unit of measure Id	|
