@@ -35,7 +35,7 @@ The order returns line entity refers to the details of the returns order. The re
 |	LineStatus	|	string	|	4000	|	No	|	Status of the returns line	|
 |	Name	|	string	|	256	|	No	|	Name of the returns line	|
 |	OrderReturnsId	|	string	|	36	|	No	|	Order returns Id	|
-|	OrderReturnsLineId	|	string	|	36	|	Yes	|	Line Id of the returns order	|
+|	OrderReturnsLineId	|	string	|	36	|	Yes	|	Line ID of the returns order	|
 |	OrderReturnsLineNumber	|	string	|	256	|	Yes	|	Line number of the returns order	|
 |	OrderReturnsNumber	|	string	|	256	|	No	|	Order returns number	|
 |	OriginalOrderId	|	string	|	256	|	No	|	Original order Id	|
@@ -45,7 +45,7 @@ The order returns line entity refers to the details of the returns order. The re
 |	PricePerUnit	|	decimal	|		|	No	|	Price per unit	|
 |	PricePerUnitBase	|	decimal	|		|	No	|	Price per base unit	|
 |	ProductDescription	|	string	|	4000	|	No	|	Description of the product	|
-|	ProductId	|	string	|	36	|	No	|	Product Id 	|
+|	ProductId	|	string	|	36	|	No	|	Product ID 	|
 |	ProductName	|	string	|	256	|	No	|	Name of the product of the returns order line	|
 |	ProductQualityCode	|	string	|	256	|	No	|	Product quality code	|
 |	ProductTypeCode	|	string	|	256	|	No	|	Product type code	|
@@ -68,12 +68,12 @@ The order returns line entity refers to the details of the returns order. The re
 |	ReturnAddress2	|	string	|	256	|	No	|	Street address 2 of the returns address	|
 |	ReturnAddressCity	|	string	|	256	|	No	|	City of returns address	|
 |	ReturnAddressCountryRegionId	|	string	|	256	|	No	|	Country of the returns address	|
-|	ReturnAddressCountyId	|	string	|	256	|	No	|	County Id of the returns address	|
+|	ReturnAddressCountyId	|	string	|	256	|	No	|	County ID of the returns address	|
 |	ReturnAddressDescription	|	string	|	4000	|	No	|	Description of the return address	|
 |	ReturnAddressDistrictName	|	string	|	256	|	No	|	District name of the returns address	|
 |	ReturnAddressDunsNumber	|	string	|	256	|	No	|	Duns number of the returns address	|
 |	ReturnAddressLatitude	|	decimal	|		|	No	|	Latitude of the location	|
-|	ReturnAddressLocationId	|	string	|	256	|	No	|	Location Id of the return address	|
+|	ReturnAddressLocationId	|	string	|	256	|	No	|	Location ID of the return address	|
 |	ReturnAddressLongitude	|	decimal	|		|	No	|	Longitude of the location	|
 |	ReturnAddressName	|	string	|	256	|	No	|	Name of the return address	|
 |	ReturnAddressPostalCode	|	string	|	256	|	No	|	Postal code of the return address	|
@@ -81,7 +81,7 @@ The order returns line entity refers to the details of the returns order. The re
 |	ReturnAddressStateOrProvince	|	string	|	256	|	No	|	State or province of the return address	|
 |	ReturnAddressTimezone	|	string	|	256	|	No	|	Time zone of the return address	|
 |	ReturnedQuantity	|	decimal	|		|	No	|	Returns quantity	|
-|	ReturnInventoryLotId	|	string	|	256	|	No	|	Lot Id of the returns order inventory	|
+|	ReturnInventoryLotId	|	string	|	256	|	No	|	Lot ID of the returns order inventory	|
 |	ReturnReason	|	string	|	4000	|	No	|	Return reason	|
 |	ReturnReasonV2	|	string	|	4000	|	No	|	Return reason v2	|
 |	ReturnSite	|	string	|	256	|	No	|	Returns site	|

@@ -22,7 +22,7 @@ unknown
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
 |---------------|--------|------|----------|-----------|
-|	ShipmentEventId	|	string	|	256	|	No	|	Shipment event Id of the shipment	|
+|	ShipmentEventId	|	string	|	256	|	No	|	Shipment event ID of the shipment	|
 |	ShipmentEventNumber	|	string	|	256	|	No	|	Shipment event number of the shipment	|
 |	ShipmentEventStatusDescription	|	string	|	4000	|	No	|	The description of a Shipment Event Status.	|
 |	ShipmentEventStatusId	|	string	|	36	|	Yes	|	The unique identifier of a Shipment Event Status.	|

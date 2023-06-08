@@ -62,10 +62,10 @@ The route leg that a shipment transits (already has transited) or is planned to 
 |	SensorTempUoMId	|	string	|	256	|	No	|	Unit of measure Id	|
 |	SensorTempUoMNumber	|	string	|	256	|	No	|	Unit of measure ISO code	|
 |	SensorZoneActiveStatus	|	string	|	4000	|	No	|	Sensor STATUS of the shipment	|
-|	ShipmentId	|	string	|	36	|	No	|	Shipment Id of the shipment	|
+|	ShipmentId	|	string	|	36	|	No	|	Shipment ID of the shipment	|
 |	ShipmentMMSIId	|	string	|	256	|	No	|	Shipment MMSIID of the shipment	|
 |	ShipmentNumber	|	string	|	256	|	No	|	Shipment number associated with shipment route leg IOT	|
-|	ShipmentRouteLegIOTId	|	string	|	36	|	Yes	|	The unqiue Id of the shipment route leg IOT	|
+|	ShipmentRouteLegIOTId	|	string	|	36	|	Yes	|	The unqiue ID of the shipment route leg IOT	|
 |	ShipmentRouteLegIOTNumber	|	string	|	256	|	Yes	|	The unique number of the shipment route leg IOT	|
 |	ShipmentRouteLegNumber	|	string	|	256	|	No	|	Shipment route leg number of the shipment	|
 |	TiltSensorType	|	string	|	256	|	No	|	Tilt TYPE of the shipment	|

@@ -47,11 +47,11 @@ The product entity refers to the stock keeping unit of the goods that is purchas
 |	PreorderEligible	|	string	|	256	|	No	|	Preorder eligible	|
 |	Price	|	decimal	|		|	No	|	Price of the product	|
 |	Price_Base	|	decimal	|		|	No	|	Base price of the product	|
-|	PriceLevelId	|	string	|	256	|	No	|	The unique Id of the price level	|
+|	PriceLevelId	|	string	|	256	|	No	|	The unique ID of the price level	|
 |	ProcessId	|	string	|	256	|	No	|	Process Id	|
 |	ProductCategoryHierarchyId	|	string	|	36	|	No	|	Product category hierarchy Id	|
 |	ProductCategoryHierarchyNumber	|	string	|	256	|	No	|	Product category hierarchy number	|
-|	ProductCategoryId	|	string	|	36	|	No	|	Product category Id of the product	|
+|	ProductCategoryId	|	string	|	36	|	No	|	Product category ID of the product	|
 |	ProductCategoryNumber	|	string	|	256	|	No	|	Product category number	|
 |	ProductColor	|	string	|	256	|	No	|	Product color	|
 |	ProductConfiguration	|	string	|	256	|	No	|	Product configuration	|
@@ -66,7 +66,7 @@ The product entity refers to the stock keeping unit of the goods that is purchas
 |	QuantityOnHand	|	decimal	|		|	No	|	Quantity on hand	|
 |	SharedProductDetailId	|	string	|	256	|	No	|	Shared product detail Id	|
 |	Size	|	string	|	256	|	No	|	Size of the product	|
-|	StageId	|	string	|	256	|	No	|	Stage Id of the product	|
+|	StageId	|	string	|	256	|	No	|	Stage ID of the product	|
 |	StandardCost	|	decimal	|		|	No	|	Standard cost of the product	|
 |	StandardCost_Base	|	decimal	|		|	No	|	Standard base cost of the product	|
 |	StockDimensionUnit	|	string	|	256	|	No	|	Product stock dimensional unit	|
@@ -78,7 +78,7 @@ The product entity refers to the stock keeping unit of the goods that is purchas
 |	StockWeight	|	decimal	|		|	No	|	Stock weight	|
 |	StockWeightUnit	|	string	|	256	|	No	|	Stock weight unit	|
 |	StockWidth	|	decimal	|		|	No	|	Stock width	|
-|	SubjectId	|	string	|	256	|	No	|	Subject Id of the product	|
+|	SubjectId	|	string	|	256	|	No	|	Subject ID of the product	|
 |	SupplierName	|	string	|	256	|	No	|	Name of the vendor or supplier	|
 |	Taxable	|	string	|	256	|	No	|	Product taxable	|
 |	TransactionCurrencyId	|	string	|	256	|	No	|	Transaction currency	|
@@ -86,7 +86,7 @@ The product entity refers to the stock keeping unit of the goods that is purchas
 |	UoMNumber	|	string	|	256	|	No	|	Unit of measure ISO code	|
 |	ValidFromDate	|	date	|		|	No	|	The date by which this product becomes active. 	|
 |	ValidToDate	|	date	|		|	No	|	The validity or expirty date of this record	|
-|	VendorId	|	string	|	256	|	No	|	The unique Id of the vendor or supplier	|
+|	VendorId	|	string	|	256	|	No	|	The unique ID of the vendor or supplier	|
 |	VendorName	|	string	|	256	|	No	|	Name of the vendor or supplier	|
 |	VendorNumber	|	string	|	256	|	No	|	The unique number of the vendor or supplier	|
 |	VendorPartNumber	|	string	|	256	|	No	|	Vendor or supplier part number	|

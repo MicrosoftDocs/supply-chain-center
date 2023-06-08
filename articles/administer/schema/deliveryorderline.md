@@ -23,12 +23,12 @@ Item details: A list of the items or services being delivered, including their d
 |---------------|--------|------|----------|-----------|
 |	ActualShipDate	|	date	|		|	No	|	Actual ship date of the delivery order line	|
 |	CarrierDeliveryService	|	string	|	256	|	No	|	Carrier delivery service	|
-|	CarrierId	|	string	|	36	|	No	|	Carrier Id for the delivery order line	|
+|	CarrierId	|	string	|	36	|	No	|	Carrier ID for the delivery order line	|
 |	CarrierNumber	|	string	|	256	|	No	|	Carrier number for the delivery order line	|
 |	CarrierServiceNumber	|	string	|	256	|	No	|	Carrier service number	|
 |	DeliveryDate	|	date	|		|	No	|	Delivery date of the delivery order	|
 |	DeliveryOrderId	|	string	|	36	|	No	|	Delivery order iD	|
-|	DeliveryOrderLineId	|	string	|	36	|	Yes	|	The unique line Id of the delivery order	|
+|	DeliveryOrderLineId	|	string	|	36	|	Yes	|	The unique line ID of the delivery order	|
 |	DeliveryOrderLineNumber	|	string	|	256	|	Yes	|	The unique line number of the delivery order	|
 |	DeliveryOrderName	|	string	|	256	|	No	|	Name of the delivery order	|
 |	DeliveryOrderNumber	|	string	|	256	|	No	|	Delivery order number	|
@@ -44,10 +44,10 @@ Item details: A list of the items or services being delivered, including their d
 |	LineNumber	|	string	|	256	|	Yes	|	Line number of the delivery order line	|
 |	OpenInvoiceQuantity	|	decimal	|		|	No	|	Open invoice quantity for the delivery order line	|
 |	PlannedShippingDate	|	date	|		|	No	|	Planned shipping date for the delivery order line	|
-|	ProductCategoryId	|	string	|	36	|	No	|	Product category Id of the product in the delivery order	|
+|	ProductCategoryId	|	string	|	36	|	No	|	Product category ID of the product in the delivery order	|
 |	ProductCategoryNumber	|	string	|	256	|	No	|	Product category number	|
 |	ProductDescription	|	string	|	4000	|	No	|	Description of the product	|
-|	ProductId	|	string	|	256	|	No	|	The unique Id of the product	|
+|	ProductId	|	string	|	256	|	No	|	The unique ID of the product	|
 |	ProductReservationNumber	|	string	|	256	|	No	|	Product reservation number	|
 |	ProductReservationQuantity	|	decimal	|		|	No	|	Product reservation quantity	|
 |	ReferenceOrderQuantity	|	decimal	|		|	No	|	Reference order quantity for the delivery order line	|

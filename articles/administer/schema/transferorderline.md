@@ -38,11 +38,11 @@ A transfer order entity contains information such as the source location (where 
 |	ReceiveDate	|	date	|		|	No	|	Receive date of the transfer order	|
 |	ShipDate	|	date	|		|	No	|	Ship date of the transfer order	|
 |	ShippingSite	|	string	|	256	|	No	|	Shipping site of the transfer order line	|
-|	ShippingWarehouseId	|	string	|	36	|	No	|	Shipping warehouse Id of the transfer order line	|
+|	ShippingWarehouseId	|	string	|	36	|	No	|	Shipping warehouse ID of the transfer order line	|
 |	ShippingWarehouseNumber	|	string	|	256	|	No	|	Shipping warehouse number of the transfer order line	|
-|	TransferOrderId	|	string	|	36	|	No	|	Unique Id of the transfer order	|
+|	TransferOrderId	|	string	|	36	|	No	|	Unique ID of the transfer order	|
 |	TransferOrderLineId	|	string	|	36	|	Yes	|	Transfer Order Line Id	|
 |	TransferOrderLineNumber	|	string	|	256	|	Yes	|	Transfer order line number	|
 |	TransferOrderNumber	|	string	|	256	|	Yes	|	Transfer order number	|
-|	UnitId	|	string	|	256	|	No	|	Unit Id of the transfer order line	|
+|	UnitId	|	string	|	256	|	No	|	Unit ID of the transfer order line	|
 |	UnitNumber	|	string	|	256	|	No	|	Unit number of thetransfer order line	|

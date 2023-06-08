@@ -27,18 +27,18 @@ The return order line entity refers to the details of the return order. The retu
 |	IsProductOverridden	|	boolean	|		|	No	|	Is the product overridden	|
 |	ItemSku	|	string	|	256	|	No	|	Product number of the return order	|
 |	LineNumber	|	string	|	256	|	Yes	|	Line number of the returns order	|
-|	OrderReturnsLineId	|	string	|	36	|	No	|	The unique line Id of the returns order	|
+|	OrderReturnsLineId	|	string	|	36	|	No	|	The unique line ID of the returns order	|
 |	OrderReturnsLineNumber	|	string	|	256	|	No	|	The unique line number of the returns order	|
 |	ProductCategory	|	string	|	256	|	No	|	Category of the product in return order	|
 |	ProductCategoryNumber	|	string	|	256	|	No	|	Category number of the product in return order	|
 |	ProductDescription	|	string	|	4000	|	No	|	Description of the product in return order	|
-|	ProductId	|	string	|	256	|	No	|	The unique Id of the product in the return order	|
+|	ProductId	|	string	|	256	|	No	|	The unique ID of the product in the return order	|
 |	ProductQualityCode	|	string	|	256	|	No	|	Product quality code applied for the return order line	|
 |	ReceivedDate	|	date	|		|	No	|	Received date	|
 |	ReceivedQuantity	|	decimal	|		|	No	|	Received quantity	|
-|	ReturnOrderId	|	string	|	36	|	No	|	The unique Id of the return order	|
+|	ReturnOrderId	|	string	|	36	|	No	|	The unique ID of the return order	|
 |	ReturnOrderLineComments	|	string	|	256	|	No	|	Comments or notes for return order line	|
-|	ReturnOrderLineId	|	string	|	36	|	Yes	|	The unique line Id of the return order	|
+|	ReturnOrderLineId	|	string	|	36	|	Yes	|	The unique line ID of the return order	|
 |	ReturnOrderLineNumber	|	string	|	256	|	Yes	|	The unique line number of the return order	|
 |	ReturnOrderName	|	string	|	256	|	No	|	Name of the return order	|
 |	ReturnOrderNumber	|	string	|	256	|	No	|	The unique number of the return order	|
