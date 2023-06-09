@@ -7,7 +7,7 @@ ms.author: algiddin
 ms.reviewer: johnmichalak 
 ms.service: supply-chain-center 
 ms.topic: conceptual 
-ms.date: 03/16/2023
+ms.date: 06/15/2023
 ms.custom: bap-template 
 
 --- 
@@ -19,7 +19,7 @@ Supplier news communication generates draft emails to supply chain vendors, base
 ## Prerequisites
 
 - Before you can use Supplier news communication, the **News** module must be installed. For more information, see [News](news.md).
-- Before you can use the Supply Chain Center native email drafting experience, you need to have your mailbox set up to send email, see [instructions](/power-platform/admin/connect-exchange-online#configure-mailboxes)
+- Before you can use the Supply Chain Center native email drafting experience, you need to have your mailbox set up to send email, see [instructions](/power-platform/admin/connect-exchange-online#configure-mailboxes).
 
 ## Functionality
 
@@ -37,11 +37,11 @@ To contact a partner, select it in the grid, and then select **Contact partner**
 
 ![Partner selected for contact in the Impact section of an article's details page.](media/Supplier-news-communication-contact-partner.png)
 
-Next, in the **New Email** modal that that appears, notice that there is a copilot dialog on the right side of the page, select a message type (or suggest your own) that corresponds to the information that you want to communicate to the partner.
+Next, in the **New Email** dialog box that that appears, notice that there is a copilot dialog on the right side of the page, select a message type (or suggest your own) that corresponds to the information that you want to communicate to the partner.
 
 ![Message type options in the Contact partners dialog box.](media/Supplier-news-communication-select-message-type.png)
 
-Finally, in the **New Email** modal that appears, review the draft email that's shown. At the bottom of the dialog box, notice that there's an option to provide thumbs-up or thumbs-down feedback. There are also buttons for copying the draft to mail and regenerating the current draft email. If you're satisfied with the draft email, select **Copy to email** which will copy the contents into the native email drafting experience inside Supply Chain Center.
+Finally, in the **New Email** dialog box that appears, review the draft email that's shown. At the bottom of the dialog box, notice that there's an option to provide thumbs-up or thumbs-down feedback. There are also buttons for copying the draft to mail and regenerating the current draft email. If you're satisfied with the draft email, select **Copy to email** to copy the contents into the native email drafting experience inside Supply Chain Center.
 
 ![Draft email for review in the Create draft dialog box.](media/Supplier-news-communication-create-draft.png)
 
