@@ -6,6 +6,11 @@
       "redirect_document_id": "false"
     },    
     {
+      "source_path": "articles/markdown-examples.md",
+      "redirect_url": "articles/welcome.md",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "articles/administer/schema/carrierlocationcutofftime.md",
       "redirect_url": "articles/administer/schema/data-schema.md",
       "redirect_document_id": "false"
