@@ -21,6 +21,9 @@ The Teams integration can be enabled in the admin settings in Supply Chain Cente
 1. In Supply Chain Center, select the gear symbol in the upper-right corner, and then select **Admin settings**.
 1. On the **Admin settings** page, select **General**, and then, under **Enable Microsoft Teams**, set the option to **Enable**.
 
+> [!NOTE]
+> In order to enable the teams integration you must be a global or system administrator. 
+
 ![Screenshot that shows the option for turning on the Teams integration on the Admin settings page.](media/enable_teams.png)
 
 ## Access Teams chat in Supply Chain Center
@@ -41,3 +44,4 @@ To hide the chat window, select the chat button again.
 To start a new chat in Supply Chain Center, in the **Teams chats** pane, select the **Compose Chat** button in the upper-right corner. A **New chat** window appears at the bottom of the pane. There, you can start a new individual or group chat.
 
 ![Screenshot that shows a New chat window in the Teams integration side pane.](media/start_new_chat_teams.png)
+
