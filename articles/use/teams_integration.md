@@ -22,7 +22,7 @@ The Teams integration can be enabled in the admin settings in Supply Chain Cente
 1. On the **Admin settings** page, select **General**, and then, under **Enable Microsoft Teams**, set the option to **Enable**.
 
 > [!NOTE]
-> In order to enable the teams integration you must be a global or system administrator. 
+> In order to enable the teams integration, you must be a global or system administrator. 
 
 ![Screenshot that shows the option for turning on the Teams integration on the Admin settings page.](media/enable_teams.png)
 
