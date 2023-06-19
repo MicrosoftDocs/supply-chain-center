@@ -29,7 +29,7 @@ highlightedContent:
     # Card
     - title: What's new
       itemType: whats-new
-      url: whats-new.md
+      url: get-started/whats-new/whats-new-home-page.md
     # Card
     - title: Training
       itemType: training
@@ -116,9 +116,9 @@ additionalContent:
         text: Supply & demand insights overview
     - title: Key features
       links:
-      - url: News
-        text: use/news.md
-      - url: use/supplier-news-communication
+      - url: use/news.md
+        text: News
+      - url: use/supplier-news-communication.md
         text: Supplier news communication
       - url: use/supplier-portal.md
         text: Supplier portal overview
@@ -130,7 +130,7 @@ additionalContent:
         
         - title: Microsoft Dynamics 365 Supply Chain Management
           summary: Go to the documentation for Dynamics 365 Supply Chain Management
-          url: dynamics365/supply-chain/
+          url: dynamics365/supply-chain/index.md
         - title: Microsoft Dynamics 365 Intelligent Order Management
           summary: Intelligent Order Management is a suite of capabilities to help your organization coordinate, standardize, and optimize orders captured in a mix of channels and systems through a single point of order orchestration.
-          url: dynamics365/intelligent-order-management/
+          url: dynamics365/intelligent-order-management/index.md
