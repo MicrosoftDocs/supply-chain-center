@@ -129,7 +129,7 @@ additionalContent:
         # Card
         
         - title: Microsoft Dynamics 365 Supply Chain Management
-          summary: Go to the documentation for Dynamics 365 Supply Chain Management
+          summary: Build an adaptable, resilient supply chain that automatically reacts to challenges using real-time visibility, agile planning, and advanced insights.
           url: https://learn.microsoft.com/dynamics365/supply-chain/
         - title: Microsoft Dynamics 365 Intelligent Order Management
           summary: Intelligent Order Management is a suite of capabilities to help your organization coordinate, standardize, and optimize orders captured in a mix of channels and systems through a single point of order orchestration.
