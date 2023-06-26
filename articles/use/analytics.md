@@ -41,7 +41,7 @@ To create a native report from a template, go to the **Analytics** module, and t
 
 :::image type="content" source="media/Create_report.png" alt-text="Creating a new report on the Reports tab of the Analytics module.":::
 
-### Creating new reports from sctrach
+### Creating new reports from scratch
 
 Like creating native reports from templates, you can create connected reports from scratch by going to the **Analytics** module, and then, on the **Reports** tab, select **Create** in the upper-left corner. Select **Start from scratch,** enter a name, choose a workspace, and select a dataset corresponding to your selected workspace. You will be brought to the Power BI editor after clicking **Submit** where you can then create your report.
 
