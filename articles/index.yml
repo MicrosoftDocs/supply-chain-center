@@ -42,7 +42,7 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Implement Supply Chain Center
+  - title: Implement 
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
@@ -77,7 +77,7 @@ additionalContent:
     - title: Ingest data
       links: 
       - url: administer/ingest-data.md
-        text: Ingest data for the firs time
+        text: Ingest data for the first time
       - url: administer/connect-your-data.md
         text: Connect your data to Supply Chain Center
       - url: administer/connect-your-sap-data.md
@@ -92,7 +92,7 @@ additionalContent:
         text: Admin settings
       - url: administer/personal-settings.md
         text: Personal settings
-  - title: Use Supply Chain Center
+  - title: Use 
     items:
     - title: Modules
       links:
