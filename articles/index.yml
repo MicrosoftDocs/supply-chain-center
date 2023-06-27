@@ -1,11 +1,11 @@
 ### YamlMime:Hub
 
 title: Microsoft Supply Chain Center documentation
-summary: Discover how to make the most of Microsoft Supply Chain Center with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how Supply Chain Center seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it's transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions.
+summary: Discover how to make the most of Microsoft Supply Chain Center with training courses, docs, and videos covering product capabilities and how-to articles. Learn how Supply Chain Center seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it's transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions.
 
 metadata:
   title: Microsoft Supply Chain Center documentation
-  description: Discover how to make the most of Microsoft Supply Chain Center with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how Supply Chain Center seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it's transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions. 
+  description: Discover how to make the most of Microsoft Supply Chain Center with training courses, docs, and videos covering product capabilities and how-to articles. Learn how Supply Chain Center seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it's transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions. 
   ms.service: supply-chain-center
   ms.topic: hub-page
   author: johnmichalak
@@ -64,7 +64,7 @@ additionalContent:
         text: Configure and review restock recommendations
       - url: administer/environment-picker.md
         text: Environment picker
-  - title: Administer and develop
+  - title: Administer and integrate
     items:
     - title: Deploy
       links:
@@ -94,27 +94,7 @@ additionalContent:
         text: Personal settings
   - title: Use 
     items:
-    - title: Modules
-      links:
-      - url: use/module-library.md
-        text: Module library
-      - url: use/isv-modules.md
-        text: ISV Modules
-      - url: use/install-overhaul.md
-        text: Install the Overhaul module
-      - url: use/uninstall-an-isv-module.md
-        text: Uninstall an ISV module
-    - title: Analytics 
-      links:
-      - url: use/analytics.md
-        text: Analytics
-      - url: use/calculations.md
-        text: Create and use calculations
-      - url: use/kpis.md
-        text: Create and use KPIs
-      - url: use/supply-and-demand.md
-        text: Supply and demand insights overview
-    - title: Key features
+    - title: Learn key features
       links:
       - url: use/news.md
         text: News
@@ -124,6 +104,26 @@ additionalContent:
         text: Supplier portal overview
       - url: use/supplier-portal-for-suppliers.md
         text: Supplier portal (for supplier)
+    - title: Install new modules
+      links:
+      - url: use/module-library.md
+        text: Module library
+      - url: use/isv-modules.md
+        text: ISV Modules
+      - url: use/install-overhaul.md
+        text: Install the Overhaul module
+      - url: use/uninstall-an-isv-module.md
+        text: Uninstall an ISV module
+    - title: Analyze data 
+      links:
+      - url: use/analytics.md
+        text: Analytics
+      - url: use/calculations.md
+        text: Create and use calculations
+      - url: use/kpis.md
+        text: Create and use KPIs
+      - url: use/supply-and-demand.md
+        text: Supply and demand insights overview
   - title: Related products
     items:
         # Card
