@@ -64,7 +64,7 @@ additionalContent:
         text: Configure and review restock recommendations
       - url: administer/environment-picker.md
         text: Environment picker
-  - title: Administer and develop Supply Chain Center
+  - title: Administer and develop
     items:
     - title: Deploy
       links:
