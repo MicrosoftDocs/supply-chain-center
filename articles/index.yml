@@ -113,7 +113,7 @@ additionalContent:
       - url: use/kpis.md
         text: Create and use KPIs
       - url: use/supply-and-demand.md
-        text: Supply & demand insights overview
+        text: Supply and demand insights overview
     - title: Key features
       links:
       - url: use/news.md
