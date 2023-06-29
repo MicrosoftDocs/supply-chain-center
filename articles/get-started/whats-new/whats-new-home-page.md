@@ -31,5 +31,5 @@ For earlier versions, see the archived release plans at [Release plans for Dynam
 
 New customers automatically get the latest version. If you're an existing partner/customer, check your email for notifications about updates. 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
 
