@@ -1,89 +1,136 @@
-### YamlMime:Landing
+### YamlMime:Hub
 
 title: Microsoft Supply Chain Center documentation
-summary: "  "
+summary: Discover how to make the most of Microsoft Supply Chain Center with training courses, docs, and videos covering product capabilities and how-to articles. Learn how Supply Chain Center seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it's transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions.
 
 metadata:
   title: Microsoft Supply Chain Center documentation
-  description: Microsoft Supply Chain Center is a secure, enterprise-grade solution that unlocks supply chain resiliency. 
+  description: Discover how to make the most of Microsoft Supply Chain Center with training courses, docs, and videos covering product capabilities and how-to articles. Learn how Supply Chain Center seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it's transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions. 
   ms.service: supply-chain-center
-  ms.topic: landing-page
+  ms.topic: hub-page
   author: johnmichalak
   ms.author: johnmichalak
-  ms.date: 10/27/2022 
-
+  ms.date: 06/15/2023 
+  ms.custom: bap-template
+  hide_bc: true
+  
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | tutorial | overview | quickstart | reference | sample | tutorial | video | whats-new
 
-landingContent:
-# Cards and links should be based on top customer tasks or top subjects
-# Start card title with a verb
-  # Card 
-  - title: About Supply Chain Center
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Welcome
-            url: welcome.md
-          - text: Capabilities
-            url: overview/capabilities.md
-          - text: Architecture
-            url: overview/architecture.md
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
-  # Card 
-  - title: Try for free
-    linkLists:
-      - linkListType: quickstart
-        links:
-          - text: Sign up for a free trial of Supply Chain Center's public preview
-            url: get-started/free-trial.md
-          - text: Free trial support
-            url: get-started/preview-support.md
-          - text: Free trial FAQ
-            url: troubleshoot-faqs/trial-faqs.md
+# Do not change the following cards. You should only need to update the URLs to provide the correct links to your product documentation.
 
-  # Card
-  - title: Get started
-    linkLists:
-      - linkListType: get-started
-        links:
-          - text: Understand the UI (learn the basics)
-            url: get-started/navigate.md
-          - text: Product FAQ
-            url: troubleshoot-faqs/product-faqs.md
- 
-   # Card
-  - title: Use
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Supply and demand insights
-            url: use/supply-and-demand.md
-          - text: Configure and review restock recommendation
-            url: use/restock-recommendations.md
-          - text: News
-            url: use/news.md
+  items:
+    # Card
+    - title: Welcome to Microsoft Supply Chain Center
+      itemType: get-started
+      url: welcome.md
+    # Card
+    - title: What's new
+      itemType: whats-new
+      url: get-started/whats-new/whats-new-home-page.md
+    # Card
+    - title: Training
+      itemType: training
+      url: /training/browse/
+    # Card
+    - title: Troubleshoot
+      itemType: concept
+      url: troubleshoot-faqs/product-faqs.md
 
-  # Card
-  - title: Manage the system
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Data schema
-            url: administer/data-schema.md
-          - text: Ingest data
-            url: administer/ingest-data.md
-          - text: Review, update, and delete your data
-            url: administer/review-update-delete-data.md
-
-  # Card
-  - title: Watch videos
-    linkLists:
-      - linkListType: video
-        links:
-          - text: Supply Chain Center overview
-            url: https://www.microsoft.com/en-us/videoplayer/embed/RE5ak34
-          - text: Supply and demand insights module overview
-            url: https://www.microsoft.com/en-us/videoplayer/embed/RE5azzg
-          - text: News module overview
-            url: https://www.microsoft.com/en-us/videoplayer/embed/RE5aCe6
-
+      
+additionalContent: 
+  sections:
+  - title: Implement 
+# Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
+# Each card should have at least three and no more than five links. Do not include a "See also" link.
+    items:
+    - title: Guidance 
+      links: 
+      - url: overview/capabilities.md
+        text: Microsoft Supply Chain Center capabilities
+      - url: get-started/navigate.md
+        text: Understand the UI (learn the basics)
+    - title: Try/Buy/Deploy
+      links: 
+      - url: get-started/free-trial.md
+        text: Sign up for a free trial of Supply Chain Center's public preview
+      - url: troubleshoot-faqs/trial-faqs.md
+        text: Supply Chain Center trial FAQ
+    - title: Set up 
+      links:
+      - url: use/restock-recommendations.md
+        text: Configure and review restock recommendations
+      - url: administer/environment-picker.md
+        text: Environment picker
+  - title: Administer and integrate
+    items:
+    - title: Deploy
+      links:
+      - url: overview/architecture.md
+        text: Architecture
+      - url: administer/data-schema.md
+        text: Data schema
+      - url: use/teams_integration.md
+        text: Microsoft Teams integration
+    - title: Ingest data
+      links: 
+      - url: administer/ingest-data.md
+        text: Ingest data for the first time
+      - url: administer/connect-your-data.md
+        text: Connect your data to Supply Chain Center
+      - url: administer/connect-your-sap-data.md
+        text: Connect your SAP data to Supply Chain Center
+      - url: administer/review-update-delete-data.md
+        text: Review, update, and delete your data
+    - title: Manage
+      links:
+      - url: administer/add-users.md
+        text: Add users
+      - url: administer/admin-settings.md
+        text: Admin settings
+      - url: administer/personal-settings.md
+        text: Personal settings
+  - title: Use 
+    items:
+    - title: Learn key features
+      links:
+      - url: use/news.md
+        text: News
+      - url: use/supplier-news-communication.md
+        text: Supplier news communication
+      - url: use/supplier-portal.md
+        text: Supplier portal overview
+      - url: use/supplier-portal-for-suppliers.md
+        text: Supplier portal (for supplier)
+    - title: Install new modules
+      links:
+      - url: use/module-library.md
+        text: Module library
+      - url: use/isv-modules.md
+        text: ISV Modules
+      - url: use/install-overhaul.md
+        text: Install the Overhaul module
+      - url: use/uninstall-an-isv-module.md
+        text: Uninstall an ISV module
+    - title: Analyze data 
+      links:
+      - url: use/analytics.md
+        text: Analytics
+      - url: use/calculations.md
+        text: Create and use calculations
+      - url: use/kpis.md
+        text: Create and use KPIs
+      - url: use/supply-and-demand.md
+        text: Supply and demand insights overview
+  - title: Related products
+    items:
+        # Card
+        
+        - title: Microsoft Dynamics 365 Supply Chain Management
+          summary: Build an adaptable, resilient supply chain that automatically reacts to challenges using real-time visibility, agile planning, and advanced insights.
+          url: https://learn.microsoft.com/dynamics365/supply-chain/
+        - title: Microsoft Dynamics 365 Intelligent Order Management
+          summary: Intelligent Order Management is a suite of capabilities to help your organization coordinate, standardize, and optimize orders captured in a mix of channels and systems through a single point of order orchestration.
+          url: https://learn.microsoft.com/dynamics365/intelligent-order-management/
