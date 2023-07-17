@@ -33,13 +33,13 @@ Before connecting a report from your Power BI workspace, you must first link you
 
 After the prerequisites are met, a Supply Chain Center and Power BI admin can link an existing Power BI workspace or create a new one by going to **Admin settings \> Analytics \> Create or link a Power BI workspace** in Supply Chain Center. After a workspace is linked, you can connect a report from it by going to **Analytics \> Reports \> Connect**. If a workspace is unlinked, all connected reports are removed from the **Reports** tab of the **Analytics** module in Supply Chain Center. However, those reports can still be accessed through Power BI.
 
-:::image type="content" source="media/Connect_report.png" alt-text="Connecting a report from the Admin settings.":::
+![Connecting a report from the Admin settings.](media/Connect_report.png)
 
 
 ### Creating new reports from templates
 To create a native report from a template, go to the **Analytics** module, and then, on the **Reports** tab, select **Create** in the upper-left corner. Select **Start from template,** choose a provided template, and then enter a name for the new report. Go back to the **Reports** tab to view the new report in **All reports**.
 
-:::image type="content" source="media/Create_report.png" alt-text="Creating a new report on the Reports tab of the Analytics module.":::
+![Creating a new report on the Reports tab of the Analytics module.](media/Create_report.png)
 
 ### Creating new reports from scratch
 
@@ -55,4 +55,4 @@ After you select a report in the grid on the **Reports** tab, you can use the bu
 - **Share link** – When you share a report, a link is provided. You can give the link to others so that they can also view the report.
 - **Delete** – If you delete a report, it's removed from the grid on the **Reports** tab. *Native reports* will be removed from Power BI, but *connected reports* will still be accessible in Power BI.
 
-:::image type="content" source="media/use-reports.png" alt-text="Buttons for using a selected report on the Reports tab of the Analytics module.":::
+![Buttons for using a selected report on the Reports tab of the Analytics module.](media/use-reports.png)
