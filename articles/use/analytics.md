@@ -16,13 +16,13 @@ The **Analytics** module in Microsoft Supply Chain Center empowers you to take a
 
 ## Adding reports
 
-Supply Chain Center supports native reports and connected reports. Native reports are created in Supply Chain Center and are visible only in Supply Chain Center while connected reports are linked from your Power BI workspace, and are accessible in both Power BI and Supply Chain Center.
+Supply Chain Center supports native reports and connected reports. Native reports are created in Supply Chain Center and are visible only in Supply Chain Center. Connected reports are linked from your Power BI workspace, and are accessible in both Power BI and Supply Chain Center.
 
 ### Connect reports from your Power BI workspace
 The following sections explain how to connect reports from your Power BI workspace.
 
 #### Link your Power BI workspace
-Before connecting a report from your Power BI workspace, you must first link your worksapce to MSCC. Make sure the following prerequisites are met before doing so:
+Before connecting a report from your Power BI workspace, you must first link your workspace to Microsoft Supply Chain Center. Make sure the following prerequisites are met before doing so:
 
 - You must have a Microsoft Power BI Professional or Microsoft Power BI Premium license.
 - At least one report must be available in the Power BI workspace.
@@ -39,22 +39,22 @@ After the prerequisites are met, a Supply Chain Center and Power BI admin can li
 
 
 ### Create new reports from templates
-To create a native report from a template, go to the **Analytics** module, and then, on the **Reports** tab, select **Create** in the upper-left corner. Select **Start from template,** choose a provided template, and then enter a name for the new report. Go back to the **Reports** tab to view the new report in **All reports**.
+To create a native report from a template, go to the **Analytics** module, and then on the **Reports** tab select **Create**. Select **Start from template,** to choose a provided template, and then enter a name for the new report. Go back to the **Reports** tab to view the new report in **All reports**.
 
 ![Creating a new report on the Reports tab of the Analytics module.](media/Create_report.png)
 
 ### Create new reports from scratch
 
-Like creating native reports from templates, you can create connected reports from scratch by going to the **Analytics** module, and then, on the **Reports** tab, select **Create** in the upper-left corner. Select **Start from scratch,** enter a name, choose a workspace, and select a dataset corresponding to your selected workspace. You will be brought to the Power BI editor after clicking **Submit** where you can then create your report.
+Like creating native reports from templates, you can create connected reports from scratch. Go to the **Analytics** module, and then on the **Reports** tab, select **Create**. Select **Start from scratch,** enter a name, choose a workspace, and select a dataset corresponding to your selected workspace. The Power BI editor displays after selecting **Submit** and you can then create your report.
 
 ## Use existing reports
 
 After you select a report in the grid on the **Reports** tab, you can use the buttons on the toolbar to edit, clone, rename, share, or delete it.
 
 - **Edit** – You can edit a report to update it. For *connected reports*, your edits will persist if you open the report from Power BI instead of Supply Chain Center.
-- **Clone** – If you clone a *native report*, a new one that's identical is created. Note that *connected reports* can't be cloned.
+- **Clone** – If you clone a *native report*, a new one that's identical is created. *Connected reports* can't be cloned.
 - **Rename** – You can change the name of a report.
 - **Share link** – When you share a report, a link is provided. You can give the link to others so that they can also view the report.
-- **Delete** – If you delete a report, it's removed from the grid on the **Reports** tab. *Native reports* will be removed from Power BI, but *connected reports* will still be accessible in Power BI.
+- **Delete** – If you delete a report, it's removed from the grid on the **Reports** tab. *Native reports* are removed from Power BI, but *connected reports* will still be accessible in Power BI.
 
 ![Buttons for using a selected report on the Reports tab of the Analytics module.](media/use-reports.png)
