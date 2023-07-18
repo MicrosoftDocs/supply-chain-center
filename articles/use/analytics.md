@@ -6,7 +6,7 @@ ms.author: carylhenry
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: overview
-ms.date: 4/21/2023
+ms.date: 07/18/2023
 ms.custom: bap-template
 ---
 
@@ -51,10 +51,10 @@ Like creating native reports from templates, you can create connected reports fr
 
 After you select a report in the grid on the **Reports** tab, you can use the buttons on the toolbar to edit, clone, rename, share, or delete it.
 
-- **Edit** – You can edit a report to update it. For *connected reports*, your edits will persist if you open the report from Power BI instead of Supply Chain Center.
+- **Edit** – You can edit a report to update it. For *connected reports*, your edits persist if you open the report from Power BI instead of Supply Chain Center.
 - **Clone** – If you clone a *native report*, a new one that's identical is created. *Connected reports* can't be cloned.
 - **Rename** – You can change the name of a report.
 - **Share link** – When you share a report, a link is provided. You can give the link to others so that they can also view the report.
-- **Delete** – If you delete a report, it's removed from the grid on the **Reports** tab. *Native reports* are removed from Power BI, but *connected reports* will still be accessible in Power BI.
+- **Delete** – If you delete a report, it's removed from the grid on the **Reports** tab. *Native reports* are removed from Power BI, but *connected reports* are still accessible in Power BI.
 
 ![Buttons for using a selected report on the Reports tab of the Analytics module.](media/use-reports.png)
