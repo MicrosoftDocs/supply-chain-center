@@ -18,7 +18,9 @@ The **Analytics** module in Microsoft Supply Chain Center empowers you to take a
 
 Supply Chain Center supports native reports and connected reports. Native reports are created in Supply Chain Center and are visible only in Supply Chain Center while connected reports are linked from your Power BI workspace, and are accessible in both Power BI and Supply Chain Center.
 
-### Connecting reports from your Power BI workspace
+### Connect reports from your Power BI workspace
+The following sections explain how to connect reports from your Power BI workspace.
+
 #### Link your Power BI workspace
 Before connecting a report from your Power BI workspace, you must first link your worksapce to MSCC. Make sure the following prerequisites are met before doing so:
 
@@ -36,12 +38,12 @@ After the prerequisites are met, a Supply Chain Center and Power BI admin can li
 ![Connecting a report from the Admin settings.](media/Connect_report.png)
 
 
-### Creating new reports from templates
+### Create new reports from templates
 To create a native report from a template, go to the **Analytics** module, and then, on the **Reports** tab, select **Create** in the upper-left corner. Select **Start from template,** choose a provided template, and then enter a name for the new report. Go back to the **Reports** tab to view the new report in **All reports**.
 
 ![Creating a new report on the Reports tab of the Analytics module.](media/Create_report.png)
 
-### Creating new reports from scratch
+### Create new reports from scratch
 
 Like creating native reports from templates, you can create connected reports from scratch by going to the **Analytics** module, and then, on the **Reports** tab, select **Create** in the upper-left corner. Select **Start from scratch,** enter a name, choose a workspace, and select a dataset corresponding to your selected workspace. You will be brought to the Power BI editor after clicking **Submit** where you can then create your report.
 
