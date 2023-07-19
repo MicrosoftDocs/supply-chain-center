@@ -32,13 +32,16 @@ The app management screen is split into two sections: "Modules" and "Providers a
 
 In the lists themselves, each column can be sorted to help group the apps for easier discovery. By clicking on the name of any module, provider, or connector, the app information page will display. This will provide info like a description, screenshots or videos, licensing and support links, and more.
 
+You will notice a "connected with" and "connects to" columns. Connected with shows which apps a current app is already connected with (such as FedEx connected with IOM). The "connects to" column lets you know which apps a given app will connect to. For example, UPS connects to only IOM, and not any other apps, while SQL Server DB connects to both Supply and Demand Insights and Smart News.   
+
 ## Installing and managing apps
 
-For modules, on top of the app information page is a control to either "install" or "update settings". "Install" will display if the module has not been installed yet, and will lead you to a easy to use wizard to set up the module. For modules already installed, the "update settings" control will allow you to update settings for that module as needed. You will need administrator rights to install and manage modules.
+For modules, on top of the app information page is a control to either "install" or "update settings". "Install" will display if the module has not been installed yet, and will lead you to a easy-to-use wizard to set up the module. For modules already installed, the "update settings" control will allow you to update settings for that module as needed. You will need administrator rights to install and manage modules.
 
-For providers and connectors, the control on top of the page will say "new instance". The first time you set up an instance for a provider or connector, that provider or connector will become active. After it has become active, you may add more instances of that provider or connector. Customers add new instances for a number of different purposes, such as for different geographies or teams.
+Each module may have slightly different installation steps. Some modules may require you to install a package from [AppSource](https://appsource.microsoft.com/en-us/home) to your environment first before adding it to MSCC. Other modules, particulalry 1P modules, can be set up directly in MSCC without installing a package. Some modules, such as IOM, will need you to do data mappings to complete set up. Each step of the wizard will provide context and instructions on what needs to be done. 
+When clicking "update settings", you will be taken to that specific module's settings area, where you can manage the different parts of a given module. For example, IOM's settings allow you to configure data mappings, orchestrations, orders, and more.
 
-Each module may have slightly different installation steps. Some apps may require you to install a package from [AppSource](https://appsource.microsoft.com/en-us/home) to your environment first before adding it to MSCC. Other apps 
+For providers and connectors, the control on top of the page will say "new instance". The first time you set up an instance for a provider or connector, that provider or connector will become active. After it has become active, you may add more instances of that provider or connector. Customers add new instances for a number of different purposes, such as for different geographies or teams. Here are examples of setting up [Big Commerce](https://learn.microsoft.com/en-us/dynamics365/intelligent-order-management/set-up-bigcommerce-provider) and [FedEx](https://learn.microsoft.com/en-us/dynamics365/intelligent-order-management/set-up-fedex-provider) for IOM.
 
 Some apps cannot be used unless a dependent app is enabled. For example, Fedex "connects with" IOM. Thus, FedEx cannot be activated until the IOM module is activated.
 
