@@ -70,17 +70,33 @@ A higher **OTIF** value indicates better performance. Target levels above 90 per
 
 #### Required entities
 
-To enable **OTIF**, the following entities or tables are required:
+To enable **OTIF**, the following entities or tables and attributes are required:
 
-- Product
-- Account
-- Warehouse
-- Purchase Order
-- Purchase Order Line
-- Shipment
-- Shipment Item
-- Inventory Journal
-- Inventory Movement Shipment
+| Entity   Name              | Alias or   Display Entity Name | Attribute Name                   | Alias or   Display Attribute Name | Source  |
+|----------------------------|--------------------------------|----------------------------------|-----------------------------------|---------|
+| msdyn_purchaseorder        | PurchaseOrder                  | msdyn_purchaseorderkey           | PurchaseOrderNumber               | My Data |
+| msdyn_purchaseorder        | PurchaseOrder                  | msdyn_accountkey                 | AccountNumber                     | My Data |
+| msdyn_purchaseorder        | PurchaseOrder                  | msdyn_geolocationkey             | GeoLocationNumber                 | My Data |
+|			     |				      |					 |				     |	       |
+| msdyn_purchaseorderproduct | PurchaseOrderLine              | msdyn_purchaseorderkey           | PurchaseOrderNumber               | My Data |
+| msdyn_purchaseorderproduct | PurchaseOrderLine              | msdyn_purchaseorderproductkey    | PoLineItemNumber                  | My Data |
+| msdyn_purchaseorderproduct | PurchaseOrderLine              | msdyn_productkey                 | ProductNumber                     | My Data |
+| msdyn_purchaseorderproduct | PurchaseOrderLine              | msdyn_quantity                   | Quantity                          | My Data |
+| msdyn_purchaseorderproduct | PurchaseOrderLine              | msdyn_dateexpected               | DateExpected                      | My Data |
+|                            |                                |                                  |                                   |         |
+| msdyn_shipment             | Shipment                       | msdyn_shipmentkey                | ShipmentNumber                    | My Data |
+| msdyn_shipment             | Shipment                       | msdyn_shipmentdeliverytimestamp  | ShipmentDeliveryTimestamp         | My Data |
+| msdyn_shipment             | Shipment                       | msdyn_estimateddeliverytimestamp | EstimatedDeliveryTimestamp        | My Data |
+| msdyn_shipment             | Shipment                       | msdyn_towarehousekey             | DestinationWarehouseNumber        | My Data |
+|                            |                                |                                  |                                   |         |
+| msdyn_shipmentproduct      | ShipmentProduct                | msdyn_shipmentkey,               | ShipmentNumber                    | My Data |
+| msdyn_shipmentproduct      | ShipmentProduct                | msdyn_shippedproductquantity     | ShippedProductQuantity            | My Data |
+| msdyn_shipmentproduct      | ShipmentProduct                | msdyn_purchaseorderkey           | PoNumber                          | My Data |
+| msdyn_shipmentproduct      | ShipmentProduct                | msdyn_purchaseorderproductkey    | PoLineItemNumber                  | My Data |
+|                            |                                |                                  |                                   |         |
+| msdyn_warehouse            | Warehouse                      | msdyn_warehousekey               | WarehouseNumber,                  | My Data |
+| msdyn_warehouse            | Warehouse                      | msdyn_name                       | Name                              | My Data |
+| msdyn_warehouse            | Warehouse                      | msdyn_geolocationkey             | GeoLocationNumber                 | My Data |
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5cl3l]
 
