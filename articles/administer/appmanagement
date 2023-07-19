@@ -45,6 +45,8 @@ You will also notice a "availability" column, with a toggle for enabled or disab
 
 For providers and connectors, the control on top of the page will say "new instance". The first time you set up an instance for a provider or connector, that provider or connector will become active. After it has become active, you may add more instances of that provider or connector. Customers add new instances for a number of different purposes, such as for different geographies or teams. Here are examples of setting up [Big Commerce](https://learn.microsoft.com/en-us/dynamics365/intelligent-order-management/set-up-bigcommerce-provider) and [FedEx](https://learn.microsoft.com/en-us/dynamics365/intelligent-order-management/set-up-fedex-provider) for IOM.
 
+If you do not see a provider you are looking for, you can create your own provider by clicking the "custom provider" control on top of the provider and connectors list. Note: you can currently only create custom providers for IOM. Instructions on how to create custome providers is [available here](https://learn.microsoft.com/en-us/dynamics365/intelligent-order-management/create-new-provider). 
+
 Some apps cannot be used unless a dependent app is enabled. For example, Fedex "connects with" IOM. Thus, FedEx cannot be activated until the IOM module is activated.
 
 To use any 3p apps on MSCC, you will need a license and credentials with that 3p. Please contact those 3p companies directly to get an account.
