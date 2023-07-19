@@ -20,7 +20,7 @@ Applications are categorized as:
 2. Providers: applications that transform data from another source to be used by MSCC or 1P modules on MSCC (examples: FedEx, SAP, Big Commerce)
 3. Connectors: applications that provide a connection to another source (examples: Snowflake, SQL, Azue Blob, SAP Hana DB)
 
-Applications need to be approved and installed by your administrator before it is made accessible to you and the rest of your organization. Administrators can install and manage apps from the App Management screen.
+Applications need to be approved and installed by your administrator before it is made accessible to you and the rest of your organization. Administrators can install and manage apps from the [App Management screen](articles/administer/appmanagement).
 
 # Finding and using apps
 
