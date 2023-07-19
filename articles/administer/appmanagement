@@ -22,21 +22,23 @@ Applications are categorized as:
 
 Apps that have been installed by administrators will appear in the "installed" tab in the [App Browser](articles/use/appbrowser).
 
-# Finding and using apps
+## Finding apps
 
 ![Screenshot of App Management](articles/administer/media/appmanagement.png) 
 
-You can access the App Browser by clicking on the "Apps" icon in the left menu. 
+You can access the App Management area by clicking "Admin Settings" in the left menu. This will open an additional menu, which contains a link for "App management".
 
-On top of the App Browser page are two tabs: "Installed", and "All". "Installed" is the default view, and contains all the apps that have been installed for you by your administrator. The "all" tab has all the available apps for MSCC. If you see an app that you're interested in but has not been installed for you yet, contact your administrator.
+The app management screen is split into two sections: "Modules" and "Providers and connectors", same as in the App Browser. You can filter each section to find what you need. Modules can be filtered by publisher or domain. Providers and connectors have more filters, such as which modules they connect to, or are already connected with, and status. There is alos a search box to search for an app by name.
 
-There are two sections: "Modules", and "Providers and connectors". On top of each section in the upper right is a filter control. Modules can be filtered by publisher or domain. Providers and connectors have more filters, such as which modules they connect to, or are already connected with, and status.
+In the lists themselves, each column can be sorted to help group the apps for easier discovery. By clicking on the name of any module, provider, or connector, the app information page will display. This will provide info like a description, screenshots or videos, licensing and support links, and more.
 
-Modules can be opened with the "open" button on the tile. Opened modules will appear in the left navigation as an "active" app. By right clicking the app in the left navigation, you can pin the app to the menu for quick access (or unpin if you no longer want the app there). 
+## Installing and managing apps
 
-You can see details of all apps by clicking on the "details" button. This will provide info like a description, screenshots or videos, licensing and support links, and more.
+For modules, on top of the app information page is a control to either "install" or "update settings". "Install" will display if the module has not been installed yet, and will lead you to a easy to use wizard to set up the module. For modules already installed, the "update settings" control will allow you to update settings for that module as needed. You will need administrator rights to install and manage modules.
 
-By clicking the "manage" button on any tile, you will be taken to the App Management area to manage that app. You will need administrator rights to manage apps.
+For providers and connectors, the control on top of the page will say "new instance". The first time you set up an instance for a provider or connector, that provider or connector will become active. After it has become active, you may add more instances of that provider or connector. Customers add new instances for a number of different purposes, such as for different geographies or teams.
+
+Each module may have slightly different installation steps. Some apps may require you to install a package from [AppSource](https://appsource.microsoft.com/en-us/home) to your environment first before adding it to MSCC. Other apps 
 
 Some apps cannot be used unless a dependent app is enabled. For example, Fedex "connects with" IOM. Thus, FedEx cannot be activated until the IOM module is activated.
 
