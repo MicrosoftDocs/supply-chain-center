@@ -32,10 +32,6 @@
     items:
     - name: Architecture
       href: overview/architecture.md
-    - name: App management
-      href: administer/appmanagement.md
-    - name: Bring your own Power Apps
-      href: administer/bringyourown.md
     - name: Data schema
       items: 
       - name: Overview
@@ -278,6 +274,10 @@
     href: administer/add-users.md
   - name: Admin settings
     href: administer/admin-settings.md
+  - name: App management
+    href: administer/appmanagement.md
+  - name: Bring your own Power Apps
+    href: administer/bringyourown.md    
   - name: Personal settings
     href: administer/personal-settings.md
   - name: Environment picker
