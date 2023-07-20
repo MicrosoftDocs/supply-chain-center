@@ -32,6 +32,10 @@
     items:
     - name: Architecture
       href: overview/architecture.md
+    - name: App management
+      href: administer/appmanagement.md
+    - name: Bring your own Power Apps
+      href: administer/bringyourown.md
     - name: Data schema
       items: 
       - name: Overview
@@ -236,8 +240,8 @@
     href: overview/compliance-privacy-security.md
 - name: Use
   items: 
-  - name: Module library
-    href: use/module-library.md
+  - name: App browser
+    href: use/appbrowser.md
   - name: ISV modules
     items: 
     - name: ISV modules
