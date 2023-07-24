@@ -25,20 +25,20 @@ To define a new schema, follow these steps.
    > [!NOTE]
    > Even if the entities are not for any specific scenario, choose one of the scenarios.
 
-   ![A screenshot of the App management > SQL Server database connector with Supply and demand insights and Supply Coverage selected.](media/schema-scenario-select.png)
+   :::image type="content" source="media/schema-scenario-select.png" alt-text="A screenshot of the App management > SQL Server database connector with Supply and demand insights and Supply Coverage selected.":::
 
 1. Select **Next**.
 1. Select **Import custom data table**. Depending on the connector, the next page varies. In this example, because the connector is a SQL Server Database, the connector expects connection and authentication related information to connect to source. 
 
-   ![A screenshot of the Connect to data source page.](media/schema-connector.png)
+   :::image type="content" source="media/schema-connector.png" alt-text="A screenshot of the Connect to data source page.":::
 
 1. Select the entities that need to be created in Supply Chain Center. You can choose one or more of the entities, and you can use the power of Power Query to define an entity that is combination of all the entities.
 
-   ![A screenshot of the Choose data page.](media/schema-table-choose.png)
+   :::image type="content" source="media/schema-table-choose.png" alt-text="A screenshot of the Choose data page.":::
 
 1. Select **Next**. You can change the title of the column name by double clicking on the title of the column. You can also change the data type by selecting the left corner of each column header to change the data type of the column if necessary. By default, Power query determines the data type based on the source.
 1. Select **Next**, and define the name of the entity, primary keys of the entity and define length of the field.
 
-   ![A screenshot of the New custom data table page with the Name, Max length and Primary key highlighted.](media/schema-define-table.png)
+   :::image type="content" source="media/schema-define-table.png" alt-text="A screenshot of the New custom data table page with the Name, Max length and Primary key highlighted.":::
 
 1. Select **Create** to create the new custom entity.
