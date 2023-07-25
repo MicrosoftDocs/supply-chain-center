@@ -1,5 +1,5 @@
 ---
-title: App management
+title: App management overview
 description: This article provides information about Microsoft Supply Chain Center's App management.
 author: derekkwan
 ms.author: derekkwan
@@ -10,7 +10,7 @@ ms.date: 07/18/2023
 ms.custom: bap-template
 ---
 
-# App management
+# App management overview
 
 Companies can customize Supply Chain Center to meet their unique business requirements and goals by connecting various first and third party supply chain applications. Supply Chain Center provides administrators an easy-to-use App management experience to search through a comprehensive list of applications and install and configure those apps for their organizations. 
 
@@ -22,9 +22,9 @@ Applications are categorized as:
 
 Apps that are installed by your administrators appear in the **Installed** tab in the [App Browser](../use/appbrowser.md).
 
-## Finding apps
-
-![Screenshot of the App management page](media/appmanagement.png) 
+## Find apps
+ 
+:::image type="content" source="media/appmanagement.png" alt-text="A screenshot of the App management page"::: 
 
 To access App management, in Supply Chain Center, select select **Admin Settings** in the left menu, then select **App management**.
 
@@ -34,7 +34,7 @@ Each column can be sorted to help group the apps for easier discovery. Select na
 
 The **Providers and connectors** list on the **App management** page has columns for **Connected with** and **Connects to**. The **Connected with** column shows which apps a current app is already connected with. For example, FedEx connected with IIntelligent Order Management. The **Connects to** column lets you know which apps a given app connects to. For example, UPS connects to only Intelligent Order Management, and not any other apps, while SQL Server DB connects to both Supply and Demand Insights and Smart News.   
 
-## Installing and managing apps
+## Install and manage apps
 
 The **Modules** list appears at the top of the **App management** page. For each module, the **Status** column lets you install or update settings. **Install** displays if the module hasn't been installed, and leads you to an easy-to-use wizard to set up the module. For modules that are already installed, **Update settings** lets you update your settings for that module. You need administrator rights to install and manage modules.
 
