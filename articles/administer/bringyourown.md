@@ -27,7 +27,7 @@ Supply Chain Center may not currently have all the modules that you need. Theref
 
 In the module section of the **App management** page, select **Link Power App** to bring your own Power Apps to Supply Chain Center. 
 
-![Screenshot of BYOPA](media/byopa.png)
+:::image type="content" source="media/byopa.png" alt-text="A screenshot of the Link Power App pane withing the App Management pane.":::
 
 The side panel provides a list of current Power Apps in your Power App environment. The search bar on top of the list to also help you locate any specific Power Apps by name. Once you find the Power App you want to bring over, you can select it from the list, and then select **Next** on the bottom of the panel. 
 
@@ -38,6 +38,6 @@ The App management shows the app you just brought over in the list. If you set t
 > [!NOTE]
 > If you can't find one of the Power Apps in your environment in the list, it may be in a different environment. To switch environments, close the side panel by clicking the "x" on top of the panel, and you will see the environment switcher on top of the Supply Chain Center page. Clicking in the environment switcher will slide out a side panel where you can switch your environments. 
 
-![Screenshot of Env Switcher](media/envswitcher.png)
+:::image type="content" source="media/envswitcher.png" alt-text="A screenshot of Select environment.":::
 
 If Supply Chain Center or your environment doesn't have the app you need, you can build your own. In the **Link Power App** side panel, select **Create Power App** to open the [Power App Maker portal](/power-apps/maker/model-driven-apps/build-app-three-steps) where you can create your own. Many customers partner with ISVs who have some expertise in Power Apps to assist them with creating new apps.
