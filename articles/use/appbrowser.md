@@ -22,7 +22,7 @@ Applications are categorized as:
 
 Your administrator approves and installs applications before they're made accessible to your organization. Administrators can install and manage apps from the [App Management page](../administer/appmanagement.md).
 
-## Finding and using apps
+## Find and use apps
 
 :::image type="content" source="media/app_browser.png" alt-text="Screenshot of the App Browser":::
 
