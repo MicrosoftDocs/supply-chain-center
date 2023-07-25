@@ -5,8 +5,8 @@ author: derekkwan
 ms.author: derekkwan
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
-ms.topic: use
-ms.date: 07/18/23
+ms.topic: overview
+ms.date: 07/18/2023
 ms.custom: bap-template
 ---
 
@@ -20,7 +20,7 @@ Applications are categorized as:
  **Providers**: Providers are applications that transform data from another source to be used by Supply Chain Center or first party modules on Supply Chain Center. For example, FedEx, SAP, and Big Commerce.
 - **Connectors**: Connectors are applications that provide a connection to another source. For examples, Snowflake, SQL, Azure Blob, and SAP Hana database.
 
-Apps that have been installed by your administrators appear in the **Iinstalled** tab in the [App Browser](articles/use/appbrowser.md).
+Apps that are installed by your administrators appear in the **Iinstalled** tab in the [App Browser](../use/appbrowser.md).
 
 ## Finding apps
 
