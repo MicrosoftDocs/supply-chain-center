@@ -1,6 +1,6 @@
 ---
-title: Build your own Power Apps
-description: This article describes the process to Build your own Power Apps in Microsoft Supply Chain Center.
+title: Build your own apps by using Power Apps
+description: This article provides information about how to use Microsoft Power Apps to build your own apps in Supply Chain Center.
 author: mkannapiran
 ms.author: mkannapiran
 ms.reviewer: johnmichalak
@@ -10,45 +10,44 @@ ms.date: 7/11/2023
 ms.custom: bap-template
 ---
 
-# **Build your own Power Apps**
+# Build your own apps by using Power Apps
 
-Microsoft Supply Chain Center supports the ability for users to build their own Power Apps. Power Apps is a suite of apps, services, and connectors, and a data platform that provides a rapid development environment to build custom apps for your business needs. Using Power Apps, you can quickly build custom business apps that connect to your data stored either in the underlying data platform (Microsoft Dataverse) or in various online and on-premises data sources (such as SharePoint, Microsoft 365, Dynamics 365, SQL Server, and so on). 
+Microsoft Supply Chain Center supports the ability of users to build their own apps by using Power Apps. Power Apps is a suite of apps, services, and connectors, and a data platform that provides a rapid development environment where you can build custom apps that meet your business needs. By using Power Apps, you can quickly build custom business apps that connect to data that's stored in either the underlying data platform (Dataverse) or various online and on-premises data sources (such as SharePoint, Microsoft 365, Dynamics 365, or SQL Server).
 
-Apps built using Power Apps provide rich business logic and workflow capabilities to transform your manual business operations into digital, automated processes. Apps built using Power Apps have a responsive design and can run seamlessly in browser and on mobile devices (phone or tablet). Power Apps simplifies the business-app-building experience by enabling users to create feature-rich, custom business apps without writing code.
+Power Apps simplifies the experience of building business apps by enabling users to create feature-rich, custom business apps without writing code. Apps that you build by using Power Apps provide rich business logic and workflow capabilities to transform your manual business operations into digital, automated processes. They have a responsive design and can run seamlessly in a browser and on mobile devices (phone or tablet).
 
 Power Apps also provides an extensible platform that lets pro developers programmatically interact with data and metadata, apply business logic, create custom connectors, and integrate with external data.
 
-For more information on how to build Power Apps, see [Overview of creating apps in Power Apps](/power-apps/maker/). 
+For more information about how to build apps by using Power Apps, see [Overview of creating apps in Power Apps](/power-apps/maker/).
 
-## **How to build Power Apps in Supply Chain Center**
+## Build apps in Supply Chain Center
 
-Supply Chain Center's underlying data platform is Microsoft Dataverse. Data ingested in Supply Chain Center for analytical purposes lands in Managed Data Lake (MDL). To build Power Apps, the data has to be available in Dataverse to build Power Apps. To make the data available, the data has to be hydrated from MDL to Dataverse. 
+Supply Chain Center's underlying data platform is Dataverse. Data that's ingested in Supply Chain Center for analytical purposes lands in a managed data lake (MDL). To build apps by using Power Apps, you must make the data available in Dataverse by hydrating it from the MDL to Dataverse.
 
-To build Power Apps visit [https://make.powerapps.com/](https://make.powerapps.com/).
+To build apps, open the [Power Apps maker portal](https://make.powerapps.com/).
 
-The following entities are currently available from MDL to Dataverse.
+The following entities are currently available from the MDL to Dataverse.
 
-| **Entity Name**                          | **Alias or Display Name**          |
-|------------------------------------------|------------------------------------|
-| msdyn_accountproductleadtime             | AccountProductLeadTime             |
-| msdyn_accountproductprice                | AccountProductPrice                |
-| msdyn_accountproductstatus               | AccountProductStatus               |
-| msdyn_materialresourceplanningschedule   | ProductResourcePlanningSchedule    |
-| msdyn_productaccountdemandforecast       | ProductAccountDemandForecast       |
-| msdyn_productaccountsupplyplan           | ProductAccountSupplyPlan           |
-| msdyn_productinventory                   | WarehouseProductAvailableStock     |
-| msdyn_purchaseorder                      | PurchaseOrder                      |
-| msdyn_purchaseorderproduct               | PurchaseOrderLine                  |
-| msdyn_shipment                           | Shipment                           |
-| msdyn_shipmentproduct                    | ShipmentProduct                    |
-| msdyn_shipmentrouteleg                   | ShipmentRouteLeg                   |
-| msdyn_shippingcarrier                    | Carrier                            |
-| msdyn_shippingcarrierroute               | CarrierRoute                       |
-| msdyn_warehouse                          | Warehouse                          |
-| msdyn_carrierroutecustomertariffschedule | CarrierRouteCustomerTariffSchedule |
-| product                                  | Product                            |
-| salesorder                               | SalesOrder                         |
-| salesorderdetail                         | SalesOrderDetail                   |
+| Entity name                               | Alias or display name              |
+|-------------------------------------------|------------------------------------|
+| msdyn\_accountproductleadtime             | AccountProductLeadTime             |
+| msdyn\_accountproductprice                | AccountProductPrice                |
+| msdyn\_accountproductstatus               | AccountProductStatus               |
+| msdyn\_materialresourceplanningschedule   | ProductResourcePlanningSchedule    |
+| msdyn\_productaccountdemandforecast       | ProductAccountDemandForecast       |
+| msdyn\_productaccountsupplyplan           | ProductAccountSupplyPlan           |
+| msdyn\_productinventory                   | WarehouseProductAvailableStock     |
+| msdyn\_purchaseorder                      | PurchaseOrder                      |
+| msdyn\_purchaseorderproduct               | PurchaseOrderLine                  |
+| msdyn\_shipment                           | Shipment                           |
+| msdyn\_shipmentproduct                    | ShipmentProduct                    |
+| msdyn\_shipmentrouteleg                   | ShipmentRouteLeg                   |
+| msdyn\_shippingcarrier                    | Carrier                            |
+| msdyn\_shippingcarrierroute               | CarrierRoute                       |
+| msdyn\_warehouse                          | Warehouse                          |
+| msdyn\_carrierroutecustomertariffschedule | CarrierRouteCustomerTariffSchedule |
+| product                                   | Product                            |
+| salesorder                                | SalesOrder                         |
+| salesorderdetail                          | SalesOrderDetail                   |
 
-
-If any of the entities needed to build Power Apps aren't listed, reach out to the [Supply Chain Center communities forum](https://community.dynamics.com/forums/thread/?partialUrl=microsoft-supply-chain-center) or write an email to mscc_support@microsoft.com.
+If any of the entities that you need to build apps aren't listed, reach out to the [Supply Chain Center communities forum](https://community.dynamics.com/forums/thread/?partialUrl=microsoft-supply-chain-center), or send an email to <mscc_support@microsoft.com>.
