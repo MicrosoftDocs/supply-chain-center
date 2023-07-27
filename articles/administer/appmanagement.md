@@ -12,44 +12,49 @@ ms.custom: bap-template
 
 # App management overview
 
-Companies can customize Supply Chain Center to meet their unique business requirements and goals by connecting various first and third party supply chain applications. Supply Chain Center provides administrators an easy-to-use App management experience to search through a comprehensive list of applications and install and configure those apps for their organizations. 
+By connecting different first-party and third-party supply chain applications, companies can customize Microsoft Supply Chain Center to meet their unique business requirements and goals. Supply Chain Center provides an easy-to-use App management experience that lets administrators search through a comprehensive list of apps, and install and configure them for their organization.
 
-Applications are categorized as:
+Apps are categorized in the following ways:
 
-- **Modules**: Modules are feature rich applications that provide an interface to perform tasks and view information. For example, Intelligent Order Management, Smart News, Overhaul, and CH Robinson.
- **Providers**: Providers are applications that transform data from another source to be used by Supply Chain Center or first party modules on Supply Chain Center. For example, FedEx, SAP, and Big Commerce.
-- **Connectors**: Connectors are applications that provide a connection to another source. For examples, Snowflake, SQL, Azure Blob, and SAP Hana database.
+- **Modules** – Feature-rich apps that provide an interface for performing tasks and viewing information. Examples of modules include Intelligent Order Management, Smart News, Overhaul, and CH Robinson.
+- **Providers** – Apps that transform data from another source so that it can be used by Supply Chain Center or first-party modules in Supply Chain Center. Examples of providers include FedEx, SAP, and Big Commerce.
+- **Connectors** – Apps that provide a connection to another source. Examples of connectors include Snowflake, SQL, Azure Blob, and SAP Hana database.
 
-Apps that are installed by your administrators appear in the **Installed** tab in the [App Browser](../use/appbrowser.md).
+Apps that your administrators install appear on the **Installed** tab of the [App Browser](../use/appbrowser.md).
 
 ## Find apps
- 
-:::image type="content" source="media/appmanagement.png" alt-text="A screenshot of the App management page"::: 
 
-To access App management, in Supply Chain Center, select **Admin Settings** in the left menu, then select **App management**.
+To access App management, in Supply Chain Center, select **Admin Settings** on the left menu, then select **App management**.
 
-The App management page is split into two sections: **Modules** and **Providers and connectors**. You can filter each section to find what you need. You can filter modules by publisher or domain. Providers and connectors have more filters, such as which modules they connect to, or are already connected with, and status. You can use the search box to search for an app by name.
+:::image type="content" source="media/appmanagement.png" alt-text="Screenshot of the App management page.":::
 
-Each column can be sorted to help group the apps for easier discovery. Select name of any module, provider, or connector and the **App information** page appears. The **App information** page provides a description, screenshots or videos, licensing and support links, and more.
+The **App management** page is split into two sections: **Modules** in the upper part and **Providers and connectors** in the lower part. You can filter the grid each section to find what you need. You can filter modules by publisher or domain. Providers and connectors have more filters, such as modules that they connect to, modules that they're already connected with, and status.
 
-The **Providers and connectors** list on the **App management** page has columns for **Connected with** and **Connects to**. The **Connected with** column shows which apps a current app is already connected with. For example, FedEx connected with Intelligent Order Management. The **Connects to** column lets you know which apps a given app connects to. For example, UPS connects to only Intelligent Order Management, and not any other apps, while SQL Server DB connects to both Supply and Demand Insights and Smart News.   
+Both sections include a search field that you can use to search for an app by name. You can also sort each column to group the apps and make discovery easier.
+
+The grid in the **Providers and connectors** section includes **Connected with** and **Connects to** columns. The **Connected with** column shows which apps an app is already connected with. For example, FedEx is connected with Intelligent Order Management. The **Connects to** column shows which apps an app connects to. For example, UPS connects only to Intelligent Order Management, whereas SQL Server DB connects to both Supply and demand insights and Smart News.
+
+Select the name of any module, provider, or connector on the **App management** page to open the **App information** page. This page provides a description, screenshots or videos, licensing and support links, and more.
 
 ## Install and manage apps
 
-The **Modules** list appears at the top of the **App management** page. For each module, the **Status** column lets you install or update settings. **Install** displays if the module hasn't been installed, and leads you to an easy-to-use wizard to set up the module. For modules that are already installed, **Update settings** lets you update your settings for that module. You need administrator rights to install and manage modules.
+In the **Modules** section of the **App management** page, the **Status** column lets you install or update settings for each module in the grid. 
 
-Each module may have slightly different installation steps. Some modules may require you to install a package from [AppSource](https://appsource.microsoft.com/home) to your environment before adding it to Supply Chain Center. Other modules, like first party modules, can be set up directly in Supply Chain Center without installing a package. Some modules, such as Intelligent Order Management, need data mappings to complete set up. Each step of the wizard provides context and instructions on what needs to be done. 
-When you select **Update settings**, that specific module's settings page appears so you can manage its settings. For example, Inetllegien Order Management's settings lets you configure data mappings, orchestrations, orders, and more.
+- If the module hasn't been installed, **Install** is shown. Select it to open an easy-to-use wizard where you can set up the module.
 
-The **Availability** column has a toggle to enabled or disabled the module. Apps can remain disabled even after they're installed. Disabled prevents your organization from using it. Leaving a module in the disabled state prevents it from appearing in the **Installed** tab in the **App browser**. After installing a module, you're prompted to either enable or disable the module. You can also change the availability directly in the list with the toggle.
+    Each module can have slightly different installation steps. Some modules might require that you install a package from [AppSource](https://appsource.microsoft.com/home) in your environment before you add it to Supply Chain Center. You can set up other modules, such as first-party modules, directly in Supply Chain Center without having to install a package. For other modules, such as Intelligent Order Management, data mappings are required to complete the setup. Each step of the wizard provides context and instructions for what has to be done.
 
-In the **Providers and connectors** section, the control on top of the page is **New instance**. The first time you set up an instance for a provider or connector, that provider or connector becomes active. After it's active, you may add more instances of that provider or connector. You can add new instances for different purposes. For example, you can use new instances for different geographies or teams. Here are examples of setting up [Big Commerce](/dynamics365/intelligent-order-management/set-up-bigcommerce-provider) and the [FedEx](/dynamics365/intelligent-order-management/set-up-fedex-provider) for Intelligent Order Management.
+- If the module is already installed, **Update settings** is shown. Select it to open the module's settings page appears, so that you can manage its settings. For example, for Intelligent Order Management, you can configure data mappings, orchestrations, orders, and more. You must have administrator rights to install and manage modules.
 
-If you don't see a provider you're looking for, you can create your own provider by selecting **Custom provider** at the top of the **Provider and connectors** list. 
+The **Availability** column includes an option that lets you enable or disable each module. Apps can remain disabled even after they're installed. By disabling an app, you prevent your organization from using it. Modules that are in a **Disabled** state don't appear on the **Installed** tab of the App Browser. When you install a module, you're prompted to either enable or disable it. Afterward, you can change the availability directly in the grid by using the option in the **Availability** column.
+
+In the **Providers and connectors** section of the page, the control at the top of the page is named **New instance**. The first time that you set up an instance for a provider or connector, that provider or connector becomes active. After the provider or connector is active, you can add new instances of it for different purposes. For example, you can use new instances for different geographies or teams. The documentation includes examples that show how to set up the [Big Commerce](/dynamics365/intelligent-order-management/set-up-bigcommerce-provider) and [FedEx](/dynamics365/intelligent-order-management/set-up-fedex-provider) providers for Intelligent Order Management.
+
+If you don't see the provider that you're looking for, you can create your own by selecting **Custom provider** at the top of the **Provider and connectors** section.
 
 > [!NOTE]
-> Currently, you can only create custom providers for Intelligent Order Management. For more information, see [Create a new provider](/dynamics365/intelligent-order-management/create-new-provider). 
+> Currently, you can create custom providers only for Intelligent Order Management. For more information, see [Create a new provider](/dynamics365/intelligent-order-management/create-new-provider).
 
 Some apps can't be used unless a dependent app is enabled. For example, FedEx connects with Intelligent Order Management and can't be activated until the Intelligent Order Management module is activated.
 
-To use any third party apps on Supply Chain Center, you need a license and credentials with that third party. Contact the third party company directly to get an account.
+To use any third-party apps in Supply Chain Center, you must have a license and credentials with that third party. Contact the third-party company directly to get an account.
