@@ -30,9 +30,9 @@ To access the App Browser, select **Apps** on the left menu.
 
 The App Browser page has two tabs: **Installed** and **All**. By default, the **Installed** tab is selected. It shows all the apps that your administrator has installed for you. The **All** tab shows all the apps that are available for Supply Chain Center. If you see an app that you're interested in, but it hasn't yet been installed for you, contact your administrator.
 
-Both tabs of the App Browser have two sections: **Modules** and **Providers and connectors**. Each section has a filter control. Modules can be filtered by publisher or domain. Providers and connectors have more filters, such as modules that they connect to, modules that they're already connected with, and status.
+Both tabs of the App Browser have two sections: **Modules** and **Providers and connectors**. Each section has a filter control. You can filter modules by publisher or domain. Providers and connectors have more filters, such as modules that they connect to, modules that they're already connected with, and status.
 
-To open a module, select the **Open** button on the tile. Opened modules appear in the left navigation as **Active** apps. Tap and hold (or right-click) an app in the left navigation to pin the app to the menu for quick access (or to unpin if you no longer want it to appear there).
+To open a module, select the **Open** button on the tile. Opened modules appear in the left navigation as **Active** apps. Tap and hold (or right-click) an app in the left navigation to pin the app to the menu for quick access. (If you no longer want a pinned app to appear on the menu, repeat this step to unpin it.)
 
 To view the details of an app, select the **Details** button on the tile. Details include the description, screenshots or videos, and licensing and support links.
 
