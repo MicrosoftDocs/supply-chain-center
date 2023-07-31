@@ -254,6 +254,8 @@
         href: use/calculations.md
       - name: KPIs
         href: use/kpis.md
+  - name: Build your own apps by using Power Apps
+    href: use/build-power-apps.md
   - name: Supply and demand analytics
     href: use/supply-and-demand.md
   - name: Configure and review restock recommendations
@@ -278,3 +280,7 @@
     href: administer/personal-settings.md
   - name: Environment picker
     href: administer/environment-picker.md
+  - name: Extend the data schema
+    href: administer/data-schema-extensibility.md
+  - name: Use App management to ingest data
+    href: administer/app-management.md
