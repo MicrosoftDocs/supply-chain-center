@@ -1,11 +1,11 @@
 ### YamlMime:Hub
 
-title: Microsoft Supply Chain Center documentation
-summary: Discover how to make the most of Microsoft Supply Chain Center with training courses, docs, and videos covering product capabilities and how-to articles. Learn how Supply Chain Center seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it's transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions.
+title: Supply Chain Center documentation
+summary: Discover how to make the most of Supply Chain Center with training, docs, and videos covering product capabilities and how-to articles. Learn how Supply Chain Center seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it's transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions.
 
 metadata:
-  title: Microsoft Supply Chain Center documentation
-  description: Discover how to make the most of Microsoft Supply Chain Center with training courses, docs, and videos covering product capabilities and how-to articles. Learn how Supply Chain Center seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it's transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions. 
+  title: Supply Chain Center documentation
+  description: Discover how to make the most of Supply Chain Center with training, docs, and videos covering product capabilities and how-to articles. Learn how Supply Chain Center seamlessly unifies data from existing supply chain systems and ERPs into Microsoft Dataverse, where it's transformed to provide end to end visibility of the supply chain, generate actionable insights, and predict and mitigate potential disruptions. 
   ms.service: supply-chain-center
   ms.topic: hub-page
   author: johnmichalak
@@ -23,7 +23,7 @@ highlightedContent:
 
   items:
     # Card
-    - title: Welcome to Microsoft Supply Chain Center
+    - title: Welcome to Supply Chain Center
       itemType: get-started
       url: welcome.md
     # Card
@@ -128,9 +128,9 @@ additionalContent:
     items:
         # Card
         
-        - title: Microsoft Dynamics 365 Supply Chain Management
+        - title: Dynamics 365 Supply Chain Management
           summary: Build an adaptable, resilient supply chain that automatically reacts to challenges using real-time visibility, agile planning, and advanced insights.
           url: https://learn.microsoft.com/dynamics365/supply-chain/
-        - title: Microsoft Dynamics 365 Intelligent Order Management
+        - title: Dynamics 365 Intelligent Order Management
           summary: Intelligent Order Management is a suite of capabilities to help your organization coordinate, standardize, and optimize orders captured in a mix of channels and systems through a single point of order orchestration.
           url: https://learn.microsoft.com/dynamics365/intelligent-order-management/
