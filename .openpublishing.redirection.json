@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "articles/use/module-library.md",
+      "redirect_url": "articles/use/appbrowser.md",
+      "redirect_document_id": "false"
+    },   
+    {
       "source_path": "articles/administer/schema/carrierlocation.md",
       "redirect_url": "articles/administer/schema/data-schema.md",
       "redirect_document_id": "false"
