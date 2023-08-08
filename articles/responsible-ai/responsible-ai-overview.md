@@ -17,5 +17,5 @@ ms.reviewer: johnmichalak
 [!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
 
 
-- [[Supplier news communication]]([faq-for-supplier-news-communication.md])
+- [[Supplier news communication]](faq-for-supplier-news-communication.md)
 
