@@ -40,6 +40,6 @@ These frequently asked questions (FAQ) describe the AI impact of [Feature] featu
 
 ## See also
 
-- [Supplier news communication]([use/supplier-news-communication.md])
+- [Supplier news communication]([../../use/supplier-news-communication.md])
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
