@@ -14,7 +14,7 @@ ms.reviewer: johnmichalak
 
 These frequently asked questions (FAQ) describe the AI impact of [Feature] feature in [Product].
 
-[!INCLUDE[supplier-news-ai-faq](../responsible-ai/supplier-news-ai-faq.md)]
+[!INCLUDE[supplier-news-ai-faq](../includes/supplier-news-ai-faq.md)]
 
 ## See also
 
