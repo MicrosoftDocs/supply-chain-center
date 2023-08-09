@@ -1,3 +1,11 @@
+---
+author: johnmichalak
+
+ms.topic: include
+ms.date: 08/15/2023
+ms.author: johnmichalak
+---
+
 ## What are Supplier news communication's capabilities?
 
 Supplier news communication uses a text-davinci-003 generative AI model to draft the e-mail. It uses Azure Open AI's Content Moderator to help validate the response, and an NGram-based relevance filter to ensure that the response is on topic. It takes as input the title and snippet from the news article, the user-selected topic, and up to five upcoming open purchase orders to make sure the generated e-mail includes the relevant business context.
