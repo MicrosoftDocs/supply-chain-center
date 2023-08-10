@@ -34,7 +34,7 @@ All roles that need higher visibility into their supply chain and/or that must b
 
 ### Do you have any resources for learning how to use Supply Chain Center and getting help?
 
-We have extensive documentation, and videos are available in Supply Chain Center's user interface. For more information, see **What is Supply Chain Center?** Our [community portal](https://community.dynamics.com/365/microsoft-supply-chain-center) is the way to get support and connect with other Supply Chain Center users.
+We have extensive documentation, and videos are available in Supply Chain Center's user interface. For more information, see **What is Supply Chain Center?** Our [community portal](https://community.dynamics.com/forums/thread/?partialUrl=microsoft-supply-chain-center) is the way to get support and connect with other Supply Chain Center users.
 
 ### What is the cost model for Supply Chain Center?
 
