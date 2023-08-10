@@ -2,7 +2,7 @@
 title: Extend the data schema in Supply Chain Center
 description: This article provides information about how to extend or modify the structure of a schema in a database or data model.
 author: mkannapiran
-ms.author: mkannapiran
+ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
