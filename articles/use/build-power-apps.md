@@ -2,7 +2,7 @@
 title: Build your own apps by using Power Apps
 description: This article provides information about how to use Microsoft Power Apps to build your own apps in Supply Chain Center.
 author: mkannapiran
-ms.author: mkannapiran
+ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: overview
