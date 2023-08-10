@@ -2,7 +2,7 @@
 title: Use App management to ingest data
 description: This article provides information about how to use App management to ingest data through providers and connectors.
 author: mkannapiran
-ms.author: Kannapiran.Manickavasagam
+ms.author: kamanick
 ms.reviewer: johnmichalak
 ms.service: supply-chain-center
 ms.topic: how-to
