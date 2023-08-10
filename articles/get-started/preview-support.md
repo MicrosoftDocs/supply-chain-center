@@ -22,4 +22,4 @@ To contact Microsoft Support, follow these steps.
 1. From the **Help + support** page in the Power Platform admin center, select **New support request**.
 1. From the list of products, select **Microsoft Supply Chain Center**, complete, and then submit the support request.
 
-If you have a suggestion, or you have a question, select Provide feedback from the Title pane, or visit our [community page](https://community.dynamics.com/365/microsoft-supply-chain-center).
+If you have a suggestion, or you have a question, select Provide feedback from the Title pane, or visit our [community page]([https://community.dynamics.com/365/microsoft-supply-chain-center](https://community.dynamics.com/forums/thread/?partialUrl=microsoft-supply-chain-center).
