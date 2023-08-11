@@ -288,3 +288,9 @@
     href: administer/data-schema-extensibility.md
   - name: Use App management to ingest data
     href: administer/app-management.md
+- name: Responsible AI FAQs
+  items:
+  - name: Responsible AI FAQs for Supply Chain Center
+    href: responsible-ai/responsible-ai-overview.md
+  - name: FAQ for Supplier news communication
+    href: responsible-ai/faq-for-supplier-news-communication.md
