@@ -1,5 +1,5 @@
 ---
-title: Create mitigation Cases
+title: Create mitigation cases
 description: This article describes the Cases module in Microsoft Supply Chain Center.
 author: carylhenry
 ms.author: carylhenry
@@ -12,27 +12,26 @@ ms.custom: bap-template
 
 # Create mitigation cases
 
-Use the Cases module in Microsoft Supply Chain Center to capture risks and document their mitigation for future use. While cases can be created from outside the Cases module, already created cases can be viewed and updated from within the module.
+Use the **Cases** module in Microsoft Supply Chain Center to capture risks and document their mitigation for future use. Although cases can be created outside the **Cases** module, previously created cases can be viewed and updated only inside the module.
 
 ## Create a case
 
-There are multiple entry points to create a case within Supply Chain Center. Regardless of entry point, a sidebar with a form appears. Use the form to describe the risk and select **Save** to create the case and close the sidebar.
+There are multiple entry points for creating a case in Supply Chain Center. Regardless of the entry point, a dialog box appears where you describe the risk. When you've finished, select **Save** to create the case and close the dialog box.
 
-:::image type="content" source="media/create-case.png" alt-text="Screenshot of a case being made from an Analytics report.":::
+:::image type="content" source="media/create-case.png" alt-text="Screenshot that shows a case being created from an Analytics report.":::
 
-### Analytics reports
+### Create a case from Analytics reports
 
-Cases can be created directly from custom reports in the Analytics section of Supply Chain Center. To create a case from a single chart, first select a data point on that chart then select **Create a case**. To create a case from the entire report, select **Create a case** without selecting a data point. Creating cases from Analytics reports links that case to the chart or report it was sourced from.
+You can create cases directly from custom reports in the **Analytics** section of Supply Chain Center. To create a case from a single chart, first select a data point on that chart. Then select **Create a case**. To create a case from the whole report, select **Create a case** without selecting a data point. Cases that you create from **Analytics** reports contain a link to the chart or report that they were sourced from.
 
-### From scratch
+### Create a case from scratch
 
-Creating a generic case from scratch can be done using the Cases module. After selecting the Cases module, select **New case**. Because these cases lack the context of a risk, they won't contain a link to the source they were created from.
+You can create a generic case from scratch by using the **Cases** module. After you select the **Cases** module, select **New case**. Because cases that you create in this way lack the context of a risk, they don't contain a link to the source that they were created from.
 
 ## View and update a case
 
-Any user can view and update a case. To do so, go to the Cases module to view the list of cases. Cases can be sorted using the column headers, and there is a search bar to search by a case's name. Select the **Own** tab to see cases that have been assigned to you.
+Any user can view and update a case. Go to the **Cases** module to view the list of cases. You can use the column headers to sort the list and the search bar to search by case name. Select the **Own** tab to view cases that have been assigned to you.
 
-After sorting and filtering cases, select the name of a case to view it. Notes to keep track of actions and their progress can be added directly in the Notes tile. To edit the case information, select **Edit**. The case sidebar appears again and the information in it can be updated.
+After you've finished sorting and filtering the cases, select the name of a case to view it. On the **Notes** tile, you can add notes to keep track of actions and their progress. To edit the case information, select **Edit**. The dialog box that you used to create the case appears, and you can edit the information in it.
 
-:::image type="content" source="media/case-details.png" alt-text="Screenshot of the details of a case made from an Analytics chart.":::
-
+:::image type="content" source="media/case-details.png" alt-text="Screenshot that shows the details of a case that was created from an Analytics chart.":::
