@@ -1,5 +1,5 @@
 ---
-title: Mitigation Cases
+title: Create mitigation Cases
 description: This article describes the Cases module in Microsoft Supply Chain Center.
 author: carylhenry
 ms.author: carylhenry
@@ -10,7 +10,7 @@ ms.date: 08/11/2023
 ms.custom: bap-template
 ---
 
-# Mitigation cases
+# Create mitigation cases
 
 Use the Cases module in Microsoft Supply Chain Center to capture risks and document their mitigation for future use. While cases can be created from outside the Cases module, already created cases can be viewed and updated from within the module.
 
@@ -18,7 +18,7 @@ Use the Cases module in Microsoft Supply Chain Center to capture risks and docum
 
 There are multiple entry points to create a case within Supply Chain Center. Regardless of entry point, a sidebar with a form appears. Use the form to describe the risk and select **Save** to create the case and close the sidebar.
 
-![Screenshot of a case being made from an Analytics report.](media/create-case.png)
+:::image type="content" source="media/create-case.png" alt-text="Screenshot of a case being made from an Analytics report.":::
 
 ### Analytics reports
 
@@ -34,4 +34,5 @@ Any user can view and update a case. To do so, go to the Cases module to view th
 
 After sorting and filtering cases, select the name of a case to view it. Notes to keep track of actions and their progress can be added directly in the Notes tile. To edit the case information, select **Edit**. The case sidebar appears again and the information in it can be updated.
 
-![Screenshot of the details of a case made from an Analytics chart.](media/case-details.png)
+:::image type="content" source="media/case-details.png" alt-text="Screenshot of the details of a case made from an Analytics chart.":::
+
