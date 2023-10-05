@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **Vendor**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 A supplier of products, goods or services.
 
 
