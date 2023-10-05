@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentEvent**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The shipment event entity refers to an event that is associated with a Shipment to track its progress or status as it is shipped, stored, in customs etc.
 
 
