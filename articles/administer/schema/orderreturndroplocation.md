@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **OrderReturnDropLocation**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The order return drop location entity refers to the warehouse or service center where the return orders are received from customers.
 
 
