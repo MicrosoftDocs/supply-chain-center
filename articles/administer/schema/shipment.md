@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **Shipment**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The shipment entity refers to a quantity of items, goods or bulk cargo that are shipped together. The shipment contains the origin and destination location details.
 
 
