@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **Warehouse**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 A warehouse entity refers to a physical location or facility where goods or products are stored before they are sold or distributed. Warehouses play a crucial role in the supply chain and logistics of businesses, serving as storage spaces for inventory.
 
 Warehouses are designed to accommodate large quantities of goods and are equipped with various features to facilitate efficient storage and retrieval of items. These features may include shelving systems, pallet racks, forklifts, conveyor belts, and inventory management systems.
