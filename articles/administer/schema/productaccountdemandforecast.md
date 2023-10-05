@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ProductAccountDemandForecast**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The product account demand forecast refers to forecast made for a specific time period for product estimated to be in demanded by an account.
 
 
