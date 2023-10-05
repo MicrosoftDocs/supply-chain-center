@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # DeliveryAttachment
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Delivery attachment refers to the shipping related documents attached to the delivery order and the associated shipping tracking number.
 
 
