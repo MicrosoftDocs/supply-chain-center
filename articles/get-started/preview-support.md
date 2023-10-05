@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Contact Support and Preview disclaimer 
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Preview features are features that aren't complete but are made available on a “preview” basis so customers can get early access and provide feedback. Preview features may have limited or restricted functionality, aren't meant for production use, and may be available only in selected geographic areas. For more information about Supply Chain Center and its preview features, see [What is Supply Chain Center](../troubleshoot-faqs/product-faqs.md).
 
 If something isn't working as expected, you can contact Microsoft Support.
