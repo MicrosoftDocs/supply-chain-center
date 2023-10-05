@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Transform and map the data according to your desired entity
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 The next step in the ingestion process is to transform and map your data. First, transform your data into the required [Supply Chain Center data schema](data-schema.md).
 
 You can use the Power Query editor to transform your data into a single query that has one table that contains all attributes of an entity. Transformation and mapping of your data have to be done only once for an entity, provided that you don't change the data sources.
