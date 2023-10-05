@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Supplier portal overview
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 The Supplier portal structures all supplier communication through a secure portal. Phone calls, faxes, and emails between you and your suppliers waste time, introduce errors, and create latency in the supply chain. By providing a powerful platform for online collaboration, the Supplier portal helps you and your suppliers to become more efficient. Suppliers access the latest information, including forecasts and purchase orders. The rich two-way collaboration lets suppliers submit change requests, ship notices, payments, and profile data. The Supplier portal helps reduce processing costs, provides relief from costly supplier inquiries, and enables a unified collaborative platform for self-service business transactions between you and your suppliers.
 
 We’ve chosen to focus on the following scenarios because they are key concerns across the industry and have emerged top pain points for our customers:
