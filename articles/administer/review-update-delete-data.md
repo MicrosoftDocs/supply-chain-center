@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Review, update, and delete your data
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 After your data is ingested into Microsoft Supply Chain Center, you can review its status, update any connection and configuration, or delete the data. You can determine that an entity has been ingested or is in the process of ingestion if its **Last Staged** or **Last Processed** status is something other than **Not imported** or **Not started**, as shown in the following illustration.
 
 ![A screenshot of the My data screen with entities that were not imported highlighted.](media/ingested-data-status.png)
