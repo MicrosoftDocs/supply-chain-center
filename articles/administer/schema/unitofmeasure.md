@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **UnitOfMeasure**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The unit of measure entity holds the various selling and buying unit of measure of the products. Example unit of measure include eaches, packs, kilograms, litre etc.
 
 
