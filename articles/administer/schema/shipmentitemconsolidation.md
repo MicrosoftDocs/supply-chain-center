@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentItemConsolidation**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The consolidation of shipment items for transfer. Shipments Items are not breakable (SHIPMENT CONSOLIDATION). Shipment Item Consolidation deals with Shipments that can be broken at the item level.
 
 
