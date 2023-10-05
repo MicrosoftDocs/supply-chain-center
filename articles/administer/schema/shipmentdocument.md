@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentDocument**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The shipment document entity refers to the document associated with that shipment. Typical shipment documents are bill of lading, provisional invoice, customs invoice etc.
 
 
