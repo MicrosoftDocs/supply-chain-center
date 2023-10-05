@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Select the refresh schedule and complete the setup process
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 To finalize the ingestion setup, the last step is to select the refresh schedule. A refresh schedule automatically updates the ingested data for a given entity, based on any changes that were made to that data in your cloud storage solution. Up-to-date data is critical for deriving recent and relevant insights.
 
 - To perform a one-time data ingestion, select **Refresh Manually**. The data connection won't be refreshed again until you choose to do so.
