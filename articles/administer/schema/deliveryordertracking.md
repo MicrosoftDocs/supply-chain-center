@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **DeliveryOrderTracking**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Delivery order tracking entity refers to the tracking number associated with the delivery order.
 
 
