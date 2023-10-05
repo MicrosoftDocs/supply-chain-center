@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ProductQualityCode**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The product quality code entity refers to the various code associated with quality management of the product. 
 
 
