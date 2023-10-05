@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **AccountGroup**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The account group entity defines the group or classification an account belongs to. The account group is a categorization or segmentation of accounts that is based on certain criteria or characteristics. Account groups are used to group accounts together. They are used for various purposes, business processes, and business relations. For example, sales and marketing activities, pricing and discount management, analytics, ad market segmentation.
 
 
