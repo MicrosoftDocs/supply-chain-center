@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **FreightTerms**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Freight terms entity refers to shipping terms or delivery terms. It refers to the conditions and responsibilities associated with the transportation of goods from one location to another. These terms define who is responsible for various aspects of the shipment, such as transportation costs, insurance, and risk of loss or damage.
 
 Some commonly used freight terms include:
