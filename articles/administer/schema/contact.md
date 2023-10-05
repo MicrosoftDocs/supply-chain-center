@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Contact
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The contact entity refers to an individual or organization associated with the account.
 The contact could be a primary contact person, a designated account manager, or any other relevant party representing the account.
 
