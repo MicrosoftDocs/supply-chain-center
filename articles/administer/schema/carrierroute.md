@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # CarrierRoute
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The carrier route is the duration it takes to ship products from origin to destination for the shipping service or shipment method offered by the carrier. The carrier route contains the transit time expressed in days and the distance between origin and destination expressed in miles.
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
