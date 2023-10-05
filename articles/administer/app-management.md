@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Use App management to ingest data
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 App management in Microsoft Supply Chain Center is the process of overseeing the lifecycle of data ingestion. It includes two main categories of data ingestion through the concepts of providers and connectors. Providers and connectors are the key functionalities that are composed in two main systems: Power Automate flows (transactional scenarios) and Microsoft Power Platform dataflows (analytical scenarios).
 
 Providers implement default data mapping and transformation functionalities that enable simple click features for data ingestion. You can accept the default mappings for the sake of convenience, or you can edit or modify them to suit your requirements.
