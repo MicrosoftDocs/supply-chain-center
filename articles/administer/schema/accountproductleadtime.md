@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **AccountProductLeadTime**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The account product lead time refers to the duration it takes for a specific product to be delivered from the seller to the buyer. It encompasses the entire process, starting from when the seller receives the order, to the time required for manufacturing, picking, packing, shipping, and ultimately delivering to its final destination. 
 
 > [!Note]
