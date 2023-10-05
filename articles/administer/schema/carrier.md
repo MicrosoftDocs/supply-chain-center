@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **Carrier**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 A company or corporation engaged in transporting passengers or goods (mail, freight, or cargo). Any entity who, in a contract of carriage, undertakes to perform or to procure the performance of carriage by rail, road, sea, air, inland waterway or by a combination of such modes.
 
 For example, United Airlines, Air Canada, Aer Lingus, UPS, Federal Express, US Postal Service, DHL, JB Hunt, Yellow Freight, American President Lines, and Maersk-Sealand.
