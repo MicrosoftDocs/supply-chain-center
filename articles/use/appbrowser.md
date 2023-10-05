@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # App Browser overview
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 By connecting different first-party and third-party supply chain applications, companies can customize Microsoft Supply Chain Center to meet their unique business requirements and goals. Supply Chain Center provides an easy-to-use App management experience that lets administrators search through a comprehensive list of apps and quickly get started with them.
 
 Apps are categorized in the following ways:
