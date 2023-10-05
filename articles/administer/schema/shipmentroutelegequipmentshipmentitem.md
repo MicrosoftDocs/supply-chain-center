@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentRouteLegEquipmentShipmentItem**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The shipment items that are being transported on the shipment route leg shipment mode.
 
 
