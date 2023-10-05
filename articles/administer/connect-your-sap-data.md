@@ -46,7 +46,7 @@ Some installers must exist on the desktop or virtual machine before you can use 
     - The SAP RFC Reader is an ADO.NET provider. The .NET Framework version 4.7.2 or later is required.
     - The SAP RFC Reader is supported by Windows 10, Windows 11, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019, and Windows Server 2022.
 
-1. Install the [Power Query On prem Data gateway](https://go.microsoft.com/fwlink/?LinkId=2116849&clcid=0x409). For more information about the gateway requirements, or for support, see [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install).
+1. Install the [Power Query On-premises Data gateway](https://go.microsoft.com/fwlink/?LinkId=2116849&clcid=0x409). For more information about the gateway requirements, or for support, see [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install).
 
 ## Connection settings for the SAP RFC connector
 
@@ -60,7 +60,7 @@ To instantiate your dataflow connection to the SAP ERP connector, you must creat
 | Message Server | MessageServerHost | Message Server | String | The host name of the SAP system's Message Server. | 
 | Message Server Service Name/Port | MessageServerService | Message Server | String | The service name or port number that the Message Server is listening under for load balancing requests. | 
 | System ID | SystemID | Message Server | String | The SAP system's three-letter system ID. |
-| Logon Group | LogonGroup | Message Server | String | The SAP system's logon group, which the Message Server and Application Server will select from. |
+| Logon Group | LogonGroup | Message Server | String | The SAP system's logon group, which the Message Server and Application Server selects from. |
 | Logon Type | LogonType | Application and Message Server | String | The type of logon to the SAP system: either Application Server logon (type A) or group logon (type B, also known as Message Server logon). The value can be **ApplicationServer** or **Group**. |
 
 ## Set up the SAP system connection string
@@ -90,7 +90,7 @@ The SAP ERP connector currently supports only SAP authentication. Construction o
 
 After connection, the RFC appears as a function that has the parameter metadata and an optional **Enable Function Parsing** option. Fill in the parameters, and then select **Invoke** to get the data. For information about the RFC parameters, see your SAP-produced documentation or your custom documentation.
 
-The function parsing mode for the connector can interpret contracts of two widely used RFCs: RFC\_READ\_TABLE and /SAPDS/RFC\_READ_TABLE2. Based on its interpretation, it will parse the output in an easy-to-read format. Therefore, the user doesn't have to perform this action in M script.
+The function parsing mode for the connector can interpret contracts of two widely used RFCs: RFC\_READ\_TABLE and /SAPDS/RFC\_READ_TABLE2. Based on its interpretation, it parses the output in an easy-to-read format. Therefore, the user doesn't have to perform this action in M script.
 
 Function parsing can be enabled not only for the previously mentioned RFCs but also for RFCs that use the same contract, such as BBP\_RFC\_READ\_TABLE or /BODS/RFC\_READ\_TABLE2. These RFC include custom RFCS that the customer deployed to the SAP system.
 
