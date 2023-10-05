@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Frequently asked questions
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 ### What is Microsoft Supply Chain Center?
 
 Microsoft Supply Chain Center is part of Microsoft's supply chain platform solution and is currently in public preview. Supply Chain Center is composed of Microsoft-built modules and independent software vendor (ISV)–built modules that address different needs from customers, depending on the supply chain challenges that they are seeking to solve. Because Supply Chain Center is built on [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro), it facilitates the integration of data that comes from different sources. That data is then used by Supply Chain Center's modules to provide better visibility into the health of the customer's supply chain. Learn more about the [architecture](../overview/architecture.md).
