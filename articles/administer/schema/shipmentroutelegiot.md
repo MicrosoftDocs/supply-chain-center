@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentRouteLegIOT**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The route leg that a shipment transits (already has transited) or is planned to transit and where an IOT device is associated with that route leg.
 
 
