@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **AccountProductStatus**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The account product status refers to the products current status. The status of the product could be active, end of life, preorder etc. The account product status entity also has cross references between seller's product and buyer's product. The product status has a validity period defined by period start date and period end date.
 
 
