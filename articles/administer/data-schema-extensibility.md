@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Extend the data schema in Supply Chain Center
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Microsoft Supply Chain Center lets users extend or modify the structure of a schema in a database or data model. Schema extensibility is useful in scenarios where the data requirements are subject to frequent changes, or where the system must accommodate user-defined scenarios or customizable data structures. Schema extensibility promotes flexibility, scalability, and adaptability in data models, and enables customization and personalization of data models. This level of customizability empowers you to adapt the data model to your unique business scenarios, workflows, and preferences. Extension of the schema can enhance data analysis capabilities, connect to external risk signals, and enable risk analysis, impact analysis, and mitigation capabilities in Supply Chain Center.
 
 ## Define a new schema
