@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ReturnReason**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The return reason entity refers to the return reason code for return, repair and exchange process. The return reason is typically documented at the time of creating the return order.
 
 
