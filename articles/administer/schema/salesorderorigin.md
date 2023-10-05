@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **SalesOrderOrigin**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The sales order origin entity refers to the origin of the sales order.
 
 
