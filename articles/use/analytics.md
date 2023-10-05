@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Analytics
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 The **Analytics** module in Microsoft Supply Chain Center empowers you to take advantage of your supply chain data through custom visualizations. By using the Dataverse-managed Power BI that comes with Supply Chain Center, or your own Power BI license, you can create dashboards to meet your supply chain needs.
 
 ## Adding reports
