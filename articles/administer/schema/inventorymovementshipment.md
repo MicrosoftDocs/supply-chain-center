@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **InventoryMovementShipment**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The inventory movement shipment entity refers to the shipments used to transport the items specified in the inventory transaction.
 
 
