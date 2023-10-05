@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentEventStatus**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The shipment event status entity refers to the status of the shipment.
 For example:
 
