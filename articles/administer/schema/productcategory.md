@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ProductCategory**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The product category entity refers to the classification or hierarchy of the product family.
 
 
