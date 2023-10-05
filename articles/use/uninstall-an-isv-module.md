@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Uninstall an ISV module
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 This article describes how to uninstall an independent software vendor (ISV) module from your Microsoft Supply Chain Center dashboard.
 
 > [!Note]

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **AccountShipmentMethod**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The account shipment method refers to the process or means by which products or goods are delivered to the account. There are various shipment methods available, and the choice of method often depends on factors such as the nature of the product, customer preferences, geographical location, and time constraints. This entity records an account's default preference related to shipping. The default preference can be overwritten at the time of placing the order. 
 
 

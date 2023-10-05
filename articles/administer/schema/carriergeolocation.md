@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **CarrierGeoLocation**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The carrier geo location refers to the various carrier geographic locations like corporate office, carrier freight consolidation hub, or freight transfer location. The carrier location contains an address ID. The actual address of this location is stored in the carrier geo location entity. The carrier geo location entity has a valid start date and end date that indicates the period for which the address is valid. If the address is a current address, then populate end date with December 31, 2100.
 
 

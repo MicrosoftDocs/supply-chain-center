@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 # Supplier news communication
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Supplier news communication generates draft emails to supply chain vendors, based on user-selected topics and news articles. For example, if the topic is follow-up about purchase orders, any open purchase order IDs for that vendor are included in the email. Supplier news communication uses generative AI to create the draft email and the subject line.
 
 ## Prerequisites

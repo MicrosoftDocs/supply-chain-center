@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Admin settings
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Admin settings are used to control important features, such as user management, data management, and enabled modules. To access the admin settings select **Admin settings** on the lefthand menu. In **Admin Settings**, there are three categories of settings: **General**, **Data management**, and **Supply & demand insights**.
 
 ## General

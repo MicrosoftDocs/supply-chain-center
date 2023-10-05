@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **WarehouseProductAvailableStock**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The warehouse product available stock entity refers to the available inventory on hand. The quantity is a snapshot of time. This entity can have both available to promise quantity and on hand available quantity.
 
 

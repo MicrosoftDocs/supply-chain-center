@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Add users
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 The process of adding users to Supply Chain Center consists of three steps. 
 
 1. Ensure that the user is added in Microsoft Azure Active Directory (Azure AD). 

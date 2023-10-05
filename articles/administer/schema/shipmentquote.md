@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentQuote**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The shipment quote entity refers to the freight quote by the shipping carrier.
 
 

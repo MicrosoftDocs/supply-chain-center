@@ -13,6 +13,8 @@ ms.custom: bap-template
 
 # Connect your data to Supply Chain Center
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 To connect your data sources to Supply Chain Center, follow these steps.
 
 1. Select the source where your data is stored, such as Azure SQL Database or Azure Data Lake Storage. If the data for a single entity is stored in two separate data sources, select one source to begin with. You can then add the second source later in the ingestion process.

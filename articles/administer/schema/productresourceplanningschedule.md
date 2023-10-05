@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ProductResourcePlanningSchedule**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The product resource planning schedule entity refers to Material Resource Planning (MRP) a method used by businesses to manage and plan their material resources effectively. The product resource planning schedule entity refers to a component within the product resource planning system that represents the schedule or timeline for when materials and resources are needed for production.
 The product resource planning schedule entity typically includes information such as the start and end dates for each production order or job, the quantity of materials required, and the resources (such as machinery, labor, or tools) needed to complete the job. It helps in coordinating the flow of materials and resources in a way that optimizes production efficiency and minimizes delays or shortages.
 

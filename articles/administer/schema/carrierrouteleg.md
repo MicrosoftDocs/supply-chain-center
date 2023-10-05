@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # CarrierRouteLeg
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The carrier route leg refers to the various legs within a carrier route. A route leg is represents a portion of the overall journey that a carrier takes from the origin to destination.A carrier route leg can have different modes of transportation. The shipment can start as truck shipment and end as rail shipment and each mode of shipment can be the carrier route leg. Each route leg has the duration or transit time expressed in days and distance expressed in miles.
 
 

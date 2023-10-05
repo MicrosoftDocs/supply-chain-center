@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Environment picker
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 The navigation bar in Microsoft Supply Chain Center shows the name of the environment that you're currently using. Some companies might use multiple environments in a tenant for Supply Chain Center. For more information, see [Sign up for a free trial](../get-started/free-trial.md).
 
 :::image type="content" source="media/environment-picker.png" alt-text="Screenshot that shows the Current environment on the navigation bar in Supply Chain Center.":::

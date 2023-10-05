@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Create and use calculations
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Calculations are data tables that contain measures and dimensions. Calculations can be used to create key performance indicators (KPIs).
 
 ## Create a calculation

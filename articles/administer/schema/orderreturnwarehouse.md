@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **OrderReturnWarehouse**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The order return warehouse is the warehouse or service center where the return orders are received.
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Supply & demand insights overview
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 The Supply & demand insights home page in Microsoft Supply Chain Center presents a dashboard that shows five key performance indicators (KPIs) for inbound orders (procurement). The dashboard helps you monitor the general health of your inbound supply chain, identifies potential risks, and monitors performance. You can also create a personalized view of these KPIs through the My analytics feature. Just select **Create custom view** on the top bar in the **Supply & demand insights** module or **My analytics** in the left navigation pane.
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE5azzg]

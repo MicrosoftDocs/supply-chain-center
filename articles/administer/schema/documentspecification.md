@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **DocumentSpecification**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Documentation specification entity refers to the specification of the document.
 
 

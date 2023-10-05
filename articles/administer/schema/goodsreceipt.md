@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **GoodsReceipt**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The goods receipt entity refers to a document or record that acknowledges the receipt of goods or materials into a specific location or organization. It serves as proof that the goods have been received and accepted. 
 
 Goods receipt entity plays a crucial role in the overall procurement and inventory management cycle. It enables organizations to track and verify the arrival of goods, reconcile them with purchase orders or contracts, update inventory records, and initiate payment processes to suppliers.

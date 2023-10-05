@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **BuildPlan**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 A Build Plan is the breakdown, usually by a specific Item, to accomplish the Master Schedule or Material Requirements Planning (Demand).
 
 The Master Schedule-Product Build is the product building plan that is used by manufacturers to build products or items via one or more individual Build Plans. A Master Schedule is a schedule to build several items over a specific period. A Master Schedule may identify one or more Items to build. A Build Plan is the breakdown, usually by a specific Item, to accomplish the Master Schedule. A Run is the actual order to manufacture or build a set number of Items on a date and/or time. 

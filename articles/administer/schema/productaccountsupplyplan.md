@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ProductAccountSupplyPlan**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The product account supply plan entity refers to the product allocation or commitment by the supplier to the customer.
 
 

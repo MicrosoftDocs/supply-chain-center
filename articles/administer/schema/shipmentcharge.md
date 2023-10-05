@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentCharge**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The shipment charge entity refers to the applicable fee or charges incurred by the account for a shipment. 
 
 

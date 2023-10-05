@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Create and use KPIs
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 This article explains how to create and use key performance indicators (KPIs) in Microsoft Supply Chain Center.
 
 ## What are KPIs?

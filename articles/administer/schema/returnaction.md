@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ReturnAction**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The return action entity refers to the return action code used in return process.
 
 

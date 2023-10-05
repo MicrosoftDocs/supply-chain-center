@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **AccountSupplyCommitment**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The account supply commitment pertains to the assurance or undertaking made by suppliers regarding a purchase order. Suppliers guarantee specific ship dates, delivery dates, and quantities they can deliver. If customers permit partial shipments, suppliers can furnish a delivery schedule that includes multiple promised ship dates and quantities associated with those purchase order schedules.
 
 

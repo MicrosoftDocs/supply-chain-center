@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # DocumentType
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The document type entity refers to the definition of type of document.
 
 

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **GeoLocation**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 A geo location entity refers to a specific location on the Earth's surface that is identified and represented using geographical coordinates. It typically includes latitude and longitude values that pinpoint the exact position of a place or point of interest. Geo location holds the street address, city, state and country information of the geo location.
 
 

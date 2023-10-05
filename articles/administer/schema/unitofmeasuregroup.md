@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **UnitOfMeasureGroup**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The unit of measure group entity refers to the grouping of products with similar attributes.
 
 

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ProductCategoryHierarchy**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The product category hierarchy entity refers to an organizational structure that categorizes and organizes products within a company. It establishes a hierarchical relationship between various products, enabling businesses to manage and analyze their product portfolio effectively.
 
 The product hierarchy typically consists of multiple levels, each representing a different level of detail and specificity. The exact structure may vary depending on the company and industry, but it generally follows a top-down approach.

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **CarrierGeoLocationCutoffTime**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The carrier geolocation cutoff time refers to the cutoff time for shipping services offered by the carrier. The cutoff time can vary depending on the shipping carrier and the specific service offered by the carrier. Carriers set cutoff times and indicate the latest time by which the carrier needs to receive the shipment for it to be processed and dispatched on the same day. It's important to note that cut-off times can also vary based on the location of the carrier.
 
 

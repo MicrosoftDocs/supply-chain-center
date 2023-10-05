@@ -12,6 +12,8 @@ ms.custom: bap - template
 
 # **ShipmentRouteLegEquipment**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The shipment route leg equipment entity refers to the equipment associated with the shipment route leg.
 
 

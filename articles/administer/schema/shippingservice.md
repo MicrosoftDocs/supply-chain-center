@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShippingService**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The shipping service entity refers to the various shipping service associated with the carrier and shipment.
 
 

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **SalesOrderScheduleLine**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 THe sales order schedule line entity refers to sales order confirmation details. If the order line has multiple partial confirmations then the schedule contains details of the line with multiple delivery times and corresponding quantities.
 
 

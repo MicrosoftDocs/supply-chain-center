@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Create mitigation cases
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Use the **Cases** module in Microsoft Supply Chain Center to capture risks and document their mitigation for future use. Although cases can be created outside the **Cases** module, previously created cases can be viewed and updated only inside the module.
 
 ## Create a case

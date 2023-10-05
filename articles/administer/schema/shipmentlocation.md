@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentLocation**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The shipment location entity refers to the location of the shipment during its journey from origin to destination.
 
 

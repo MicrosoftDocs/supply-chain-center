@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Architecture
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Microsoft Supply Chain Center is built on top of Microsoft Power Platform. It consists of multiple modules that work well with each other and help you respond to their supply chain challenges. You can choose modules from the module library, and then integrate and ingest the required data from their system of records. You not only get the functionality of the selected modules, but you can also utilize the full potential of Power Platform to develop your digital supply chain solutions.
 
 The following diagram provides a high-level overview of Supply Chain Center's architecture, described in more detail below.

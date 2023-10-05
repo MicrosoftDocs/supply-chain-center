@@ -12,6 +12,8 @@ ms.reviewer: johnmichalak
 
 # FAQ for Supplier news communication
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 These frequently asked questions (FAQ) describe the AI impact of [Feature] feature in [Product].
 
 [!INCLUDE[supplier-news-ai-faq](../includes/supplier-news-ai-faq.md)]

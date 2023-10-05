@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # ISV Modules
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 ## ISV modules available through Supply Chain Center
 
 This article contains a list of all the ISV providers and capabilities that are available through Microsoft Supply Chain Center. You can learn more about each provider by selecting the link to their website in the "List of providers" table.

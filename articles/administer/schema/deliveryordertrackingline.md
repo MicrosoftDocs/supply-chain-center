@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # DeliveryOrderTrackingLine
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The delivery order tracking line entity refers to the details of the tracking associated with the delivery order.
 
 
