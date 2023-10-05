@@ -12,6 +12,8 @@ ms.custom: bap - template
 
 # **OrderSource**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The order source entity refers to the source of the order.
 
 
