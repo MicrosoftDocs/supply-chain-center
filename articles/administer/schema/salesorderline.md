@@ -11,6 +11,8 @@ ms.custom: bap-template
 ---
 
 # **SalesOrderDetail**
+
+[!INCLUDE[banner](../../includes/banner.md)]
  
 The sales order detail entity refers to the details of the sales order containing the product being shipped and the quantity. This is the line item details of the sales order.
 
