@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # DeliveryOrderSourcePrintSpecification
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Delivery order source print specification entity refers to the print specification for the delivery order.
 
 
