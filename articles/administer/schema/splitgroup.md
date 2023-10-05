@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **SplitGroup**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The split group entity refers to the various split group.
 
 
