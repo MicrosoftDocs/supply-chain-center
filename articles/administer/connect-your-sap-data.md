@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Connect your SAP data to Supply Chain Center
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 This article provides information about how to connect your SAP data to Microsoft Supply Chain Center.
 
 ## SAP ERP connector
