@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **OrderReturnRequest**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The order return request entity refers to the return authorization document for returns, repairts or exchanges.
 
 |	Attribute	|	Datatype	|	Length	|	Primary Key	|	Description	|
