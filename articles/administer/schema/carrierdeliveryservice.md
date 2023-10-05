@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **CarrierDeliveryService**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Carrier service refers to the transportation and delivery of goods or items from one location to another by a carrier or shipping company. It involves the process of moving packages, parcels, or freight using various modes of transportation such as trucks, ships, airplanes, or trains.
 
 Carriers offer different types of delivery service. 
