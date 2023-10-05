@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ProductUnitOfMeasureConversion**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The product unit of measure conversion entity refers to the various selling or buying unit of measure of product and the conversion factor between those unit of measure vis-a-vis the product. For example if product A is sold in eaches and packs and if a pack contains 6 eaches, this entity will hold the conversion relationship between packs and eaches for product A.
 
 
