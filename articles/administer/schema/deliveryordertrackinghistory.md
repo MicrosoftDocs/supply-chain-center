@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **DeliveryOrderTrackingHistory**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Delivery order tracking history entity refers to the history of the tracking number. The events associated with shipment tracking from origin to destination.
 
 

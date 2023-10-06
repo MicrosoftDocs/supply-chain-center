@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ReturnOrderLine**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The return order line entity refers to the details of the return order. The return order line contains the product that is returned with quantity and product quality code for returns.
 
 

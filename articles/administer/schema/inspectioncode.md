@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **InspectionCode**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Inspection code entity refers to the various inspection code used in quality of the goods received.
 
 

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Microsoft Teams integration
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Microsoft Supply Chain Center's integration with Microsoft Teams lets you create and access Teams chats directly in the application. Therefore, you can communicate with your colleagues while you maintain context in the application.
 
 ## Enable Teams

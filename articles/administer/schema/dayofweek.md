@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **DayOfWeek**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 
 The day of week entity refers to the specific day within a week. A week consists of days like Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday. 
 

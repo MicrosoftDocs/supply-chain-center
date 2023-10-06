@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Install the Overhaul module
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Overhaul is a Software as a Service (SaaS) transportation visibility and risk management platform that can be used as a module within Supply Chain Center. It provides data-driven visibility and risk management insights to empower your supply chain. The Overhaul module allows you to use your existing Overhaul credentials to access the Overhaul visibility and risk management solution within Supply Chain Center.
 
 ## Prerequisites

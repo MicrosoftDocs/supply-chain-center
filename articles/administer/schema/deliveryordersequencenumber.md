@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **DeliveryOrderSequenceNumber**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Delivery order sequence entity refers to the sequencing of delivery order.
 
 

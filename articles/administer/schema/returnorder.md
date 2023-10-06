@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ReturnOrder**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The return order entity refers to the return, repair or exchange order.
 
 

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Data schema
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Microsoft supply chain center has a few out-of-the box supply chain performance metrics for inbound orders (procurement). The supply chain performance metrics help monitor the general health of inbound supply chain and identifies potential risks and monitors performance.
 
 These metrics are **On time in full**, **Inventory turnover rate**, **Supply coverage**, **Commitment shortage**, and **Projected inventory**. Use these metrics to visualize actionable insights and analyze trends for informed decision making. 

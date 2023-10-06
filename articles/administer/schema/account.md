@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **Account**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Accounts refer to a business or organization that is being tracked and managed within an ERP system as a customer or vendor. An account record within an ERP typically contains detailed information about the business or organization, such as its name, address, industry, size, type of account and contact information. 
 
 An account may be linked to related records such as contacts, opportunities, and activities. Users can see a complete picture of their interactions with the account. They can also track the status of sales opportunities, customer service issues, Purchases, Shipments, and other business activities. 

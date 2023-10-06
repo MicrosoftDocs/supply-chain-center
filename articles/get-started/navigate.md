@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Understand the UI (learn the basics)
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 This article provides some tips and tricks that can help you navigate Supply Chain Center and all its features.
 
 ## Title pane

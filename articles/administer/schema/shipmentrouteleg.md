@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentRouteLeg**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 A shipment route leg entity refers to a specific segment or part of a transportation route for a shipment or cargo. In logistics and supply chain management, a shipment route typically consists of multiple legs or stages through which the goods are transported from the point of origin to the destination. Each leg represents a distinct portion of the overall journey, often involving different modes of transportation or transit points.
 
 The shipment route leg entity contains information about a particular leg, such as the starting point, ending point, transit points, transportation mode (e.g., road, rail, air, sea), estimated or actual departure and arrival times, distance covered, and any specific requirements or constraints for that leg. It may also include details about carriers or service providers responsible for that leg, relevant documents, tracking information, and associated costs.

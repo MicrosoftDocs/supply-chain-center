@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Personal settings
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 The **Personal settings** feature lets you save your preferences for the following options:
 
 - Language preference

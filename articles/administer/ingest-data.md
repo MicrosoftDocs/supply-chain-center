@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Ingest data
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Before you can start to use the Microsoft Supply Chain Center modules, Supply Chain Center requires data that is relevant to your supply chain. That data must be brought (ingested) into the application. Supply Chain Center uses [Power Query](/power-query/power-query-what-is-power-query) to help ensure a smooth data ingestion experience.
 
 ## Prerequisites

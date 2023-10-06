@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # CarrierRouteAccountTariffSchedule
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Carrier route account tariff schedule refers to the published rates and fees charged by shipping carriers for their services. These tariffs outline the costs associated with various shipping options, such as domestic or international shipping, different delivery speeds, origin and destination (carrier route id) package sizes, and additional services like tracking or insurance.
 
 The tariffs usually include:

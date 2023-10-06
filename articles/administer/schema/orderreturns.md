@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **OrderReturns**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The order returns entity refers to the returns order. The returns order contains the ship to address, return order id and RMA number for returns.
 
 

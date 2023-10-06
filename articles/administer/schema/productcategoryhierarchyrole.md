@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ProductCategoryHierarchyRole**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The product category hierarchy role entity refers to the role of a product within a hierarchy or category refers to its position, function, or purpose relative to other products. Roles can vary depending on the specific context or perspective. For example, a product may have the role of a flagship product, a complementary product, or an entry-level product within its category.
 
 

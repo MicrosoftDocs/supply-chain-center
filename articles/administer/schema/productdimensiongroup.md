@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ProductDimensionGroup**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 A product dimension group entity refers to a grouping of similar products based on certain dimensions or attributes. By associating products with a dimension group entity, businesses can efficiently manage their inventory and track product variations.
 
 

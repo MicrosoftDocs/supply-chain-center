@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **OrderReturnDropLocationRequest**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 The order return drop location request entity refers to return authorization request for returns, repairs or exchanges drop location.
 
 

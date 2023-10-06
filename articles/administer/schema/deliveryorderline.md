@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **DeliveryOrderLine**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 A delivery order line refers to the document created or issued by a supplier to the customer acknowledging delivery of goods or services. It serves as an official confirmation and instruction for the shipment of products or provision of services to a specified location. It is the details entity for delivery order entity.
 
 A delivery order line primarily contains item details:

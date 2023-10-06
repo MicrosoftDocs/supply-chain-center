@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Supplier portal (for suppliers)
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 The Supplier portal is a self-service application that brings a holistic approach to supplier management by removing communication barriers between suppliers and their customers. It’s a next-generation application that empowers you to collaborate with your supply chain partners in real time. Visibility into the health of your supply chain is enhanced by bringing together data from your own systems and integrating it with data that comes from your partners. The Supplier portal helps suppliers and their customers share and review data, inform each other, and make changes on the fly.
 
 ## Supplier registration

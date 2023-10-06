@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # News
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 News gathers information about world events, and then presents the news that is relevant to your partner companies to help you identify and respond to external risks. This feature uses world-class artificial intelligence to filter articles by supply chain relevance to make this news topical for your business (and your suppliers).
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE5ccYw]

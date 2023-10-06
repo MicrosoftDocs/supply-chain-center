@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # DeliveryOrderSource
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Delivery order source entity refers to the source order and source order type for the delivery order. 
 
 

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # **ShipmentEventType**
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 A type of event that may be associated with a Shipment for a period of time or a point in time. For example: Abandonment, Area check, Break Bulk, Customs Entry, Customs Exit, Detention, Devanning, Embargo, In Bond, In Customs, In-Transit Entry, Lay Order, Shipment Aboard, and Shipment Alongside.
 
 ABANDONMENT: A proceeding wherein a shipper/consignee seeks authority to abandon all or parts of their cargo.

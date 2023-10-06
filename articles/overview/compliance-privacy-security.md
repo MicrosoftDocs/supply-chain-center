@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Compliance, Privacy, and Security
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Microsoft Supply Chain Center was designed with compliance, privacy, security, and confidentiality in mind. It's intended to be used to identify and mitigate risks that are related to your supply chain. To determine whether Supply Chain Center meets your compliance requirements, see the [Microsoft Supply Chain Center Terms of Service](https://go.microsoft.com/fwlink/?linkid=2202072).
 
 You have the following responsibilities:

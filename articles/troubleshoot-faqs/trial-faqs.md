@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Supply Chain Center trial FAQ
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 This section answers frequently asked questions about the Microsoft Supply Chain Center trial.
 
 ## Sign-up

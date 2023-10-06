@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # What's new or changed in Supply Chain Center
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 Wondering about upcoming and recently released capabilities in Intelligent Order Management? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=Marketing). We've captured all the details, end to end, top to bottom, which you can use for planning.  
 
 See the release plans for what's coming. Choose the following link to learn about the latest versions of this app.

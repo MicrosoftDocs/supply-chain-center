@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Connect your SAP data to Supply Chain Center FAQ
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 This article provides answers to frequently asked questions about connecting your SAP data to Microsoft Supply Chain Center.
 
 ### The SAP ERP Beta connector is labeled as 3rd Party, is this connector not created or managed by Microsoft?

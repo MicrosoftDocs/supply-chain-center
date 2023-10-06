@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Additional requirements and limitations
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 This article provides information about additional requirements and limitations.
 
 ## Sign-up requirements

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Build your own apps by using Power Apps
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 Microsoft Supply Chain Center supports the ability of users to build their own apps by using Power Apps. Power Apps is a suite of apps, services, and connectors, and a data platform that provides a rapid development environment where you can build custom apps that meet your business needs. By using Power Apps, you can quickly build custom business apps that connect to data that's stored in either the underlying data platform (Dataverse) or various online and on-premises data sources (such as SharePoint, Microsoft 365, Dynamics 365, or SQL Server).
 
 Power Apps simplifies the experience of building business apps by enabling users to create feature-rich, custom business apps without writing code. Apps that you build by using Power Apps provide rich business logic and workflow capabilities to transform your manual business operations into digital, automated processes. They have a responsive design and can run seamlessly in a browser and on mobile devices (phone or tablet).
