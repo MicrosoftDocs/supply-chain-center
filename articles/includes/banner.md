@@ -7,4 +7,4 @@ ms.author: johnmichalak
 ---
 
 > [!IMPORTANT]
-> Microsoft Supply Chain Center will be ending on October 31, 2023.
+> Microsoft Supply Chain Center (Preview) will be ending on October 31, 2023.
