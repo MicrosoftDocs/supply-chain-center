@@ -2,9 +2,9 @@
 author: johnmichalak
 
 ms.topic: include
-ms.date: 08/15/2023
+ms.date: 10/09/2023
 ms.author: johnmichalak
 ---
 
 > [!IMPORTANT]
-> Microsoft Supply Chain Center (Preview) will be deprecated on October 31, 2023.
+> Microsoft Supply Chain Center will be ending on October 31, 2023.
