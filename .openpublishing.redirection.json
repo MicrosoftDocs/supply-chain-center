@@ -184,7 +184,8 @@
       "source_path": "articles/administer/schema/warehouseitemwafetystock.md",
       "redirect_url": "articles/administer/schema/data-schema.md",
       "redirect_document_id": "false"
-    },
+    }
+,
     {
       "source_path": "articles/index.yml",
       "redirect_url": "https://learn.microsoft.com",
@@ -201,12 +202,12 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "articles/administer/admin-setting.md",
+      "source_path": "articles/administer/admin-settings.md",
       "redirect_url": "https://learn.microsoft.com",
       "redirect_document_id": false
     },
     {
-      "source_path": "articles/administer/app-management.md",
+      "source_path": "articles/administer/appmanagement.md",
       "redirect_url": "https://learn.microsoft.com",
       "redirect_document_id": false
     },
@@ -246,7 +247,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "articles/administer/ingest-data.",
+      "source_path": "articles/administer/ingest-data.md",
       "redirect_url": "https://learn.microsoft.com",
       "redirect_document_id": false
     },
@@ -306,12 +307,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "articles/administer/schema/accountshipmentmethod.md",
-      "redirect_url": "https://learn.microsoft.com",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "articles/administer/schema/accountshipmentmethod.md",
+      "source_path": "articles/administer/schema/accountsupplycommitment.md",
       "redirect_url": "https://learn.microsoft.com",
       "redirect_document_id": false
     },
@@ -391,12 +387,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "articles/administer/schema/deliveryordersource.md",
-      "redirect_url": "https://learn.microsoft.com",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "articles/administer/schema/deliveryordersource.md",
+      "source_path": "articles/administer/schema/deliveryordersourcelist.md",
       "redirect_url": "https://learn.microsoft.com",
       "redirect_document_id": false
     },
@@ -742,31 +733,6 @@
     },
     {
       "source_path": "articles/get-started/whats-new/whats-new-home-page.md",
-      "redirect_url": "https://learn.microsoft.com",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "articles/includes/banner.md",
-      "redirect_url": "https://learn.microsoft.com",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "articles/includes/footer-banner.md",
-      "redirect_url": "https://learn.microsoft.com",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "articles/includes/responsible-ai-features.md",
-      "redirect_url": "https://learn.microsoft.com",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "articles/includes/responsible-ai-intro.md",
-      "redirect_url": "https://learn.microsoft.com",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "articles/includes/supplier-news-ai-faq.md",
       "redirect_url": "https://learn.microsoft.com",
       "redirect_document_id": false
     },
