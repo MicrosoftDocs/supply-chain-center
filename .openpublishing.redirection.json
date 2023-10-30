@@ -184,8 +184,7 @@
       "source_path": "articles/administer/schema/warehouseitemwafetystock.md",
       "redirect_url": "articles/administer/schema/data-schema.md",
       "redirect_document_id": "false"
-    }
-,
+    },
     {
       "source_path": "articles/index.yml",
       "redirect_url": "https://learn.microsoft.com",
@@ -203,6 +202,11 @@
     },
     {
       "source_path": "articles/administer/admin-settings.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/app-management.md",
       "redirect_url": "https://learn.microsoft.com",
       "redirect_document_id": false
     },
@@ -307,6 +311,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "articles/administer/schema/accountshipmentmethod.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "articles/administer/schema/accountsupplycommitment.md",
       "redirect_url": "https://learn.microsoft.com",
       "redirect_document_id": false
@@ -383,6 +392,11 @@
     },
     {
       "source_path": "articles/administer/schema/deliveryordersequencenumber.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryordersource.md",
       "redirect_url": "https://learn.microsoft.com",
       "redirect_document_id": false
     },
