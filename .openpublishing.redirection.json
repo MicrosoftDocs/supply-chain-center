@@ -184,6 +184,716 @@
       "source_path": "articles/administer/schema/warehouseitemwafetystock.md",
       "redirect_url": "articles/administer/schema/data-schema.md",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/index.yml",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/welcome.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/add-users.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/admin-setting.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/app-management.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/bringyourown.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/connect-your-data.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/connect-your-sap-data.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/data-schema-extensibility.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/data-schema.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/environment-picker.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/import-a-local-file.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/ingest-data.",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/ingest-multiple-data-sources.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/personal-settings.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/review-update-delete-data.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/select-refresh-schedule.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/transform-and-map-data.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/account.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/accountgroup.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/accountpaymentterm.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/accountproductleadtime.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/accountproductprice.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/accountproductstatus.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/accountshipmentmethod.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/accountshipmentmethod.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/billofmaterials.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/buildplan.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/carrier.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/carrierdeliveryservice.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/carriergeolocation.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/carriergeolocationcutofftime.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/carrierroute.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/carrierrouteaccounttariffschedule.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/carrierrouteleg.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/contact.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/dayofweek.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryattachment.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryorder.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryorderline.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryordersequencenumber.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryordersource.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryordersource.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryordersourceprintspecification.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryordertracking.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryordertrackinghistory.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/deliveryordertrackingline.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/documentspecification.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/documenttype.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/freightterms.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/geolocation.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/goodsreceipt.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/goodsreceiptline.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/inspectioncode.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/inventorymovement.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/inventorymovementshipment.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/order.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/orderreturndroplocation.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/orderreturndroplocationrequest.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/orderreturnrequest.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/orderreturns.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/orderreturnsline.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/orderreturnwarehouse.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/ordersource.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/product.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/productaccountdemandforecast.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/productaccountsupplyplan.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/productcategory.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/productcategoryhierarchy.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/productcategoryhierarchyrole.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/productdimensiongroup.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/productqualitycode.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/productresourceplanningschedule.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/productunitofmeasureconversion.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/purchaseorder.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/purchaseorderline.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/returnaction.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/returnorder.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/returnorderline.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/returnreason.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/salesorderline.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/salesorderorigin.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/salesorderscheduleline.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipment.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentcharge.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentdocument.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentevent.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmenteventstatus.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmenteventtype.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentitem.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentitemconsolidation.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentlocation.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentquote.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentrouteleg.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentroutelegequipment.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentroutelegequipmentshipmentitem.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shipmentroutelegiot.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/shippingservice.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/splitgroup.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/subscriptionorder.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/subscriptionorderline.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/transferorder.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/transferorderline.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/unitofmeasure.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/unitofmeasuregroup.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/vendor.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/warehouse.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/administer/schema/warehouseproductavailablestock.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/get-started/free-trial.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/get-started/navigate.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/get-started/preview-support.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/get-started/whats-new/whats-new-home-page.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/includes/banner.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/includes/footer-banner.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/includes/responsible-ai-features.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/includes/responsible-ai-intro.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/includes/supplier-news-ai-faq.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/overview/architecture.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/overview/capabilities.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/overview/compliance-privacy-security.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/responsible-ai/faq-for-supplier-news-communication.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/responsible-ai/responsible-ai-overview.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/troubleshoot-faqs/connect-to-sap-faq.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/troubleshoot-faqs/product-faqs.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/troubleshoot-faqs/requirements-limitations.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/troubleshoot-faqs/trial-faqs.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/analytics.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/appbrowser.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/build-power-apps.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/calculations.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/cases.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/install-overhaul.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/isv-modules.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/kpis.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/news.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/restock-recommendations.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/supplier-news-communication.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/supplier-portal-for-suppliers.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/supplier-portal.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/supply-and-demand.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/teams_integration.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/use/uninstall-an-isv-module.md",
+      "redirect_url": "https://learn.microsoft.com",
+      "redirect_document_id": false
     }
    ]
 }
